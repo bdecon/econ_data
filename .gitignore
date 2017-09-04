@@ -1,0 +1,9 @@
+*.app
+__pycache__/
+*.pyc
+/data/*
+*/.ipynb_checkpoints/*
+/Macro_Dash/Data/*
+/Japan/Data/*
+/CEPR/*
+*config.py
