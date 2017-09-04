@@ -1,7 +1,0 @@
-key = 'x7q1kgMKv96cXx83GtSN'
-bea_key = '2C28B554-50FD-4DEB-B774-528BE7C6EB18'
-bls_key = 'e8aa552502024924923c444636743e55'
-fred_key = '6eab551da71f617d6b1e79e8c135f8b5'
-plotly_key = 'moIx99vexWRVrbcw49gd'
-census_key = '1649b25fa3485b155557cad03a79127e641ec045'
-usfun_key = 'hCaxyrzXArffh5AffWgahg'
