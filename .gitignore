@@ -1,7 +1,7 @@
 *.app
 __pycache__/
 *.pyc
-/data/*
+*/data/*
 */.ipynb_checkpoints/*
 /Macro_Dash/Data/*
 /Japan/Data/*
