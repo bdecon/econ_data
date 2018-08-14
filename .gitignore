@@ -1,7 +1,13 @@
 *.app
 __pycache__/
+*.dat
+/micro/CWS/data/*.dat
 *.pyc
 */data/*
+*/Data/*
+*/CWS/*
+*/micro/CWS/*
+*/Shape/*
 */results/*
 */.ipynb_checkpoints/*
 /Macro_Dash/Data/*
