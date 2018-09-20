@@ -1,7 +1,7 @@
 # econ_data
 
 [@bd_econ](https://twitter.com/bd_econ)<br>
-*Updated: March 24, 2018*
+*Updated: September 20, 2018*
 
 Off the shelf examples of gathering, cleaning, and storing economic data with Python. Divided into two parts: 1) microdata (CPS, ACS) and 2) economic data APIs.
 
