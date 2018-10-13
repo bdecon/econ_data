@@ -1,6 +1,6 @@
 ### BD Economics Current Population Survey Extract
 
-Updated: October 10, 2018
+Updated: October 13, 2018
 
 Brian Dew, @bd_econ
 
