@@ -6,7 +6,7 @@ Brian Dew, @bd_econ
 
 -----
 
-**UPDATE: v.0.1 released.** Currently, the project includes three jupyter notebooks for working with monthly Current Population Survey public use microdata files. The microdata files can be downloaded from the [US Census Bureau's CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). 
+**UPDATE: v0.1 released.** Currently, the project includes three jupyter notebooks for working with monthly Current Population Survey public use microdata files. The microdata files can be downloaded from the [US Census Bureau's CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). 
 
 The three notebooks are:
 
