@@ -18,6 +18,14 @@ The three notebooks are:
 
 A bunch of settings and other required code is also contained in the python file bd_CPS_details.py.
 
+##### How to run/ update
+
+Sometime in the middle of each month, the Census Bureau will release the previous month's CPS microdata in a compressed file on the [US CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). The full set of 1994 onward monthly microdata files are available to download here. A local folder should contain the unzipped CPS microdata files for each year to be converted to the bd CPS. Next, the data dictionary files that correspond to each microdata file should be downloaded and stored in the same folder as the microdata. Separately, to adjust wages for inflation the CPI for each of four US regions should be downloaded using the notebook `bd_CPS_cpi.ipynb`. 
+
+The first step in generating the bd CPS is to run the data dictionary generator, which creates a pickled python dictionary that provides information needed for reading the raw monthly CPS microdata files. This is done by running the notebook called `bd_CPS_dd.ipynb`. 
+
+The next step is to run the notebook called `bd_CPS_reader.ipynb`. This will create a feather file called `cpsYYYY.ft` for each year included in the command in the `bd_CPS_reader` notebook. The feather file can be read into pandas as a dataframe, and, as I understand but have not tested, can be read into R and other statistical software programs. The file contains a subset of variables that are most commonly used for research. 
+
 ##### bd CPS variables
 
 The bd CPS contains several variables that are recodes of other CPS variables or combinations of CPS data and outside data. The two most important examples of this are the Labor Market Status (LMSTAT) and the real wage variables (RHRWAGE and RWKWAGE). 
