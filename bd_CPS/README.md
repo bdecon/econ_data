@@ -8,13 +8,20 @@ Brian Dew, @bd_econ
 
 ##### Example
 
-`import pandas as pd`
+Input (after running programs on raw data downloaded from Census):
 
-`df = pd.read_feather('cps2017.ft').query('HRMONTH == 10 and 25 <= AGE <= 54')`
+```
+import pandas as pd
 
-`df.groupby('EDUC').PWSSWGT.sum()`
+df = pd.read_feather('cps2017.ft').query('HRMONTH == 10 and 25 <= AGE <= 54')
 
-`EDUC
+df.groupby('EDUC').PWSSWGT.sum()
+```
+
+Output:
+
+```
+EDUC
 
 ADV     16551343.0
 
@@ -26,7 +33,8 @@ LTHS    11389192.0
 
 SC      33637956.0
 
-Name: PWSSWGT, dtype: float32`
+Name: PWSSWGT, dtype: float32
+```
 
 ##### Overview
 
