@@ -3,7 +3,8 @@ def text_repl(string_item):
             .replace('PTERNWA', 'PRERNWA').replace('GEMETSTA', 'GTMETSTA')
             .replace('PERACE', 'PRDTRACE').replace('PTDTRACE', 'PRDTRACE')
             .replace('HRHHID (partII)', 'HRHHID2').replace('PRORIGIN', 'PRDTHSP')
-            .replace('PTIO1OCD', 'PEIO1OCD').replace('PUAFEVER', 'PEAFEVER'))
+            .replace('PTIO1OCD', 'PEIO1OCD').replace('PUAFEVER', 'PEAFEVER')
+            .replace('\x0cRNUMHOU', 'HRNUMHOU'))
 
 
 VarList = ['PWORWGT', 'PWCMPWGT', 'PWLGWGT', 'PRERNWA',
@@ -11,7 +12,7 @@ VarList = ['PWORWGT', 'PWCMPWGT', 'PWLGWGT', 'PRERNWA',
            'HRHHID2', 'HRYEAR', 'HRYEAR4', 'PRERNHLY',
            'PTERNHLY', 'HRMONTH', 'PESEX', 'PEMLR',
            'PENLFRET', 'PENLFACT', 'PRDISC', 'GESTFIPS',
-           'HRMIS', 'PRCOW1', 'PRFTLF', 'PREMPNOT',
+           'HRMIS', 'PRCOW1', 'PRFTLF', 'PREMPNOT', 
            'PRCIVLF', 'PEJHRSN', 'PRSJMJ', 'PEEDUCA',
            'PRWKSTAT', 'PRMJOCC1', 'GTMETSTA', 'GEMETSTA',
            'PEDWWNTO', 'PRUNTYPE', 'PRMJIND1', 'GTCBSA',
@@ -23,7 +24,9 @@ VarList = ['PWORWGT', 'PWCMPWGT', 'PWLGWGT', 'PRERNWA',
            'PEIO1COW', 'PEIO1OCD', 'PEIO1ICD', 'PEIO2COW',
            'HRHHID', 'HRSAMPLE', 'HRSERSUF', 'PTIO1OCD',
            'PRDISFLG', 'PUAFEVER', 'PEAFEVER', 'PECERT1',
-           'GTCSA', 'HRHTYPE', 'PEHRACTT', 'PULAY']
+           'GTCSA', 'HRHTYPE', 'PEHRACTT', 'PULAY',
+           'PELKLWO', 'HRNUMHOU', 'HWHHWGT', '\x0cRNUMHOU',
+           'PRPERTYP', 'PESCHENR']
 
 DataDict = {'January_2017_Record_Layout.txt':
             {'start': '2017-01-01', 'end': '2018-12-01',

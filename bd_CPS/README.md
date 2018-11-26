@@ -1,12 +1,32 @@
 ### BD Economics Current Population Survey Extract
 
-Updated: October 16, 2018
+v0.1, updated: November 25, 2018
 
 Brian Dew, @bd_econ
 
 -----
 
-**UPDATE: v0.1 released.** Currently, the project includes three jupyter notebooks for working with monthly Current Population Survey public use microdata files. The microdata files can be downloaded from the [US Census Bureau's CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). 
+##### Example
+
+
+
+`import pandas as pd`
+
+`df = pd.read_feather('cps2017.ft').query('HRMONTH == 10 and 25 <= AGE <= 54')`
+
+`df.groupby('EDUC').PWSSWGT.sum()`
+
+`EDUC
+ADV     16551343.0
+COLL    30948892.0
+HS      33313412.0
+LTHS    11389192.0
+SC      33637956.0
+Name: PWSSWGT, dtype: float32`
+
+##### Overview
+
+**UPDATE: v0.1 released.** Currently, the project includes jupyter notebooks for working with monthly Current Population Survey public use microdata files. The microdata files can be downloaded from the [US Census Bureau's CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). 
 
 The three notebooks are:
 
