@@ -8,8 +8,6 @@ Brian Dew, @bd_econ
 
 ##### Example
 
-
-
 `import pandas as pd`
 
 `df = pd.read_feather('cps2017.ft').query('HRMONTH == 10 and 25 <= AGE <= 54')`
@@ -17,11 +15,17 @@ Brian Dew, @bd_econ
 `df.groupby('EDUC').PWSSWGT.sum()`
 
 `EDUC
+
 ADV     16551343.0
+
 COLL    30948892.0
+
 HS      33313412.0
+
 LTHS    11389192.0
+
 SC      33637956.0
+
 Name: PWSSWGT, dtype: float32`
 
 ##### Overview
@@ -74,3 +78,32 @@ A crude long-term road map includes the following: refactoring for speed, much e
 ##### Contact me
 
 I would really appreciate feedback. I also welcome opportunities to work with people on projects that might make use of these notebooks. You can email me at brianwdew@gmail.com.
+
+
+-----
+
+##### List of CPS related links
+
+[BLS regional CPI](https://www.bls.gov/cpi/regional-resources.htm)
+
+[CEPR data CPS extracts](http://ceprdata.org/cps-uniform-data-extracts/)
+
+[FRBATL Labor Market Status Categorization](https://www.frbatlanta.org/chcs/human-capital-currents/2015/0612-measuring-labor-market-status-using-basic-data.aspx)
+
+[FRBKC Psuedocode](https://www.kansascityfed.org/research/kcdc/cps/coreinfo/pseudocode/hrswk)
+
+[US Census Bureau's CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html)
+
+[NBER CPS Basic Data](http://www.nber.org/data/cps_basic.html)
+
+[NBER CPS Supplements](https://www.nber.org/data/current-population-survey-data.html)
+
+Tom Augspurger CPS in Python examples:
+
+[Part 1: Using Python to tackle the CPS](http://tomaugspurger.github.io/tackling%20the%20cps.html)
+
+[Part 2: Using Python to tackle the CPS](http://tomaugspurger.github.io/tackling%20the%20cps%20%28part%202%29.html)
+
+[Part 3: Using Python to tackle the CPS](http://tomaugspurger.github.io/tackling%20the%20cps%20%28part%203%29.html)
+
+[Part 4: Using Python to tackle the CPS](http://tomaugspurger.github.io/tackling%20the%20cps%20%28part%204%29.html)
