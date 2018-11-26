@@ -2,6 +2,8 @@
 
 v0.1, updated: November 25, 2018
 
+Working with CPS data using jupyter notebooks and python.
+
 Brian Dew, @bd_econ
 
 -----
@@ -14,7 +16,6 @@ Input (after running programs on raw data downloaded from Census):
 import pandas as pd
 
 df = pd.read_feather('cps2017.ft').query('HRMONTH == 10 and 25 <= AGE <= 54')
-
 df.groupby('EDUC').PWSSWGT.sum()
 ```
 
@@ -24,13 +25,9 @@ Output:
 EDUC
 
 ADV     16551343.0
-
 COLL    30948892.0
-
 HS      33313412.0
-
 LTHS    11389192.0
-
 SC      33637956.0
 
 Name: PWSSWGT, dtype: float32
@@ -78,6 +75,7 @@ Details on bd CPS variables are as follows:
 * MARRIED - binary variable equal to 1 if married and otherwise 0.
 * FORBORN - binary variable equal to 1 if born outside the US and otherwise 0.
 * EMP - binary variable equal to 1 if employed and otherwise 0.
+* PTECON - binary variable equal to 1 if usually part-time for economic reasons and otherwise 0.
 
 ##### Long term road map 
 
