@@ -26,7 +26,7 @@ VarList = ['PWORWGT', 'PWCMPWGT', 'PWLGWGT', 'PRERNWA',
            'PRDISFLG', 'PUAFEVER', 'PEAFEVER', 'PECERT1',
            'GTCSA', 'HRHTYPE', 'PEHRACTT', 'PULAY',
            'PELKLWO', 'HRNUMHOU', 'HWHHWGT', '\x0cRNUMHOU',
-           'PRPERTYP', 'PESCHENR']
+           'PRPERTYP', 'PESCHENR', 'PRNMCHLD', 'PEMJOT']
 
 DataDict = {'January_2017_Record_Layout.txt':
             {'start': '2017-01-01', 'end': '2018-12-01',
@@ -62,7 +62,10 @@ DataDict = {'January_2017_Record_Layout.txt':
             {'start': '2003-01-01', 'end': '2004-04-30',
              're': f'\n(?:\x0c)?({"|".join(VarList)})\s+(\d+)\s+.*? \s+.*?(\d\d*).*?(\d\d+)'},
             'jan98dd.asc':
-            {'start': '1998-01-01', 'end': '2002-12-31',
+            {'start': '1998-01-01', 'end': '1999-10-31',
+             're': 'D (\w+)\s+(\d{1,2})\s+(\d+)\s+'},
+            'jan98dd2.asc':
+            {'start': '1999-11-01', 'end': '2002-12-31',
              're': 'D (\w+)\s+(\d{1,2})\s+(\d+)\s+'},
             'sep95_dec97_dd.txt':
             {'start': '1995-09-01', 'end': '1997-12-31',
