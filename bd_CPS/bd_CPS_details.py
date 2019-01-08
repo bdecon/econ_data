@@ -4,7 +4,7 @@ def text_repl(string_item):
             .replace('PERACE', 'PRDTRACE').replace('PTDTRACE', 'PRDTRACE')
             .replace('HRHHID (partII)', 'HRHHID2').replace('PRORIGIN', 'PRDTHSP')
             .replace('PTIO1OCD', 'PEIO1OCD').replace('PUAFEVER', 'PEAFEVER')
-            .replace('\x0cRNUMHOU', 'HRNUMHOU'))
+            .replace('\x0cRNUMHOU', 'HRNUMHOU').replace('PTERN2', 'PUERN2'))
 
 
 VarList = ['PWORWGT', 'PWCMPWGT', 'PWLGWGT', 'PRERNWA',
@@ -26,7 +26,8 @@ VarList = ['PWORWGT', 'PWCMPWGT', 'PWLGWGT', 'PRERNWA',
            'PRDISFLG', 'PUAFEVER', 'PEAFEVER', 'PECERT1',
            'GTCSA', 'HRHTYPE', 'PEHRACTT', 'PULAY',
            'PELKLWO', 'HRNUMHOU', 'HWHHWGT', '\x0cRNUMHOU',
-           'PRPERTYP', 'PESCHENR', 'PRNMCHLD', 'PEMJOT']
+           'PRPERTYP', 'PESCHENR', 'PRNMCHLD', 'PTERN2',
+           'PUERN2']
 
 DataDict = {'January_2017_Record_Layout.txt':
             {'start': '2017-01-01', 'end': '2018-12-01',
