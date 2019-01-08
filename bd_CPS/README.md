@@ -1,8 +1,8 @@
 ### BD Economics Current Population Survey Extract
 
-v0.1, updated: November 25, 2018
+v0.2, updated: January 8, 2019
 
-Working with CPS data using jupyter notebooks and python.
+Working with CPS microdata using jupyter notebooks and python.
 
 Brian Dew, @bd_econ
 
@@ -35,21 +35,21 @@ Name: PWSSWGT, dtype: float32
 
 ##### Overview
 
-**UPDATE: v0.1 released.** Currently, the project includes jupyter notebooks for working with monthly Current Population Survey public use microdata files. The microdata files can be downloaded from the [US Census Bureau's CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). 
+**UPDATE: v0.2 released.** Currently, the project includes jupyter notebooks for working with monthly Current Population Survey public use microdata files. The microdata files can be downloaded from the [US Census Bureau's CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). 
 
 The three notebooks are:
 
-1) bd_CPS_dd.ipynb which reads settings from bd_CPS_details.py and creates a python dictionary with information needed to read the raw CPS microdata files in the next step, and adjust them to be more time consistent and useful. 
+1) bd_CPS_dd.ipynb reads settings from bd_CPS_details.py and creates a python dictionary with information needed to read the raw CPS microdata files in the next step, and adjust them to be more time consistent and useful. The program requires downloading the CPS data dictionary text files from the FTP page. 
 
-2) bd_CPS_reader.ipynb which reads the raw monthy CPS microdata files downloaded from Census and converts them into annual feather format files that can be read by python or R. The feather formet is particularly fast when the data are mostly integers or categorical, as in this case. 
+2) bd_CPS_reader.ipynb reads the raw monthy CPS microdata files downloaded from Census and converts them into annual feather format files that can be read by python or R. The feather format is particularly fast when the data are mostly integers or categorical, as in this case. 
 
-3) bd_CPS_grapher.ipynb which creates line plots from the CPS feather file data and query strings. This program allows a user to make use of the CPS in a powerful way, by querying the (currently 1994-) dataset, applying calculations, and visualizing the results. 
+3) bd_CPS_grapher.ipynb creates line plots from the bd CPS feather file data and user-specified query strings. This program allows a user to query the (currently 1994-) dataset, apply calculations, and visualize the results. 
 
-A bunch of settings and other required code is also contained in the python file bd_CPS_details.py.
+Settings and other required code are also contained in the python file bd_CPS_details.py. There is additionally a notebook that downloads regional consumer price index data from BLS (used as the price deflator for real wage series), as well as a notebook that benchmarks the bd CPS results against four BLS published estimates.
 
 ##### How to run/ update
 
-Sometime in the middle of each month, the Census Bureau will release the previous month's CPS microdata in a compressed file on the [US CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). The full set of 1994 onward monthly microdata files are available to download here. A local folder should contain the unzipped CPS microdata files for each year to be converted to the bd CPS. Next, the data dictionary files that correspond to each microdata file should be downloaded and stored in the same folder as the microdata. Separately, to adjust wages for inflation the CPI for each of four US regions should be downloaded using the notebook `bd_CPS_cpi.ipynb`. 
+Sometime in the middle of each month, the Census Bureau will release the previous month's CPS microdata in a compressed file on the [US CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). The full set of 1994 onward monthly microdata files are available to download on the FTP page. For the bd CPS program to work, a local folder must contain the relevant unzipped CPS microdata files. Next, the data dictionary files that correspond to each microdata file should be downloaded and stored in the same folder as the microdata. Separately, to adjust wages for inflation the CPI for each of four US regions should be downloaded using the notebook `bd_CPS_cpi.ipynb`. 
 
 The first step in generating the bd CPS is to run the data dictionary generator, which creates a pickled python dictionary that provides information needed for reading the raw monthly CPS microdata files. This is done by running the notebook called `bd_CPS_dd.ipynb`. 
 
@@ -75,7 +75,9 @@ Details on bd CPS variables are as follows:
 * MARRIED - binary variable equal to 1 if married and otherwise 0.
 * FORBORN - binary variable equal to 1 if born outside the US and otherwise 0.
 * EMP - binary variable equal to 1 if employed and otherwise 0.
+* SCHENR - binary variable equal to 1 if enrolled in high school, college, or university and otherwise 0. 
 * PTECON - binary variable equal to 1 if usually part-time for economic reasons and otherwise 0.
+* PRNMCHLD - number of own children under age 18.
 
 ##### Long term road map 
 
@@ -83,7 +85,7 @@ A crude long-term road map includes the following: refactoring for speed, much e
 
 ##### Contact me
 
-I would really appreciate feedback. I also welcome opportunities to work with people on projects that might make use of these notebooks. You can email me at brianwdew@gmail.com.
+I would really appreciate feedback, especially if you spot an error. I also welcome opportunities to work with people on projects that might make use of these notebooks. You can email me at brianwdew@gmail.com.
 
 
 -----
