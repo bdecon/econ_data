@@ -78,6 +78,7 @@ Details on bd CPS variables are as follows:
 * SCHENR - binary variable equal to 1 if enrolled in high school, college, or university and otherwise 0. 
 * PTECON - binary variable equal to 1 if usually part-time for economic reasons and otherwise 0.
 * PRNMCHLD - number of own children under age 18.
+* BASICWGT - weight equal to PWSSWGT before 1998 and PWCMPWGT after.
 
 ##### Long term road map 
 
