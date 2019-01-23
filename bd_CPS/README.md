@@ -45,7 +45,7 @@ The three notebooks are:
 
 3) bd_CPS_grapher.ipynb creates line plots from the bd CPS feather file data and user-specified query strings. This program allows a user to query the (currently 1994-) dataset, apply calculations, and visualize the results. 
 
-Settings and other required code are also contained in the python file bd_CPS_details.py. There is additionally a notebook that downloads regional consumer price index data from BLS (used as the price deflator for real wage series), as well as a notebook that benchmarks the bd CPS results against four BLS published estimates.
+Settings and other required code are also contained in the python file bd_CPS_details.py. There is additionally a notebook that downloads regional consumer price index data from BLS (used as the price deflator for real wage series), as well as a notebook that benchmarks the bd CPS results against four BLS published estimates. If you want to see examples of how to use bd CPS data, the [benchmarks](https://github.com/bdecon/econ_data/blob/master/bd_CPS/bd_CPS_benchmark.ipynb) are a good place to start.
 
 ##### How to run/ update
 
@@ -72,6 +72,7 @@ Details on bd CPS variables are as follows:
 * STATE - converstion of state FIPS code to two letter state abbreviation.
 * EDUC - Highest level of education obtained - Maps the educational categories to five groups: Less than high school, High school, Some college, Bachelor degree, Advanced degree.
 * WBHAO - race/ethnic group - Each observation is mapped to one of five racial/ethnic groups: White, Black, Hispanic, Asian, and Other. White is white non-Hispanic only, black is any black non-Hispanic, Asian is any Asian but not black and non-Hispanic, Other is Native American, Native Hawaiian, Pacific Islander, and other groups. Hispanic is someone of Hispanic ethncity of any race. 
+* WBHAOM - race/ethnic group - white, non-Hispanic only, black, non-Hispanic only, Asian or Pacific Islander, non-Hispanic only, Native American, non-Hispanic only, persons of more than one racial group but non-Hispanic, and Hispanic, and race/ethnicity. 
 * MARRIED - binary variable equal to 1 if married and otherwise 0.
 * FORBORN - binary variable equal to 1 if born outside the US and otherwise 0.
 * EMP - binary variable equal to 1 if employed and otherwise 0.
@@ -80,13 +81,17 @@ Details on bd CPS variables are as follows:
 * PRNMCHLD - number of own children under age 18.
 * BASICWGT - weight equal to PWSSWGT before 1998 and PWCMPWGT after.
 
-##### Long term road map 
+##### Long-term road map 
 
-A crude long-term road map includes the following: refactoring for speed, much expanded graphing capabilities, flexibility in aggregation types/periods, Panel storage of multiple records from same household, CPS matching of observations, CPS flow calculations, including the CPS ASEC, including the CPS supplements, going back to at least 1989, and more. 
+A crude long-term road map includes the following: refactoring for speed, much expanded graphing capabilities, flexibility in aggregation types/periods, Panel storage of multiple records from same household, CPS matching of observations, CPS flow calculations, including the CPS ASEC, including the CPS supplements, going back to at least 1989, enhanced documentation, and more. See [active issues](https://github.com/bdecon/econ_data/issues) on the project's github repo.
+
+##### Acknowlegements
+
+Many many thanks to John Schmitt for countless hours of kind and patient guidance. Many thanks to the staff and management of CEPR for giving me the chance to learn about the CPS. Thanks to EPI for providing thoughtful documentation. Thanks to NBER, FRBATL, FRBKC, IPUMS, Urban Institute, Tom Augspurger, and of course the wonderful staff of BLS and Census, for making analysis of the CPS possible for normal people like me, and for providing useful information. 
 
 ##### Contact me
 
-I would really appreciate feedback, especially if you spot an error. I also welcome opportunities to work with people on projects that might make use of these notebooks. You can email me at brianwdew@gmail.com.
+I would really appreciate feedback, especially if you spot an error. I also welcome opportunities to work with people on projects that might make use of these notebooks. Feel free to email me at brianwdew@gmail.com.
 
 
 -----
