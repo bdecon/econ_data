@@ -27,7 +27,7 @@ VarList = ['PWORWGT', 'PWCMPWGT', 'PWLGWGT', 'PRERNWA',
            'GTCSA', 'HRHTYPE', 'PEHRACTT', 'PULAY',
            'PELKLWO', 'HRNUMHOU', 'HWHHWGT', '\x0cRNUMHOU',
            'PRPERTYP', 'PESCHENR', 'PRNMCHLD', 'PTERN2',
-           'PUERN2', 'PRAGNA']
+           'PUERN2', 'PRAGNA', 'QSTNUM', 'OCCURNUM']
 
 DataDict = {'January_2017_Record_Layout.txt':
             {'start': '2017-01-01', 'end': '2018-12-01',
