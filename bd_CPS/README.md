@@ -1,6 +1,6 @@
 ### BD Economics Current Population Survey Extract
 
-v0.2, updated: January 8, 2019
+v0.2, updated: January 23, 2019
 
 Working with CPS microdata using jupyter notebooks and python.
 
@@ -15,7 +15,7 @@ Input (after running programs on raw data downloaded from Census):
 ```
 import pandas as pd
 
-df = pd.read_feather('cps2017.ft').query('HRMONTH == 10 and 25 <= AGE <= 54')
+df = pd.read_feather('cps2017.ft').query('MONTH == 10 and 25 <= AGE <= 54')
 df.groupby('EDUC').PWSSWGT.sum()
 ```
 
@@ -32,6 +32,8 @@ SC      33637956.0
 
 Name: PWSSWGT, dtype: float32
 ```
+
+The above arbitrary example calculates how many age 25-54 people are in each of five educational categories in October 2017. For example, about 16.6 million have advanced degrees.
 
 ##### Overview
 
@@ -51,7 +53,7 @@ Settings and other required code are also contained in the python file bd_CPS_de
 
 Sometime in the middle of each month, the Census Bureau will release the previous month's CPS microdata in a compressed file on the [US CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). The full set of 1994 onward monthly microdata files are available to download on the FTP page. For the bd CPS program to work, a local folder must contain the relevant unzipped CPS microdata files. Next, the data dictionary files that correspond to each microdata file should be downloaded and stored in the same folder as the microdata. Separately, to adjust wages for inflation the CPI for each of four US regions should be downloaded using the notebook `bd_CPS_cpi.ipynb`. 
 
-The first step in generating the bd CPS is to run the data dictionary generator, which creates a pickled python dictionary that provides information needed for reading the raw monthly CPS microdata files. This is done by running the notebook called `bd_CPS_dd.ipynb`. 
+The first step in generating the bd CPS is to run the data dictionary generator, which creates a pickled python dictionary that provides information needed for reading the raw monthly CPS microdata files. This is done by running the notebook called `bd_CPS_dd.ipynb`. To run the bd CPS for 2000, 2001, and 2002, which utilize revised 2000-based weights, you'll also need to run `bd_CPS_2000-based_weights.ipynb`.
 
 The next step is to run the notebook called `bd_CPS_reader.ipynb`. This will create a feather file called `cpsYYYY.ft` for each year included in the command in the `bd_CPS_reader` notebook. The feather file can be read into pandas as a dataframe, and, as I understand but have not tested, can be read into R and other statistical software programs. The file contains a subset of variables that are most commonly used for research. 
 
@@ -79,15 +81,15 @@ Details on bd CPS variables are as follows:
 * SCHENR - binary variable equal to 1 if enrolled in high school, college, or university and otherwise 0. 
 * PTECON - binary variable equal to 1 if usually part-time for economic reasons and otherwise 0.
 * PRNMCHLD - number of own children under age 18.
-* BASICWGT - weight equal to PWSSWGT before 1998 and PWCMPWGT after.
+* BASICWGT - weight equal to PWSSWGT before 1998 and PWCMPWGT after. The weight variables use the 2000-based revised weights for the years 2000-2002.
 
 ##### Long-term road map 
 
-A crude long-term road map includes the following: refactoring for speed, much expanded graphing capabilities, flexibility in aggregation types/periods, Panel storage of multiple records from same household, CPS matching of observations, CPS flow calculations, including the CPS ASEC, including the CPS supplements, going back to at least 1989, enhanced documentation, and more. See [active issues](https://github.com/bdecon/econ_data/issues) on the project's github repo.
+A crude long-term road map includes the following: refactoring for speed, much expanded graphing capabilities, flexibility in aggregation types/periods, Panel storage of multiple records from same household, CPS matching of observations, including the CPS ASEC, including the CPS supplements, going back to at least 1989, enhanced documentation, and more. See [active issues](https://github.com/bdecon/econ_data/issues) on the project's github repo.
 
 ##### Acknowlegements
 
-Many many thanks to John Schmitt for countless hours of kind and patient guidance. Many thanks to the staff and management of CEPR for giving me the chance to learn about the CPS. Thanks to EPI for providing thoughtful documentation. Thanks to NBER, FRBATL, FRBKC, IPUMS, Urban Institute, Tom Augspurger, and of course the wonderful staff of BLS and Census, for making analysis of the CPS possible for normal people like me, and for providing useful information. 
+Many many thanks to John Schmitt for countless hours of kind and patient guidance. Many thanks to the staff and management of CEPR for giving me the chance to learn about the CPS. Thanks to EPI for providing and sharing very helpful documentation. Thanks to NBER, FRBATL, FRBKC, IPUMS, Urban Institute, Tom Augspurger, and of course the wonderful staff of BLS and Census, for making analysis of the CPS possible for normal people like me by providing useful information. 
 
 ##### Contact me
 
