@@ -1,6 +1,6 @@
 ### BD Economics Current Population Survey Extract
 
-v0.2, updated: January 23, 2019
+v0.2, updated: January 24, 2019
 
 Working with CPS microdata using jupyter notebooks and python.
 
@@ -53,7 +53,7 @@ Settings and other required code are also contained in the python file bd_CPS_de
 
 Sometime in the middle of each month, the Census Bureau will release the previous month's CPS microdata in a compressed file on the [US CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). The full set of 1994 onward monthly microdata files are available to download on the FTP page. For the bd CPS program to work, a local folder must contain the relevant unzipped CPS microdata files. Next, the data dictionary files that correspond to each microdata file should be downloaded and stored in the same folder as the microdata. Separately, to adjust wages for inflation the CPI for each of four US regions should be downloaded using the notebook `bd_CPS_cpi.ipynb`. 
 
-The first step in generating the bd CPS is to run the data dictionary generator, which creates a pickled python dictionary that provides information needed for reading the raw monthly CPS microdata files. This is done by running the notebook called `bd_CPS_dd.ipynb`. To run the bd CPS for 2000, 2001, and 2002, which utilize revised 2000-based weights, you'll also need to run `bd_CPS_2000-based_weights.ipynb`.
+The first step in generating the bd CPS is to run the data dictionary generator, which creates a pickled python dictionary that provides information needed for reading the raw monthly CPS microdata files. This is done by running the notebook called `bd_CPS_dd.ipynb`. To run the bd CPS for 2000, 2001, and 2002, which utilize revised 2000-based weights and revised union data, or for December 2007, which uses revised weights, you'll also need to run `bd_CPS_revisions_reader.ipynb`.
 
 The next step is to run the notebook called `bd_CPS_reader.ipynb`. This will create a feather file called `cpsYYYY.ft` for each year included in the command in the `bd_CPS_reader` notebook. The feather file can be read into pandas as a dataframe, and, as I understand but have not tested, can be read into R and other statistical software programs. The file contains a subset of variables that are most commonly used for research. 
 
@@ -74,14 +74,14 @@ Details on bd CPS variables are as follows:
 * STATE - converstion of state FIPS code to two letter state abbreviation.
 * EDUC - Highest level of education obtained - Maps the educational categories to five groups: Less than high school, High school, Some college, Bachelor degree, Advanced degree.
 * WBHAO - race/ethnic group - Each observation is mapped to one of five racial/ethnic groups: White, Black, Hispanic, Asian, and Other. White is white non-Hispanic only, black is any black non-Hispanic, Asian is any Asian but not black and non-Hispanic, Other is Native American, Native Hawaiian, Pacific Islander, and other groups. Hispanic is someone of Hispanic ethncity of any race. 
-* WBHAOM - race/ethnic group - white, non-Hispanic only, black, non-Hispanic only, Asian or Pacific Islander, non-Hispanic only, Native American, non-Hispanic only, persons of more than one racial group but non-Hispanic, and Hispanic, and race/ethnicity. 
+* WBHAOM - race/ethnic group - white, non-Hispanic only, black, non-Hispanic only, Asian or Pacific Islander, non-Hispanic only, Native American, non-Hispanic only, persons of more than one racial group but non-Hispanic, and Hispanic, and race/ethnicity. Available 2003 onward, only.
 * MARRIED - binary variable equal to 1 if married and otherwise 0.
 * FORBORN - binary variable equal to 1 if born outside the US and otherwise 0.
 * EMP - binary variable equal to 1 if employed and otherwise 0.
 * SCHENR - binary variable equal to 1 if enrolled in high school, college, or university and otherwise 0. 
 * PTECON - binary variable equal to 1 if usually part-time for economic reasons and otherwise 0.
 * PRNMCHLD - number of own children under age 18.
-* BASICWGT - weight equal to PWSSWGT before 1998 and PWCMPWGT after. The weight variables use the 2000-based revised weights for the years 2000-2002.
+* BASICWGT - weight equal to PWSSWGT before 1998 and PWCMPWGT after. The weight variables use the 2000-based revised weights for the years 2000-2002 and the December 2007 revised weights.
 
 ##### Long-term road map 
 
