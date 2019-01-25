@@ -85,11 +85,11 @@ Details on bd CPS variables are as follows:
 
 ##### Long-term road map 
 
-A crude long-term road map includes the following: refactoring for speed, much expanded graphing capabilities, flexibility in aggregation types/periods, Panel storage of multiple records from same household, CPS matching of observations, including the CPS ASEC, including the CPS supplements, going back to at least 1989, enhanced documentation, and more. See [active issues](https://github.com/bdecon/econ_data/issues) on the project's github repo.
+A crude long-term road map includes the following: refactoring for speed; much expanded graphing capabilities; pandas Panel storage of multiple records from same household; including data going back to at least 1989; using external sources (for example the O*Net database, minumum wage data, etc.) to create new variables; enhanced documentation; and more. See [active issues](https://github.com/bdecon/econ_data/issues) on the project's github repo.
 
 ##### Acknowlegements
 
-Many many thanks to John Schmitt for countless hours of kind and patient guidance. Many thanks to the staff and management of CEPR for giving me the chance to learn about the CPS. Thanks to EPI for providing and sharing very helpful documentation. Thanks to NBER, FRBATL, FRBKC, IPUMS, Urban Institute, Tom Augspurger, and of course the wonderful staff of BLS and Census, for making analysis of the CPS possible for normal people like me by providing useful information. 
+Many many thanks to John Schmitt for countless hours of kind and patient guidance. Many thanks to the staff and management of CEPR for giving me the chance to learn about the CPS. Thanks to EPI for providing and sharing very helpful documentation. Thanks to NBER, FRBATL, FRBKC, IPUMS, Urban Institute, Tom Augspurger, and of course the wonderful staff of BLS and Census, for making analysis of the CPS possible for normal people like me, by providing useful information. 
 
 ##### Contact me
 
