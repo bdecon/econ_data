@@ -1,6 +1,6 @@
 ### BD Economics Current Population Survey Extract
 
-v0.2, updated: January 24, 2019
+v0.2, updated: January 27, 2019
 
 Working with CPS microdata using jupyter notebooks and python.
 
