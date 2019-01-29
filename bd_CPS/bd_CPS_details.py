@@ -28,7 +28,7 @@ VarList = ['PWORWGT', 'PWCMPWGT', 'PWLGWGT', 'PRERNWA',
            'PELKLWO', 'PESCHENR', 'PRNMCHLD', 'PTERN2',
            'PUERN2', 'PRAGNA', 'QSTNUM', 'OCCURNUM',
            'PRPERTYP']
-            # 'HRNUMHOU', 'HWHHWGT', '\x0cRNUMHOU', 'HRHTYPE'
+            # 'HRNUMHOU', 'HWHHWGT', '\x0cRNUMHOU', 'HRHTYPE' 
 
 DataDict = {'January_2017_Record_Layout.txt':
             {'start': '2017-01-01', 'end': '2018-12-01',
@@ -80,7 +80,14 @@ DataDict = {'January_2017_Record_Layout.txt':
              're': f'\n(?:\x0c)?({"|".join(VarList)})\s+(\d+)\s+.*? \s+.*?(\d\d*).*?(\d\d+)'},
             'jan94_mar94_dd.txt':
             {'start': '1994-01-01', 'end': '1995-03-31',
-             're': f'\n(?:\x0c)?({"|".join(VarList)})\s+(\d+)\s+.*? \s+.*?(\d\d*).*?(\d\d+)'}}
+             're': f'\n(?:\x0c)?({"|".join(VarList)})\s+(\d+)\s+.*? \s+.*?(\d\d*).*?(\d\d+)'},
+#            'cps89.ddf':
+#            {'start': '1989-01-01', 'end': '1991-12-31',
+#             're': '(\w{1,2}[\$\-%]\w*|PADDING)\s*CHARACTER\*(\d{3})\s*\.{0,1}\s*\((\d*):(\d*)\).*'},
+#            'cps92.ddf':
+#            {'start': '1992-01-01', 'end': '1993-12-31',
+#             're': '(\w{1,2}[\$\-%]\w*|PADDING)\s*CHARACTER\*(\d{3})\s*\.{0,1}\s*\((\d*):(\d*)\).*'}
+            }
              
              
 StatesMap = {1: 'AL',
