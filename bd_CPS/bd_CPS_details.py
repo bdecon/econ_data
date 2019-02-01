@@ -13,21 +13,20 @@ VarList = ['PWORWGT', 'PWCMPWGT', 'PWLGWGT', 'PRERNWA',
            'PTERNHLY', 'HRMONTH', 'PESEX', 'PEMLR',
            'PENLFRET', 'PENLFACT', 'PRDISC', 'GESTFIPS',
            'HRMIS', 'PRCOW1', 'PRFTLF', 'PREMPNOT', 
-           'PRCIVLF', 'PEJHRSN', 'PRSJMJ', 'PEEDUCA',
+           'PRSJMJ', 'PEEDUCA',
            'PRWKSTAT', 'PRMJOCC1', 'GTMETSTA', 'GEMETSTA',
            'PEDWWNTO', 'PRUNTYPE', 'PRMJIND1', 'GTCBSA',
            'PERACE', 'PTDTRACE', 'PRDTRACE', 'PRORIGIN',
            'HUHHNUM', 'PRDTHSP', 'PRCHLD', 'PRTAGE',
            'PEAGE', 'PULINENO', 'PRWNTJOB', 'PEERNLAB',
            'PRUNEDUR', 'PEHRUSL1', 'PRMARSTA', 'PRCITSHP',
-           'PRDTOCC1', 'PRDTIND1', 'PUIODP1', 'PUIODP2',
+           'PRDTOCC1', 'PRDTIND1', 
            'PEIO1COW', 'PEIO1OCD', 'PEIO1ICD', 'PEIO2COW',
            'HRHHID', 'HRSAMPLE', 'HRSERSUF', 'PTIO1OCD',
            'PRDISFLG', 'PUAFEVER', 'PEAFEVER', 'PECERT1',
-           'GTCSA', 'PEHRACTT', 'PULAY', 'PEERNCOV',
-           'PELKLWO', 'PESCHENR', 'PRNMCHLD', 'PTERN2',
-           'PUERN2', 'PRAGNA', 'QSTNUM', 'OCCURNUM',
-           'PRPERTYP']
+           'GTCSA', 'PEHRACTT', 'PEERNCOV',
+           'PESCHENR', 'PRNMCHLD', 'PTERN2',
+           'PUERN2', 'PRAGNA', 'QSTNUM', 'OCCURNUM']
             # 'HRNUMHOU', 'HWHHWGT', '\x0cRNUMHOU', 'HRHTYPE' 
 
 DataDict = {'January_2017_Record_Layout.txt':
