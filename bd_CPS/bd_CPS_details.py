@@ -7,12 +7,12 @@ def text_repl(string_item):
             .replace('PTERN2', 'PUERN2')) #.replace('\x0cRNUMHOU', 'HRNUMHOU')
 
 
-VarList = ['PWORWGT', 'PWCMPWGT', 'PWLGWGT', 'PRERNWA',
+VarList = ['PWORWGT', 'PWCMPWGT', 'PRERNWA',
            'PTERNWA', 'PWSSWGT', 'HRHHID (partII)', 
            'HRHHID2', 'HRYEAR', 'HRYEAR4', 'PRERNHLY',
            'PTERNHLY', 'HRMONTH', 'PESEX', 'PEMLR',
-           'PENLFRET', 'PENLFACT', 'PRDISC', 'GESTFIPS',
-           'HRMIS', 'PRCOW1', 'PRFTLF', 'PREMPNOT', 
+           'PENLFRET', 'PENLFACT', 'GESTFIPS',
+           'HRMIS', 'PRFTLF',  
            'PRSJMJ', 'PEEDUCA', 'PENATVTY',
            'PRWKSTAT', 'PRMJOCC1', 'GTMETSTA', 'GEMETSTA',
            'PEDWWNTO', 'PRUNTYPE', 'PRMJIND1', 'GTCBSA',
@@ -21,12 +21,12 @@ VarList = ['PWORWGT', 'PWCMPWGT', 'PWLGWGT', 'PRERNWA',
            'PEAGE', 'PULINENO', 'PRWNTJOB', 'PEERNLAB',
            'PRUNEDUR', 'PEHRUSL1', 'PRMARSTA', 'PRCITSHP',
            'PRDTOCC1', 'PRDTIND1', 'PEHRUSL2', 'PEHRUSLT',
-           'PEIO1COW', 'PEIO1OCD', 'PEIO1ICD', 'PEIO2COW',
+           'PEIO1COW', 'PEIO1OCD', 'PEIO1ICD', 
            'HRHHID', 'HRSAMPLE', 'HRSERSUF', 'PTIO1OCD',
            'PRDISFLG', 'PUAFEVER', 'PEAFEVER', 'PECERT1',
            'GTCSA', 'PEHRACTT', 'PEHRACT1', 'PEERNCOV',
            'PESCHENR', 'PRNMCHLD', 'PTERN2', 'PEHRACT2',
-           'PUERN2', 'PRAGNA', 'QSTNUM', 'OCCURNUM']
+           'PUERN2', 'QSTNUM', 'OCCURNUM']
             # 'HRNUMHOU', 'HWHHWGT', '\x0cRNUMHOU', 'HRHTYPE' 
 
 DataDict = {'January_2017_Record_Layout.txt':

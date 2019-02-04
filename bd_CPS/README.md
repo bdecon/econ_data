@@ -1,6 +1,6 @@
 ### BD Economics Current Population Survey Extract
 
-v0.2, updated: January 27, 2019
+v0.2.1, updated: February 3, 2019
 
 Working with CPS microdata using jupyter notebooks and python.
 
@@ -37,15 +37,17 @@ The above arbitrary example calculates how many age 25-54 people are in each of 
 
 ##### Overview
 
-**UPDATE: v0.2 released.** Currently, the project includes jupyter notebooks for working with monthly Current Population Survey public use microdata files. The microdata files can be downloaded from the [US Census Bureau's CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). 
+**UPDATE: v0.2.1 released.** Currently, the project includes jupyter notebooks for working with monthly Current Population Survey public use microdata files. The microdata files can be downloaded from the [US Census Bureau's CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). 
 
-The three notebooks are:
+The notebooks include:
 
-1) bd_CPS_dd.ipynb reads settings from bd_CPS_details.py and creates a python dictionary with information needed to read the raw CPS microdata files in the next step, and adjust them to be more time consistent and useful. The program requires downloading the CPS data dictionary text files from the FTP page. 
+1) `bd_CPS_dd.ipynb` reads settings from bd_CPS_details.py and creates a python dictionary with information needed to read the raw CPS microdata files in the next step, and adjust them to be more time consistent and useful. The program requires downloading the CPS data dictionary text files from the FTP page. 
 
-2) bd_CPS_reader.ipynb reads the raw monthy CPS microdata files downloaded from Census and converts them into annual feather format files that can be read by python or R. The feather format is particularly fast when the data are mostly integers or categorical, as in this case. 
+2) `bd_CPS_reader.ipynb` reads the raw monthy CPS microdata files downloaded from Census and converts them into annual feather format files that can be read by python or R. The feather format is particularly fast when the data are mostly integers or categorical, as in this case. Works for years 1994-onward.
 
-3) bd_CPS_grapher.ipynb creates line plots from the bd CPS feather file data and user-specified query strings. This program allows a user to query the (currently 1994-) dataset, apply calculations, and visualize the results. 
+3) `bd_CPS_grapher.ipynb` creates line plots from the bd CPS feather file data and user-specified query strings. This program allows a user to query the (currently 1994-) dataset, apply calculations, and visualize the results. 
+
+4) `bd_CPS_1989-93.ipynb` creates partial extracts for 1989-93. It is a work in progress, but creates many variables that are consistent with those in the 1994-onward extracts.
 
 Settings and other required code are also contained in the python file bd_CPS_details.py. There is additionally a notebook that downloads regional consumer price index data from BLS (used as the price deflator for real wage series), as well as a notebook that benchmarks the bd CPS results against four BLS published estimates. If you want to see examples of how to use bd CPS data, the [benchmarks](https://github.com/bdecon/econ_data/blob/master/bd_CPS/bd_CPS_benchmark.ipynb) are a good place to start.
 
@@ -57,18 +59,24 @@ The first step in generating the bd CPS is to run the data dictionary generator,
 
 The next step is to run the notebook called `bd_CPS_reader.ipynb`. This will create a feather file called `cpsYYYY.ft` for each year included in the command in the `bd_CPS_reader` notebook. The feather file can be read into pandas as a dataframe, and, as I understand but have not tested, can be read into R and other statistical software programs. The file contains a subset of variables that are most commonly used for research. 
 
+##### How to add variables
+
+To add an additional CPS variable to the extract, include the variable name from the Census data dictionary in `VarList` in `bd_CPS_details.py`.
+
 ##### bd CPS variables
 
 The bd CPS contains several variables that are recodes of other CPS variables or combinations of CPS data and outside data. The two most important examples of this are the Labor Market Status (LMSTAT) and the real wage variables (RHRWAGE and RWKWAGE). 
 
 Details on bd CPS variables are as follows:
 
-* LMSTAT - Labor market status - Classifies all age 16+ observations into one of 12 labor market statuses. See bd_CPS_reader.ipynb for mapping.
+* LFS - Labor force status - Employed, Unemployed, or Not in Labor Force (NILF).
+* COW1 - Class of worker on first job: Federal Government, State Government, Local Government, Private, Self-employed Incorporated, Self-employed Unincorporated, Without Pay. 
+* NILFREASON - Reason for non-participation in the labor market: Discouraged, Disabled/Ill, Caregiving, Retired, In School, Other.
 * RHRWAGE - Real hourly wage - Available in ORG quartersample, this converts weekly pay to hourly where possible and then adjusts the wage using the not-seasonally-adjusted regional CPI (Northeast, Midwest, South, West). 
 * RWKWAGE - Real weekly wage - Same as above, except the weekly pay (therefore factoring in hours worked).
 * INDGRP - Industry group of first job - Consistent industry groups for first job: Construction and mining (also includes agriculture and the like), Manufacturing, Trade, transportation, and utilties, Finance and business services (also includes Information and the like), Leisure and hospitality, and Public administration. See bd_CPS_reader.ipynb for mapping. 
 * UNEMPTYPE - type of unemployment: job loser, job leaver, new entrant, or re-entrant. 
-* UNEMPDUR - duration of unemployment, in weeks.
+* UNEMPDUR - duration of unemployment, in weeks. Slight definition change in 1994 revamp.
 * VETERAN - binary variable equal to 1 if served active duty armed forces.
 * CERT - has a professional certification. 
 * STATE - converstion of state FIPS code to two letter state abbreviation.
@@ -85,11 +93,11 @@ Details on bd CPS variables are as follows:
 
 ##### Long-term road map 
 
-A crude long-term road map includes the following: refactoring for speed; much expanded graphing capabilities; pandas Panel storage of multiple records from same household; including data going back to at least 1989; using external sources (for example the O*Net database, minumum wage data, etc.) to create new variables; enhanced documentation; and more. See [active issues](https://github.com/bdecon/econ_data/issues) on the project's github repo.
+A crude long-term road map includes the following: refactoring for speed; much expanded graphing capabilities; pandas Panel storage of multiple records from same household; using external sources (for example minumum wage data) to create new variables; enhanced documentation; and more. See [active issues](https://github.com/bdecon/econ_data/issues) on the project's github repo.
 
 ##### Acknowlegements
 
-Many many thanks to John Schmitt for countless hours of kind and patient guidance. Many thanks to the staff and management of CEPR for giving me the chance to learn about the CPS. Thanks to EPI for providing and sharing very helpful documentation. Thanks to NBER, FRBATL, FRBKC, IPUMS, Urban Institute, Tom Augspurger, and of course the wonderful staff of BLS and Census, for making analysis of the CPS possible for normal people like me, by providing useful information. 
+Many many thanks to John Schmitt for countless hours of kind and patient guidance. Many thanks to the staff and management of CEPR for giving me the chance to learn about the CPS. Thanks to EPI, and Ben Zipperer in particular, for providing very helpful documentation. Thanks to NBER, FRBATL, FRBKC, IPUMS, Urban Institute, Tom Augspurger, and of course the wonderful staff of BLS and Census, for making analysis of the CPS possible for normal people like me, by providing useful information. 
 
 ##### Contact me
 
