@@ -7,19 +7,20 @@ Working with CPS microdata using jupyter notebooks and python.
 Brian Dew, @bd_econ
 
 ### Contents
-[Example](#example)
-[Overview](#overview)
-[How to run/ update](#directions)
-[How to add](#directions2)
-[bd CPS variables](#variables)
-[Long-term roadmap](#roadmap)
-[Acknowledgements](#acknowledgements)
-[Contact me](#contact)
-[List of CPS related links](#links)
+- [Example](#example)
+- [Overview](#overview)
+- [How to run/ update](#directions)
+- [How to add](#directions2)
+- [bd CPS variables](#variables)
+- [Long-term roadmap](#roadmap)
+- [Acknowledgements](#acknowledgements)
+- [Contact me](#contact)
+- [List of CPS related links](#links)
 
 -----
 
 <a name="example"/>
+
 ##### Example
 
 Input (after running programs on raw data downloaded from Census):
@@ -48,6 +49,7 @@ Name: PWSSWGT, dtype: float32
 The above arbitrary example calculates how many age 25-54 people are in each of five educational categories in October 2017. For example, about 16.6 million have advanced degrees.
 
 <a name="overview"/>
+
 ##### Overview
 
 **UPDATE: v0.2.1 released.** The bd CPS is a series of jupyter notebooks I wrote to work with monthly Current Population Survey public use microdata. If the notebooks, or any parts of them, could be helpful to you, please feel free to use them or modify them in any way. When set up correctly, the notebooks generate annual feather format files, for the years from 1989-present, which contain cleaned-up partial extracts of CPS data. The microdata files can be downloaded from the [US Census Bureau's CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). 
@@ -65,6 +67,7 @@ The notebooks include:
 Settings and other required code are also contained in the python file bd_CPS_details.py. There is additionally a notebook that downloads regional consumer price index data from BLS (used as the price deflator for real wage series), as well as a notebook that benchmarks the bd CPS results against four BLS published estimates. If you want to see examples of how to use bd CPS data, the [benchmarks](https://github.com/bdecon/econ_data/blob/master/bd_CPS/bd_CPS_benchmark.ipynb) are a good place to start.
 
 <a name="directions"/>
+
 ##### How to run/ update
 
 Sometime in the middle of each month, the Census Bureau will release the previous month's CPS public use microdata in a compressed file on the [US CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). The full set of 1994 onward monthly microdata files are available to download on the FTP page. NBER [hosts](https://www.nber.org/data/cps_basic.html) the 1989 to 1993 files. For the bd CPS program to work, a local folder must contain the relevant uncompressed CPS microdata files. Next, the data dictionary files that correspond to each microdata file should be downloaded and stored in the same folder as the microdata. Separately, to adjust wages for inflation the CPI for each of four US regions should be downloaded using the notebook `bd_CPS_cpi.ipynb`. 
@@ -74,11 +77,13 @@ The first step in generating the bd CPS is to run the data dictionary generator,
 The next step is to run the notebook called `bd_CPS_reader.ipynb`. This will create a feather file called `cpsYYYY.ft` for each year included in the command in the `bd_CPS_reader` notebook. The feather file can be read into pandas as a dataframe, and, as I understand but have not tested, can be read into R and other statistical software programs. The file contains a subset of variables that are most commonly used for research. 
 
 <a name="directions2"/>
+
 ##### How to add variables
 
 To include an additional CPS variable in your local version of the bd CPS extract, add the variable name (from the Census data dictionary) to the list of variables names in `VarList` in `bd_CPS_details.py` and re-run `bd_CPS_dd.ipynb` and `bd_CPS_reader.ipynb`.
 
 <a name="variables"/>
+
 ##### bd CPS variables
 
 The bd CPS contains several variables that are recodes of other CPS variables or combinations of CPS data and outside data. The two most important examples of this are the Labor Market Status (LMSTAT) and the real wage variables (RHRWAGE and RWKWAGE). 
@@ -105,22 +110,26 @@ Details on bd CPS variables are as follows:
 * WBHAOM - race/ethnic group - white, non-Hispanic only, black, non-Hispanic only, Asian or Pacific Islander, non-Hispanic only, Native American, non-Hispanic only, persons of more than one racial group but non-Hispanic, and Hispanic, and race/ethnicity. Available 2003 onward, only.
 * MARRIED - binary variable equal to 1 if married and otherwise 0.
 * FORBORN - binary variable equal to 1 if born outside the US and otherwise 0.
+* CTYBIRTH - country of birth.
 * SCHENR - binary variable equal to 1 if enrolled in high school, college, or university and otherwise 0. 
 * PTECON - binary variable equal to 1 if usually part-time for economic reasons and otherwise 0.
 * PRNMCHLD - number of own children under age 18.
 * BASICWGT - weight equal to PWSSWGT before 1998 and PWCMPWGT after. The weight variables use the 2000-based revised weights for the years 2000-2002 and the December 2007 revised weights.
 
 <a name="roadmap"/>
+
 ##### Long-term road map 
 
 A crude long-term road map includes the following: refactoring for speed; much expanded graphing capabilities; pandas Panel storage of multiple records from same household; using external sources (for example minumum wage data) to create new variables; enhanced documentation; and more. See [active issues](https://github.com/bdecon/econ_data/issues) on the project's github repo.
 
 <a name="acknowledgements"/>
+
 ##### Acknowlegements
 
 Many many thanks to John Schmitt for countless hours of kind and patient guidance. Many thanks to the staff and management of CEPR for giving me the chance to learn about the CPS. Thanks to EPI, and Ben Zipperer in particular, for providing very helpful documentation. Thanks to NBER, FRBATL, FRBKC, IPUMS, Urban Institute, Tom Augspurger, and of course the wonderful staff of BLS and Census, for making analysis of the CPS possible for normal people like me, by providing useful information. 
 
 <a name="contact"/>
+
 ##### Contact me
 
 I would really appreciate feedback, especially if you spot an error. I also welcome opportunities to work with people on projects that might make use of these notebooks, and would be most grateful for any help in making the project better! Feel free to email me at brianwdew@gmail.com.
@@ -129,6 +138,7 @@ I would really appreciate feedback, especially if you spot an error. I also welc
 -----
 
 <a name="links"/>
+
 ##### List of CPS related links
 
 [BLS regional CPI](https://www.bls.gov/cpi/regional-resources.htm)
