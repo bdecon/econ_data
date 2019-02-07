@@ -1,6 +1,6 @@
 ## BD Economics Current Population Survey Extract
 
-v0.2.1, updated: February 7, 2019
+v0.3, updated: February 7, 2019
 
 Working with CPS microdata using jupyter notebooks and python.
 
@@ -29,8 +29,11 @@ Input (after running programs on raw data downloaded from Census):
 ```
 import pandas as pd
 
-df = pd.read_feather('cps2017.ft').query('MONTH == 10 and 25 <= AGE <= 54')
-df.groupby('EDUC').PWSSWGT.sum()
+df = (pd.read_feather('cps2017.ft')
+        .query('MONTH == 10 and 25 <= AGE <= 54')
+        .groupby('EDUC')
+        .PWSSWGT
+        .sum())
 ```
 
 Output:
@@ -53,7 +56,7 @@ The above arbitrary example calculates how many age 25-54 people are in each of 
 
 ### Overview
 
-**UPDATE: v0.2.1 released.** The bd CPS is a series of jupyter notebooks I wrote to work with monthly Current Population Survey public use microdata. If the notebooks, or any part of them, could be helpful to you, please feel free to use them or modify them in any way. When set up correctly, the notebooks generate annual feather format files, for the years from 1989-present, which contain cleaned-up partial extracts of CPS data. The microdata files can be downloaded from the [US Census Bureau's CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). 
+**UPDATE: v0.3 released.** The bd CPS is a series of jupyter notebooks I wrote to work with monthly Current Population Survey public use microdata. If the notebooks, or any part of them, could be helpful to you, please feel free to use them or modify them in any way. When set up correctly, the notebooks generate annual feather format files, for the years from 1989-present, which contain cleaned-up partial extracts of CPS data. The microdata files can be downloaded from the [US Census Bureau's CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). 
 
 The notebooks include:
 
