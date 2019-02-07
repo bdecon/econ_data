@@ -16,12 +16,13 @@ Brian Dew, @bd_econ
 - [Acknowledgements](#acknowledgements)
 - [Contact me](#contact)
 - [List of CPS related links](#links)
+- [Project dependencies](#dependencies)
 
 -----
 
 <a name="example"/>
 
-##### Example
+### Example
 
 Input (after running programs on raw data downloaded from Census):
 
@@ -46,11 +47,11 @@ SC      33637956.0
 Name: PWSSWGT, dtype: float32
 ```
 
-The above arbitrary example calculates how many age 25-54 people are in each of five educational categories in October 2017. For example, about 16.6 million have advanced degrees.
+The above arbitrary example calculates how many age 25-54 people are in each of five educational categories in October 2017. It shows, for example, that about 16.6 million have advanced degrees.
 
 <a name="overview"/>
 
-#### Overview
+### Overview
 
 **UPDATE: v0.2.1 released.** The bd CPS is a series of jupyter notebooks I wrote to work with monthly Current Population Survey public use microdata. If the notebooks, or any part of them, could be helpful to you, please feel free to use them or modify them in any way. When set up correctly, the notebooks generate annual feather format files, for the years from 1989-present, which contain cleaned-up partial extracts of CPS data. The microdata files can be downloaded from the [US Census Bureau's CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). 
 
@@ -68,7 +69,7 @@ Settings and other required code are also contained in the python file bd_CPS_de
 
 <a name="directions"/>
 
-#### How to run/ update
+### How to run/ update
 
 Sometime in the middle of each month, the Census Bureau will release the previous month's CPS public use microdata in a compressed file on the [US CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). The full set of 1994 onward monthly microdata files are available to download on the FTP page. NBER [hosts](https://www.nber.org/data/cps_basic.html) the 1989 to 1993 files. For the bd CPS program to work, a local folder must contain the relevant uncompressed CPS microdata files. Next, the data dictionary files that correspond to each microdata file should be downloaded and stored in the same folder as the microdata. Separately, to adjust wages for inflation the CPI for each of four US regions should be downloaded using the notebook `bd_CPS_cpi.ipynb` (requires a [free BLS API key](https://data.bls.gov/registrationEngine/)). 
 
@@ -78,13 +79,13 @@ The next step is to run the notebook called `bd_CPS_reader.ipynb`. This will cre
 
 <a name="directions2"/>
 
-#### How to add a variable
+### How to add a variable
 
 To include an additional CPS variable in your local version of the bd CPS extract, add the variable name (from the Census data dictionary) to the list of variables names in `VarList` in `bd_CPS_details.py` and re-run `bd_CPS_dd.ipynb` and `bd_CPS_reader.ipynb`.
 
 <a name="variables"/>
 
-#### bd CPS variables
+### bd CPS variables
 
 The bd CPS contains several variables that are recodes of other CPS variables or combinations of CPS data and outside data. The two most important examples of this are the Labor Market Status (LMSTAT) and the real wage variables (RHRWAGE and RWKWAGE). 
 
@@ -118,21 +119,21 @@ Details on bd CPS variables are as follows:
 
 <a name="roadmap"/>
 
-#### Long-term road map 
+### Long-term road map 
 
 A crude long-term road map includes the following: refactoring for speed; much expanded graphing capabilities; pandas Panel storage of multiple records from same household; using external sources (for example minumum wage data) to create new variables; enhanced documentation; and more. See [active issues](https://github.com/bdecon/econ_data/issues) on the project's github repo.
 
-Separately, if someone is willing to fund some server space, I would **really** like to put the actual bd_CPS data online. This would make it possible for people to easily use the fruits of my labor--which I think would make CPS analysis much easier. Please contact me if you might want to chip in for this (brian.w.dew@gmail.com).
+Separately, if someone is willing to fund some server space, I would *really* like to put the actual bd_CPS data online. This would make it possible for people to easily use the fruits of my labor, which, I think, make CPS analysis much easier. Please contact me if you might want to chip in for this (brian.w.dew@gmail.com).
 
 <a name="acknowledgements"/>
 
-#### Acknowlegements
+### Acknowlegements
 
 Many many thanks to John Schmitt for countless hours of kind and patient guidance. Many thanks to the staff and management of CEPR for giving me the chance to learn about the CPS. Thanks to EPI, and Ben Zipperer in particular, for providing very helpful documentation. Thanks to NBER, FRBATL, FRBKC, IPUMS, Urban Institute, Tom Augspurger, and of course the wonderful staff of BLS and Census, for making analysis of the CPS possible for normal people like me, by providing useful information. 
 
 <a name="contact"/>
 
-#### Contact me
+### Contact me
 
 I would really appreciate feedback, especially if you spot an error. I also welcome opportunities to work with people on projects that might make use of these notebooks, and would be most grateful for any help in making the project better! Feel free to email me at brian.w.dew@gmail.com.
 
@@ -166,3 +167,38 @@ Tom Augspurger CPS in Python examples:
 [Part 3: Using Python to tackle the CPS](http://tomaugspurger.github.io/tackling%20the%20cps%20%28part%203%29.html)
 
 [Part 4: Using Python to tackle the CPS](http://tomaugspurger.github.io/tackling%20the%20cps%20%28part%204%29.html)
+
+<a name="dependencies"/>
+
+### Project dependencies
+
+In addition to the files in this repo, to run the bd_CPS notebook, you will need:
+
+- CPS microdata files from Census for 1994-present and from NBER (renamed slightly) for 1989-93;
+
+- Data dictionary files from Census for 1994-present and from NBER for 1989-93;
+
+- Revised data from Census for 2000-based weights, and corrected union data (2000-2003);
+
+- Revised data from Census for revised December 2007 weights;
+
+- Additional data from Census for 2015-16 professional certification variables;
+
+- BLS API code (to retrieve CPI data);
+
+- Python 3.7 installation (I recommend miniconda);
+
+- pandas 0.24 or later;
+
+- numpy 0.12 or later;
+
+- jupyter;
+
+- feather-format;
+
+- requests package to access BLS API;
+
+- wquantiles package (to replicate some benchmark techniques); and
+
+- matplotlib (for grapher).
+
