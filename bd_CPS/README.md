@@ -138,11 +138,9 @@ Many many thanks to John Schmitt for countless hours of kind and patient guidanc
 I would really appreciate feedback, especially if you spot an error. I also welcome opportunities to work with people on projects that might make use of these notebooks, and would be most grateful for any help in making the project better! Feel free to email me at brian.w.dew@gmail.com.
 
 
------
-
 <a name="links"/>
 
-#### List of CPS related links
+### List of CPS related links
 
 [BLS regional CPI](https://www.bls.gov/cpi/regional-resources.htm)
 
@@ -167,6 +165,8 @@ Tom Augspurger CPS in Python examples:
 [Part 3: Using Python to tackle the CPS](http://tomaugspurger.github.io/tackling%20the%20cps%20%28part%203%29.html)
 
 [Part 4: Using Python to tackle the CPS](http://tomaugspurger.github.io/tackling%20the%20cps%20%28part%204%29.html)
+
+------
 
 <a name="dependencies"/>
 
