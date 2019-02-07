@@ -70,7 +70,7 @@ Settings and other required code are also contained in the python file bd_CPS_de
 
 #### How to run/ update
 
-Sometime in the middle of each month, the Census Bureau will release the previous month's CPS public use microdata in a compressed file on the [US CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). The full set of 1994 onward monthly microdata files are available to download on the FTP page. NBER [hosts](https://www.nber.org/data/cps_basic.html) the 1989 to 1993 files. For the bd CPS program to work, a local folder must contain the relevant uncompressed CPS microdata files. Next, the data dictionary files that correspond to each microdata file should be downloaded and stored in the same folder as the microdata. Separately, to adjust wages for inflation the CPI for each of four US regions should be downloaded using the notebook `bd_CPS_cpi.ipynb`. 
+Sometime in the middle of each month, the Census Bureau will release the previous month's CPS public use microdata in a compressed file on the [US CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). The full set of 1994 onward monthly microdata files are available to download on the FTP page. NBER [hosts](https://www.nber.org/data/cps_basic.html) the 1989 to 1993 files. For the bd CPS program to work, a local folder must contain the relevant uncompressed CPS microdata files. Next, the data dictionary files that correspond to each microdata file should be downloaded and stored in the same folder as the microdata. Separately, to adjust wages for inflation the CPI for each of four US regions should be downloaded using the notebook `bd_CPS_cpi.ipynb` (requires a [free BLS API key](https://data.bls.gov/registrationEngine/)). 
 
 The first step in generating the bd CPS is to run the data dictionary generator, which creates a pickled python dictionary that provides information needed for reading the raw monthly CPS microdata files. This is done by running the notebook called `bd_CPS_dd.ipynb`. To run the bd CPS for 2000, 2001, and 2002, which utilize revised 2000-based weights and revised union data, or for December 2007, which uses revised weights, or for 2015-16, which uses separate data to identify persons with professional certifications, you'll also need to download and unzip the related source files and run `bd_CPS_revisions_reader.ipynb`.
 
@@ -122,6 +122,8 @@ Details on bd CPS variables are as follows:
 
 A crude long-term road map includes the following: refactoring for speed; much expanded graphing capabilities; pandas Panel storage of multiple records from same household; using external sources (for example minumum wage data) to create new variables; enhanced documentation; and more. See [active issues](https://github.com/bdecon/econ_data/issues) on the project's github repo.
 
+Separately, if someone is willing to fund some server space, I would **really** like to put the actual bd_CPS data online. This would make it possible for people to easily use the fruits of my labor--which I think would make CPS analysis much easier. Please contact me if you might want to chip in for this (brian.w.dew@gmail.com).
+
 <a name="acknowledgements"/>
 
 #### Acknowlegements
@@ -132,7 +134,7 @@ Many many thanks to John Schmitt for countless hours of kind and patient guidanc
 
 #### Contact me
 
-I would really appreciate feedback, especially if you spot an error. I also welcome opportunities to work with people on projects that might make use of these notebooks, and would be most grateful for any help in making the project better! Feel free to email me at brianwdew@gmail.com.
+I would really appreciate feedback, especially if you spot an error. I also welcome opportunities to work with people on projects that might make use of these notebooks, and would be most grateful for any help in making the project better! Feel free to email me at brian.w.dew@gmail.com.
 
 
 -----
