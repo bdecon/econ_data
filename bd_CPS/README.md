@@ -193,7 +193,7 @@ In addition to the files in this repo, to run the bd_CPS notebook, you will need
 
 - pandas 0.24 or later;
 
-- numpy 0.12 or later;
+- numpy 1.12 or later;
 
 - jupyter;
 
