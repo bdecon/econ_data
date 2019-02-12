@@ -117,7 +117,8 @@ Details on bd CPS variables are as follows:
 * CTYBIRTH - country of birth.
 * SCHENR - binary variable equal to 1 if enrolled in high school, college, or university and otherwise 0. 
 * PTECON - binary variable equal to 1 if usually part-time for economic reasons and otherwise 0.
-* PRNMCHLD - number of own children under age 18.
+* PRNMCHLD - number of own children under age 18 (available November 1999-onward).
+* CPSID - unique household ID (available May 1995-onward).
 * BASICWGT - weight equal to PWSSWGT before 1998 and PWCMPWGT after. The weight variables use the 2000-based revised weights for the years 2000-2002 and the December 2007 revised weights.
 
 <a name="roadmap"/>
