@@ -1,6 +1,6 @@
 ## BD Economics Current Population Survey Extract
 
-v0.3, updated: February 7, 2019
+v0.3, updated: February 13, 2019
 
 Working with CPS microdata using jupyter notebooks and python.
 
@@ -90,36 +90,36 @@ To include an additional CPS variable in your local version of the bd CPS extrac
 
 ### bd CPS variables
 
-The bd CPS contains several variables that are recodes of other CPS variables or combinations of CPS data and outside data. The two most important examples of this are the Labor Market Status (LMSTAT) and the real wage variables (RHRWAGE and RWKWAGE). 
+The bd CPS contains several variables that are recodes of other CPS variables or combinations of CPS data and outside data. The two most important examples of this are the labor force status (`LFS`) and the real wage variables (`RHRWAGE` and `RWKWAGE`). 
 
 Details on bd CPS variables are as follows:
 
-* LFS - Labor force status - Employed, Unemployed, or Not in Labor Force (NILF).
-* COW1 - Class of worker on first job: Federal Government, State Government, Local Government, Private, Self-employed Incorporated, Self-employed Unincorporated, Without Pay. 
-* NILFREASON - Reason for non-participation in the labor market: Discouraged, Disabled/Ill, Caregiving, Retired, In School, Other (currently available 1994-onward only).
-* RHRWAGE - Real hourly wage - Available in ORG quartersample, this converts weekly pay to hourly where possible and then adjusts the wage using the not-seasonally-adjusted regional CPI (Northeast, Midwest, South, West). 
-* RWKWAGE - Real weekly wage - Same as above, except the weekly pay (therefore factoring in hours worked).
-* MINWAGE - equal to 1 if worker is paid the federal minimum wage or less. 
-* INDGRP - Industry group of first job - Consistent industry groups for first job: Construction and mining (also includes agriculture and the like), Manufacturing, Trade, transportation, and utilties, Finance and business services (also includes Information and the like), Leisure and hospitality, and Public administration. See bd_CPS_reader.ipynb for mapping. 
-* UNEMPTYPE - type of unemployment: job loser, job leaver, new entrant, or re-entrant. 
-* UNEMPDUR - duration of unemployment, in weeks. Slight definition change in 1994 revamp.
-* VETERAN - binary variable equal to 1 if served active duty armed forces.
-* CERT - has a professional certification (available 2015-onward).
-* STATE - converstion of state FIPS code to two letter state abbreviation.
-* REGION - Census region (Northeast, South, Midwest, West)
-* CBSA - center-based statistical area (where defined).
-* CSA - consolidated statistical area (where defined).
-* EDUC - Highest level of education obtained - Maps the educational categories to five groups: Less than high school, High school, Some college, Bachelor degree, Advanced degree.
-* WBHAO - race/ethnic group - Each observation is mapped to one of five racial/ethnic groups: White, Black, Hispanic, Asian, and Other. White is white non-Hispanic only, black is any black non-Hispanic, Asian is any Asian but not black and non-Hispanic, Other is Native American, Native Hawaiian, Pacific Islander, and other groups. Hispanic is someone of Hispanic ethncity of any race. 
-* WBHAOM - race/ethnic group - white, non-Hispanic only, black, non-Hispanic only, Asian or Pacific Islander, non-Hispanic only, Native American, non-Hispanic only, persons of more than one racial group but non-Hispanic, and Hispanic, and race/ethnicity. Available 2003 onward, only.
-* MARRIED - binary variable equal to 1 if married and otherwise 0.
-* FORBORN - binary variable equal to 1 if born outside the US and otherwise 0.
-* CTYBIRTH - country of birth.
-* SCHENR - binary variable equal to 1 if enrolled in high school, college, or university and otherwise 0. 
-* PTECON - binary variable equal to 1 if usually part-time for economic reasons and otherwise 0.
-* PRNMCHLD - number of own children under age 18 (available November 1999-onward).
-* CPSID - unique household ID (available May 1995-onward).
-* BASICWGT - weight equal to PWSSWGT before 1998 and PWCMPWGT after. The weight variables use the 2000-based revised weights for the years 2000-2002 and the December 2007 revised weights.
+* `LFS` - Labor force status - Employed, Unemployed, or Not in Labor Force (NILF).
+* `COW1` - Class of worker on first job: Federal Government, State Government, Local Government, Private, Self-employed Incorporated, Self-employed Unincorporated, Without Pay. 
+* `NILFREASON` - Reason for non-participation in the labor market: Discouraged, Disabled/Ill, Family, Retired, In School, Other (currently available 1994-onward only).
+* `RHRWAGE` - Real hourly wage - Available in ORG quartersample, this converts weekly pay to hourly where possible and then adjusts the wage using the not-seasonally-adjusted regional CPI (Northeast, Midwest, South, West). 
+* `RWKWAGE` - Real weekly wage - Same as above, except the weekly pay (therefore factoring in hours worked).
+* `MINWAGE` - equal to 1 if worker is paid the federal minimum wage or less. 
+* `INDGRP` - Industry group of first job - Consistent industry groups for first job: Construction and mining (also includes agriculture and the like), Manufacturing, Trade, transportation, and utilties, Finance and business services (also includes Information and the like), Leisure and hospitality, and Public administration. See bd_CPS_reader.ipynb for mapping. 
+* `UNEMPTYPE` - type of unemployment: job loser, job leaver, new entrant, or re-entrant. 
+* `UNEMPDUR` - duration of unemployment, in weeks. Slight definition change in 1994 revamp.
+* `VETERAN` - binary variable equal to 1 if served active duty armed forces.
+* `CERT` - has a professional certification (available 2015-onward).
+* `STATE` - converstion of state FIPS code to two letter state abbreviation.
+* `REGION` - Census region (Northeast, South, Midwest, West)
+* `CBSA` - center-based statistical area (where defined).
+* `CSA` - consolidated statistical area (where defined).
+* `EDUC` - Highest level of education obtained - Maps the educational categories to five groups: Less than high school, High school, Some college, Bachelor degree, Advanced degree.
+* `WBHAO` - race/ethnic group - Each observation is mapped to one of five racial/ethnic groups: White, Black, Hispanic, Asian, and Other. White is white non-Hispanic only, black is any black non-Hispanic, Asian is any Asian but not black and non-Hispanic, Other is Native American, Native Hawaiian, Pacific Islander, and other groups. Hispanic is someone of Hispanic ethncity of any race. 
+* `WBHAOM` - race/ethnic group - white, non-Hispanic only, black, non-Hispanic only, Asian or Pacific Islander, non-Hispanic only, Native American, non-Hispanic only, persons of more than one racial group but non-Hispanic, and Hispanic, and race/ethnicity. Available 2003 onward, only.
+* `MARRIED` - binary variable equal to 1 if married and otherwise 0.
+* `FORBORN` - binary variable equal to 1 if born outside the US and otherwise 0.
+* `CTYBIRTH` - country of birth.
+* `SCHENR` - binary variable equal to 1 if enrolled in high school, college, or university and otherwise 0. 
+* `PTECON` - binary variable equal to 1 if usually part-time for economic reasons and otherwise 0.
+* `PRNMCHLD` - number of own children under age 18 (available November 1999-onward).
+* `CPSID` - unique household ID (available May 1995-onward; OPTIONAL - run the reader, run `bd_CPS_id` and then re-run the reader, to add the `CPSID`).
+* `BASICWGT` - weight equal to `PWSSWGT` before 1998 and `PWCMPWGT` after. The weight variables use the 2000-based revised weights for the years 2000-2002 and the December 2007 revised weights.
 
 <a name="roadmap"/>
 
