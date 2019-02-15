@@ -1,6 +1,6 @@
 ## BD Economics Current Population Survey Extract
 
-v0.3, updated: February 13, 2019
+v0.3, updated: February 15, 2019
 
 Working with CPS microdata using jupyter notebooks and python.
 
@@ -68,7 +68,7 @@ The notebooks include:
 
 4) `bd_CPS_1989-93.ipynb` creates partial extracts for 1989-93. It is a work in progress, but creates many variables that are consistent with those in the 1994-onward extracts.
 
-Settings and other required code are also contained in the python file bd_CPS_details.py. There is additionally a notebook that downloads regional consumer price index data from BLS (used as the price deflator for real wage series), as well as a notebook that benchmarks the bd CPS results against four BLS published estimates. If you want to see examples of how to use bd CPS data, the [benchmarks](https://github.com/bdecon/econ_data/blob/master/bd_CPS/bd_CPS_benchmark.ipynb) are a good place to start.
+Settings and other required code are also contained in the python file bd_CPS_details.py. There is additionally a notebook that downloads regional consumer price index data from BLS (used as the price deflator for real wage series), as well as a notebook that benchmarks the bd CPS results against four BLS published estimates. If you want to see examples of how to use bd CPS data, the [benchmarks](https://github.com/bdecon/econ_data/blob/master/bd_CPS/bd_CPS_benchmark.ipynb) provide several nice examples.
 
 <a name="directions"/>
 
@@ -100,10 +100,13 @@ Details on bd CPS variables are as follows:
 * `RHRWAGE` - Real hourly wage - Available in ORG quartersample, this converts weekly pay to hourly where possible and then adjusts the wage using the not-seasonally-adjusted regional CPI (Northeast, Midwest, South, West). 
 * `RWKWAGE` - Real weekly wage - Same as above, except the weekly pay (therefore factoring in hours worked).
 * `MINWAGE` - equal to 1 if worker is paid the federal minimum wage or less. 
+* `PAIDHRLY` - equal to 1 if paid hourly and 0 if person has earnings but is not paid hourly.
 * `INDGRP` - Industry group of first job - Consistent industry groups for first job: Construction and mining (also includes agriculture and the like), Manufacturing, Trade, transportation, and utilties, Finance and business services (also includes Information and the like), Leisure and hospitality, and Public administration. See bd_CPS_reader.ipynb for mapping. 
 * `UNEMPTYPE` - type of unemployment: job loser, job leaver, new entrant, or re-entrant. 
 * `UNEMPDUR` - duration of unemployment, in weeks. Slight definition change in 1994 revamp.
 * `VETERAN` - binary variable equal to 1 if served active duty armed forces.
+* `UNION` - equal to 1 if a union member or covered by a union contract.
+* `UNIONMEM` - equal to 1 if a union member.
 * `CERT` - has a professional certification (available 2015-onward).
 * `STATE` - converstion of state FIPS code to two letter state abbreviation.
 * `REGION` - Census region (Northeast, South, Midwest, West)
@@ -117,15 +120,16 @@ Details on bd CPS variables are as follows:
 * `CTYBIRTH` - country of birth.
 * `SCHENR` - binary variable equal to 1 if enrolled in high school, college, or university and otherwise 0. 
 * `PTECON` - binary variable equal to 1 if usually part-time for economic reasons and otherwise 0.
+* `WORKFT` - equal to one if person worked full time during the reference week (35 hours or more) regardless of whether they usually work full-time.
 * `PRNMCHLD` - number of own children under age 18 (available November 1999-onward).
-* `CPSID` - unique household ID (available May 1995-onward; OPTIONAL - run the reader, run `bd_CPS_id` and then re-run the reader, to add the `CPSID`).
+* `CPSID` - unique household ID (available 1998-onward; OPTIONAL - run the reader, run `bd_CPS_id` and then re-run the reader, to add the `CPSID`).
 * `BASICWGT` - weight equal to `PWSSWGT` before 1998 and `PWCMPWGT` after. The weight variables use the 2000-based revised weights for the years 2000-2002 and the December 2007 revised weights.
 
 <a name="roadmap"/>
 
 ### Long-term road map 
 
-A crude long-term road map includes the following: refactoring for speed; much expanded graphing capabilities; pandas Panel storage of multiple records from same household; using external sources (for example minumum wage data) to create new variables; enhanced documentation; and more. See [active issues](https://github.com/bdecon/econ_data/issues) on the project's github repo.
+A crude long-term road map includes the following: refactoring for speed; much expanded graphing capabilities; using external sources (for example O*Net data) to create new variables; enhanced documentation; and more. See [active issues](https://github.com/bdecon/econ_data/issues) on the project's github repo.
 
 Separately, if someone is willing to fund some server space, I would *really* like to put the actual bd_CPS data online. This would make it possible for people to easily use the fruits of my labor, which, I think, make CPS analysis much easier. Please contact me if you might want to chip in for this (brian.w.dew@gmail.com).
 
