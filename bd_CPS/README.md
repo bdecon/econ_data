@@ -1,6 +1,6 @@
 ## BD Economics Current Population Survey Extract
 
-v0.3, updated: February 15, 2019
+v0.3, updated: February 17, 2019
 
 Working with CPS microdata using jupyter notebooks and python.
 
@@ -64,11 +64,9 @@ The notebooks include:
 
 2) `bd_CPS_reader.ipynb` reads the raw monthy CPS microdata files downloaded from Census and converts them into annual feather format files that can be read by python or R. The feather format is particularly fast when the data are mostly integers or categorical, as in this case. Works for years 1994-onward.
 
-3) `bd_CPS_grapher.ipynb` creates line plots from the bd CPS feather file data and user-specified query strings. This program allows a user to query the (currently 1994-) dataset, apply calculations, and visualize the results. 
+3) `bd_CPS_1989-93.ipynb` creates partial extracts for 1989-93. It is a work in progress, but creates many variables that are consistent with those in the 1994-onward extracts.
 
-4) `bd_CPS_1989-93.ipynb` creates partial extracts for 1989-93. It is a work in progress, but creates many variables that are consistent with those in the 1994-onward extracts.
-
-Settings and other required code are also contained in the python file bd_CPS_details.py. There is additionally a notebook that downloads regional consumer price index data from BLS (used as the price deflator for real wage series), as well as a notebook that benchmarks the bd CPS results against four BLS published estimates. If you want to see examples of how to use bd CPS data, the [benchmarks](https://github.com/bdecon/econ_data/blob/master/bd_CPS/bd_CPS_benchmark.ipynb) provide several nice examples.
+Settings and other required code are also contained in the python file bd_CPS_details.py. There is additionally a notebook that downloads regional consumer price index data from BLS (used as the price deflator for real wage series), as well as a notebook that benchmarks the bd CPS results against four BLS published estimates. If you want to see examples of how to use bd CPS data, the [benchmarks](https://github.com/bdecon/econ_data/blob/master/micro/bd_CPS_benchmark.ipynb) provide several nice examples.
 
 <a name="directions"/>
 
@@ -202,11 +200,7 @@ In addition to the files in this repo, to run the bd_CPS notebook, you will need
 
 - jupyter;
 
-- feather-format;
+- feather-format; and
 
-- requests package to access BLS API;
-
-- wquantiles package (to replicate some benchmark techniques); and
-
-- matplotlib (for grapher).
+- requests package to access BLS API
 
