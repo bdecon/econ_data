@@ -1,10 +1,10 @@
 ## BD Economics Current Population Survey Extract
 
-v0.3, updated: February 17, 2019
+v0.3, updated: February 26, 2019
 
-Working with CPS microdata using jupyter notebooks and python.
+Working with Current Population Survey (CPS) public use microdata using jupyter notebooks and python.
 
-Brian Dew, @bd_econ
+Brian Dew, twitter: @bd_econ, email: brianwdew@gmail.com
 
 ### Contents
 - [Example](#example)
@@ -56,7 +56,7 @@ The above arbitrary example calculates how many age 25-54 people are in each of 
 
 ### Overview
 
-**UPDATE: v0.3 released.** The bd CPS is a series of jupyter notebooks I wrote to work with monthly Current Population Survey public use microdata. If the notebooks, or any part of them, could be helpful to you, please feel free to use them or modify them in any way. When set up correctly, the notebooks generate annual feather format files, for the years from 1989-present, which contain cleaned-up partial extracts of CPS data. The microdata files can be downloaded from the [US Census Bureau's CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). 
+**UPDATE: v0.3 released.** The bd CPS is a series of jupyter notebooks I wrote to work with monthly Current Population Survey public use microdata. If the notebooks, or any part of them, could be helpful to you, please feel free to use them or modify them in any way. When set up correctly, the notebooks generate annual [feather](https://github.com/wesm/feather) files, for the years from 1989-present, which contain cleaned-up partial extracts of CPS data. The microdata files can be downloaded from the [US Census Bureau's CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). 
 
 The notebooks include:
 
@@ -190,7 +190,7 @@ In addition to the files in this repo, to run the bd_CPS notebook, you will need
 
 - Additional data from Census for 2015-16 professional certification variables;
 
-- BLS API code (to retrieve CPI data);
+- BLS API code (to retrieve CPI data, free but requires registration);
 
 - Python 3.7 installation (I recommend miniconda);
 
