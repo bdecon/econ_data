@@ -1,6 +1,7 @@
+# bd CPS
 ## BD Economics Current Population Survey Extract
 
-v0.3, updated: February 26, 2019
+v0.3, updated: February 27, 2019
 
 Working with Current Population Survey (CPS) public use microdata using jupyter notebooks and python.
 
