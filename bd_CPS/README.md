@@ -121,6 +121,7 @@ Details on bd CPS variables are as follows:
 * `PTECON` - binary variable equal to 1 if usually part-time for economic reasons and otherwise 0.
 * `WORKFT` - equal to one if person worked full time during the reference week (35 hours or more) regardless of whether they usually work full-time.
 * `PRNMCHLD` - number of own children under age 18 (available November 1999-onward).
+* `DISABILITY` - binary equal to one if person has any of six disabilities (available June 2008 onward).
 * `CPSID` - unique household ID (available 1998-onward; OPTIONAL - run the reader, run `bd_CPS_id` and then re-run the reader, to add the `CPSID`).
 * `BASICWGT` - weight equal to `PWSSWGT` before 1998 and `PWCMPWGT` after. The weight variables use the 2000-based revised weights for the years 2000-2002 and the December 2007 revised weights.
 
