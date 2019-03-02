@@ -1,9 +1,7 @@
 # APIs
-
 ------
 
 ## BD Economics examples of using economic data Application Programming Interfaces (APIs)
-
 ------
 
 Updated: March 2, 2019
@@ -24,7 +22,7 @@ Goal: Retrieve data from several common sources, on demand, without clicking aro
 
 - [U.S. Census Bureau](https://github.com/bdecon/econ_data/blob/master/APIs/Census_TimeSeries_M3.ipynb): Manufacturers survey (M3) time series example. 
 
-- ['U.S. Census Bureau](https://github.com/bdecon/econ_data/blob/master/APIs/Census_Trade.ipynb): International trade by partner example.
+- [U.S. Census Bureau](https://github.com/bdecon/econ_data/blob/master/APIs/Census_Trade.ipynb): International trade by partner example.
 
 - [UN ComTrade](https://github.com/bdecon/econ_data/blob/master/APIs/ComTrade.ipynb): Data on bilateral trade by product.
 
