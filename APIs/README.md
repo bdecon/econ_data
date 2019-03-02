@@ -28,7 +28,7 @@ Goal: Retrieve data from several common sources, on demand, without clicking aro
 
 - [FRED](https://github.com/bdecon/econ_data/blob/master/APIs/FRED.ipynb): Collected statistics from the Federal Reserve Bank of Saint Louis. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/FRED.ipynb)
 
-- [Internaional Labour Organization](https://github.com/bdecon/econ_data/blob/master/APIs/ILO.ipynb): Labor statistics for many countries, included harmonized microdata results. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/ILO.ipynb)
+- [International Labour Organization](https://github.com/bdecon/econ_data/blob/master/APIs/ILO.ipynb): Labor statistics for many countries, included harmonized microdata results. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/ILO.ipynb)
 
 - [International Monatery Fund](https://github.com/bdecon/econ_data/blob/master/APIs/IMF.ipynb): Statistics published by the IMF's Statistics Department, including International Financial Statistics (IFS) data. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/IMF.ipynb)
 
