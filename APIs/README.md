@@ -1,8 +1,6 @@
 # APIs
-------
 
 ## BD Economics examples of using economic data Application Programming Interfaces (APIs)
-------
 
 Updated: March 2, 2019
 

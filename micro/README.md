@@ -1,10 +1,6 @@
 # micro
 
-------
-
 ## BD Economics microdata examples
-
-------
 
 Updated: March 2, 2019
 
