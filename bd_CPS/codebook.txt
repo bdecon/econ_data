@@ -47,7 +47,7 @@ METSTA
 
 
 HHID - Household ID 1
-    Notes: First part of CPS household ID
+    Notes: First part of CPS household ID.
     Data types: ['int64']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -56,7 +56,7 @@ None to None
 
 
 PULINENO - Person line number
-    Notes: Unique line number for person
+    Notes: Unique line number for person.
     Data types: ['int8', 'category']
     Available from: 1989-01 to: 2019-01
     Breaks in dtype: [Timestamp('1994-01-01 00:00:00')]
@@ -66,7 +66,7 @@ PULINENO - Person line number
 
 
 AGE - Age
-    Notes: Person age, topcoded in some cases
+    Notes: Person age, topcode varies by year, based on the original CPS data.
     Data types: ['int8']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -83,7 +83,7 @@ MAJACT
 
 
 HRSACTT - Actual hours worked, total
-    Notes: Actual hours worked in reference week, all jobs total
+    Notes: Actual hours worked in reference week, all jobs total.
     Data types: ['int8', 'int16']
     Available from: 1989-01 to: 2019-01
     Breaks in dtype: [Timestamp('1994-01-01 00:00:00')]
@@ -129,7 +129,7 @@ WANTJB
 
 
 HRSUSL1 - Usual hours worked, main job
-    Notes: Usual hours worked at main job, per week
+    Notes: Usual hours worked at main job, per week.
     Data types: ['int8']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -206,7 +206,7 @@ ERNLWT
 
 
 EDUC - Education level
-    Notes: Highest level of education attained: Advanced degree, college degree, some college but no degree or associate degree, high school degree, less than high school degree.
+    Notes: Highest level of education attained: Advanced degree, college degree, some college but no degree or associate degree, high school degree, less than high school degree. Some assumptions are made to create this variable for pre-1992 data, using highest grade completed and highest graded attended, since the highest degree completed information is unavailable.
     Data types: ['category']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -251,7 +251,7 @@ WBHAO - Race/Ethnic Group
 
 
 VETERAN - Veteran
-    Notes: Indicates if person is veteran
+    Notes: Indicates if person is a veteran.
     Data types: ['category']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -278,7 +278,7 @@ MARRIED - Married
 
 
 EMP - Employed
-    Notes: Indicates if someone is employed for any hours
+    Notes: Indicates if someone is employed, for any hours.
     Data types: ['category']
     Available from: 1989-01 to: 1993-12
     Value range: 
@@ -296,7 +296,7 @@ LFS - Labor force status
 
 
 COW1 - Class of worker 1
-    Notes: Class of worker on main job
+    Notes: Class of worker on main job.
     Data types: ['category']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -305,7 +305,7 @@ COW1 - Class of worker 1
 
 
 UNEMPTYPE - Unemployment type
-    Notes: Type of unemployment: job loser/on layoff, job leaver, re-entrant, or new entrant
+    Notes: Type of unemployment: job loser/on layoff, job leaver, re-entrant, or new entrant.
     Data types: ['category']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -314,7 +314,7 @@ UNEMPTYPE - Unemployment type
 
 
 PTECON - Part-time for economic reasons
-    Notes: People who want to work full-time but are not able to because of economic reasons
+    Notes: People who want to work full-time but are not able to because of economic reasons.
     Data types: ['category']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -584,7 +584,7 @@ MJH - Multiple jobholder
 
 
 PROXY - Proxy response
-    Notes: Identifies whether labor force information was collected by self or by proxy response
+    Notes: Identifies whether labor force information was collected by self or by proxy response.
     Data types: ['category']
     Available from: 1994-01 to: 2019-01
     Value range: 
@@ -611,7 +611,7 @@ None to None
 
 
 CTYBIRTH - Birth country
-    Notes: Country of birth
+    Notes: Country of birth.
     Data types: ['category']
     Available from: 1994-01 to: 2019-01
     Value range: 
