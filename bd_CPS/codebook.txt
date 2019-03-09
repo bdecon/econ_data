@@ -593,7 +593,7 @@ PROXY - Proxy response
 
 
 NILFREASON - NILF reason
-    Notes: Primary reason person in not in the labor force.
+    Notes: Primary reason person is not in the labor force.
     Data types: ['category']
     Available from: 1994-01 to: 2019-01
     Value range: 
