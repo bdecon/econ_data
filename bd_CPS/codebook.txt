@@ -5,7 +5,7 @@
 
 ========================
 
-updated: March 8, 2019
+updated: March 9, 2019
 
 variables:
 
@@ -93,7 +93,7 @@ HRSACTT - Actual hours worked, total
 
 
 UNEMPDUR - Unemployment Duration
-    Notes: Number of weeks person has been unemployed
+    Notes: Number of weeks person has been unemployed. There is a definition change in 1994 that affects the results from this variable. From 1994 onwards, those continuously employed and not in the incoming rotation group have their unemployment duration calculated based on the duration they reported in their incoming rotation group interview.
     Data types: ['int8', 'int16']
     Available from: 1989-01 to: 2019-01
     Breaks in dtype: [Timestamp('1994-01-01 00:00:00')]
@@ -269,7 +269,7 @@ SCHENR - School enrolled
 
 
 MARRIED - Married
-    Notes: Indicates if person is currently married.
+    Notes: Indicates if person is currently married, with spouse present or spouse absent, but not separated.
     Data types: ['category']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -332,7 +332,7 @@ WORKFT - Education level
 
 
 UNION - Union
-    Notes: Indicates if person is covered by a union contract or similar collective bargaining agreement.
+    Notes: Indicates if person is covered by a union contract or similar collective bargaining agreement. Uses revised data for 2001 and 2002, provided by Census.
     Data types: ['category']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -341,7 +341,7 @@ UNION - Union
 
 
 UNIONMEM - Union member
-    Notes: Indicates if person is a member of a union or similar employee association.
+    Notes: Indicates if person is a member of a union or similar employee association. Uses revised data for 2001 and 2002, provided by Census.
     Data types: ['category']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -377,7 +377,7 @@ None to None
 
 
 HRWAGE - Hourly wage
-    Notes: Nominal hourly earnings, in USD.
+    Notes: Nominal hourly earnings, in USD. Includes hourly wage calculation for individuals who report their pay on a weekly basis and report their hours worked. Use in combination with PAIDHRLY to identify only people who are paid on an hourly basis.
     Data types: ['float32']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -404,7 +404,7 @@ None to None
 
 
 BASICWGT - Basic weight
-    Notes: Basic person weight, equal to the composite weight where available.
+    Notes: Basic person weight, equal to the composite weight where available. Basic weight for 2000-2002 is revised based on Census released 2000-based weights and based on revised December 2007 weights from Census.
     Data types: ['float32']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -413,7 +413,7 @@ BASICWGT - Basic weight
 
 
 PWORWGT - Female
-    Notes: Person weight for outgoing rotation group variables, such as wage or hours or union membership.
+    Notes: Person weight for outgoing rotation group variables, such as wage or hours or union membership. ORG weight for 2000-2002 is revised based on Census released 2000-based weights.
     Data types: ['float32', 'float64']
     Available from: 1989-01 to: 2019-01
     Breaks in dtype: [Timestamp('2000-01-01 00:00:00')]
@@ -584,11 +584,21 @@ MJH - Multiple jobholder
 
 
 PROXY - Proxy response
-    Notes: Identifies whether labor force information was collected by self or by proxy response.
+    Notes: Identifies whether labor force information was collected by self, by proxy response, or both.
     Data types: ['category']
     Available from: 1994-01 to: 2019-01
     Value range: 
 ['Both', 'Proxy', 'Self', 'nan']
+
+
+
+COW2 - Class of worker 2
+    Notes: Class of worker on second job.
+    Data types: ['category', 'object']
+    Available from: 1994-01 to: 2019-01
+    Breaks in dtype: [Timestamp('1995-01-01 00:00:00')]
+    Value range: 
+['Federal Government', 'Local Government', 'Private', 'Self-employed Incorporated', 'Self-employed Unincorporated', 'State Government', 'Without Pay', 'nan']
 
 
 
@@ -601,8 +611,8 @@ NILFREASON - NILF reason
 
 
 
-MINWAGE - Minimum wage worker
-    Notes: Indicates if person is paid the federal minimum wage or less.
+MINWAGE - Minimum wage
+    Notes: Indicates if person is paid the federal minimum wage or less. Uses federal minimum wage data provided by the Department of Labor.
     Data types: ['category']
     Available from: 1994-01 to: 2019-01
     Value range: 
@@ -676,7 +686,7 @@ PRCHLD - Own children ages
 
 
 PRNMCHLD - Number of own children
-    Notes: Number of own children
+    Notes: Number of own children. 
     Data types: ['int8']
     Available from: 1999-01 to: 2019-01
     Value range: 
@@ -685,7 +695,7 @@ PRNMCHLD - Number of own children
 
 
 IND - Industry, main job
-    Notes: Industry code, main job
+    Notes: Industry code, main job. Includes 2000-2002 dual coded data provided by Census.
     Data types: ['category']
     Available from: 2000-01 to: 2019-01
     Value range: 
@@ -694,7 +704,7 @@ IND - Industry, main job
 
 
 IND2 - Industry, job 2
-    Notes: Industry code, second job
+    Notes: Industry code, second job. Includes 2000-2002 dual coded data provided by Census.
     Data types: ['category']
     Available from: 2000-01 to: 2019-01
     Value range: 
@@ -703,7 +713,7 @@ IND2 - Industry, job 2
 
 
 INDD - Detailed industry, main job
-    Notes: Detailed industry recode, main job
+    Notes: Detailed industry recode, main job. Includes 2000-2002 dual coded data provided by Census.
     Data types: ['int8']
     Available from: 2000-01 to: 2019-01
     Value range: 
@@ -712,7 +722,7 @@ INDD - Detailed industry, main job
 
 
 IND2D - Detailed industry, second job
-    Notes: Detailed industry recode, second job
+    Notes: Detailed industry recode, second job. Includes 2000-2002 dual coded data provided by Census.
     Data types: ['category']
     Available from: 2000-01 to: 2019-01
     Value range: 
@@ -721,7 +731,7 @@ IND2D - Detailed industry, second job
 
 
 OCCD - Detailed occupation, main job
-    Notes: Detailed occupation recode, main job
+    Notes: Detailed occupation recode, main job. Includes 2000-2002 dual coded data provided by Census.
     Data types: ['int8']
     Available from: 2000-01 to: 2019-01
     Value range: 
@@ -730,7 +740,7 @@ OCCD - Detailed occupation, main job
 
 
 OCC2D - Detailed occupation, job 2
-    Notes: Detailed occupation recode, second job
+    Notes: Detailed occupation recode, second job. Includes 2000-2002 dual coded data provided by Census.
     Data types: ['category']
     Available from: 2000-01 to: 2019-01
     Value range: 
@@ -739,7 +749,7 @@ OCC2D - Detailed occupation, job 2
 
 
 INDM - Major industry, main job
-    Notes: Major industry recode, main job
+    Notes: Major industry recode, main job. Includes 2000-2002 dual coded data provided by Census.
     Data types: ['category']
     Available from: 2000-01 to: 2019-01
     Value range: 
@@ -748,7 +758,7 @@ INDM - Major industry, main job
 
 
 IND2M - Major industry, second job
-    Notes: Major industry recode, second job
+    Notes: Major industry recode, second job. Includes 2000-2002 dual coded data provided by Census.
     Data types: ['category']
     Available from: 2000-01 to: 2019-01
     Value range: 
@@ -757,7 +767,7 @@ IND2M - Major industry, second job
 
 
 OCCM - Major occupation, main job
-    Notes: Major occupation recode, main job
+    Notes: Major occupation recode, main job. Includes 2000-2002 dual coded data provided by Census.
     Data types: ['category']
     Available from: 2000-01 to: 2019-01
     Value range: 
@@ -766,7 +776,7 @@ OCCM - Major occupation, main job
 
 
 OCC2M - Major occupation, job 2
-    Notes: Major occupation recode, second job
+    Notes: Major occupation recode, second job. Includes 2000-2002 dual coded data provided by Census.
     Data types: ['category']
     Available from: 2000-01 to: 2019-01
     Value range: 
@@ -775,7 +785,7 @@ OCC2M - Major occupation, job 2
 
 
 OCC - Occupation, main job
-    Notes: Occupation code, main job
+    Notes: Occupation code, main job. Includes 2000-2002 dual coded data provided by Census.
     Data types: ['category']
     Available from: 2000-01 to: 2019-01
     Value range: 
@@ -784,7 +794,7 @@ OCC - Occupation, main job
 
 
 OCC2 - Occupation, second job
-    Notes: Occupation code, second job
+    Notes: Occupation code, second job. Includes 2000-2002 dual coded data provided by Census.
     Data types: ['category']
     Available from: 2000-01 to: 2019-01
     Value range: 
@@ -820,7 +830,7 @@ CSA - Consolidated statistical area
 
 
 DISABILITY - Disability
-    Notes: Indicates if person is has any of six disabilities: difficulty hearing, difficulty seeing even with glasses, difficulty remembering or making decisions, difficulty walking or climbing stairs, difficulty dressing or bathing, or difficulty doing errands alone.
+    Notes: Indicates if person is has any of six disabilities: difficulty hearing, difficulty seeing even with glasses, difficulty remembering or making decisions, difficulty walking or climbing stairs, difficulty dressing or bathing, or difficulty doing errands alone. Includes data covering June to December 2008 that is released separately by Census.
     Data types: ['category']
     Available from: 2008-01 to: 2019-01
     Value range: 
@@ -829,7 +839,7 @@ DISABILITY - Disability
 
 
 CERT - Professional certification
-    Notes: Indicates if a person has a professional certification or license.
+    Notes: Indicates if a person has a professional certification or license. Values for 2015 and 2016 added using separately published Census microdata.
     Data types: ['category']
     Available from: 2015-01 to: 2019-01
     Value range: 
