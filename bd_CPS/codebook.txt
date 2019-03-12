@@ -5,7 +5,7 @@
 
 ========================
 
-updated: March 9, 2019
+updated: March 11, 2019
 
 variables:
 
@@ -93,7 +93,7 @@ HRSACTT - Actual hours worked, total
 
 
 UNEMPDUR - Unemployment Duration
-    Notes: Number of weeks person has been unemployed. There is a definition change in 1994 that affects the results from this variable. From 1994 onwards, those continuously employed and not in the incoming rotation group have their unemployment duration calculated based on the duration they reported in their incoming rotation group interview.
+    Notes: Number of weeks person has been unemployed. There is a definition change in 1994 that affects the results from this variable. From 1994 onwards, those continuously employed and not in the incoming rotation group have their unemployment duration calculated based on the duration they reported in their incoming rotation group interview. Prior to 1994, respondents were asked how many weeks they were unemployed for all eligible months in sample.
     Data types: ['int8', 'int16']
     Available from: 1989-01 to: 2019-01
     Breaks in dtype: [Timestamp('1994-01-01 00:00:00')]
@@ -215,7 +215,7 @@ EDUC - Education level
 
 
 STATE - State
-    Notes: Two letter US state code.
+    Notes: Two letter US state code. Derived from GESTFIPS.
     Data types: ['category']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -233,7 +233,7 @@ REGION - Region
 
 
 FEMALE - Female
-    Notes: Indicates if person is identified as female.
+    Notes: Indicates if person is identified as female. Derived from PESEX.
     Data types: ['category']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -251,7 +251,7 @@ WBHAO - Race/Ethnic Group
 
 
 VETERAN - Veteran
-    Notes: Indicates if person is a veteran.
+    Notes: Indicates if person is a veteran. Derived from PEAFEVER.
     Data types: ['category']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -260,7 +260,7 @@ VETERAN - Veteran
 
 
 SCHENR - School enrolled
-    Notes: Indicates if person was enrolled in school during prior week.
+    Notes: Indicates if person was enrolled in school during prior week. Derived from PESCHENR.
     Data types: ['category']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -269,7 +269,7 @@ SCHENR - School enrolled
 
 
 MARRIED - Married
-    Notes: Indicates if person is currently married, with spouse present or spouse absent, but not separated.
+    Notes: Indicates if person is currently married, with spouse present or spouse absent, but not separated. Derived from PRMARSTA.
     Data types: ['category']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -296,7 +296,7 @@ LFS - Labor force status
 
 
 COW1 - Class of worker 1
-    Notes: Class of worker on main job.
+    Notes: Class of worker on main job. Derived from PEIO1COW.
     Data types: ['category']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -314,7 +314,7 @@ UNEMPTYPE - Unemployment type
 
 
 PTECON - Part-time for economic reasons
-    Notes: People who want to work full-time but are not able to because of economic reasons.
+    Notes: Indicates person wants to work full-time but not able to for economic reasons. Derived from PRWKSTAT.
     Data types: ['category']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -322,8 +322,8 @@ PTECON - Part-time for economic reasons
 
 
 
-WORKFT - Education level
-    Notes: Indicates if person worked full-time (35 hours or more) in the reference week.
+WORKFT - Worked full-time
+    Notes: Indicates if person worked full-time (35 hours or more) in the reference week. Derived from PRWKSTAT.
     Data types: ['category']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -332,7 +332,7 @@ WORKFT - Education level
 
 
 UNION - Union
-    Notes: Indicates if person is covered by a union contract or similar collective bargaining agreement. Uses revised data for 2001 and 2002, provided by Census.
+    Notes: Indicates if person is covered by a union contract or similar collective bargaining agreement. Uses revised data for 2001 and 2002, provided by Census. Derived from PEERNLAB and PEERNCOV.
     Data types: ['category']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -341,7 +341,7 @@ UNION - Union
 
 
 UNIONMEM - Union member
-    Notes: Indicates if person is a member of a union or similar employee association. Uses revised data for 2001 and 2002, provided by Census.
+    Notes: Indicates if person is a member of a union or similar employee association. Uses revised data for 2001 and 2002, provided by Census. Derived from PEERNLAB.
     Data types: ['category']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -350,7 +350,7 @@ UNIONMEM - Union member
 
 
 PAIDHRLY - Paid hourly
-    Notes: Indicates whether person is usually paid on a per-hour basis.
+    Notes: Indicates whether person is usually paid on a per-hour basis. Derived from PEERNHRY.
     Data types: ['category']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -386,7 +386,7 @@ None to None
 
 
 RHRWAGE - Real hourly wage
-    Notes: Real hourly earnings, in USD, adjusted for inflation by regional CPI-U.
+    Notes: Real hourly earnings, in USD, adjusted for inflation by regional CPI-U. Includes hourly wage calculation for individuals who report their pay on a weekly basis and report their hours worked. Use in combination with PAIDHRLY to identify only people who are paid on an hourly basis.
     Data types: ['float32']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -404,7 +404,7 @@ None to None
 
 
 BASICWGT - Basic weight
-    Notes: Basic person weight, equal to the composite weight where available. Basic weight for 2000-2002 is revised based on Census released 2000-based weights and based on revised December 2007 weights from Census.
+    Notes: Basic person weight, equal to the composite weight where available (1998-onward). Basic weight for 2000-2002 is revised based on Census released 2000-based weights and based on revised December 2007 weights from Census.
     Data types: ['float32']
     Available from: 1989-01 to: 2019-01
     Value range: 
@@ -547,8 +547,8 @@ OCC280M - Major occupation, job 2
 
 
 
-PWLGWGT - Longitudinal weight
-    Notes: Weights for matching month to month CPS observations
+PWLGWGT - Longitudinal person weight
+    Notes: Person weight for matching month to month CPS observations.
     Data types: ['float32']
     Available from: 1994-01 to: 2019-01
     Value range: 
@@ -557,7 +557,7 @@ PWLGWGT - Longitudinal weight
 
 
 PWSSWGT - Person weight
-    Notes: Person weight, including children
+    Notes: Person weight, including children.
     Data types: ['float32']
     Available from: 1994-01 to: 2019-01
     Value range: 
@@ -566,7 +566,7 @@ PWSSWGT - Person weight
 
 
 FORBORN - Foreign born
-    Notes: Indicates if person is born outside the US.
+    Notes: Indicates if person is born outside the US. Derived from PRCITSHP.
     Data types: ['category']
     Available from: 1994-01 to: 2019-01
     Value range: 
@@ -575,7 +575,7 @@ FORBORN - Foreign born
 
 
 MJH - Multiple jobholder
-    Notes: Indicates if person has more than one job.
+    Notes: Indicates if person has more than one job. Derived from PRSJMJ.
     Data types: ['category']
     Available from: 1994-01 to: 2019-01
     Value range: 
@@ -584,7 +584,7 @@ MJH - Multiple jobholder
 
 
 PROXY - Proxy response
-    Notes: Identifies whether labor force information was collected by self, by proxy response, or both.
+    Notes: Identifies whether labor force information was collected by self, by proxy response, or both. Derived from PUSLFPRX.
     Data types: ['category']
     Available from: 1994-01 to: 2019-01
     Value range: 
@@ -593,7 +593,7 @@ PROXY - Proxy response
 
 
 COW2 - Class of worker 2
-    Notes: Class of worker on second job.
+    Notes: Class of worker on second job. Derived from PEIO2COW.
     Data types: ['category', 'object']
     Available from: 1994-01 to: 2019-01
     Breaks in dtype: [Timestamp('1995-01-01 00:00:00')]
@@ -603,7 +603,7 @@ COW2 - Class of worker 2
 
 
 NILFREASON - NILF reason
-    Notes: Primary reason person is not in the labor force.
+    Notes: Primary reason person is not in the labor force. Derived from PEMLR, PRWNTJOB, PEDWWNTO, and PENLFACT.
     Data types: ['category']
     Available from: 1994-01 to: 2019-01
     Value range: 
@@ -621,7 +621,7 @@ None to None
 
 
 CTYBIRTH - Birth country
-    Notes: Country of birth.
+    Notes: Country of birth. Slight change in values, starting in 2007.
     Data types: ['category']
     Available from: 1994-01 to: 2019-01
     Value range: 
@@ -630,7 +630,7 @@ CTYBIRTH - Birth country
 
 
 HHID2 - Household ID 2
-    Notes: Second piece of CPS unique household identifier.
+    Notes: Second piece of CPS unique household identifier. Created for months between January 1994 and May 2004, from HRSAMPLE, HRSERSUF, and HUHHNUM, otherwise derived from HRHHID2
     Data types: ['uint32', 'int64', 'int32']
     Available from: 1994-01 to: 2019-01
     Breaks in dtype: [Timestamp('2004-01-01 00:00:00'), Timestamp('2005-01-01 00:00:00')]
@@ -640,7 +640,7 @@ None to None
 
 
 QSTNUM - Unique household number
-    Notes: Household number within current month.
+    Notes: Household number within current month. Created for months from January 1994 to December 1997.
     Data types: ['int32']
     Available from: 1994-01 to: 2019-01
     Value range: 
@@ -649,7 +649,7 @@ QSTNUM - Unique household number
 
 
 OCCURNUM - Unique person number
-    Notes: Person number within household and current month.
+    Notes: Person number within household and current month. Created for months from January 1994 to December 2007.
     Data types: ['int8']
     Available from: 1994-01 to: 2019-01
     Value range: 
@@ -686,7 +686,7 @@ PRCHLD - Own children ages
 
 
 PRNMCHLD - Number of own children
-    Notes: Number of own children. 
+    Notes: Number of own children.
     Data types: ['int8']
     Available from: 1999-01 to: 2019-01
     Value range: 
@@ -830,7 +830,7 @@ CSA - Consolidated statistical area
 
 
 DISABILITY - Disability
-    Notes: Indicates if person is has any of six disabilities: difficulty hearing, difficulty seeing even with glasses, difficulty remembering or making decisions, difficulty walking or climbing stairs, difficulty dressing or bathing, or difficulty doing errands alone. Includes data covering June to December 2008 that is released separately by Census.
+    Notes: Indicates if person is has any of six disabilities: difficulty hearing, difficulty seeing even with glasses, difficulty remembering or making decisions, difficulty walking or climbing stairs, difficulty dressing or bathing, or difficulty doing errands alone. Includes data covering June to December 2008 that is released separately by Census. Derived from PRDISFLG.
     Data types: ['category']
     Available from: 2008-01 to: 2019-01
     Value range: 
@@ -839,7 +839,7 @@ DISABILITY - Disability
 
 
 CERT - Professional certification
-    Notes: Indicates if a person has a professional certification or license. Values for 2015 and 2016 added using separately published Census microdata.
+    Notes: Indicates if a person has a professional certification or license. Values for 2015 and 2016 added using separately published Census microdata. Derived from PECERT1.
     Data types: ['category']
     Available from: 2015-01 to: 2019-01
     Value range: 
