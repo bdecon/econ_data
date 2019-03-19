@@ -10,7 +10,7 @@ updated: March 11, 2019
 variables:
 
 MONTH - Month
-    Notes: Survey reference month.
+    Notes: Survey reference month. Original CPS variable: HRMONTH
     Data types: ['int8', 'category']
     Available from: 1989-01 to: 2019-02
     Breaks in dtype: [Timestamp('1994-01-01 00:00:00')]
@@ -20,7 +20,7 @@ MONTH - Month
 
 
 YEAR - Year
-    Notes: Survey reference year.
+    Notes: Survey reference year. Original CPS variable: HRYEAR, HRYEAR4
     Data types: ['category']
     Available from: 1989-01 to: 2019-02
     Value range: 
@@ -29,7 +29,7 @@ YEAR - Year
 
 
 MIS - Month in sample
-    Notes: Household month in sample.
+    Notes: Household month in sample. Original CPS variable: HRMIS
     Data types: ['int8', 'category']
     Available from: 1989-01 to: 2019-02
     Breaks in dtype: [Timestamp('1994-01-01 00:00:00')]
@@ -47,7 +47,7 @@ METSTA
 
 
 HHID - Household ID 1
-    Notes: First part of CPS household ID.
+    Notes: First part of CPS household ID. Original CPS variable HRHHID
     Data types: ['int64']
     Available from: 1989-01 to: 2019-02
     Value range: 
@@ -66,7 +66,7 @@ PULINENO - Person line number
 
 
 AGE - Age
-    Notes: Person age, topcode varies by year, based on the original CPS data.
+    Notes: Person age, topcode varies by year, based on the original CPS data. Original CPS variable: PRTAGE, PEAGE
     Data types: ['int8']
     Available from: 1989-01 to: 2019-02
     Value range: 
