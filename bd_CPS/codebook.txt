@@ -1421,6 +1421,21 @@ CERT - Professional certification
 23     Armed Forces
 
 
+2010 Occupation major recodes (OCCM):
+
+1     Management, business, and financial occupations
+2     Professional and related occupations
+3     Service occupations
+4     Sales and related occupations
+5     Office and administrative support occupations
+6     Farming, fishing, and forestry occupations
+7     Construction and extraction occupations
+8     Installation, maintenance, and repair occupations
+9     Production occupations
+10     Transportation and material moving occupations
+11     Armed Forces
+
+
 
 2012 Industry codes (IND):
 
@@ -1742,3 +1757,20 @@ CERT - Professional certification
 50     Private households
 51     Public administration
 52     Armed forces
+
+
+2012 Industry major recodes (INDM):
+
+1     Agriculture, forestry, fishing, and hunting
+2     Mining
+3     Construction
+4     Manufacturing
+5     Wholesale and retail trade
+6     Transportation and utilities
+7     Information
+8     Financial activities
+9     Professional and business services
+10     Educational and health services
+11     Leisure and hospitality
+12     Other services
+13     Public administration

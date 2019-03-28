@@ -628,7 +628,7 @@ CodebookNotes = {'MONTH': {'Notes': 'Survey reference month. Original CPS variab
                           'Name': 'Multiple jobholder'}}
                         
 
-Occs2010 = {10: 'Chief executives',
+ValueLabels = {'OCC': {10: 'Chief executives',
  20: 'General and operations managers',
  30: 'Legislators',
  40: 'Advertising and promotions managers',
@@ -1162,11 +1162,8 @@ Occs2010 = {10: 'Chief executives',
  9720: 'Refuse and recyclable material collectors',
  9730: 'Mine shuttle car operators',
  9740: 'Tank car, truck, and ship loaders',
- 9750: 'Material moving workers, all other'}
-
-             
-             
-Inds2012 = {170: 'Crop production',
+ 9750: 'Material moving workers, all other'},
+'IND': {170: 'Crop production',
  180: 'Animal production and aquaculture',
  190: 'Forestry, except logging',
  270: 'Logging',
@@ -1427,10 +1424,8 @@ Inds2012 = {170: 'Crop production',
  9480: 'Administration of human resource programs',
  9490: 'Administration of environmental quality and housing programs',
  9570: 'Administration of economic programs and space research',
- 9590: 'National security and international affairs'}
-             
-             
-IndsDT2012 = {1: 'Agriculture',
+ 9590: 'National security and international affairs'},
+'INDD':{1: 'Agriculture',
  2: 'Forestry, logging, fishing, hunting, and trapping',
  3: 'Mining',
  4: 'Construction',
@@ -1481,10 +1476,8 @@ IndsDT2012 = {1: 'Agriculture',
  49: 'Membership associations and organizations',
  50: 'Private households',
  51: 'Public administration',
- 52: 'Armed forces'}
-             
-             
-OccsDT2010 = {1: 'Management occupations',
+ 52: 'Armed forces'},
+'OCCD': {1: 'Management occupations',
  2: 'Business and financial operations occupations',
  3: 'Computer and mathematical science occupations',
  4: 'Architecture and engineering occupations',
@@ -1506,4 +1499,28 @@ OccsDT2010 = {1: 'Management occupations',
  20: 'Installation, maintenance, and repair occupations',
  21: 'Production occupations',
  22: 'Transportation and material moving occupations',
- 23: 'Armed Forces'}
+ 23: 'Armed Forces'},
+'INDM': {1: 'Agriculture, forestry, fishing, and hunting',
+ 2: 'Mining',
+ 3: 'Construction',
+ 4: 'Manufacturing',
+ 5: 'Wholesale and retail trade',
+ 6: 'Transportation and utilities',
+ 7: 'Information',
+ 8: 'Financial activities',
+ 9: 'Professional and business services',
+ 10: 'Educational and health services',
+ 11: 'Leisure and hospitality',
+ 12: 'Other services',
+ 13: 'Public administration'},
+'OCCM': {1: 'Management, business, and financial occupations',
+ 2: 'Professional and related occupations',
+ 3: 'Service occupations',
+ 4: 'Sales and related occupations',
+ 5: 'Office and administrative support occupations',
+ 6: 'Farming, fishing, and forestry occupations',
+ 7: 'Construction and extraction occupations',
+ 8: 'Installation, maintenance, and repair occupations',
+ 9: 'Production occupations',
+ 10: 'Transportation and material moving occupations',
+ 11: 'Armed Forces'}}
