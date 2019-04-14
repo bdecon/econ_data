@@ -1,7 +1,7 @@
 # bd CPS
 ## BD Economics Current Population Survey Extract
 
-v0.3, updated: February 27, 2019
+v0.3, updated: April 14, 2019
 
 Working with Current Population Survey (CPS) public use microdata using jupyter notebooks and python.
 
@@ -89,9 +89,9 @@ To include an additional CPS variable in your local version of the bd CPS extrac
 
 ### bd CPS variables
 
-The bd CPS contains several variables that are recodes of other CPS variables or combinations of CPS data and outside data. The two most important examples of this are the labor force status (`LFS`) and the real wage variables (`RHRWAGE` and `RWKWAGE`). 
+The bd CPS contains several variables that are recodes of other CPS variables or combinations of CPS data and outside data. The two most important examples of this are the labor force status (`LFS`) and the real wage variables (`RHRWAGE` and `RWKWAGE`). *NEW* The bd CPS now includes a [codebook](https://github.com/bdecon/econ_data/blob/master/bd_CPS/codebook.txt) that shows which variables are available for which dates, and what values the variables include. 
 
-Details on bd CPS variables are as follows:
+Details on selected bd CPS variables are as follows:
 
 * `LFS` - Labor force status - Employed, Unemployed, or Not in Labor Force (NILF).
 * `COW1` - Class of worker on first job: Federal Government, State Government, Local Government, Private, Self-employed Incorporated, Self-employed Unincorporated, Without Pay. 
