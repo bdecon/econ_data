@@ -9,7 +9,7 @@ def text_repl(string_item):
             .replace('GTMSA', 'MSA').replace('GTCMSA', 'CMSA'))
 
 
-VarList = ['PWORWGT', 'PWCMPWGT', 'PRERNWA',
+VarList = ['PWORWGT', 'PWCMPWGT', 'PRERNWA', 'PEPARENT', 'PESPOUSE',
            'PTERNWA', 'PWSSWGT', 'HRHHID (partII)', 
            'HRHHID2', 'HRYEAR', 'HRYEAR4', 'PRERNHLY',
            'PTERNHLY', 'HRMONTH', 'PESEX', 'PEMLR',
@@ -494,7 +494,7 @@ CodebookNotes = {'MONTH': {'Notes': 'Survey reference month. Original CPS variab
                           'Name': 'Household ID 1'},
                   'PULINENO': {'Notes': 'Unique line number for person.',
                           'Name': 'Person line number'},
-                  'AGE': {'Notes': 'Person age, topcode varies by year, based on the original CPS data. Original CPS variable: PRTAGE, PEAGE',
+                  'AGE': {'Notes': 'Person age, topcoded at 80. Original CPS variable: PRTAGE, PEAGE',
                           'Name': 'Age'},
                   'HRSACTT': {'Notes': 'Actual hours worked in reference week, all jobs total.',
                           'Name': 'Actual hours worked, total'},        
