@@ -9,25 +9,6 @@ updated: April 14, 2019
 
 variables:
 
-MONTH - Month
-    Notes: Survey reference month. Original CPS variable: HRMONTH
-    Data types: ['int8', 'category']
-    Available from: 1989-01 to: 2019-03
-    Breaks in dtype: [Timestamp('1994-01-01 00:00:00')]
-    Value range: 
-[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-
-
-
-YEAR - Year
-    Notes: Survey reference year. Original CPS variable: HRYEAR, HRYEAR4
-    Data types: ['category']
-    Available from: 1989-01 to: 2019-03
-    Value range: 
-[1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]
-
-
-
 MIS - Month in sample
     Notes: Household month in sample. Original CPS variable: HRMIS
     Data types: ['int8', 'category']
@@ -42,16 +23,7 @@ METSTA
     Data types: ['int8']
     Available from: 1989-01 to: 2019-03
     Value range: 
-[-1, 1, 2, 3]
-
-
-
-HHID - Household ID 1
-    Notes: First part of CPS household ID. Original CPS variable HRHHID
-    Data types: ['int64']
-    Available from: 1989-01 to: 2019-03
-    Value range: 
-None to None
+[1, 2, 3]
 
 
 
@@ -349,57 +321,12 @@ UNIONMEM - Union member
 
 
 
-PAIDHRLY - Paid hourly
-    Notes: Indicates whether person is usually paid on a per-hour basis. Derived from PEERNHRY.
-    Data types: ['category']
-    Available from: 1989-01 to: 2019-03
-    Value range: 
-None to None
-
-
-
 INDGRP - Industry Group
     Notes: Major industry group
     Data types: ['category']
     Available from: 1989-01 to: 2019-03
     Value range: 
 ['Armed forces', 'Construction and mining', 'Education and health', 'Finance and business services', 'Leisure and hospitality', 'Manufacturing', 'Public administration', 'Trade, transportation, and utilities']
-
-
-
-WKWAGE - Weekly wage
-    Notes: Nominal weekly earnings, in USD.
-    Data types: ['float32']
-    Available from: 1989-01 to: 2019-03
-    Value range: 
-None to None
-
-
-
-HRWAGE - Hourly wage
-    Notes: Nominal hourly earnings, in USD. Includes hourly wage calculation for individuals who report their pay on a weekly basis and report their hours worked. Use in combination with PAIDHRLY to identify only people who are paid on an hourly basis.
-    Data types: ['float32']
-    Available from: 1989-01 to: 2019-03
-    Value range: 
-None to None
-
-
-
-RHRWAGE - Real hourly wage
-    Notes: Real hourly earnings, in USD, adjusted for inflation by regional CPI-U. Includes hourly wage calculation for individuals who report their pay on a weekly basis and report their hours worked. Use in combination with PAIDHRLY to identify only people who are paid on an hourly basis.
-    Data types: ['float32']
-    Available from: 1989-01 to: 2019-03
-    Value range: 
-None to None
-
-
-
-RWKWAGE - Real weekly wage
-    Notes: Real weekly earnings, in USD, adjusted for inflation by regional CPI-U.
-    Data types: ['float32']
-    Available from: 1989-01 to: 2019-03
-    Value range: 
-None to None
 
 
 
@@ -425,7 +352,7 @@ PWORWGT - Female
 CMSA - CMSA code
     Notes: Combined Metropolitan Statistical Area (MSA) code
     Data types: ['category']
-    Available from: 1994-01 to: 2004-12
+    Available from: 1994-01 to: 2004-04
     Value range: 
 [-1, 0.0, 1, 2, 3, 4, 5, 6, 7, 8, 9.0, 14.0, 21.0, 28.0, 31.0, 34.0, 35.0, 42.0, 49.0, 56.0, 63.0, 70.0, 77.0, 79.0, 82.0, 84.0, 91.0, 97.0]
 
@@ -434,7 +361,7 @@ CMSA - CMSA code
 MSA - MSA code
     Notes: Metropolitan Statistical Area (MSA) code
     Data types: ['category']
-    Available from: 1994-01 to: 2004-12
+    Available from: 1994-01 to: 2004-04
     Value range: 
 [0, 80, 160, 200, 240, 280, 360, 380, 400, 405, 440, 450, 460, 480, 520, 560.0, 600, 620, 640, 680, 720, 760, 780, 840, 845, 860, 870, 875, 920, 960, 1000, 1040, 1080, 1120, 1125, 1140, 1145, 1160, 1200, 1240, 1280, 1305, 1320, 1360, 1400, 1440, 1480, 1520, 1560, 1600, 1620, 1640, 1660, 1680, 1720, 1760, 1800, 1840, 1880, 1920, 1930, 1960, 2000, 2020, 2030.0, 2040, 2080, 2120, 2160, 2190.0, 2240, 2281.0, 2290, 2320, 2360, 2400, 2440, 2520.0, 2560, 2580, 2600.0, 2640, 2650, 2655, 2670, 2680, 2700, 2710, 2720, 2750, 2760, 2800, 2840, 2880, 2900, 2920, 2960, 3000, 3060, 3080.0, 3120, 3150.0, 3160, 3180.0, 3200, 3240, 3280, 3290, 3320, 3350, 3360, 3400, 3440, 3480, 3520, 3560, 3600, 3605, 3610.0, 3640, 3660, 3680, 3690, 3710, 3720, 3740, 3760, 3810, 3840, 3880, 3960, 3965, 3980, 4000, 4040, 4080.0, 4100.0, 4120, 4160, 4280, 4320, 4360, 4400, 4440, 4480, 4520, 4560, 4600, 4680, 4720, 4760, 4800, 4880, 4890, 4900, 4920, 4940.0, 5000, 5015, 5080, 5120, 5160, 5170, 5190, 5200, 5240, 5320, 5330.0, 5345.0, 5350.0, 5360, 5380, 5400, 5440, 5480, 5520, 5560, 5600, 5640, 5660.0, 5700, 5720, 5760, 5775, 5790, 5800.0, 5880, 5910, 5920, 5945.0, 5950, 5960, 6000, 6015.0, 6060, 6080, 6120, 6160, 6200, 6280, 6400, 6440, 6450, 6460, 6480, 6520, 6560, 6580.0, 6600, 6640, 6680, 6720, 6760, 6780, 6800, 6840, 6880, 6920, 6960, 7040, 7080, 7090, 7120, 7160, 7240, 7320, 7360, 7400, 7460.0, 7480, 7485, 7490.0, 7500, 7510, 7520, 7560, 7600, 7610, 7680, 7720, 7760, 7800, 7840, 7880, 7920, 8000, 8040, 8120, 8160, 8200, 8240, 8280, 8320, 8400, 8440, 8480, 8520, 8560, 8600, 8680, 8720, 8725, 8735.0, 8760.0, 8780, 8800, 8840, 8880, 8920, 8940, 8960, 9000, 9040, 9140, 9160, 9200.0, 9240, 9270.0, 9280, 9320, 9340, 9360.0]
 
@@ -611,31 +538,12 @@ NILFREASON - NILF reason
 
 
 
-MINWAGE - Minimum wage
-    Notes: Indicates if person is paid the federal minimum wage or less. Uses federal minimum wage data provided by the Department of Labor.
-    Data types: ['category']
-    Available from: 1994-01 to: 2019-03
-    Value range: 
-None to None
-
-
-
 CTYBIRTH - Birth country
     Notes: Country of birth. Slight change in values, starting in 2007.
     Data types: ['category']
     Available from: 1994-01 to: 2019-03
     Value range: 
 ['Afghanistan', 'Africa, n.s.', 'Albania', 'Algeria', 'American Samoa', 'Americas, n.s.', 'Antigua and Barbuda', 'Argentina', 'Armenia', 'Asia', 'Asia, n.s.', 'Australia', 'Austria', 'Azerbaijan', 'Azores', 'Bahamas', 'Bangladesh', 'Barbados', 'Belarus', 'Belgium', 'Belize', 'Bermuda', 'Bhutan', 'Bolivia', 'Bosnia & Herzegovina', 'Brazil', 'Bulgaria', 'Burma', 'Cambodia', 'Cameroon', 'Canada', 'Cape Verde', 'Caribbean', 'Central America', 'Chile', 'China', 'Colombia', 'Congo', 'Costa Rica', 'Croatia', 'Cuba', 'Cyprus', 'Czech Republic', 'Czechoslovakia', 'Denmark', 'Dominica', 'Dominican Republic', 'Ecuador', 'Egypt', 'El Salvador', 'Elsewhere', 'England', 'Eritrea', 'Estonia', 'Ethiopia', 'Europe', 'Europe, n.s.', 'Fiji', 'Finland', 'France', 'Georgia', 'Germany', 'Ghana', 'Great Britain', 'Greece', 'Grenada', 'Guam', 'Guatemala', 'Guinea', 'Guyana', 'Haiti', 'Holland/Netherlands', 'Honduras', 'Hong Kong', 'Hungary', 'Iceland', 'India', 'Indonesia', 'Iran', 'Iraq', 'Ireland/Eire', 'Israel', 'Italy', 'Ivory Coast', 'Jamaica', 'Japan', 'Jordan', 'Kazakhstan', 'Kenya', 'Korea', 'Korea/ South Korea', 'Kosovo', 'Kuwait', 'Laos', 'Latvia', 'Lebanon', 'Liberia', 'Libya', 'Lithuania', 'Macedonia', 'Malaysia', 'Marshall Islands', 'Mexico', 'Micronesia', 'Middle East', 'Moldova', 'Mongolia', 'Montenegro', 'Morocco', 'Myanmar (Burma)', 'Nepal', 'Netherlands', 'New Zealand', 'Nicaragua', 'Nigeria', 'No coding available/US Outlying Area', 'North Africa', 'North America', 'Northern Ireland', 'Northern Marianas', 'Norway', 'Oceania, n.s.', 'Other Africa', 'Other US Island Areas', 'Pacific Islands', 'Pakistan', 'Palestine', 'Panama', 'Paraguay', 'Peru', 'Philippines', 'Poland', 'Portugal', 'Puerto Rico', 'Romania', 'Russia', 'Samoa', 'Saudi Arabia', 'Scotland', 'Senegal', 'Serbia', 'Sierra Leone', 'Singapore', 'Slovakia', 'Slovakia/Slovak Republic', 'Somolia', 'South Africa', 'South America', 'South America, n.s.', 'South Korea', 'Spain', 'Sri Lanka', 'St. Kitts--Nevis', 'St. Lucia', 'St. Vincent and the Grenadines', 'Sudan', 'Sweden', 'Switzerland', 'Syria', 'Taiwan', 'Tanzania', 'Thailand', 'Togo', 'Tonga', 'Trinidad & Tobago', 'Turkey', 'U.S. Virgin Islands', 'USSR', 'Uganda', 'Ukraine', 'United Arab Emirates', 'United Kingdom', 'United States', 'Uruguay', 'Uzbekistan', 'Venezuela', 'Vietnam', 'Wales', 'West Indies, n.s.', 'Yemen', 'Yugoslavia', 'Zaire', 'Zambia', 'Zimbabwe']
-
-
-
-HHID2 - Household ID 2
-    Notes: Second piece of CPS unique household identifier. Created for months between January 1994 and May 2004, from HRSAMPLE, HRSERSUF, and HUHHNUM, otherwise derived from HRHHID2
-    Data types: ['uint32', 'int64', 'int32']
-    Available from: 1994-01 to: 2019-03
-    Breaks in dtype: [Timestamp('2004-01-01 00:00:00'), Timestamp('2005-01-01 00:00:00')]
-    Value range: 
-None to None
 
 
 
@@ -657,29 +565,19 @@ OCCURNUM - Unique person number
 
 
 
-CPSID - Unique household ID
-    Notes: Manually created unique household ID that includes household start month and household number for start month. Can be used to match houeseholds over time. 
-    Data types: ['float64', 'int64']
-    Available from: 1995-01 to: 2019-03
-    Breaks in dtype: [Timestamp('1998-01-01 00:00:00')]
-    Value range: 
-None to None
-
-
-
 COUNTY - County
     Notes: U.S. county code, derived from GECO and GTCO
     Data types: ['category']
-    Available from: 1995-01 to: 2019-03
+    Available from: 1995-09 to: 2019-03
     Value range: 
-[-32588, -27988, -27388, -23188, -21588, -21388, -17588, -16988, -14512, -14485, -10485, -485, 0, 106, 109, 110, 111, 112, 115, 123, 125, 134, 135, 137, 301, 304, 310, 315, 324, 327, 332, 334, 342, 508, 509, 510, 512, 522, 523, 524, 525, 526, 534, 536, 706, 734, 742, 745, 909, 912, 925, 934, 947, 955, 1112, 1123, 1133, 1134, 1142, 1153, 1304, 1306, 1308, 1319, 1324, 1325, 1333, 1334, 1335, 1336, 1342, 1351, 1408, 1501, 1504, 1509, 1512, 1513, 1521, 1524, 1525, 1533, 1553, 1706, 1724, 1725, 1733, 1734, 1738, 1741, 1742, 1904, 1906, 1912, 1918, 1922, 1923, 1929, 1934, 1942, 2002, 2104, 2112, 2124, 2125, 2126, 2134, 2137, 2142, 2325, 2334, 2339, 2504, 2506, 2512, 2524, 2525, 2526, 2534, 2539, 2555, 2704, 2724, 2725, 2734, 2736, 2906, 2934, 2936, 2939, 2941, 2942, 2948, 3106, 3108, 3124, 3132, 3134, 3140, 3312, 3322, 3324, 3353, 3508, 3534, 3539, 3553, 3706, 3727, 3734, 3906, 3918, 3934, 3941, 3948, 3954, 4106, 4108, 4134, 4139, 4145, 4148, 4151, 4324, 4341, 4342, 4513, 4515, 4520, 4535, 4539, 4542, 4545, 4706, 4729, 4736, 4926, 4935, 4939, 4942, 4949, 5122, 5137, 5142, 5145, 5306, 5312, 5327, 5349, 5353, 5506, 5515, 5516, 5531, 5536, 5542, 5712, 5713, 5718, 5737, 5739, 5753, 5906, 5908, 5936, 5951, 5955, 6106, 6112, 6136, 6139, 6148, 6153, 6313, 6318, 6322, 6345, 6353, 6355, 6506, 6706, 6713, 6721, 6736, 6737, 6753, 6908, 6912, 6936, 7106, 7112, 7122, 7129, 7136, 7142, 7301, 7306, 7322, 7353, 7355, 7506, 7526, 7536, 7706, 7713, 7753, 7906, 7945, 7955, 8101, 8106, 8112, 8118, 8126, 8136, 8142, 8306, 8312, 8345, 8346, 8506, 8512, 8515, 8536, 8539, 8542, 8612, 8706, 8736, 8751, 8901, 8906, 8913, 8918, 8936, 8939, 8942, 9112, 9117, 9118, 9120, 9136, 9142, 9145, 9326, 9339, 9347, 9506, 9512, 9518, 9529, 9539, 9701, 9706, 9712, 9713, 9717, 9737, 9906, 9912, 9917, 9926, 9929, 9946, 10108, 10112, 10142, 10155, 10312, 10319, 10322, 10336, 10339, 10512, 10515, 10518, 10555, 10706, 10742, 10751, 10912, 10931, 10939, 11106, 11112, 11117, 11121, 11130, 11136, 11306, 11312, 11313, 11317, 11319, 11339, 11348, 11512, 11517, 11526, 11701, 11712, 11713, 11721, 11905, 11917, 11936, 11937, 12113, 12126, 12308, 12327, 12501, 12526, 12542, 12547, 12712, 12718, 12937, 12942, 13337, 13339, 13342, 13513, 13548, 13727, 13913, 13926, 13927, 13948, 13955, 14118, 14148, 14340, 14526, 14726, 14737, 15113, 15313, 15319, 15331, 15339, 15351, 15515, 15537, 15748, 15937, 16126, 16317, 16319, 16326, 16327, 16539, 16547, 16748, 16939, 17127, 17320, 17720, 17751, 17917, 17937, 17951, 18148, 18337, 18348, 18747, 18929, 18947, 19137, 21548, 22313, 25148, 30348, 30948]
+[0, 106, 109, 110, 111, 112, 115, 123, 125, 134, 135, 137, 301, 304, 310, 315, 324, 327, 332, 334, 342, 508, 509, 510, 512, 522, 523, 524, 525, 526, 534, 536, 706, 734, 742, 745, 909, 912, 925, 934, 947, 955, 1112, 1123, 1133, 1134, 1142, 1153, 1304, 1306, 1308, 1319, 1324, 1325, 1333, 1334, 1335, 1336, 1342, 1351, 1408, 1501, 1504, 1509, 1512, 1513, 1521, 1524, 1525, 1533, 1553, 1706, 1724, 1725, 1733, 1734, 1738, 1741, 1742, 1904, 1906, 1912, 1918, 1922, 1923, 1929, 1934, 1942, 2002, 2104, 2112, 2124, 2125, 2126, 2134, 2137, 2142, 2325, 2334, 2339, 2504, 2506, 2512, 2524, 2525, 2526, 2534, 2539, 2555, 2704, 2724, 2725, 2734, 2736, 2906, 2934, 2936, 2939, 2941, 2942, 2948, 3106, 3108, 3124, 3132, 3134, 3140, 3312, 3322, 3324, 3353, 3508, 3534, 3539, 3553, 3706, 3727, 3734, 3906, 3918, 3934, 3941, 3948, 3954, 4106, 4108, 4134, 4139, 4145, 4148, 4151, 4324, 4341, 4342, 4513, 4520, 4535, 4539, 4542, 4545, 4706, 4729, 4736, 4926, 4935, 4939, 4942, 4949, 5122, 5137, 5142, 5145, 5306, 5312, 5327, 5349, 5353, 5506, 5516, 5531, 5536, 5542, 5712, 5713, 5718, 5737, 5739, 5753, 5906, 5908, 5936, 5951, 5955, 6106, 6112, 6136, 6139, 6148, 6153, 6313, 6318, 6322, 6345, 6353, 6355, 6506, 6706, 6713, 6721, 6736, 6737, 6753, 6908, 6912, 6936, 7106, 7112, 7122, 7129, 7136, 7142, 7301, 7306, 7322, 7353, 7355, 7506, 7526, 7536, 7706, 7713, 7753, 7906, 7945, 7955, 8101, 8106, 8112, 8118, 8126, 8136, 8142, 8306, 8312, 8345, 8346, 8506, 8512, 8536, 8539, 8542, 8612, 8706, 8736, 8751, 8901, 8906, 8913, 8918, 8936, 8939, 8942, 9112, 9117, 9118, 9120, 9136, 9142, 9145, 9326, 9339, 9347, 9506, 9512, 9518, 9529, 9539, 9701, 9706, 9712, 9713, 9717, 9737, 9906, 9912, 9917, 9926, 9929, 9946, 10108, 10112, 10142, 10155, 10312, 10319, 10322, 10336, 10339, 10512, 10518, 10555, 10706, 10742, 10751, 10912, 10931, 10939, 11106, 11112, 11117, 11121, 11130, 11136, 11306, 11312, 11313, 11317, 11319, 11339, 11348, 11512, 11517, 11526, 11701, 11712, 11713, 11721, 11905, 11917, 11936, 11937, 12113, 12126, 12308, 12327, 12501, 12526, 12542, 12547, 12712, 12718, 12937, 12942, 13337, 13339, 13342, 13513, 13548, 13727, 13913, 13926, 13927, 13948, 13955, 14118, 14148, 14340, 14526, 14726, 14737, 15113, 15313, 15319, 15331, 15339, 15351, 15537, 15748, 15937, 16126, 16317, 16319, 16326, 16327, 16539, 16547, 16748, 16939, 17127, 17320, 17720, 17751, 17917, 17937, 17951, 18148, 18337, 18348, 18747, 18929, 18947, 19137, 21548, 22313, 25148, 30348, 30948, 32948, 37548, 38148, 42348, 43948, 44148, 47948, 48548, 51024, 51051, 55051, 65051, 70051, 71051, 74051, 76051, 81051]
 
 
 
 PRCHLD - Own children ages
     Notes: Age group of own children, following original CPS coding for variable of the same name.
     Data types: ['int8']
-    Available from: 1999-01 to: 2019-03
+    Available from: 1999-11 to: 2019-03
     Value range: 
 [-1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 
@@ -688,7 +586,7 @@ PRCHLD - Own children ages
 PRNMCHLD - Number of own children
     Notes: Number of own children.
     Data types: ['int8']
-    Available from: 1999-01 to: 2019-03
+    Available from: 1999-11 to: 2019-03
     Value range: 
 [-1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 
@@ -814,7 +712,7 @@ WBHAOM - Race/ethnic group
 CBSA - Center-based statistical area
     Notes: Similar to metro area.
     Data types: ['category']
-    Available from: 2004-01 to: 2019-03
+    Available from: 2004-05 to: 2019-03
     Value range: 
 [0, 460, 3000, 3160, 3610, 3720, 6450, 10180, 10420, 10500, 10580, 10740, 10900, 11020, 11100, 11260, 11300, 11340, 11460, 11500, 11540, 11700, 12020, 12060, 12100, 12220, 12260, 12420, 12540, 12580, 12620, 12700, 12940, 12980, 13140, 13380, 13460, 13740, 13780, 13820, 13980, 14010, 14020, 14060, 14260, 14460, 14500, 14540, 14740, 14860, 15180, 15380, 15500, 15540, 15680, 15940, 15980, 16060, 16300, 16540, 16580, 16620, 16700, 16740, 16820, 16860, 16980, 17020, 17140, 17300, 17420, 17460, 17660, 17780, 17820, 17860, 17900, 17980, 18140, 18580, 19100, 19300, 19340, 19380, 19460, 19500, 19660, 19740, 19780, 19820, 20100, 20260, 20500, 20700, 20740, 20940, 21140, 21340, 21500, 21660, 21780, 22020, 22140, 22180, 22220, 22420, 22460, 22500, 22520, 22660, 22900, 23020, 23060, 23420, 23540, 23580, 24020, 24140, 24340, 24540, 24580, 24660, 24780, 24860, 25060, 25180, 25260, 25420, 25500, 25540, 25860, 25940, 26100, 26180, 26380, 26420, 26580, 26620, 26820, 26900, 26980, 27100, 27140, 27260, 27340, 27500, 27740, 27780, 27900, 27980, 28020, 28100, 28140, 28420, 28660, 28700, 28740, 28940, 29100, 29180, 29200, 29340, 29460, 29540, 29620, 29700, 29740, 29820, 29940, 30020, 30340, 30460, 30700, 30780, 30980, 31020, 31080, 31100, 31140, 31180, 31340, 31420, 31460, 31540, 31700, 31740, 32580, 32780, 32820, 32900, 33100, 33140, 33260, 33340, 33460, 33660, 33700, 33740, 33780, 33860, 34060, 34580, 34740, 34820, 34900, 34940, 34980, 35300, 35380, 35620, 35660, 35840, 35980, 36100, 36140, 36220, 36260, 36420, 36500, 36540, 36740, 36780, 37100, 37340, 37460, 37860, 37900, 37980, 38060, 38220, 38300, 38860, 38900, 38940, 39100, 39140, 39300, 39340, 39380, 39460, 39540, 39580, 39740, 39820, 39900, 40060, 40140, 40220, 40380, 40420, 40900, 40980, 41060, 41100, 41180, 41420, 41500, 41540, 41620, 41700, 41740, 41860, 41940, 42020, 42060, 42100, 42140, 42200, 42220, 42260, 42340, 42540, 42660, 43300, 43340, 43620, 43780, 43900, 44060, 44100, 44140, 44180, 44220, 44700, 45060, 45220, 45300, 45460, 45780, 45820, 45940, 46060, 46140, 46220, 46340, 46520, 46540, 46660, 46700, 46940, 47020, 47220, 47260, 47300, 47380, 47580, 47900, 47940, 48060, 48140, 48540, 48620, 48660, 48700, 48900, 49020, 49180, 49340, 49420, 49620, 49660, 49700, 49740, 70750, 70900, 71650, 71950, 72400, 72850, 73450, 74500, 74950, 75550, 75700, 76450, 76750, 77200, 77350, 78100, 78700, 79600]
 
@@ -823,7 +721,7 @@ CBSA - Center-based statistical area
 CSA - Consolidated statistical area
     Notes: Grouping of nearby metro areas.
     Data types: ['category']
-    Available from: 2004-01 to: 2019-03
+    Available from: 2004-05 to: 2019-03
     Value range: 
 [0, 104, 106, 118, 122, 148, 162, 168, 170, 174, 176, 178, 184, 194, 206, 212, 216, 220, 238, 240, 260, 266, 268, 272, 273, 276, 278, 288, 290, 294, 304, 310, 340, 348, 356, 357, 370, 376, 378, 380, 382, 408, 422, 428, 438, 440, 450, 472, 482, 488, 500, 515, 518, 546, 548, 715, 720]
 
@@ -832,7 +730,7 @@ CSA - Consolidated statistical area
 DISABILITY - Disability
     Notes: Indicates if person is has any of six disabilities: difficulty hearing, difficulty seeing even with glasses, difficulty remembering or making decisions, difficulty walking or climbing stairs, difficulty dressing or bathing, or difficulty doing errands alone. Includes data covering June to December 2008 that is released separately by Census. Derived from PRDISFLG.
     Data types: ['category']
-    Available from: 2008-01 to: 2019-03
+    Available from: 2008-06 to: 2019-03
     Value range: 
 [0, 1]
 
