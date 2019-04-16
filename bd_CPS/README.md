@@ -1,7 +1,7 @@
 # bd CPS
 ## BD Economics Current Population Survey Extract
 
-v0.3, updated: April 14, 2019
+v0.3, updated: April 16, 2019
 
 Working with Current Population Survey (CPS) public use microdata using jupyter notebooks and python.
 
@@ -89,7 +89,9 @@ To include an additional CPS variable in your local version of the bd CPS extrac
 
 ### bd CPS variables
 
-The bd CPS contains several variables that are recodes of other CPS variables or combinations of CPS data and outside data. The two most important examples of this are the labor force status (`LFS`) and the real wage variables (`RHRWAGE` and `RWKWAGE`). *NEW* The bd CPS now includes a [codebook](https://github.com/bdecon/econ_data/blob/master/bd_CPS/codebook.txt) that shows which variables are available for which dates, and what values the variables include. 
+The bd CPS contains several variables that are recodes of other CPS variables or combinations of CPS data and outside data. The two most important examples of this are the labor force status (`LFS`) and the real wage variables (`RHRWAGE` and `RWKWAGE`). 
+
+*NEW* The bd CPS now includes a [codebook](https://github.com/bdecon/econ_data/blob/master/bd_CPS/codebook.txt) that shows which variables are available for which dates, and what values the variables include. 
 
 Details on selected bd CPS variables are as follows:
 
@@ -121,6 +123,8 @@ Details on selected bd CPS variables are as follows:
 * `PTECON` - binary variable equal to 1 if usually part-time for economic reasons and otherwise 0.
 * `WORKFT` - equal to one if person worked full time during the reference week (35 hours or more) regardless of whether they usually work full-time.
 * `PRNMCHLD` - number of own children under age 18 (available November 1999-onward).
+* *NEW* `NCHILDU18` - number of own children under age 18 in household (available for all years--calculated from family relationship variables).
+* *NEW* `NCHILDU5` - number of own children under age 5 in household (available for all years--calculated from family relationship variables).
 * `DISABILITY` - binary equal to one if person has any of six disabilities (available June 2008 onward).
 * `CPSID` - unique household ID (available 1998-onward; OPTIONAL - run the reader, run `bd_CPS_id` and then re-run the reader, to add the `CPSID`).
 * `BASICWGT` - weight equal to `PWSSWGT` before 1998 and `PWCMPWGT` after. The weight variables use the 2000-based revised weights for the years 2000-2002 and the December 2007 revised weights.
