@@ -338,8 +338,8 @@ BASICWGT - Basic weight
 
 
 
-PWORWGT - Female
-    Notes: Person weight for outgoing rotation group variables, such as wage or hours or union membership. ORG weight for 2000-2002 is revised based on Census released 2000-based weights.
+PWORWGT - Outgoing Rotation Group Weight
+    Notes: Person weight for outgoing rotation group (MIS 4 or 8) variables, such as wage or hours or union membership. ORG weight for 2000-2002 is revised based on Census released 2000-based weights. 
     Data types: ['float32', 'float64']
     Available from: 1989-01 to: 2019-03
     Breaks in dtype: [Timestamp('2000-01-01 00:00:00')]
@@ -429,7 +429,8 @@ HRSACT2 - Actual hours, job 2
 
 
 
-PRFTLF
+PRFTLF - Full-time labor force
+    Notes: Equal to 1 if full-time labor force and otherwise 2. Can be assigned for persons who are part-time.
     Data types: ['category']
     Available from: 1994-01 to: 2019-03
     Value range: 

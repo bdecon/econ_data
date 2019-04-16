@@ -625,11 +625,12 @@ CodebookNotes = {'MONTH': {'Notes': 'Survey reference month. Original CPS variab
                           'Name': 'Real hourly wage'},
                   'BASICWGT': {'Notes': 'Basic person weight, equal to the composite weight where available (1998-onward). Basic weight for 2000-2002 is revised based on Census released 2000-based weights and based on revised December 2007 weights from Census.',
                           'Name': 'Basic weight'},
-                  'PWORWGT': {'Notes': 'Person weight for outgoing rotation group variables, such as wage or hours or union membership. ORG weight for 2000-2002 is revised based on Census released 2000-based weights.',
-                          'Name': 'Female'},
+                  'PWORWGT': {'Notes': 'Person weight for outgoing rotation group (MIS 4 or 8) variables, such as wage or hours or union membership. ORG weight for 2000-2002 is revised based on Census released 2000-based weights. ',
+                          'Name': 'Outgoing Rotation Group Weight'},
                   'PROXY': {'Notes': 'Identifies whether labor force information was collected by self, by proxy response, or both. Derived from PUSLFPRX.', 'Name': 'Proxy response'},
                   'MJH': {'Notes': 'Indicates if person has more than one job. Derived from PRSJMJ.',
-                          'Name': 'Multiple jobholder'}}
+                          'Name': 'Multiple jobholder'},
+                  'PRFTLF': {'Name': 'Full-time labor force', 'Notes': 'Equal to 1 if full-time labor force and otherwise 2. Can be assigned for persons who are part-time.'}}
                         
 
 ValueLabels = {'OCC': {10: 'Chief executives',
