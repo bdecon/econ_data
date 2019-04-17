@@ -5,7 +5,7 @@
 
 ========================
 
-updated: April 16, 2019
+updated: April 17, 2019
 
 variables:
 
@@ -393,6 +393,22 @@ PRDTRACE - Race/ethnicity
 
 
 
+PRFAMNUM
+    Data types: ['int8']
+    Available from: 1994-01 to: 2019-03
+    Value range: 
+[-1, 0, 1, 2, 3, 4, 5, 6]
+
+
+
+PRFAMREL
+    Data types: ['int8']
+    Available from: 1994-01 to: 2019-03
+    Value range: 
+[-1, 0, 1, 2, 3, 4]
+
+
+
 HRSUSL2 - Usual hours, job 2
     Notes: Number of hours usually worked, per week, at second job
     Data types: ['int8']
@@ -489,6 +505,14 @@ OCC280M - Major occupation, job 2
     Available from: 1994-01 to: 2002-12
     Value range: 
 [-1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+
+
+
+PWFMWGT
+    Data types: ['float32']
+    Available from: 1994-01 to: 2019-03
+    Value range: 
+31.683500289916992 to 34716.20703125
 
 
 
