@@ -5,7 +5,7 @@
 
 ========================
 
-updated: April 17, 2019
+updated: April 20, 2019
 
 variables:
 
@@ -37,7 +37,7 @@ PULINENO - Person line number
 
 
 AGE - Age
-    Notes: Person age, topcoded at 80. Original CPS variable: PRTAGE, PEAGE
+    Notes: Person age, topcoded at 80. Original CPS variables: PRTAGE, PEAGE
     Data types: ['int8']
     Available from: 1989-01 to: 2019-03
     Value range: 
@@ -276,7 +276,7 @@ COW1 - Class of worker 1
 
 
 UNEMPTYPE - Unemployment type
-    Notes: Type of unemployment: job loser/on layoff, job leaver, re-entrant, or new entrant.
+    Notes: Type of unemployment: job loser/on layoff, job leaver, re-entrant, or new entrant. Derived from PRUNTYPE for 1994-onward and A-UNTYPE for 1989-93.
     Data types: ['category']
     Available from: 1989-01 to: 2019-03
     Value range: 
@@ -349,7 +349,7 @@ PWORWGT - Outgoing Rotation Group Weight
 
 
 NCHILDU18 - Number of own children under 18
-    Notes: Number of own children under age 18 (age 0-17).
+    Notes: Number of own children under age 18 (age 0-17). Derived from family relationship variables PESPOUSE and PEPARENT (A-SPOUSE, A-PARENT for 1989-93).
     Data types: ['int8']
     Available from: 1989-01 to: 2019-03
     Value range: 
@@ -358,7 +358,7 @@ NCHILDU18 - Number of own children under 18
 
 
 NCHILDU5 - Number of own children under 5
-    Notes: Number of own children under age 5 (age 0-4).
+    Notes: Number of own children under age 5 (age 0-4). Derived from family relationship variables PESPOUSE and PEPARENT (A-SPOUSE, A-PARENT for 1989-93).
     Data types: ['int8']
     Available from: 1989-01 to: 2019-03
     Value range: 
