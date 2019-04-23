@@ -1,7 +1,7 @@
 # bd CPS
 ## BD Economics Current Population Survey Extract
 
-v0.3, updated: April 16, 2019
+v0.3, updated: April 22, 2019
 
 Working with Current Population Survey (CPS) public use microdata using jupyter notebooks and python.
 
@@ -57,9 +57,9 @@ The above arbitrary example calculates how many age 25-54 people are in each of 
 
 ### Overview
 
-**UPDATE: v0.3 released.** The bd CPS is a series of jupyter notebooks I wrote to work with monthly Current Population Survey public use microdata. If the notebooks, or any part of them, could be helpful to you, please feel free to use them or modify them in any way. When set up correctly, the notebooks generate annual [feather](https://github.com/wesm/feather) files, for the years from 1989-present, which contain cleaned-up partial extracts of CPS data. The microdata files can be downloaded from the [US Census Bureau's CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). 
+**UPDATE: v0.3 released.** The bd CPS is a series of jupyter notebooks I wrote to work with monthly Current Population Survey public use microdata. If the notebooks, or any part of them, could be helpful to you, please feel free to use them or modify them in any way. When set up correctly, the notebooks generate annual [feather](https://github.com/wesm/feather) files, for the years from 1989-present, which contain cleaned-up partial extracts of basic monthly CPS data. The raw source microdata files and data dictionaries can be downloaded from the [US Census Bureau's CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). 
 
-The notebooks include:
+The bd CPS notebooks include:
 
 1) `bd_CPS_dd.ipynb` reads settings from bd_CPS_details.py and creates a python dictionary with information needed to read the raw CPS microdata files in the next step, and adjust them to be more time consistent and useful. The program requires downloading the CPS data dictionary text files from the FTP page. 
 
@@ -67,13 +67,13 @@ The notebooks include:
 
 3) `bd_CPS_1989-93.ipynb` creates partial extracts for 1989-93. It is a work in progress, but creates many variables that are consistent with those in the 1994-onward extracts.
 
-Settings and other required code are also contained in the python file bd_CPS_details.py. There is additionally a notebook that downloads regional consumer price index data from BLS (used as the price deflator for real wage series), as well as a notebook that benchmarks the bd CPS results against four BLS published estimates. If you want to see examples of how to use bd CPS data, the [benchmarks](https://github.com/bdecon/econ_data/blob/master/micro/bd_CPS_benchmark.ipynb) provide several nice examples.
+Settings and other required code are also contained in the python file bd_CPS_details.py. There is additionally a notebook that downloads regional consumer price index data from BLS (used as the price deflator for real wage series), as well as a separate notebook that generates a unique (over time) household ID for CPS households from mid-1995 onward.
 
 <a name="directions"/>
 
 ### How to run/ update
 
-Sometime in the middle of each month, the Census Bureau will release the previous month's CPS public use microdata in a compressed file on the [US CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). The full set of 1994 onward monthly microdata files are available to download on the FTP page. NBER [hosts](https://www.nber.org/data/cps_basic.html) the 1989 to 1993 files. For the bd CPS program to work, a local folder must contain the relevant uncompressed CPS microdata files. Next, the data dictionary files that correspond to each microdata file should be downloaded and stored in the same folder as the microdata. Separately, to adjust wages for inflation the CPI for each of four US regions should be downloaded using the notebook `bd_CPS_cpi.ipynb` (requires a [free BLS API key](https://data.bls.gov/registrationEngine/)). 
+Sometime in the middle of each month, the Census Bureau will release the previous month CPS public use microdata in a compressed file on the [US CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). The full set of 1994 onward monthly microdata files are available to download on the FTP page. NBER [hosts](https://www.nber.org/data/cps_basic.html) the 1989 to 1993 files. For the bd CPS program to work, a local folder must contain the relevant uncompressed CPS microdata files. Next, the data dictionary files that correspond to each microdata file should be downloaded and stored in the same folder as the microdata. Separately, to adjust wages for inflation the CPI for each of four US regions should be downloaded using the notebook `bd_CPS_cpi.ipynb` (requires a [free BLS API key](https://data.bls.gov/registrationEngine/)). 
 
 The first step in generating the bd CPS is to run the data dictionary generator, which creates a pickled python dictionary that provides information needed for reading the raw monthly CPS microdata files. This is done by running the notebook called `bd_CPS_dd.ipynb`. To run the bd CPS for 2000, 2001, and 2002, which utilize revised 2000-based weights and revised union data, or for December 2007, which uses revised weights, or for 2015-16, which uses separate data to identify persons with professional certifications, you'll also need to download and unzip the related source files and run `bd_CPS_revisions_reader.ipynb`.
 
@@ -133,7 +133,7 @@ Details on selected bd CPS variables are as follows:
 
 ### Long-term road map 
 
-A crude long-term road map includes the following: refactoring for speed; much expanded graphing capabilities; using external sources (for example O*Net data) to create new variables; enhanced documentation; and more. See [active issues](https://github.com/bdecon/econ_data/issues) on the project's github repo.
+The following items are included in the proposed version 1.0: Cleaned-up industry, occupation, and geography codes, complete coverage for CPSID, new CPSIDP for persons within households, new longitudinal weights, and CPI data without an API key. I'd love help, comments, or suggestions. See [active issues](https://github.com/bdecon/econ_data/issues) on the project's github repo.
 
 Separately, if someone is willing to fund some server space, I would *really* like to put the actual bd_CPS data online. This would make it possible for people to easily use the fruits of my labor, which, I think, make CPS analysis much easier. Please contact me if you might want to chip in for this (brian.w.dew@gmail.com).
 
@@ -141,7 +141,7 @@ Separately, if someone is willing to fund some server space, I would *really* li
 
 ### Acknowlegements
 
-Many many thanks to John Schmitt for countless hours of kind and patient guidance. Many thanks to the staff and management of CEPR for giving me the chance to learn about the CPS. Thanks to EPI, and Ben Zipperer in particular, for providing very helpful documentation. Thanks to NBER, FRBATL, FRBKC, IPUMS, Urban Institute, Tom Augspurger, and of course the wonderful staff of BLS and Census, for making analysis of the CPS possible for normal people like me, by providing useful information. 
+Many many thanks to John Schmitt for countless hours of kind and patient guidance. Many thanks to the staff and management of CEPR for giving me the chance to learn about the CPS. Thanks to EPI, and Ben Zipperer in particular, for providing very helpful documentation. Thanks to NBER, FRBATL, FRBKC, IPUMS, Urban Institute, Tom Augspurger, and staff of BLS and Census, for making analysis of the CPS easier by putting helpful information online. 
 
 <a name="contact"/>
 

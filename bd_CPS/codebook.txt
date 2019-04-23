@@ -5,7 +5,7 @@
 
 ========================
 
-updated: April 20, 2019
+updated: April 22, 2019
 
 variables:
 
@@ -42,14 +42,6 @@ AGE - Age
     Available from: 1989-01 to: 2019-03
     Value range: 
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80]
-
-
-
-MAJACT
-    Data types: ['int8']
-    Available from: 1989-01 to: 1993-12
-    Value range: 
-[-1, 0, 1, 2, 3, 4, 5, 6, 7, 8]
 
 
 
@@ -91,36 +83,12 @@ OCC80 - Occupation, main job
 
 
 
-WANTJB
-    Data types: ['int8']
-    Available from: 1989-01 to: 1993-12
-    Value range: 
-[-1, 0, 1, 2, 3, 4]
-
-
-
 HRSUSL1 - Usual hours worked, main job
     Notes: Usual hours worked at main job, per week.
     Data types: ['int8']
     Available from: 1989-01 to: 2019-03
     Value range: 
 [-4, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
-
-
-
-LFSR
-    Data types: ['int8']
-    Available from: 1989-01 to: 1993-12
-    Value range: 
-[-1, 0, 1, 2, 3, 4, 5, 6, 7]
-
-
-
-NLFREA
-    Data types: ['int8']
-    Available from: 1989-01 to: 1993-12
-    Value range: 
-[-1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 
 
 
@@ -160,24 +128,8 @@ OCC80D - Detailed occupation, main job
 
 
 
-FNLWGT
-    Data types: ['int32']
-    Available from: 1989-01 to: 1993-12
-    Value range: 
-8855 to 1679529
-
-
-
-ERNLWT
-    Data types: ['int32']
-    Available from: 1989-01 to: 1993-12
-    Value range: 
--1 to 5861842
-
-
-
 EDUC - Education level
-    Notes: Highest level of education attained: Advanced degree, college degree, some college but no degree or associate degree, high school degree, less than high school degree. Some assumptions are made to create this variable for pre-1992 data, using highest grade completed and highest graded attended, since the highest degree completed information is unavailable.
+    Notes: Highest level of education attained: Advanced degree, college degree, some college but no degree or associate degree, high school degree, less than high school degree. Some assumptions are made to create this variable for pre-1992 data, using highest grade completed and highest graded attended, since the highest degree completed information is unavailable. To see the mapping of HGC (highest grade attained) and HGC (highest grade completed) to EDUC for 1989-91, see bd_CPS_1989-93.ipynb. For 1992 and 1993, the data comes from A-HGA. For 1994-onward, derived from PEEDUCA.
     Data types: ['category']
     Available from: 1989-01 to: 2019-03
     Value range: 
@@ -248,15 +200,6 @@ MARRIED - Married
 
 
 
-EMP - Employed
-    Notes: Indicates if someone is employed, for any hours.
-    Data types: ['category']
-    Available from: 1989-01 to: 1993-12
-    Value range: 
-[0, 1]
-
-
-
 LFS - Labor force status
     Notes: Indicates whether someone is employed, unemployed, or not in the labor force (NILF).
     Data types: ['category']
@@ -303,7 +246,7 @@ WORKFT - Worked full-time
 
 
 UNION - Union
-    Notes: Indicates if person is covered by a union contract or similar collective bargaining agreement. Uses revised data for 2001 and 2002, provided by Census. Derived from PEERNLAB and PEERNCOV.
+    Notes: Indicates if person is covered by a union contract or similar collective bargaining agreement. Uses revised data for 2001 and 2002, provided by Census. Derived from PEERNLAB and PEERNCOV. Only assigned for persons in the outgoing rotation group (MIS = 4 | 8); use with PWORWGT.
     Data types: ['category']
     Available from: 1989-01 to: 2019-03
     Value range: 
@@ -312,7 +255,7 @@ UNION - Union
 
 
 UNIONMEM - Union member
-    Notes: Indicates if person is a member of a union or similar employee association. Uses revised data for 2001 and 2002, provided by Census. Derived from PEERNLAB.
+    Notes: Indicates if person is a member of a union or similar employee association. Uses revised data for 2001 and 2002, provided by Census. Derived from PEERNLAB. Only assigned for persons in the outgoing rotation group (MIS = 4 | 8); use with PWORWGT.
     Data types: ['category']
     Available from: 1989-01 to: 2019-03
     Value range: 
@@ -390,22 +333,6 @@ PRDTRACE - Race/ethnicity
     Available from: 1994-01 to: 2019-03
     Value range: 
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
-
-
-
-PRFAMNUM
-    Data types: ['int8']
-    Available from: 1994-01 to: 2019-03
-    Value range: 
-[-1, 0, 1, 2, 3, 4, 5, 6]
-
-
-
-PRFAMREL
-    Data types: ['int8']
-    Available from: 1994-01 to: 2019-03
-    Value range: 
-[-1, 0, 1, 2, 3, 4]
 
 
 
@@ -508,14 +435,6 @@ OCC280M - Major occupation, job 2
 
 
 
-PWFMWGT
-    Data types: ['float32']
-    Available from: 1994-01 to: 2019-03
-    Value range: 
-31.683500289916992 to 34716.20703125
-
-
-
 PWLGWGT - Longitudinal person weight
     Notes: Person weight for matching month to month CPS observations.
     Data types: ['float32']
@@ -563,9 +482,8 @@ PROXY - Proxy response
 
 COW2 - Class of worker 2
     Notes: Class of worker on second job. Derived from PEIO2COW.
-    Data types: ['category', 'object']
+    Data types: ['category']
     Available from: 1994-01 to: 2019-03
-    Breaks in dtype: [Timestamp('1995-01-01 00:00:00')]
     Value range: 
 ['Federal Government', 'Local Government', 'Private', 'Self-employed Incorporated', 'Self-employed Unincorporated', 'State Government', 'Without Pay', 'nan']
 
