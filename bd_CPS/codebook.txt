@@ -408,7 +408,7 @@ OCCURNUM - Unique person number
 
 
 CPSID - Unique household ID
-    Notes: Manually created unique household ID that includes household start month and household number for start month. Can be used to match houeseholds over time. Derived by bd_CPS_id.ipynb.
+    Notes: Manually created unique household ID that includes household start month and household number for start month. Can be used to match houeseholds over time. Applies only to the bd CPS, since the households matched prior to 1989 have January 1989 as the first part of their ID. Also, currently includes a gap in 1994-1995. Derived by bd_CPS_id.ipynb.
     Data types: ['int64', 'float64']
     Available from: 1989-01 to: 2019-03
     Breaks in dtype: [Timestamp('1995-05-01 00:00:00')]

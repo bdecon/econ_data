@@ -545,7 +545,7 @@ CodebookNotes = {'MONTH': {'Notes': 'Survey reference month. Original CPS variab
                               'Name': 'Unique household number'},
                   'OCCURNUM': {'Notes': 'Person number within household and current month. Created for months from January 1994 to December 2007.',
                               'Name': 'Unique person number'},
-                  'CPSID': {'Notes': 'Manually created unique household ID that includes household start month and household number for start month. Can be used to match houeseholds over time. Derived by bd_CPS_id.ipynb.',
+                  'CPSID': {'Notes': 'Manually created unique household ID that includes household start month and household number for start month. Can be used to match houeseholds over time. Applies only to the bd CPS, since the households matched prior to 1989 have January 1989 as the first part of their ID. Also, currently includes a gap in 1994-1995. Derived by bd_CPS_id.ipynb.',
                               'Name': 'Unique household ID'},
                   'PRCHLD': {'Notes': 'Age group of own children, following original CPS coding for variable of the same name.',
                               'Name': 'Own children ages'},

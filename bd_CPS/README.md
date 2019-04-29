@@ -126,7 +126,7 @@ Details on selected bd CPS variables are as follows:
 * *NEW* `NCHILDU18` - number of own children under age 18 in household (available for all years--calculated from family relationship variables).
 * *NEW* `NCHILDU5` - number of own children under age 5 in household (available for all years--calculated from family relationship variables).
 * `DISABILITY` - binary equal to one if person has any of six disabilities (available June 2008 onward).
-* `CPSID` - unique household ID (available 1998-onward; OPTIONAL - run the reader, run `bd_CPS_id` and then re-run the reader, to add the `CPSID`).
+* `CPSID` - unique (over time, in bd CPS) household ID  (available 1998-onward; OPTIONAL - run the reader, run `bd_CPS_id` and then re-run the reader, to add the `CPSID`).
 * `BASICWGT` - weight equal to `PWSSWGT` before 1998 and `PWCMPWGT` after. The weight variables use the 2000-based revised weights for the years 2000-2002 and the December 2007 revised weights.
 
 <a name="roadmap"/>
