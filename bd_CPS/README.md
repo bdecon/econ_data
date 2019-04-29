@@ -160,6 +160,8 @@ I would really appreciate feedback, especially if you spot an error. I also welc
 
 [FRBATL Labor Market Status Categorization](https://www.frbatlanta.org/chcs/human-capital-currents/2015/0612-measuring-labor-market-status-using-basic-data.aspx)
 
+[FRBKC CPS resources](https://www.kansascityfed.org/research/kcdc/cps)
+
 [FRBKC Psuedocode](https://www.kansascityfed.org/research/kcdc/cps/coreinfo/pseudocode/hrswk)
 
 [US Census Bureau's CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html)
