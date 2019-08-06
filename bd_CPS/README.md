@@ -109,12 +109,12 @@ Details on selected bd CPS variables are as follows:
 * `UNION` - equal to 1 if a union member or covered by a union contract.
 * `UNIONMEM` - equal to 1 if a union member.
 * `CERT` - has a professional certification (available 2015-onward).
-* `STATE` - converstion of state FIPS code to two letter state abbreviation.
+* `STATE` - conversion of state FIPS code to two letter state abbreviation.
 * `REGION` - Census region (Northeast, South, Midwest, West)
-* `CBSA` - center-based statistical area (where defined).
-* `CSA` - consolidated statistical area (where defined).
+* `CBSA` - center-based statistical area (where identified).
+* `CSA` - consolidated statistical area (where identified).
 * `EDUC` - Highest level of education obtained - Maps the educational categories to five groups: Less than high school, High school, Some college, Bachelor degree, Advanced degree.
-* `WBHAO` - race/ethnic group - Each observation is mapped to one of five racial/ethnic groups: White, Black, Hispanic, Asian, and Other. White is white non-Hispanic only, black is any black non-Hispanic, Asian is any Asian but not black and non-Hispanic, Other is Native American, Native Hawaiian, Pacific Islander, and other groups. Hispanic is someone of Hispanic ethncity of any race. 
+* `WBHAO` - race/ethnic group - Each observation is mapped to one of five racial/ethnic groups: White, Black, Hispanic, Asian, and Other. White is white non-Hispanic only, black is any black non-Hispanic, Asian is any Asian but not black and non-Hispanic, Other is Native American, Native Hawaiian, Pacific Islander, and other groups. Hispanic is someone of Hispanic ethnicity of any race. 
 * `WBHAOM` - race/ethnic group - white, non-Hispanic only, black, non-Hispanic only, Asian or Pacific Islander, non-Hispanic only, Native American, non-Hispanic only, persons of more than one racial group but non-Hispanic, and Hispanic, and race/ethnicity. Available 2003 onward, only.
 * `MARRIED` - binary variable equal to 1 if married and otherwise 0.
 * `FORBORN` - binary variable equal to 1 if born outside the US and otherwise 0.
