@@ -5,7 +5,7 @@
 
 ========================
 
-updated: September 14, 2019
+updated: September 21, 2019
 
 variables:
 
@@ -23,6 +23,15 @@ MIS - Month in sample
     Available from: 1989-01 to: 2019-08
     Value range: 
 [1, 2, 3, 4, 5, 6, 7, 8]
+
+
+
+HHWGT
+    Data types: ['float64', 'float32']
+    Available from: 1989-01 to: 2019-08
+    Breaks in dtype: [Timestamp('1994-01-01 00:00:00')]
+    Value range: 
+-9.999999747378752e-05 to 34716.20703125
 
 
 
