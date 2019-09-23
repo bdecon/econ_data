@@ -5,7 +5,7 @@
 
 ========================
 
-updated: September 21, 2019
+updated: September 22, 2019
 
 variables:
 
@@ -26,7 +26,8 @@ MIS - Month in sample
 
 
 
-HHWGT
+HHWGT - Household weight
+    Notes: Household weight, derived from H-HHWGT for 1989-93 and HWHHWGT for 1994 onward.
     Data types: ['float64', 'float32']
     Available from: 1989-01 to: 2019-08
     Breaks in dtype: [Timestamp('1994-01-01 00:00:00')]
@@ -213,6 +214,24 @@ WBHAO - Race/Ethnic Group
     Available from: 1989-01 to: 2019-08
     Value range: 
 ['Asian', 'Black', 'Hispanic', 'Other', 'White']
+
+
+
+WBAO - Race/Ethnic Group
+    Notes: Time-consistent racial/ethnic group: white, black, Asian, or other
+    Data types: ['category']
+    Available from: 1989-01 to: 2019-08
+    Value range: 
+['Asian', 'Black', 'Other', 'White']
+
+
+
+HISPANIC - Hispanic
+    Notes: Equal to 1 if hispanic, otherwise 0.
+    Data types: ['category']
+    Available from: 1989-01 to: 2019-08
+    Value range: 
+[0, 1]
 
 
 
