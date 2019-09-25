@@ -1,7 +1,7 @@
 # bd CPS
 ## BD Economics Current Population Survey Extract
 
-v0.3, updated: April 22, 2019
+v0.3, updated: September 25, 2019
 
 Working with Current Population Survey (CPS) public use microdata using jupyter notebooks and python.
 
@@ -73,7 +73,7 @@ Settings and other required code are also contained in the python file bd_CPS_de
 
 ### How to run/ update
 
-Sometime in the middle of each month, the Census Bureau will release the previous month CPS public use microdata in a compressed file on the [US CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). The full set of 1994 onward monthly microdata files are available to download on the FTP page. NBER [hosts](https://www.nber.org/data/cps_basic.html) the 1989 to 1993 files. For the bd CPS program to work, a local folder must contain the relevant uncompressed CPS microdata files. Next, the data dictionary files that correspond to each microdata file should be downloaded and stored in the same folder as the microdata. Separately, to adjust wages for inflation the CPI for each of four US regions should be downloaded using the notebook `bd_CPS_cpi.ipynb` (requires a [free BLS API key](https://data.bls.gov/registrationEngine/)). 
+Sometime in the middle of each month, the Census Bureau will release the previous month CPS public use microdata in a compressed file on the [US CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). The full set of 1994 onward monthly microdata files are available to download on the FTP page. NBER [hosts](https://www.nber.org/data/cps_basic.html) the 1989 to 1993 files. For the bd CPS program to work, a local folder must contain the relevant uncompressed CPS microdata files. Next, the data dictionary files that correspond to each microdata file should be downloaded and stored in the same folder as the microdata. Separately, to adjust wages for inflation the CPI for each of four US regions should be downloaded using the notebook `bd_CPS_cpi.ipynb` (requires a [free BLS API key](https://data.bls.gov/registrationEngine/)). Version 0.3 of the bd CPS can also generate a unique CPSID for nearly all households after 1994, by running `bd_CPS_id.ipynb`.
 
 The first step in generating the bd CPS is to run the data dictionary generator, which creates a pickled python dictionary that provides information needed for reading the raw monthly CPS microdata files. This is done by running the notebook called `bd_CPS_dd.ipynb`. To run the bd CPS for 2000, 2001, and 2002, which utilize revised 2000-based weights and revised union data, or for December 2007, which uses revised weights, or for 2015-16, which uses separate data to identify persons with professional certifications, you'll also need to download and unzip the related source files and run `bd_CPS_revisions_reader.ipynb`.
 
