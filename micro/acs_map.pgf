@@ -22,7 +22,7 @@
 \begingroup%
 \makeatletter%
 \begin{pgfpicture}%
-\pgfpathrectangle{\pgfpointorigin}{\pgfqpoint{5.499280in}{3.446500in}}%
+\pgfpathrectangle{\pgfpointorigin}{\pgfqpoint{5.541937in}{3.446500in}}%
 \pgfusepath{use as bounding box, clip}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
@@ -34,8 +34,8 @@
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
 \pgfpathmoveto{\pgfqpoint{0.000000in}{0.000000in}}%
-\pgfpathlineto{\pgfqpoint{5.499280in}{0.000000in}}%
-\pgfpathlineto{\pgfqpoint{5.499280in}{3.446500in}}%
+\pgfpathlineto{\pgfqpoint{5.541937in}{0.000000in}}%
+\pgfpathlineto{\pgfqpoint{5.541937in}{3.446500in}}%
 \pgfpathlineto{\pgfqpoint{0.000000in}{3.446500in}}%
 \pgfpathclose%
 \pgfusepath{fill}%
@@ -32102,19 +32102,19 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=4.953898in,y=0.553291in,,base]{\color{textcolor}\setmainfont{Lato}\rmfamily\fontsize{7.000000}{8.400000}\selectfont 33.3\%}%
+\pgftext[x=4.953898in,y=0.553291in,,base]{\color{textcolor}\fontsize{7.000000}{8.400000}\selectfont 33.3\%}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=5.133086in,y=2.087262in,left,base]{\color{textcolor}\setmainfont{Lato}\rmfamily\fontsize{7.000000}{8.400000}\selectfont 58.0\%}%
+\pgftext[x=5.133086in,y=2.087262in,left,base]{\color{textcolor}\fontsize{7.000000}{8.400000}\selectfont 58.0\%}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=5.133086in,y=0.640946in,left,base]{\color{textcolor}\setmainfont{Lato}\rmfamily\fontsize{7.000000}{8.400000}\selectfont 22.4\%}%
+\pgftext[x=5.133086in,y=0.640946in,left,base]{\color{textcolor}\fontsize{7.000000}{8.400000}\selectfont 22.4\%}%
 \end{pgfscope}%
 \end{pgfpicture}%
 \makeatother%
