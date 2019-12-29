@@ -2,7 +2,7 @@
 
 ## BD Economics examples of using economic data Application Programming Interfaces (APIs)
 
-Updated: March 2, 2019
+Updated: December 28, 2019
 
 Contact: Brian Dew, twitter: @bd_econ; email: brian.w.dew@gmail.com
 
@@ -27,6 +27,8 @@ Goal: Retrieve data from several common sources, on demand, without clicking aro
 - [European Central Bank](https://github.com/bdecon/econ_data/blob/master/APIs/ECB.ipynb): Data on government bond yields in selected EU countries. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/ECB.ipynb)
 
 - [FRED](https://github.com/bdecon/econ_data/blob/master/APIs/FRED.ipynb): Collected statistics from the Federal Reserve Bank of Saint Louis. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/FRED.ipynb)
+
+- [Engery Information Administration](https://github.com/bdecon/econ_data/blob/master/APIs/EIA.ipynb): Energy production and consumption data primarily for the US but with some international data. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/EIA.ipynb)
 
 - [International Labour Organization](https://github.com/bdecon/econ_data/blob/master/APIs/ILO.ipynb): Labor statistics for many countries, included harmonized microdata results. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/ILO.ipynb)
 
