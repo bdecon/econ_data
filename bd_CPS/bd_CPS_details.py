@@ -33,7 +33,7 @@ VarList = ['PWORWGT', 'PWCMPWGT', 'PRERNWA', 'PEPARENT', 'PESPOUSE',
            'PUERN2', 'QSTNUM', 'OCCURNUM']
 
 DataDict = {'January_2017_Record_Layout.txt':
-            {'start': '2017-01-01', 'end': '2019-12-01',
+            {'start': '2017-01-01', 'end': '2020-01-01',
              're': f'({"|".join(VarList)})\s+(\d+)\s+.*?\t+.*?(\d\d*).*?(\d\d+)'},
             'January_2015_Record_Layout.txt':
             {'start': '2015-01-01', 'end': '2016-12-31',
