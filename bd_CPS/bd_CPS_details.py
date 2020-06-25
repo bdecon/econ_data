@@ -6,10 +6,10 @@ def text_repl(string_item):
             .replace('HRHHID (partII)', 'HRHHID2').replace('PTERN2', 'PUERN2')
             .replace('PTIO1OCD', 'PEIO1OCD').replace('PUAFEVER', 'PEAFEVER')
             .replace('GECO', 'GTCO').replace('GEMSA', 'MSA').replace('GECMSA', 'CMSA')
-            .replace('GTMSA', 'MSA').replace('GTCMSA', 'CMSA'))
+            .replace('GTMSA', 'MSA').replace('GTCMSA', 'CMSA').replace('PRSJMS', 'PRSJMJ'))
 
 
-VarList = ['PWORWGT', 'PWCMPWGT', 'PRERNWA', 'PEPARENT', 'PESPOUSE',
+VarList = ['PWORWGT', 'PWCMPWGT', 'PRERNWA', 'PEPARENT', 'PESPOUSE', 'PRSJMS',
            'PTERNWA', 'PWSSWGT', 'HRHHID (partII)', 'HWHHWGT', #'HURESPLI',
            'HRHHID2', 'HRYEAR', 'HRYEAR4', 'PRERNHLY', #'HRHTYPE',
            'PTERNHLY', 'HRMONTH', 'PESEX', 'PEMLR', #'PERRP',
@@ -24,7 +24,7 @@ VarList = ['PWORWGT', 'PWCMPWGT', 'PRERNWA', 'PEPARENT', 'PESPOUSE',
            'PEAGE', 'PULINENO', 'PRWNTJOB', 'PEERNLAB', 'PEERNHRO',
            'PRUNEDUR', 'PEHRUSL1', 'PRMARSTA', 'PRCITSHP', 'PRHRUSL',
            'PRDTOCC1', 'PRDTOCC2', 'PRDTIND1', 'PRDTIND2', 
-           'PEHRUSL2', 'PEHRUSLT', 'PEIO2COW',
+           'PEHRUSL2', 'PEHRUSLT', 'PEIO2COW', 'PEPAR2', 'PEPAR2',
            'PEIO1COW', 'PEIO1OCD', 'PEIO2OCD', 'PEIO1ICD', 'PEIO2ICD',
            'HRHHID', 'HRSAMPLE', 'HRSERSUF', 'PTIO1OCD',
            'PRDISFLG', 'PUAFEVER', 'PEAFEVER', 'PECERT1',
@@ -32,8 +32,11 @@ VarList = ['PWORWGT', 'PWCMPWGT', 'PRERNWA', 'PEPARENT', 'PESPOUSE',
            'PESCHENR', 'PRNMCHLD', 'PTERN2', 'PEHRACT2',
            'PUERN2', 'QSTNUM', 'OCCURNUM']
 
-DataDict = {'January_2017_Record_Layout.txt':
-            {'start': '2017-01-01', 'end': '2020-01-01',
+DataDict = {'January_2020_Record_Layout.txt':
+            {'start': '2020-01-01', 'end': '2021-01-01',
+             're': f'({"|".join(VarList)})\s+(\d+)\s+.*?\t+.*?(\d\d*).*?(\d\d+)'},
+            'January_2017_Record_Layout.txt':
+            {'start': '2017-01-01', 'end': '2019-12-01',
              're': f'({"|".join(VarList)})\s+(\d+)\s+.*?\t+.*?(\d\d*).*?(\d\d+)'},
             'January_2015_Record_Layout.txt':
             {'start': '2015-01-01', 'end': '2016-12-31',
