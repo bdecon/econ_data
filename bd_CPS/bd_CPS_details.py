@@ -13,7 +13,7 @@ VarList = ['PWORWGT', 'PWCMPWGT', 'PRERNWA', 'PEPARENT', 'PESPOUSE', 'PRSJMS',
            'PTERNWA', 'PWSSWGT', 'HRHHID (partII)', 'HWHHWGT', #'HURESPLI',
            'HRHHID2', 'HRYEAR', 'HRYEAR4', 'PRERNHLY', #'HRHTYPE',
            'PTERNHLY', 'HRMONTH', 'PESEX', 'PEMLR', #'PERRP',
-           'PENLFRET', 'PENLFACT', 'GESTFIPS', 'PEDWRSN', 'PRFAMNUM', #'PRFAMREL', 
+           'PENLFRET', 'PENLFACT', 'GESTFIPS', 'PEDWRSN', 'PRFAMNUM', 'PRFAMREL', 
            'HRMIS', 'PRFTLF', 'PEERNHRY', 'PWLGWGT', #'PRFAMTYP',
            'PRSJMJ', 'PEEDUCA', 'PENATVTY', 'PUSLFPRX', 'PEHRFTPT',
            'PRWKSTAT', 'PRMJOCC1', 'PRMJOCC2', 'PRMJIND1', 'PRMJIND2', 
@@ -33,6 +33,10 @@ VarList = ['PWORWGT', 'PWCMPWGT', 'PRERNWA', 'PEPARENT', 'PESPOUSE', 'PRSJMS',
            'PUERN2', 'QSTNUM', 'OCCURNUM', 'PRAGNA',
            'PTHR', 'PTWK', 'PRNAGWS']
 
+# Note: January_2020_Record_Layout.txt is a manually edited version of 
+# 2020_Basic_CPS_Public_Use_Record_Layout_plus_IO_Code_list.txt
+# The length of PRNAGWS and PRSJMS is missing and should be 2, so
+# the number 2 is added after PRNAGWS and PRSJMS in the file from census
 DataDict = {'January_2020_Record_Layout.txt':
             {'start': '2020-01-01', 'end': '2021-01-01',
              're': f'({"|".join(VarList)})\s+(\d+)\s+.*?\t+.*?(\d\d*).*?(\d\d+)'},
