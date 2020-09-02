@@ -5,7 +5,7 @@
 
 ========================
 
-updated: August 12, 2020
+updated: September 02, 2020
 
 variables:
 
@@ -306,6 +306,14 @@ UNEMPTYPE - Unemployment type
 
 
 
+LAYOFF
+    Data types: ['category']
+    Available from: 1989-01 to: 2020-07
+    Value range: 
+['Layoff', 'Looking', 'nan']
+
+
+
 PTECON - Part-time for economic reasons
     Notes: Indicates person wants to work full-time but not able to for economic reasons. Derived from PRWKSTAT.
     Data types: ['category']
@@ -481,6 +489,14 @@ PRFAMREL
     Available from: 1994-01 to: 2020-07
     Value range: 
 [-1, 0, 1, 2, 3, 4]
+
+
+
+PEMJNUM
+    Data types: ['int8']
+    Available from: 1994-01 to: 2020-07
+    Value range: 
+[-1, 2, 3, 4]
 
 
 
