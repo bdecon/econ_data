@@ -3,7 +3,7 @@
 ### Tools for Working with Economic Data in Python
 
 [@bd_econ](https://twitter.com/bd_econ)<br>
-*Updated: January 3, 2020*
+*Updated: September 6, 2020*
 
 Off the shelf examples of gathering, cleaning, and storing economic data with Python. Divided into three parts: 1) microdata (basic CPS, CPS-ASEC); 2) economic data APIs; and 3) the bd CPS extract.
 
@@ -31,6 +31,6 @@ Currently includes the following:
 3) [bd CPS](https://github.com/bdecon/econ_data/tree/master/bd_CPS) (a tool for creating harmonized partial extracts from Current Population Survey public use microdata)
 * bd_CPS_dd.ipynb
 * bd_CPS_reader.ipynb
-* bd_CPS_grapher.ipynb
+* additional notebooks, see link.
 
-If you have a question or find an error, please feel free to e-mail me at brian.w.dew@gmail.com.
+If you have a question or find an error, please e-mail me at brian.w.dew@gmail.com.
