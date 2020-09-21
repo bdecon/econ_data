@@ -10,7 +10,7 @@ def text_repl(string_item):
 
 
 VarList = ['PWORWGT', 'PWCMPWGT', 'PRERNWA', 'PEPARENT', 'PESPOUSE', 'PRSJMS',
-           'PTERNWA', 'PWSSWGT', 'HRHHID (partII)', 'HWHHWGT', #'HURESPLI',
+           'PTERNWA', 'PWSSWGT', 'HRHHID (partII)', 'HWHHWGT', 'HURESPLI',
            'HRHHID2', 'HRYEAR', 'HRYEAR4', 'PRERNHLY', #'HRHTYPE', 
            'PTERNHLY', 'HRMONTH', 'PESEX', 'PEMLR', #'PERRP', 
            'PENLFRET', 'PENLFACT', 'GESTFIPS', 'PEDWRSN', 'PRFAMNUM', 'PRFAMREL', 
