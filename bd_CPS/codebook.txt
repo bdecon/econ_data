@@ -5,7 +5,7 @@
 
 ========================
 
-updated: September 11, 2020
+updated: October 07, 2020
 
 variables:
 
@@ -20,7 +20,7 @@ HHNUM
 MIS - Month in sample
     Notes: Household month in sample. Original CPS variable: HRMIS
     Data types: ['int8']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 [1, 2, 3, 4, 5, 6, 7, 8]
 
@@ -29,7 +29,7 @@ MIS - Month in sample
 HHWGT - Household weight
     Notes: Household weight, derived from H-HHWGT for 1989-93 and HWHHWGT for 1994 onward.
     Data types: ['float64', 'float32']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Breaks in dtype: [Timestamp('1994-01-01 00:00:00')]
     Value range: 
 -9.999999747378752e-05 to 34716.20703125
@@ -56,7 +56,7 @@ CMSA - CMSA code
 
 METSTA
     Data types: ['int8']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 [1, 2, 3]
 
@@ -65,7 +65,7 @@ METSTA
 HHID - Household ID 1
     Notes: First part of CPS household ID. Original CPS variable: HRHHID.
     Data types: ['int64']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 1 to 999993842830920
 
@@ -74,7 +74,7 @@ HHID - Household ID 1
 PULINENO - Person line number
     Notes: Unique line number for person.
     Data types: ['int8']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
 
@@ -91,7 +91,7 @@ PARENT
 AGE - Age
     Notes: Person age, topcoded at 80. Original CPS variables: PRTAGE, PEAGE
     Data types: ['int8']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80]
 
@@ -99,7 +99,7 @@ AGE - Age
 
 SPOUSE
     Data types: ['int8']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 [-1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 26, 27, 28, 30, 31, 32, 33, 34, 35, 38, 39]
 
@@ -108,7 +108,7 @@ SPOUSE
 HRSACTT - Actual hours worked, total
     Notes: Actual hours worked in reference week, all jobs total.
     Data types: ['int8', 'int16']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Breaks in dtype: [Timestamp('1994-01-01 00:00:00')]
     Value range: 
 [-1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 158, 159, 160, 161, 162, 164, 165, 167, 168, 169, 170, 171, 172, 174, 175, 176, 178, 179, 180, 181, 183, 184, 186, 189, 190, 192, 195, 196, 197, 198]
@@ -118,7 +118,7 @@ HRSACTT - Actual hours worked, total
 UNEMPDUR - Unemployment Duration
     Notes: Number of weeks person has been unemployed. There is a definition change in 1994 that affects the results from this variable. From 1994 onwards, those continuously employed and not in the incoming rotation group have their unemployment duration calculated based on the duration they reported in their incoming rotation group interview. Prior to 1994, respondents were asked how many weeks they were unemployed for all eligible months in sample.
     Data types: ['int8', 'int16']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Breaks in dtype: [Timestamp('1994-01-01 00:00:00')]
     Value range: 
 [-1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 124]
@@ -146,7 +146,7 @@ OCC80 - Occupation, main job
 HRSUSL1 - Usual hours worked, main job
     Notes: Usual hours worked at main job, per week.
     Data types: ['int8']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 [-4, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
 
@@ -191,7 +191,7 @@ OCC80D - Detailed occupation, main job
 EDUC - Education level
     Notes: Highest level of education attained: Advanced degree, college degree, some college but no degree or associate degree, high school degree, less than high school degree. Some assumptions are made to create this variable for pre-1992 data, using highest grade completed and highest graded attended, since the highest degree completed information is unavailable. To see the mapping of HGC (highest grade attained) and HGC (highest grade completed) to EDUC for 1989-91, see bd_CPS_1989-93.ipynb. For 1992 and 1993, the data comes from A-HGA. For 1994-onward, derived from PEEDUCA.
     Data types: ['category']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 ['ADV', 'COLL', 'HS', 'LTHS', 'SC']
 
@@ -200,7 +200,7 @@ EDUC - Education level
 STATE - State
     Notes: Two letter US state code. Derived from GESTFIPS.
     Data types: ['category']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 ['AK', 'AL', 'AR', 'AZ', 'CA', 'CO', 'CT', 'DC', 'DE', 'FL', 'GA', 'HI', 'IA', 'ID', 'IL', 'IN', 'KS', 'KY', 'LA', 'MA', 'MD', 'ME', 'MI', 'MN', 'MO', 'MS', 'MT', 'NC', 'ND', 'NE', 'NH', 'NJ', 'NM', 'NV', 'NY', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VA', 'VT', 'WA', 'WI', 'WV', 'WY']
 
@@ -209,7 +209,7 @@ STATE - State
 REGION - Region
     Notes: Census regional grouping of states.
     Data types: ['category', 'object']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Breaks in dtype: [Timestamp('1994-01-01 00:00:00')]
     Value range: 
 ['Midwest', 'Northeast', 'South', 'West']
@@ -219,7 +219,7 @@ REGION - Region
 FEMALE - Female
     Notes: Indicates if person is identified as female. Derived from PESEX.
     Data types: ['category']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 [0, 1]
 
@@ -228,7 +228,7 @@ FEMALE - Female
 WBHAO - Race/Ethnic Group
     Notes: Time-consistent racial/ethnic group: white non-Hispanic, black non-Hispanic, Hispanic any race, Asian non-Hispanic, or other non-Hispanic (primarily native American).
     Data types: ['category']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 ['Asian', 'Black', 'Hispanic', 'Other', 'White']
 
@@ -237,7 +237,7 @@ WBHAO - Race/Ethnic Group
 WBAO - Race/Ethnic Group
     Notes: Time-consistent racial/ethnic group: white, black, Asian, or other
     Data types: ['category']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 ['Asian', 'Black', 'Other', 'White']
 
@@ -246,7 +246,7 @@ WBAO - Race/Ethnic Group
 HISPANIC - Hispanic
     Notes: Equal to 1 if hispanic, otherwise 0.
     Data types: ['category']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 [0, 1]
 
@@ -255,7 +255,7 @@ HISPANIC - Hispanic
 VETERAN - Veteran
     Notes: Indicates if person is a veteran. Derived from PEAFEVER.
     Data types: ['category']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 [0.0, 1.0]
 
@@ -264,7 +264,7 @@ VETERAN - Veteran
 SCHENR - School enrolled
     Notes: Indicates if person was enrolled in school during prior week. Derived from PESCHENR.
     Data types: ['category']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 [0.0, 1.0]
 
@@ -273,7 +273,7 @@ SCHENR - School enrolled
 MARRIED - Married
     Notes: Indicates if person is currently married, with spouse present or spouse absent, but not separated. Derived from PRMARSTA.
     Data types: ['category']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 [0.0, 1.0]
 
@@ -282,7 +282,7 @@ MARRIED - Married
 LFS - Labor force status
     Notes: Indicates whether someone is employed, unemployed, or not in the labor force (NILF).
     Data types: ['category']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 ['Employed', 'NILF', 'Unemployed', 'nan']
 
@@ -291,7 +291,7 @@ LFS - Labor force status
 COW1 - Class of worker 1
     Notes: Class of worker on main job. Derived from PEIO1COW.
     Data types: ['category']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 ['Federal Government', 'Local Government', 'Private', 'Self-employed Incorporated', 'Self-employed Unincorporated', 'State Government', 'Without Pay', 'nan']
 
@@ -300,7 +300,7 @@ COW1 - Class of worker 1
 UNEMPTYPE - Unemployment type
     Notes: Type of unemployment: job loser/on layoff, job leaver, re-entrant, or new entrant. Derived from PRUNTYPE for 1994-onward and A-UNTYPE for 1989-93.
     Data types: ['category']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 ['Job Leaver', 'Job Loser', 'New Entrant', 'Re-entrant', 'nan']
 
@@ -308,7 +308,7 @@ UNEMPTYPE - Unemployment type
 
 LAYOFF
     Data types: ['category']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 ['Layoff', 'Looking', 'nan']
 
@@ -317,7 +317,7 @@ LAYOFF
 PTECON - Part-time for economic reasons
     Notes: Indicates person wants to work full-time but not able to for economic reasons. Derived from PRWKSTAT.
     Data types: ['category']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 [0.0, 1.0]
 
@@ -326,7 +326,7 @@ PTECON - Part-time for economic reasons
 WORKFT - Worked full-time
     Notes: Indicates if person worked full-time (35 hours or more) in the reference week. Derived from PRWKSTAT.
     Data types: ['category']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 [0.0, 1.0]
 
@@ -334,7 +334,7 @@ WORKFT - Worked full-time
 
 NOTATWORK
     Data types: ['category']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 [0.0, 1.0]
 
@@ -343,7 +343,7 @@ NOTATWORK
 UNION - Union
     Notes: Indicates if person is covered by a union contract or similar collective bargaining agreement. Uses revised data for 2001 and 2002, provided by Census. Derived from PEERNLAB and PEERNCOV. Only assigned for persons in the outgoing rotation group (MIS = 4 | 8); use with PWORWGT.
     Data types: ['category']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 [0.0, 1.0]
 
@@ -352,7 +352,7 @@ UNION - Union
 UNIONMEM - Union member
     Notes: Indicates if person is a member of a union or similar employee association. Uses revised data for 2001 and 2002, provided by Census. Derived from PEERNLAB. Only assigned for persons in the outgoing rotation group (MIS = 4 | 8); use with PWORWGT.
     Data types: ['category']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 [0.0, 1.0]
 
@@ -361,7 +361,7 @@ UNIONMEM - Union member
 PAIDHRLY - Paid hourly
     Notes: Indicates whether person is usually paid on a per-hour basis. Derived from PEERNHRY.
     Data types: ['category']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 [0.0, 1.0]
 
@@ -370,7 +370,7 @@ PAIDHRLY - Paid hourly
 INDGRP - Industry Group
     Notes: Major industry group
     Data types: ['category']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 ['Armed forces', 'Construction and mining', 'Education and health', 'Finance and business services', 'Leisure and hospitality', 'Manufacturing', 'Public administration', 'Trade, transportation, and utilities']
 
@@ -379,7 +379,7 @@ INDGRP - Industry Group
 WKWAGE - Weekly wage
     Notes: Nominal weekly earnings, in USD. Derived from PRERNWA (1994-onward) and A-WERNTP (1989-93).
     Data types: ['float32']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 0.009999999776482582 to 2884.610107421875
 
@@ -388,7 +388,7 @@ WKWAGE - Weekly wage
 HRWAGE - Hourly wage
     Notes: Nominal hourly earnings, in USD. Includes hourly wage calculation for individuals who report their pay on a weekly basis and report their hours worked. Use in combination with PAIDHRLY to identify only people who are paid on an hourly basis. For 1994-onward, derived from PRERNHLY when paid hourly, and otherwise equal to PRERNWA divided by PEHRUSL1. For 1989-93, derived from A-HERNTP when paid hourly, and A-WERNTP divided by A-USLHRS when paid weekly.
     Data types: ['float32']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 0.00010101010411744937 to 2884.610107421875
 
@@ -397,7 +397,7 @@ HRWAGE - Hourly wage
 RHRWAGE - Real hourly wage
     Notes: Real hourly earnings, in USD, adjusted for inflation by regional CPI-U. The base period is the latest month of available CPI data. Includes hourly wage calculation for individuals who report their pay on a weekly basis and report their hours worked. Use in combination with PAIDHRLY to identify only people who are paid on an hourly basis. 
     Data types: ['float32']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 0.0001247232867171988 to 4726.9130859375
 
@@ -406,16 +406,16 @@ RHRWAGE - Real hourly wage
 RWKWAGE - Real weekly wage
     Notes: Real weekly earnings, in USD, adjusted for inflation by regional CPI-U. The base period is always the latest month of available CPI data.
     Data types: ['float32']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
-0.010030697099864483 to 4892.2099609375
+0.009999999776482582 to 4892.2099609375
 
 
 
 BASICWGT - Basic weight
     Notes: Basic person weight, equal to the composite weight where available (1998-onward). Basic weight for 2000-2002 is revised based on Census released 2000-based weights and based on revised December 2007 weights from Census.
     Data types: ['float32']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 -9.999999747378752e-05 to 34708.83203125
 
@@ -424,7 +424,7 @@ BASICWGT - Basic weight
 PWORWGT - Outgoing Rotation Group Weight
     Notes: Person weight for outgoing rotation group (MIS 4 or 8) variables, such as wage or hours or union membership. ORG weight for 2000-2002 is revised based on Census released 2000-based weights. 
     Data types: ['float32', 'float64']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Breaks in dtype: [Timestamp('2000-01-01 00:00:00')]
     Value range: 
 -1.0 to 133411.078125
@@ -434,7 +434,7 @@ PWORWGT - Outgoing Rotation Group Weight
 QSTNUM - Unique household number
     Notes: Household number within current month. Created for months from January 1994 to December 1997.
     Data types: ['int32']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 0 to 79942
 
@@ -443,7 +443,7 @@ QSTNUM - Unique household number
 OCCURNUM - Unique person number
     Notes: Person number within household and current month. Created for months from January 1994 to December 2007.
     Data types: ['int8']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Value range: 
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
 
@@ -452,7 +452,7 @@ OCCURNUM - Unique person number
 CPSID - Unique household ID
     Notes: Manually created unique household ID that includes household start month and household number for start month. Can be used to match houeseholds over time. Applies only to the bd CPS, since the households matched prior to 1989 have January 1989 as the first part of their ID. Also, currently includes a gap in 1994-1995. Derived by bd_CPS_id.ipynb.
     Data types: ['int64', 'float64']
-    Available from: 1989-01 to: 2020-08
+    Available from: 1989-01 to: 2020-09
     Breaks in dtype: [Timestamp('1995-01-01 00:00:00')]
     Value range: 
 102215.0 to 991261372.0
@@ -461,7 +461,7 @@ CPSID - Unique household ID
 
 PEEDUCA
     Data types: ['int8']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 [-1, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
 
@@ -470,7 +470,7 @@ PEEDUCA
 PRDTRACE - Race/ethnicity
     Notes: Original CPS definitions for race or combination of races
     Data types: ['category']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
 
@@ -478,7 +478,7 @@ PRDTRACE - Race/ethnicity
 
 PRFAMNUM
     Data types: ['int8']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 [-1, 0, 1, 2, 3, 4, 5, 6]
 
@@ -486,7 +486,7 @@ PRFAMNUM
 
 PRFAMREL
     Data types: ['int8']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 [-1, 0, 1, 2, 3, 4]
 
@@ -494,7 +494,7 @@ PRFAMREL
 
 PEMJNUM
     Data types: ['int8']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 [-1, 2, 3, 4]
 
@@ -503,7 +503,7 @@ PEMJNUM
 HRSUSL2 - Usual hours, job 2
     Notes: Number of hours usually worked, per week, at second job
     Data types: ['int8']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 [-4, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 94, 95, 96, 97, 98, 99]
 
@@ -511,7 +511,7 @@ HRSUSL2 - Usual hours, job 2
 
 PEHRFTPT
     Data types: ['int8']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 [-3, -2, -1, 1, 2, 3]
 
@@ -520,7 +520,7 @@ PEHRFTPT
 HRSUSLT - Usual hours, total
     Notes: Number of hours usually worked, per week, total
     Data types: ['int16']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 [-4, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 154, 155, 156, 157, 158, 159, 160, 162, 164, 165, 166, 168, 169, 170, 171, 172, 173, 174, 176, 178, 179, 180, 182, 183, 184, 188, 189, 192, 194, 195, 196, 197, 198]
 
@@ -529,7 +529,7 @@ HRSUSLT - Usual hours, total
 HRSACT1 - Actual hours, main job
     Notes: Number of hours actually worked last week, main job
     Data types: ['int8']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 [-1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
 
@@ -538,7 +538,7 @@ HRSACT1 - Actual hours, main job
 HRSACT2 - Actual hours, job 2
     Notes: Number of hours actually worked last week, second job
     Data types: ['int8']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 [-1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
 
@@ -547,7 +547,7 @@ HRSACT2 - Actual hours, job 2
 PRFTLF - Full-time labor force
     Notes: Equal to 1 if full-time labor force and otherwise 2. Can be assigned for persons who are part-time.
     Data types: ['category']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 [-9, -1, 1, 2]
 
@@ -555,7 +555,7 @@ PRFTLF - Full-time labor force
 
 PRHRUSL
     Data types: ['int8']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 [-1, 1, 2, 3, 4, 5, 6, 7, 8]
 
@@ -581,7 +581,7 @@ OCC280 - Occupation, second job
 
 PRAGNA
     Data types: ['int8']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 [-1, 1, 2]
 
@@ -625,7 +625,7 @@ OCC280M - Major occupation, job 2
 
 PRNAGWS
     Data types: ['int8']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 [-1, 1]
 
@@ -633,7 +633,7 @@ PRNAGWS
 
 PEERNPER
     Data types: ['int8']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 [-1, 1, 2, 3, 4, 5, 6, 7]
 
@@ -641,7 +641,7 @@ PEERNPER
 
 PTHR
     Data types: ['int8']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 [0, 1]
 
@@ -649,7 +649,7 @@ PTHR
 
 PEERNHRO
     Data types: ['int8']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 [-2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
 
@@ -657,7 +657,7 @@ PEERNHRO
 
 PTWK
     Data types: ['int8']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 [0, 1]
 
@@ -665,7 +665,7 @@ PTWK
 
 PWFMWGT
     Data types: ['float32']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 31.683500289916992 to 43347.55859375
 
@@ -674,7 +674,7 @@ PWFMWGT
 PWLGWGT - Longitudinal person weight
     Notes: Person weight for matching month to month CPS observations.
     Data types: ['float32']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 [-1e-04, 0.0]
 
@@ -683,7 +683,7 @@ PWLGWGT - Longitudinal person weight
 PWSSWGT - Person weight
     Notes: Person weight, including children.
     Data types: ['float32']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 31.683500289916992 to 43347.55859375
 
@@ -692,7 +692,7 @@ PWSSWGT - Person weight
 FORBORN - Foreign born
     Notes: Indicates if person is born outside the US. Derived from PRCITSHP.
     Data types: ['category']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 [0.0, 1.0]
 
@@ -701,7 +701,7 @@ FORBORN - Foreign born
 MJH - Multiple jobholder
     Notes: Indicates if person has more than one job. Derived from PRSJMJ.
     Data types: ['category']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 [0.0, 1.0]
 
@@ -709,7 +709,7 @@ MJH - Multiple jobholder
 
 MRGNATT
     Data types: ['category']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 [0, 1]
 
@@ -718,7 +718,7 @@ MRGNATT
 PROXY - Proxy response
     Notes: Identifies whether labor force information was collected by self, by proxy response, or both. Derived from PUSLFPRX.
     Data types: ['category']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 ['Both', 'Proxy', 'Self', 'nan']
 
@@ -727,7 +727,7 @@ PROXY - Proxy response
 COW2 - Class of worker 2
     Notes: Class of worker on second job. Derived from PEIO2COW.
     Data types: ['category']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 ['Federal Government', 'Local Government', 'Private', 'Self-employed Incorporated', 'Self-employed Unincorporated', 'State Government', 'Without Pay', 'nan']
 
@@ -736,7 +736,7 @@ COW2 - Class of worker 2
 NILFREASON - NILF reason
     Notes: Primary reason person is not in the labor force. Derived from PEMLR, PRWNTJOB, PEDWWNTO, and PENLFACT.
     Data types: ['category']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 ['Disabled/Ill', 'Discouraged', 'Family', 'Other', 'Retired', 'School', 'nan']
 
@@ -745,7 +745,7 @@ NILFREASON - NILF reason
 MINWAGE - Minimum wage
     Notes: Indicates if person is paid the federal minimum wage or less. Uses federal minimum wage data provided by the Department of Labor.
     Data types: ['float64']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 [0.0, 1.0]
 
@@ -754,7 +754,7 @@ MINWAGE - Minimum wage
 CTYBIRTH - Birth country
     Notes: Country of birth. Slight change in values, starting in 2007.
     Data types: ['category']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Value range: 
 ['Afghanistan', 'Africa, n.s.', 'Albania', 'Algeria', 'American Samoa', 'Americas, n.s.', 'Antigua and Barbuda', 'Argentina', 'Armenia', 'Asia', 'Asia, n.s.', 'Australia', 'Austria', 'Azerbaijan', 'Azores', 'Bahamas', 'Bangladesh', 'Barbados', 'Belarus', 'Belgium', 'Belize', 'Bermuda', 'Bhutan', 'Bolivia', 'Bosnia & Herzegovina', 'Brazil', 'Bulgaria', 'Burma', 'Cambodia', 'Cameroon', 'Canada', 'Cape Verde', 'Caribbean', 'Central America', 'Chile', 'China', 'Colombia', 'Congo', 'Costa Rica', 'Croatia', 'Cuba', 'Cyprus', 'Czech Republic', 'Czechoslovakia', 'Denmark', 'Dominica', 'Dominican Republic', 'Ecuador', 'Egypt', 'El Salvador', 'Elsewhere', 'England', 'Eritrea', 'Estonia', 'Ethiopia', 'Europe', 'Europe, n.s.', 'Fiji', 'Finland', 'France', 'Georgia', 'Germany', 'Ghana', 'Great Britain', 'Greece', 'Grenada', 'Guam', 'Guatemala', 'Guinea', 'Guyana', 'Haiti', 'Holland/Netherlands', 'Honduras', 'Hong Kong', 'Hungary', 'Iceland', 'India', 'Indonesia', 'Iran', 'Iraq', 'Ireland/Eire', 'Israel', 'Italy', 'Ivory Coast', 'Jamaica', 'Japan', 'Jordan', 'Kazakhstan', 'Kenya', 'Korea', 'Korea/ South Korea', 'Kosovo', 'Kuwait', 'Laos', 'Latvia', 'Lebanon', 'Liberia', 'Libya', 'Lithuania', 'Macedonia', 'Malaysia', 'Marshall Islands', 'Mexico', 'Micronesia', 'Middle East', 'Moldova', 'Mongolia', 'Montenegro', 'Morocco', 'Myanmar (Burma)', 'Nepal', 'Netherlands', 'New Zealand', 'Nicaragua', 'Nigeria', 'No coding available/US Outlying Area', 'North Africa', 'North America', 'Northern Ireland', 'Northern Marianas', 'Norway', 'Oceania, n.s.', 'Other Africa', 'Other US Island Areas', 'Pacific Islands', 'Pakistan', 'Palestine', 'Panama', 'Paraguay', 'Peru', 'Philippines', 'Poland', 'Portugal', 'Puerto Rico', 'Romania', 'Russia', 'Samoa', 'Saudi Arabia', 'Scotland', 'Senegal', 'Serbia', 'Sierra Leone', 'Singapore', 'Slovakia', 'Slovakia/Slovak Republic', 'Somolia', 'South Africa', 'South America', 'South America, n.s.', 'South Korea', 'Spain', 'Sri Lanka', 'St. Kitts--Nevis', 'St. Lucia', 'St. Vincent and the Grenadines', 'Sudan', 'Sweden', 'Switzerland', 'Syria', 'Taiwan', 'Tanzania', 'Thailand', 'Togo', 'Tonga', 'Trinidad & Tobago', 'Turkey', 'U.S. Virgin Islands', 'USSR', 'Uganda', 'Ukraine', 'United Arab Emirates', 'United Kingdom', 'United States', 'Uruguay', 'Uzbekistan', 'Venezuela', 'Vietnam', 'Wales', 'West Indies, n.s.', 'Yemen', 'Yugoslavia', 'Zaire', 'Zambia', 'Zimbabwe']
 
@@ -763,16 +763,24 @@ CTYBIRTH - Birth country
 HHID2 - Household ID 2
     Notes: Second piece of CPS unique household identifier. Created for months between January 1994 and May 2004, from HRSAMPLE, HRSERSUF, and HUHHNUM, otherwise derived from HRHHID2
     Data types: ['uint32', 'int64', 'int32']
-    Available from: 1994-01 to: 2020-08
+    Available from: 1994-01 to: 2020-09
     Breaks in dtype: [Timestamp('2004-01-01 00:00:00'), Timestamp('2005-01-01 00:00:00')]
     Value range: 
 [61001, 61002, 61003, 61004, 61011, 61021, 61031, 61041, 62001, 62002, 62003, 62004, 62011, 63001, 63002, 63011, 63021, 63031, 63051, 63061, 63231]
 
 
 
+HEAD
+    Data types: ['float64']
+    Available from: 1994-01 to: 2020-09
+    Value range: 
+[0.0, 0.03125, 0.037037037037037035, 0.038461538461538464, 0.04, 0.041666666666666664, 0.043478260869565216, 0.045454545454545456, 0.047619047619047616, 0.05, 0.05263157894736842, 0.05555555555555555, 0.058823529411764705, 0.0625, 0.06666666666666667, 0.07142857142857142, 0.07692307692307693, 0.08333333333333333, 0.09090909090909091, 0.1, 0.1111111111111111, 0.125, 0.14285714285714285, 0.16666666666666666, 0.2, 0.25, 0.3333333333333333, 0.5, 1.0]
+
+
+
 PRWERNAL
     Data types: ['float64', 'int8']
-    Available from: 1995-09 to: 2020-08
+    Available from: 1995-09 to: 2020-09
     Breaks in dtype: [Timestamp('1996-01-01 00:00:00')]
     Value range: 
 [-1.0, 0.0, 1.0]
@@ -781,7 +789,7 @@ PRWERNAL
 
 PRHERNAL
     Data types: ['float64', 'int8']
-    Available from: 1995-09 to: 2020-08
+    Available from: 1995-09 to: 2020-09
     Breaks in dtype: [Timestamp('1996-01-01 00:00:00')]
     Value range: 
 [-1.0, 0.0, 1.0]
@@ -791,7 +799,7 @@ PRHERNAL
 COUNTY - County
     Notes: U.S. county code, derived from GECO and GTCO
     Data types: ['category']
-    Available from: 1995-09 to: 2020-08
+    Available from: 1995-09 to: 2020-09
     Value range: 
 [0, 106, 109, 110, 111, 112, 115, 123, 125, 134, 135, 137, 301, 304, 310, 315, 324, 327, 332, 334, 342, 508, 509, 510, 512, 522, 523, 524, 525, 526, 534, 536, 706, 734, 742, 745, 909, 912, 925, 934, 947, 955, 1112, 1123, 1133, 1134, 1142, 1153, 1304, 1306, 1308, 1319, 1324, 1325, 1333, 1334, 1335, 1336, 1342, 1351, 1408, 1501, 1504, 1509, 1512, 1513, 1521, 1524, 1525, 1533, 1553, 1706, 1724, 1725, 1733, 1734, 1738, 1741, 1742, 1904, 1906, 1912, 1918, 1922, 1923, 1929, 1934, 1942, 2002, 2104, 2112, 2124, 2125, 2126, 2134, 2137, 2142, 2325, 2334, 2339, 2504, 2506, 2512, 2524, 2525, 2526, 2534, 2539, 2555, 2704, 2724, 2725, 2734, 2736, 2906, 2934, 2936, 2939, 2941, 2942, 2948, 3106, 3108, 3124, 3132, 3134, 3140, 3312, 3322, 3324, 3353, 3508, 3534, 3539, 3553, 3706, 3727, 3734, 3906, 3918, 3934, 3941, 3948, 3954, 4106, 4108, 4134, 4139, 4145, 4148, 4151, 4324, 4341, 4342, 4513, 4520, 4535, 4539, 4542, 4545, 4706, 4729, 4736, 4926, 4935, 4939, 4942, 4949, 5122, 5137, 5142, 5145, 5306, 5312, 5327, 5349, 5353, 5506, 5516, 5531, 5536, 5542, 5712, 5713, 5718, 5737, 5739, 5753, 5906, 5908, 5936, 5951, 5955, 6106, 6112, 6136, 6139, 6148, 6153, 6313, 6318, 6322, 6345, 6353, 6355, 6506, 6706, 6713, 6721, 6736, 6737, 6753, 6908, 6912, 6936, 7106, 7112, 7122, 7129, 7136, 7142, 7301, 7306, 7322, 7353, 7355, 7506, 7526, 7536, 7706, 7713, 7753, 7906, 7945, 7955, 8101, 8106, 8112, 8118, 8126, 8136, 8142, 8306, 8312, 8345, 8346, 8506, 8512, 8536, 8539, 8542, 8612, 8706, 8736, 8751, 8901, 8906, 8913, 8918, 8936, 8939, 8942, 9112, 9117, 9118, 9120, 9136, 9142, 9145, 9326, 9339, 9347, 9506, 9512, 9518, 9529, 9539, 9701, 9706, 9712, 9713, 9717, 9737, 9906, 9912, 9917, 9926, 9929, 9946, 10108, 10112, 10142, 10155, 10312, 10319, 10322, 10336, 10339, 10512, 10518, 10555, 10706, 10742, 10751, 10912, 10931, 10939, 11106, 11112, 11117, 11121, 11130, 11136, 11306, 11312, 11313, 11317, 11319, 11339, 11348, 11512, 11517, 11526, 11701, 11712, 11713, 11721, 11905, 11917, 11936, 11937, 12113, 12126, 12308, 12327, 12501, 12526, 12542, 12547, 12712, 12718, 12937, 12942, 13337, 13339, 13342, 13513, 13548, 13727, 13913, 13926, 13927, 13948, 13955, 14118, 14148, 14340, 14526, 14726, 14737, 15113, 15313, 15319, 15331, 15339, 15351, 15537, 15748, 15937, 16126, 16317, 16319, 16326, 16327, 16539, 16547, 16748, 16939, 17127, 17320, 17720, 17751, 17917, 17937, 17951, 18148, 18337, 18348, 18747, 18929, 18947, 19137, 21548, 22313, 25148, 30348, 30948, 32948, 37548, 38148, 42348, 43948, 44148, 47948, 48548, 51024, 51051, 55051, 65051, 70051, 71051, 74051, 76051, 81051]
 
@@ -800,7 +808,7 @@ COUNTY - County
 PRCHLD - Own children ages
     Notes: Age group of own children, following original CPS coding for variable of the same name.
     Data types: ['float64', 'int8']
-    Available from: 1999-11 to: 2020-08
+    Available from: 1999-11 to: 2020-09
     Breaks in dtype: [Timestamp('2000-01-01 00:00:00')]
     Value range: 
 [-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0]
@@ -810,7 +818,7 @@ PRCHLD - Own children ages
 PRNMCHLD - Number of own children
     Notes: Number of own children.
     Data types: ['float64', 'int8']
-    Available from: 1999-11 to: 2020-08
+    Available from: 1999-11 to: 2020-09
     Breaks in dtype: [Timestamp('2000-01-01 00:00:00')]
     Value range: 
 [-1.0, 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10, 11.0, 12, 13]
@@ -820,7 +828,7 @@ PRNMCHLD - Number of own children
 IND - Industry, main job
     Notes: Industry code, main job. Includes 2000-2002 dual coded data provided by Census.
     Data types: ['category']
-    Available from: 2000-01 to: 2020-08
+    Available from: 2000-01 to: 2020-09
     Value range: 
 [-1, 170, 180, 190, 270, 280, 290, 370, 380, 390, 470, 480, 490, 570, 580, 590, 670, 680, 690, 770, 1070, 1080, 1090, 1170, 1180, 1190, 1270, 1280, 1290, 1370, 1390, 1470, 1480, 1490, 1570, 1590, 1670, 1680, 1690, 1691, 1770, 1790, 1870, 1880, 1890, 1990, 2070, 2090, 2170, 2180, 2190, 2270, 2280, 2290, 2370, 2380, 2390, 2470, 2480, 2490, 2570, 2590, 2670, 2680, 2690, 2770, 2780, 2790, 2870, 2880, 2890, 2970, 2980, 2990, 3070, 3080, 3090, 3095, 3170, 3180, 3190, 3290, 3291, 3360, 3365, 3370, 3380, 3390, 3470, 3490, 3570, 3580, 3590, 3670, 3680, 3690, 3770, 3780, 3790, 3870, 3875, 3890, 3895, 3960, 3970, 3980, 3990, 4070, 4080, 4090, 4170, 4180, 4190, 4195, 4260, 4265, 4270, 4280, 4290, 4370, 4380, 4390, 4470, 4480, 4490, 4560, 4570, 4580, 4585, 4590, 4670, 4680, 4690, 4770, 4780, 4790, 4795, 4870, 4880, 4890, 4970, 4971, 4972, 4980, 4990, 5070, 5080, 5090, 5170, 5180, 5190, 5270, 5275, 5280, 5290, 5295, 5370, 5380, 5381, 5390, 5391, 5470, 5480, 5490, 5570, 5580, 5590, 5591, 5592, 5593, 5670, 5680, 5690, 5790, 6070, 6080, 6090, 6170, 6180, 6190, 6270, 6280, 6290, 6370, 6380, 6390, 6470, 6480, 6490, 6570, 6590, 6670, 6672, 6675, 6680, 6690, 6692, 6695, 6770, 6780, 6790, 6870, 6880, 6890, 6970, 6990, 6991, 6992, 7070, 7071, 7072, 7080, 7170, 7180, 7181, 7190, 7270, 7280, 7290, 7370, 7380, 7390, 7460, 7470, 7480, 7490, 7570, 7580, 7590, 7670, 7680, 7690, 7770, 7780, 7790, 7860, 7870, 7880, 7890, 7970, 7980, 7990, 8070, 8080, 8090, 8170, 8180, 8190, 8191, 8192, 8270, 8290, 8370, 8380, 8390, 8470, 8560, 8561, 8562, 8563, 8564, 8570, 8580, 8590, 8660, 8670, 8680, 8690, 8770, 8780, 8790, 8870, 8880, 8890, 8891, 8970, 8980, 8990, 9070, 9080, 9090, 9160, 9170, 9180, 9190, 9290, 9370, 9380, 9390, 9470, 9480, 9490, 9570, 9590, 9890]
 
@@ -829,7 +837,7 @@ IND - Industry, main job
 IND2 - Industry, job 2
     Notes: Industry code, second job. Includes 2000-2002 dual coded data provided by Census.
     Data types: ['category']
-    Available from: 2000-01 to: 2020-08
+    Available from: 2000-01 to: 2020-09
     Value range: 
 [-1, 170, 180, 190, 270, 280, 290, 370, 380, 390, 470, 480, 490, 570, 580, 590, 670, 680, 690, 770, 1070, 1080, 1090, 1170, 1180, 1190, 1270, 1280, 1290, 1370, 1390, 1470, 1480, 1490, 1570, 1590, 1670, 1680, 1690, 1691, 1770, 1790, 1870, 1880, 1890, 1990, 2070, 2090, 2170, 2180, 2190, 2270, 2280, 2290, 2370, 2380, 2390, 2470, 2480, 2490, 2570, 2590, 2670, 2680, 2690, 2770, 2780, 2790, 2870, 2880, 2890, 2970, 2980, 2990, 3070, 3080, 3090, 3095, 3170, 3180, 3190, 3290, 3291, 3360, 3365, 3370, 3380, 3390, 3470, 3490, 3570, 3580, 3590, 3670, 3680, 3690, 3770, 3780, 3790, 3870, 3875, 3890, 3895, 3960, 3970, 3980, 3990, 4070, 4080, 4090, 4170, 4180, 4190, 4195, 4260, 4265, 4270, 4280, 4290, 4370, 4380, 4390, 4470, 4480, 4490, 4560, 4570, 4580, 4585, 4590, 4670, 4680, 4690, 4770, 4780, 4790, 4795, 4870, 4880, 4890, 4970, 4971, 4972, 4980, 4990, 5070, 5080, 5090, 5170, 5180, 5190, 5270, 5275, 5280, 5290, 5295, 5370, 5380, 5381, 5390, 5391, 5470, 5480, 5490, 5570, 5580, 5590, 5591, 5592, 5593, 5670, 5680, 5690, 5790, 6070, 6080, 6090, 6170, 6180, 6190, 6270, 6280, 6290, 6370, 6380, 6390, 6470, 6480, 6490, 6570, 6590, 6670, 6672, 6675, 6680, 6690, 6692, 6695, 6770, 6780, 6790, 6870, 6880, 6890, 6970, 6990, 6991, 6992, 7070, 7071, 7072, 7080, 7170, 7180, 7181, 7190, 7270, 7280, 7290, 7370, 7380, 7390, 7460, 7470, 7480, 7490, 7570, 7580, 7590, 7670, 7680, 7690, 7770, 7780, 7790, 7860, 7870, 7880, 7890, 7970, 7980, 7990, 8070, 8080, 8090, 8170, 8180, 8190, 8191, 8192, 8270, 8290, 8370, 8380, 8390, 8470, 8560, 8561, 8562, 8563, 8564, 8570, 8580, 8590, 8660, 8670, 8680, 8690, 8770, 8780, 8790, 8870, 8880, 8890, 8891, 8970, 8980, 8990, 9070, 9080, 9090, 9160, 9170, 9180, 9190, 9290, 9370, 9380, 9390, 9470, 9480, 9490, 9570, 9590]
 
@@ -838,7 +846,7 @@ IND2 - Industry, job 2
 INDD - Detailed industry, main job
     Notes: Detailed industry recode, main job. Includes 2000-2002 dual coded data provided by Census.
     Data types: ['int8']
-    Available from: 2000-01 to: 2020-08
+    Available from: 2000-01 to: 2020-09
     Value range: 
 [-1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52]
 
@@ -847,7 +855,7 @@ INDD - Detailed industry, main job
 IND2D - Detailed industry, second job
     Notes: Detailed industry recode, second job. Includes 2000-2002 dual coded data provided by Census.
     Data types: ['category']
-    Available from: 2000-01 to: 2020-08
+    Available from: 2000-01 to: 2020-09
     Value range: 
 [-1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51]
 
@@ -856,7 +864,7 @@ IND2D - Detailed industry, second job
 OCCD - Detailed occupation, main job
     Notes: Detailed occupation recode, main job. Includes 2000-2002 dual coded data provided by Census.
     Data types: ['int8']
-    Available from: 2000-01 to: 2020-08
+    Available from: 2000-01 to: 2020-09
     Value range: 
 [-1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
 
@@ -865,7 +873,7 @@ OCCD - Detailed occupation, main job
 OCC2D - Detailed occupation, job 2
     Notes: Detailed occupation recode, second job. Includes 2000-2002 dual coded data provided by Census.
     Data types: ['category']
-    Available from: 2000-01 to: 2020-08
+    Available from: 2000-01 to: 2020-09
     Value range: 
 [-1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
 
@@ -874,7 +882,7 @@ OCC2D - Detailed occupation, job 2
 INDM - Major industry, main job
     Notes: Major industry recode, main job. Includes 2000-2002 dual coded data provided by Census.
     Data types: ['category']
-    Available from: 2000-01 to: 2020-08
+    Available from: 2000-01 to: 2020-09
     Value range: 
 [-1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 
@@ -883,7 +891,7 @@ INDM - Major industry, main job
 IND2M - Major industry, second job
     Notes: Major industry recode, second job. Includes 2000-2002 dual coded data provided by Census.
     Data types: ['category']
-    Available from: 2000-01 to: 2020-08
+    Available from: 2000-01 to: 2020-09
     Value range: 
 [-1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 
@@ -892,7 +900,7 @@ IND2M - Major industry, second job
 OCCM - Major occupation, main job
     Notes: Major occupation recode, main job. Includes 2000-2002 dual coded data provided by Census.
     Data types: ['category']
-    Available from: 2000-01 to: 2020-08
+    Available from: 2000-01 to: 2020-09
     Value range: 
 [-1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 
@@ -901,7 +909,7 @@ OCCM - Major occupation, main job
 OCC2M - Major occupation, job 2
     Notes: Major occupation recode, second job. Includes 2000-2002 dual coded data provided by Census.
     Data types: ['category']
-    Available from: 2000-01 to: 2020-08
+    Available from: 2000-01 to: 2020-09
     Value range: 
 [-1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
@@ -910,7 +918,7 @@ OCC2M - Major occupation, job 2
 OCC - Occupation, main job
     Notes: Occupation code, main job. Includes 2000-2002 dual coded data provided by Census.
     Data types: ['category']
-    Available from: 2000-01 to: 2020-08
+    Available from: 2000-01 to: 2020-09
     Value range: 
 [-1, 10, 20, 40, 50, 60, 100, 110, 120, 130, 135, 136, 137, 140, 150, 160, 200, 205, 210, 220, 230, 300, 310, 320, 330, 340, 350, 360, 410, 420, 425, 430, 500, 510, 520, 530, 540, 560, 565, 600, 620, 630, 640, 650, 700, 710, 720, 725, 726, 730, 735, 740, 800, 810, 820, 830, 840, 850, 860, 900, 910, 930, 940, 950, 1000, 1005, 1006, 1007, 1010, 1020, 1030, 1040, 1050, 1060, 1100, 1105, 1106, 1107, 1110, 1200, 1210, 1220, 1230, 1240, 1300, 1310, 1320, 1330, 1340, 1350, 1360, 1400, 1410, 1420, 1430, 1440, 1450, 1460, 1500, 1510, 1520, 1530, 1540, 1550, 1560, 1600, 1610, 1640, 1650, 1700, 1710, 1720, 1740, 1760, 1800, 1810, 1820, 1830, 1840, 1860, 1900, 1910, 1920, 1930, 1940, 1960, 1965, 2000, 2010, 2015, 2016, 2020, 2025, 2040, 2050, 2060, 2100, 2105, 2140, 2145, 2150, 2160, 2200, 2300, 2310, 2320, 2330, 2340, 2400, 2430, 2440, 2540, 2550, 2600, 2630, 2700, 2710, 2720, 2740, 2750, 2760, 2800, 2810, 2820, 2825, 2830, 2840, 2850, 2860, 2900, 2910, 2920, 2960, 3000, 3010, 3030, 3040, 3050, 3060, 3110, 3120, 3130, 3140, 3150, 3160, 3200, 3210, 3220, 3230, 3240, 3245, 3250, 3255, 3256, 3258, 3260, 3300, 3310, 3320, 3400, 3410, 3420, 3500, 3510, 3520, 3530, 3535, 3540, 3600, 3610, 3620, 3630, 3640, 3645, 3646, 3647, 3648, 3649, 3650, 3655, 3700, 3710, 3720, 3730, 3740, 3750, 3800, 3820, 3830, 3840, 3850, 3860, 3900, 3910, 3920, 3930, 3940, 3945, 3950, 3955, 4000, 4010, 4020, 4030, 4040, 4050, 4060, 4110, 4120, 4130, 4140, 4150, 4160, 4200, 4210, 4220, 4230, 4240, 4250, 4300, 4320, 4340, 4350, 4400, 4410, 4420, 4430, 4460, 4465, 4500, 4510, 4520, 4530, 4540, 4550, 4600, 4610, 4620, 4640, 4650, 4700, 4710, 4720, 4740, 4750, 4760, 4800, 4810, 4820, 4830, 4840, 4850, 4900, 4920, 4930, 4940, 4950, 4960, 4965, 5000, 5010, 5020, 5030, 5100, 5110, 5120, 5130, 5140, 5150, 5160, 5165, 5200, 5210, 5220, 5230, 5240, 5250, 5260, 5300, 5310, 5320, 5330, 5340, 5350, 5360, 5400, 5410, 5420, 5500, 5510, 5520, 5530, 5540, 5550, 5560, 5600, 5610, 5620, 5630, 5700, 5800, 5810, 5820, 5830, 5840, 5850, 5860, 5900, 5910, 5920, 5930, 5940, 6000, 6005, 6010, 6020, 6040, 6050, 6100, 6110, 6120, 6130, 6200, 6210, 6220, 6230, 6240, 6250, 6260, 6300, 6310, 6320, 6330, 6350, 6355, 6360, 6400, 6420, 6430, 6440, 6460, 6500, 6510, 6515, 6520, 6530, 6600, 6660, 6700, 6710, 6720, 6730, 6740, 6750, 6760, 6765, 6800, 6820, 6830, 6840, 6910, 6920, 6930, 6940, 7000, 7010, 7020, 7030, 7040, 7050, 7100, 7110, 7120, 7130, 7140, 7150, 7160, 7200, 7210, 7220, 7240, 7260, 7300, 7310, 7315, 7320, 7330, 7340, 7350, 7360, 7410, 7420, 7430, 7510, 7520, 7540, 7550, 7560, 7600, 7610, 7620, 7630, 7700, 7710, 7720, 7730, 7740, 7750, 7800, 7810, 7830, 7840, 7850, 7855, 7900, 7920, 7930, 7940, 7950, 7960, 8000, 8010, 8020, 8030, 8040, 8060, 8100, 8120, 8130, 8140, 8150, 8160, 8200, 8210, 8220, 8230, 8240, 8250, 8255, 8256, 8260, 8300, 8310, 8320, 8330, 8340, 8350, 8360, 8400, 8410, 8420, 8430, 8440, 8450, 8460, 8500, 8510, 8520, 8530, 8540, 8550, 8600, 8610, 8620, 8630, 8640, 8650, 8710, 8720, 8730, 8740, 8750, 8760, 8800, 8810, 8830, 8840, 8850, 8860, 8900, 8910, 8920, 8930, 8940, 8950, 8960, 8965, 9000, 9030, 9040, 9050, 9110, 9120, 9130, 9140, 9150, 9200, 9230, 9240, 9260, 9300, 9310, 9330, 9340, 9350, 9360, 9410, 9415, 9420, 9500, 9510, 9520, 9560, 9600, 9610, 9620, 9630, 9640, 9650, 9720, 9730, 9740, 9750, 9840]
 
@@ -919,16 +927,16 @@ OCC - Occupation, main job
 OCC2 - Occupation, second job
     Notes: Occupation code, second job. Includes 2000-2002 dual coded data provided by Census.
     Data types: ['category']
-    Available from: 2000-01 to: 2020-08
+    Available from: 2000-01 to: 2020-09
     Value range: 
-[-1, 10, 20, 40, 50, 51, 52, 60, 100, 101, 110, 120, 130, 135, 136, 137, 140, 150, 160, 200, 205, 210, 220, 230, 300, 310, 320, 325, 330, 335, 340, 350, 360, 410, 420, 425, 430, 440, 500, 510, 520, 530, 540, 560, 565, 600, 620, 630, 640, 650, 700, 705, 710, 720, 725, 726, 730, 735, 740, 750, 800, 810, 820, 830, 840, 845, 850, 860, 900, 910, 930, 940, 950, 960, 1000, 1005, 1006, 1007, 1010, 1020, 1021, 1030, 1031, 1032, 1040, 1050, 1060, 1065, 1100, 1105, 1106, 1107, 1108, 1110, 1200, 1210, 1220, 1230, 1240, 1300, 1305, 1310, 1320, 1340, 1350, 1360, 1400, 1410, 1420, 1430, 1440, 1450, 1460, 1500, 1520, 1530, 1540, 1541, 1545, 1550, 1555, 1560, 1600, 1610, 1640, 1650, 1700, 1710, 1720, 1740, 1760, 1800, 1810, 1815, 1820, 1821, 1825, 1840, 1860, 1900, 1910, 1920, 1930, 1960, 1965, 1970, 2000, 2001, 2002, 2004, 2005, 2006, 2010, 2012, 2013, 2014, 2015, 2016, 2020, 2025, 2040, 2050, 2060, 2100, 2140, 2145, 2150, 2160, 2180, 2200, 2205, 2300, 2310, 2320, 2330, 2340, 2350, 2360, 2400, 2430, 2435, 2440, 2540, 2545, 2550, 2555, 2600, 2630, 2632, 2633, 2634, 2635, 2640, 2700, 2710, 2720, 2721, 2722, 2723, 2740, 2750, 2751, 2752, 2755, 2760, 2770, 2800, 2805, 2810, 2820, 2825, 2830, 2840, 2850, 2860, 2861, 2900, 2905, 2910, 2920, 2960, 3000, 3010, 3030, 3040, 3050, 3060, 3090, 3110, 3120, 3130, 3140, 3150, 3160, 3200, 3210, 3220, 3230, 3240, 3245, 3250, 3255, 3256, 3258, 3260, 3261, 3300, 3310, 3320, 3321, 3322, 3323, 3324, 3330, 3400, 3401, 3402, 3410, 3420, 3421, 3422, 3424, 3430, 3500, 3510, 3515, 3520, 3530, 3535, 3540, 3545, 3550, 3600, 3601, 3602, 3603, 3605, 3610, 3620, 3630, 3640, 3645, 3646, 3647, 3648, 3649, 3650, 3655, 3700, 3710, 3720, 3725, 3730, 3740, 3750, 3800, 3801, 3802, 3820, 3830, 3840, 3850, 3870, 3900, 3910, 3920, 3930, 3940, 3945, 3950, 3955, 3960, 4000, 4010, 4020, 4030, 4040, 4050, 4055, 4060, 4110, 4120, 4130, 4140, 4150, 4160, 4200, 4210, 4220, 4230, 4240, 4250, 4251, 4252, 4255, 4300, 4320, 4330, 4340, 4350, 4400, 4410, 4420, 4430, 4435, 4460, 4461, 4465, 4500, 4510, 4520, 4521, 4522, 4525, 4530, 4540, 4550, 4600, 4610, 4620, 4621, 4622, 4640, 4650, 4655, 4700, 4710, 4720, 4740, 4750, 4760, 4800, 4810, 4820, 4830, 4840, 4850, 4900, 4920, 4930, 4940, 4950, 4960, 4965, 5000, 5010, 5020, 5030, 5100, 5110, 5120, 5130, 5140, 5150, 5160, 5165, 5200, 5210, 5220, 5230, 5240, 5250, 5260, 5300, 5310, 5320, 5330, 5340, 5350, 5360, 5400, 5410, 5420, 5500, 5510, 5520, 5521, 5522, 5530, 5540, 5550, 5560, 5600, 5610, 5620, 5630, 5700, 5720, 5730, 5740, 5800, 5810, 5820, 5830, 5840, 5850, 5860, 5900, 5910, 5920, 5930, 5940, 6000, 6005, 6010, 6020, 6040, 6050, 6100, 6110, 6115, 6120, 6130, 6200, 6210, 6220, 6230, 6240, 6250, 6260, 6300, 6305, 6320, 6330, 6350, 6355, 6360, 6400, 6410, 6420, 6430, 6440, 6442, 6460, 6500, 6510, 6515, 6520, 6530, 6600, 6660, 6710, 6720, 6730, 6740, 6750, 6760, 6765, 6800, 6820, 6830, 6840, 6920, 6930, 6940, 7000, 7010, 7020, 7030, 7040, 7100, 7110, 7120, 7130, 7140, 7150, 7160, 7200, 7210, 7220, 7240, 7260, 7300, 7310, 7315, 7320, 7330, 7340, 7350, 7360, 7410, 7420, 7430, 7510, 7520, 7540, 7550, 7560, 7610, 7620, 7630, 7640, 7700, 7710, 7720, 7730, 7740, 7750, 7800, 7810, 7830, 7840, 7850, 7855, 7900, 7920, 7940, 7950, 7960, 8000, 8010, 8020, 8030, 8060, 8100, 8130, 8140, 8150, 8200, 8210, 8220, 8230, 8240, 8250, 8255, 8256, 8260, 8300, 8310, 8320, 8330, 8340, 8350, 8360, 8400, 8410, 8420, 8440, 8450, 8460, 8500, 8510, 8530, 8540, 8550, 8555, 8600, 8610, 8620, 8630, 8640, 8650, 8710, 8720, 8730, 8740, 8750, 8760, 8800, 8810, 8830, 8850, 8860, 8910, 8920, 8930, 8940, 8950, 8960, 8965, 8990, 9000, 9005, 9030, 9040, 9050, 9110, 9120, 9121, 9122, 9130, 9140, 9141, 9142, 9150, 9200, 9230, 9240, 9260, 9300, 9310, 9350, 9360, 9365, 9410, 9415, 9420, 9500, 9510, 9520, 9560, 9600, 9610, 9620, 9630, 9640, 9645, 9650, 9720, 9730, 9750, 9760]
+[-1, 10, 20, 40, 50, 51, 52, 60, 100, 101, 110, 120, 130, 135, 136, 137, 140, 150, 160, 200, 205, 210, 220, 230, 300, 310, 320, 325, 330, 335, 340, 350, 360, 410, 420, 425, 430, 440, 500, 510, 520, 530, 540, 560, 565, 600, 620, 630, 640, 650, 700, 705, 710, 720, 725, 726, 730, 735, 740, 750, 800, 810, 820, 830, 840, 845, 850, 860, 900, 910, 930, 940, 950, 960, 1000, 1005, 1006, 1007, 1010, 1020, 1021, 1030, 1031, 1032, 1040, 1050, 1060, 1065, 1100, 1105, 1106, 1107, 1108, 1110, 1200, 1210, 1220, 1230, 1240, 1300, 1305, 1310, 1320, 1340, 1350, 1360, 1400, 1410, 1420, 1430, 1440, 1450, 1460, 1500, 1520, 1530, 1540, 1541, 1545, 1550, 1551, 1555, 1560, 1600, 1610, 1640, 1650, 1700, 1710, 1720, 1740, 1760, 1800, 1810, 1815, 1820, 1821, 1825, 1840, 1860, 1900, 1910, 1920, 1930, 1960, 1965, 1970, 2000, 2001, 2002, 2004, 2005, 2006, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2020, 2025, 2040, 2050, 2060, 2100, 2140, 2145, 2150, 2160, 2180, 2200, 2205, 2300, 2310, 2320, 2330, 2340, 2350, 2360, 2400, 2430, 2435, 2440, 2540, 2545, 2550, 2555, 2600, 2630, 2632, 2633, 2634, 2635, 2636, 2640, 2700, 2710, 2720, 2721, 2722, 2723, 2740, 2750, 2751, 2752, 2755, 2760, 2770, 2800, 2805, 2810, 2820, 2825, 2830, 2840, 2850, 2860, 2861, 2865, 2900, 2905, 2910, 2920, 2960, 3000, 3010, 3030, 3040, 3050, 3060, 3090, 3110, 3120, 3130, 3140, 3150, 3160, 3200, 3210, 3220, 3230, 3240, 3245, 3250, 3255, 3256, 3258, 3260, 3261, 3300, 3310, 3320, 3321, 3322, 3323, 3324, 3330, 3400, 3401, 3402, 3410, 3420, 3421, 3422, 3424, 3430, 3500, 3510, 3515, 3520, 3530, 3535, 3540, 3545, 3550, 3600, 3601, 3602, 3603, 3605, 3610, 3620, 3630, 3640, 3645, 3646, 3647, 3648, 3649, 3650, 3655, 3700, 3710, 3720, 3725, 3730, 3740, 3750, 3800, 3801, 3802, 3820, 3830, 3840, 3850, 3870, 3900, 3910, 3920, 3930, 3940, 3945, 3950, 3955, 3960, 4000, 4010, 4020, 4030, 4040, 4050, 4055, 4060, 4110, 4120, 4130, 4140, 4150, 4160, 4200, 4210, 4220, 4230, 4240, 4250, 4251, 4252, 4255, 4300, 4320, 4330, 4340, 4350, 4400, 4410, 4420, 4430, 4435, 4460, 4461, 4465, 4500, 4510, 4520, 4521, 4522, 4525, 4530, 4540, 4550, 4600, 4610, 4620, 4621, 4622, 4640, 4650, 4655, 4700, 4710, 4720, 4740, 4750, 4760, 4800, 4810, 4820, 4830, 4840, 4850, 4900, 4920, 4930, 4940, 4950, 4960, 4965, 5000, 5010, 5020, 5030, 5100, 5110, 5120, 5130, 5140, 5150, 5160, 5165, 5200, 5210, 5220, 5230, 5240, 5250, 5260, 5300, 5310, 5320, 5330, 5340, 5350, 5360, 5400, 5410, 5420, 5500, 5510, 5520, 5521, 5522, 5530, 5540, 5550, 5560, 5600, 5610, 5620, 5630, 5700, 5720, 5730, 5740, 5800, 5810, 5820, 5830, 5840, 5850, 5860, 5900, 5910, 5920, 5930, 5940, 6000, 6005, 6010, 6020, 6040, 6050, 6100, 6110, 6115, 6120, 6130, 6200, 6210, 6220, 6230, 6240, 6250, 6260, 6300, 6305, 6320, 6330, 6350, 6355, 6360, 6400, 6410, 6420, 6430, 6440, 6442, 6460, 6500, 6510, 6515, 6520, 6530, 6600, 6660, 6710, 6720, 6730, 6740, 6750, 6760, 6765, 6800, 6820, 6830, 6840, 6920, 6930, 6940, 7000, 7010, 7020, 7030, 7040, 7100, 7110, 7120, 7130, 7140, 7150, 7160, 7200, 7210, 7220, 7240, 7260, 7300, 7310, 7315, 7320, 7330, 7340, 7350, 7360, 7410, 7420, 7430, 7510, 7520, 7540, 7550, 7560, 7610, 7620, 7630, 7640, 7700, 7710, 7720, 7730, 7740, 7750, 7800, 7810, 7830, 7840, 7850, 7855, 7900, 7920, 7940, 7950, 7960, 8000, 8010, 8020, 8030, 8060, 8100, 8130, 8140, 8150, 8200, 8210, 8220, 8230, 8240, 8250, 8255, 8256, 8260, 8300, 8310, 8320, 8330, 8340, 8350, 8360, 8400, 8410, 8420, 8440, 8450, 8460, 8500, 8510, 8530, 8540, 8550, 8555, 8600, 8610, 8620, 8630, 8640, 8650, 8710, 8720, 8730, 8740, 8750, 8760, 8800, 8810, 8830, 8850, 8860, 8910, 8920, 8930, 8940, 8950, 8960, 8965, 8990, 9000, 9005, 9030, 9040, 9050, 9110, 9120, 9121, 9122, 9130, 9140, 9141, 9142, 9150, 9200, 9230, 9240, 9260, 9300, 9310, 9350, 9360, 9365, 9410, 9415, 9420, 9430, 9500, 9510, 9520, 9560, 9600, 9610, 9620, 9630, 9640, 9645, 9650, 9720, 9730, 9750, 9760]
 
 
 
 WBHAOM - Race/ethnic group
     Notes: Racial/ethnic group with separate group for persons of more than one race.
     Data types: ['category']
-    Available from: 2003-01 to: 2020-08
+    Available from: 2003-01 to: 2020-09
     Value range: 
 ['Asian', 'Black', 'Hispanic', 'More than one', 'Native American', 'White']
 
@@ -937,7 +945,7 @@ WBHAOM - Race/ethnic group
 CBSA - Center-based statistical area
     Notes: Similar to metro area.
     Data types: ['category']
-    Available from: 2004-05 to: 2020-08
+    Available from: 2004-05 to: 2020-09
     Value range: 
 [0, 460, 3000, 3160, 3610, 3720, 6450, 10180, 10420, 10500, 10580, 10740, 10900, 11020, 11100, 11260, 11300, 11340, 11460, 11500, 11540, 11700, 12020, 12060, 12100, 12220, 12260, 12420, 12540, 12580, 12620, 12700, 12940, 12980, 13140, 13380, 13460, 13740, 13780, 13820, 13980, 14010, 14020, 14060, 14260, 14460, 14500, 14540, 14740, 14860, 15180, 15380, 15500, 15540, 15680, 15940, 15980, 16060, 16300, 16540, 16580, 16620, 16700, 16740, 16820, 16860, 16980, 17020, 17140, 17300, 17420, 17460, 17660, 17780, 17820, 17860, 17900, 17980, 18140, 18580, 19100, 19300, 19340, 19380, 19460, 19500, 19660, 19740, 19780, 19820, 20100, 20260, 20500, 20700, 20740, 20940, 21140, 21340, 21500, 21660, 21780, 22020, 22140, 22180, 22220, 22420, 22460, 22500, 22520, 22660, 22900, 23020, 23060, 23420, 23540, 23580, 24020, 24140, 24340, 24540, 24580, 24660, 24780, 24860, 25060, 25180, 25260, 25420, 25500, 25540, 25860, 25940, 26100, 26180, 26380, 26420, 26580, 26620, 26820, 26900, 26980, 27100, 27140, 27260, 27340, 27500, 27740, 27780, 27900, 27980, 28020, 28100, 28140, 28420, 28660, 28700, 28740, 28940, 29100, 29180, 29200, 29340, 29460, 29540, 29620, 29700, 29740, 29820, 29940, 30020, 30340, 30460, 30700, 30780, 30980, 31020, 31080, 31100, 31140, 31180, 31340, 31420, 31460, 31540, 31700, 31740, 32580, 32780, 32820, 32900, 33100, 33140, 33260, 33340, 33460, 33660, 33700, 33740, 33780, 33860, 34060, 34580, 34740, 34820, 34900, 34940, 34980, 35300, 35380, 35620, 35660, 35840, 35980, 36100, 36140, 36220, 36260, 36420, 36500, 36540, 36740, 36780, 37100, 37340, 37460, 37860, 37900, 37980, 38060, 38220, 38300, 38860, 38900, 38940, 39100, 39140, 39300, 39340, 39380, 39460, 39540, 39580, 39740, 39820, 39900, 40060, 40140, 40220, 40380, 40420, 40900, 40980, 41060, 41100, 41180, 41420, 41500, 41540, 41620, 41700, 41740, 41860, 41940, 42020, 42060, 42100, 42140, 42200, 42220, 42260, 42340, 42540, 42660, 43300, 43340, 43620, 43780, 43900, 44060, 44100, 44140, 44180, 44220, 44700, 45060, 45220, 45300, 45460, 45780, 45820, 45940, 46060, 46140, 46220, 46340, 46520, 46540, 46660, 46700, 46940, 47020, 47220, 47260, 47300, 47380, 47580, 47900, 47940, 48060, 48140, 48540, 48620, 48660, 48700, 48900, 49020, 49180, 49340, 49420, 49620, 49660, 49700, 49740, 70750, 70900, 71650, 71950, 72400, 72850, 73450, 74500, 74950, 75550, 75700, 76450, 76750, 77200, 77350, 78100, 78700, 79600]
 
@@ -946,7 +954,7 @@ CBSA - Center-based statistical area
 CSA - Consolidated statistical area
     Notes: Grouping of nearby metro areas.
     Data types: ['category']
-    Available from: 2004-05 to: 2020-08
+    Available from: 2004-05 to: 2020-09
     Value range: 
 [0, 104, 106, 118, 122, 148, 162, 168, 170, 174, 176, 178, 184, 194, 206, 212, 216, 220, 238, 240, 260, 266, 268, 272, 273, 276, 278, 288, 290, 294, 304, 310, 340, 348, 356, 357, 370, 376, 378, 380, 382, 408, 422, 428, 438, 440, 450, 472, 482, 488, 500, 515, 518, 546, 548, 715, 720]
 
@@ -955,7 +963,7 @@ CSA - Consolidated statistical area
 DISABILITY - Disability
     Notes: Indicates if person is has any of six disabilities: difficulty hearing, difficulty seeing even with glasses, difficulty remembering or making decisions, difficulty walking or climbing stairs, difficulty dressing or bathing, or difficulty doing errands alone. Includes data covering June to December 2008 that is released separately by Census. Derived from PRDISFLG.
     Data types: ['category']
-    Available from: 2008-06 to: 2020-08
+    Available from: 2008-06 to: 2020-09
     Value range: 
 [0, 1]
 
@@ -964,7 +972,7 @@ DISABILITY - Disability
 CERT - Professional certification
     Notes: Indicates if a person has a professional certification or license. Values for 2015 and 2016 added using separately published Census microdata. Derived from PECERT1.
     Data types: ['category']
-    Available from: 2015-01 to: 2020-08
+    Available from: 2015-01 to: 2020-09
     Value range: 
 [0.0, 1.0]
 
@@ -972,7 +980,7 @@ CERT - Professional certification
 
 PEPAR2
     Data types: ['int8']
-    Available from: 2020-01 to: 2020-08
+    Available from: 2020-01 to: 2020-09
     Value range: 
 [-1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15]
 
