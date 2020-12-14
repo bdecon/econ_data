@@ -26,12 +26,12 @@ VarList = ['PWORWGT', 'PWCMPWGT', 'PRERNWA', 'PEPARENT', 'PESPOUSE', 'PRSJMS',
            'PRDTOCC1', 'PRDTOCC2', 'PRDTIND1', 'PRDTIND2', 'PEMJNUM',
            'PEHRUSL2', 'PEHRUSLT', 'PEIO2COW', 'PEPAR2', 'PEPAR2',
            'PEIO1COW', 'PEIO1OCD', 'PEIO2OCD', 'PEIO1ICD', 'PEIO2ICD',
-           'HRHHID', 'HRSAMPLE', 'HRSERSUF', 'PTIO1OCD', 
-           'PRDISFLG', 'PUAFEVER', 'PEAFEVER', 'PECERT1', 
-           'GTCSA', 'PEHRACTT', 'PEHRACT1', 'PEERNCOV',
+           'HRHHID', 'HRSAMPLE', 'HRSERSUF', 'PTIO1OCD', 'PEABSRSN',
+           'PRDISFLG', 'PUAFEVER', 'PEAFEVER', 'PECERT1', 'PEHRWANT',
+           'GTCSA', 'PEHRACTT', 'PEHRACT1', 'PEERNCOV', 'PERET1',
            'PESCHENR', 'PRNMCHLD', 'PTERN2', 'PEHRACT2',
            'PUERN2', 'QSTNUM', 'OCCURNUM', 'PRAGNA',
-           'PTHR', 'PTWK', 'PRNAGWS']
+           'PTHR', 'PTWK', 'PRNAGWS', 'PRDASIAN']
 
 # Note: January_2020_Record_Layout.txt and jan98dd2.asc are edited versions
 # of the original data dictionaries, see bd_CPS_dd.ipynb. 
@@ -96,7 +96,29 @@ DataDict = {'January_2020_Record_Layout.txt':
 #            {'start': '1992-01-01', 'end': '1993-12-31',
 #             're': '(\w{1,2}[\$\-%]\w*|PADDING)\s*CHARACTER\*(\d{3})\s*\.{0,1}\s*\((\d*):(\d*)\).*'}
             }
-             
+
+
+EducDTMap = {31 : "Less than 1st grade",
+             32 : "1st-4th grade",
+             33 : "5th-6th grade",
+             34 : "7th-8th grade",
+             35 : "9th grade",
+             36 : "10th grade",
+             37 : "11th grade",
+             38 : "12th grade-no diploma",
+             39 : "HS graduate, GED",
+             40 : "Some college but no degree",
+             41 : "Associate degree-occupational/vocational",
+             42 : "Associate degree-academic program",
+             43 : "Bachelor's degree",
+             44 : "Master's degree",
+             45 : "Professional school",
+             46 : "Doctorate"}
+
+
+AsianMap = {1: 'Asian Indian', 2: 'Chinese', 3: 'Filipino', 4: 'Japanese', 
+            5: 'Korean', 6: 'Vietnamese', 7: 'Other'}
+
              
 StatesMap = {1: 'AL',
              30: 'MT',
@@ -510,6 +532,7 @@ CodebookNotes = {'MONTH': {'Notes': 'Survey reference month. Original CPS variab
                           'Name': 'Usual hours worked, main job'},
                   'EDUC': {'Notes': 'Highest level of education attained: Advanced degree, college degree, some college but no degree or associate degree, high school degree, less than high school degree. Some assumptions are made to create this variable for pre-1992 data, using highest grade completed and highest graded attended, since the highest degree completed information is unavailable. To see the mapping of HGC (highest grade attained) and HGC (highest grade completed) to EDUC for 1989-91, see bd_CPS_1989-93.ipynb. For 1992 and 1993, the data comes from A-HGA. For 1994-onward, derived from PEEDUCA.',
                           'Name': 'Education level'},
+                  'EDUCDT': {'Name': 'Detailed Education level', 'Notes': 'Highest level of education attained, following original categories, available from 1992 onward and derived from A-HGA and PEEDUCA.'},
                   'PTECON': {'Notes': 'Indicates person wants to work full-time but not able to for economic reasons. Derived from PRWKSTAT.',
                           'Name': 'Part-time for economic reasons'},
                   'COW1': {'Notes': 'Class of worker on main job. Derived from PEIO1COW.',
@@ -641,6 +664,9 @@ CodebookNotes = {'MONTH': {'Notes': 'Survey reference month. Original CPS variab
                   'PROXY': {'Notes': 'Identifies whether labor force information was collected by self, by proxy response, or both. Derived from PUSLFPRX.', 'Name': 'Proxy response'},
                   'MJH': {'Notes': 'Indicates if person has more than one job. Derived from PRSJMJ.',
                           'Name': 'Multiple jobholder'},
+                  'ASIANDT': {'Name': 'Detailed Asian race', 'Notes': 'Derived from PRDASIAN.'},
+                  'HISPDT': {'Name': 'Detailed Hispanic origin', 'Notes': 'Revised in January 2014. Derived from PRDTHSP.'},
+                  'HISPDT03': {'Name': 'Detailed Hispanic origin, 2003', 'Notes': 'Based on origin groups available beginning January 2003. Derived from PRDTHSP.'},
                   'PRFTLF': {'Name': 'Full-time labor force', 'Notes': 'Equal to 1 if full-time labor force and otherwise 2. Can be assigned for persons who are part-time.'},
                   'NOTATWORK': {'Name': 'Employed, Not at Work', 'Notes': 'Equal to 1 if employed but not at work and otherwise 0.'},
                   'PTCOVID1': {'Name': 'COVID Telework', 'Notes': 'Telework at any point during the past four weeks, due to the coronavirus pandemic. Yes: 1, No: 2, NIU: -1'},
