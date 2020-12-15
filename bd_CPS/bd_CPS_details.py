@@ -574,6 +574,8 @@ CodebookNotes = {'MONTH': {'Notes': 'Survey reference month. Original CPS variab
                   'INDGRP': {'Notes': 'Major industry group', 'Name': 'Industry Group'},
                   'MARRIED': {'Notes': 'Indicates if person is currently married, with spouse present or spouse absent, but not separated. Derived from PRMARSTA.',
                           'Name': 'Married'},
+                  'SPOUSE': {'Name': 'Spouse line number', 'Notes': 'Person line number (PULINENO) of spouse.'},
+                  'PARENT': {'Name': 'Parent line number', 'Notes': 'Person line number (PULINENO) of parent.'},
                   'QSTNUM': {'Notes': 'Household number within current month. Created for months from January 1994 to December 1997.',
                               'Name': 'Unique household number'},
                   'OCCURNUM': {'Notes': 'Person number within household and current month. Created for months from January 1994 to December 2007.',

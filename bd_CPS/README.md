@@ -1,7 +1,7 @@
 # bd CPS
 ## BD Economics Current Population Survey Extract
 
-v0.3, updated: September 25, 2019
+v0.3, updated: December 14, 2020
 
 Working with Current Population Survey (CPS) public use microdata using jupyter notebooks and python.
 
@@ -73,7 +73,7 @@ Settings and other required code are also contained in the python file bd_CPS_de
 
 ### How to run/ update
 
-Sometime in the middle of each month, the Census Bureau will release the previous month CPS public use microdata in a compressed file on the [US CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html). The full set of 1994 onward monthly microdata files are available to download on the FTP page. NBER [hosts](https://www.nber.org/data/cps_basic.html) the 1989 to 1993 files. For the bd CPS program to work, a local folder must contain the relevant uncompressed CPS microdata files. Next, the data dictionary files that correspond to each microdata file should be downloaded and stored in the same folder as the microdata. Separately, to adjust wages for inflation the CPI for each of four US regions should be downloaded using the notebook `bd_CPS_cpi.ipynb` (requires a [free BLS API key](https://data.bls.gov/registrationEngine/)). Version 0.3 of the bd CPS can also generate a unique CPSID for nearly all households after 1994, by running `bd_CPS_id.ipynb`.
+Sometime in the middle of each month, the Census Bureau will release the previous month CPS public use microdata in a compressed file on the [Basic Monthly CPS page](https://www.census.gov/data/datasets/time-series/demo/cps/cps-basic.html). The full set of 1994 onward monthly microdata files are available to download on the Census CPS page. NBER [hosts](https://www.nber.org/data/cps_basic.html) the 1989 to 1993 files. For the bd CPS program to work, a local folder must contain the relevant uncompressed CPS microdata files. Next, the data dictionary files that correspond to each microdata file should be downloaded and stored in the same folder as the microdata. Separately, to adjust wages for inflation the CPI for each of four US regions should be downloaded using the notebook `bd_CPS_cpi.ipynb` (requires a [free BLS API key](https://data.bls.gov/registrationEngine/)). Version 0.3 of the bd CPS can also generate a unique CPSID for nearly all households after 1994, by running `bd_CPS_id.ipynb`.
 
 The first step in generating the bd CPS is to run the data dictionary generator, which creates a pickled python dictionary that provides information needed for reading the raw monthly CPS microdata files. This is done by running the notebook called `bd_CPS_dd.ipynb`. To run the bd CPS for 2000, 2001, and 2002, which utilize revised 2000-based weights and revised union data, or for December 2007, which uses revised weights, or for 2015-16, which uses separate data to identify persons with professional certifications, you'll also need to download and unzip the related source files and run `bd_CPS_revisions_reader.ipynb`.
 
@@ -91,7 +91,7 @@ To include an additional CPS variable in your local version of the bd CPS extrac
 
 The bd CPS contains several variables that are recodes of other CPS variables or combinations of CPS data and outside data. The two most important examples of this are the labor force status (`LFS`) and the real wage variables (`RHRWAGE` and `RWKWAGE`). 
 
-*NEW* The bd CPS now includes a [codebook](https://github.com/bdecon/econ_data/blob/master/bd_CPS/codebook.txt) that shows which variables are available for which dates, and what values the variables include. 
+The bd CPS includes a [codebook](https://github.com/bdecon/econ_data/blob/master/bd_CPS/codebook.txt) that shows which variables are available for which dates, and what values the variables include. 
 
 Details on selected bd CPS variables are as follows:
 
@@ -114,6 +114,7 @@ Details on selected bd CPS variables are as follows:
 * `CBSA` - center-based statistical area (where identified).
 * `CSA` - consolidated statistical area (where identified).
 * `EDUC` - Highest level of education obtained - Maps the educational categories to five groups: Less than high school, High school, Some college, Bachelor degree, Advanced degree.
+* `EDUCDT` - Detailed highest level of education attained.
 * `WBHAO` - race/ethnic group - Each observation is mapped to one of five racial/ethnic groups: White, Black, Hispanic, Asian, and Other. White is white non-Hispanic only, black is any black non-Hispanic, Asian is any Asian but not black and non-Hispanic, Other is Native American, Native Hawaiian, Pacific Islander, and other groups. Hispanic is someone of Hispanic ethnicity of any race. 
 * `WBHAOM` - race/ethnic group - white, non-Hispanic only, black, non-Hispanic only, Asian or Pacific Islander, non-Hispanic only, Native American, non-Hispanic only, persons of more than one racial group but non-Hispanic, and Hispanic, and race/ethnicity. Available 2003 onward, only.
 * `MARRIED` - binary variable equal to 1 if married and otherwise 0.
@@ -123,8 +124,6 @@ Details on selected bd CPS variables are as follows:
 * `PTECON` - binary variable equal to 1 if usually part-time for economic reasons and otherwise 0.
 * `WORKFT` - equal to one if person worked full time during the reference week (35 hours or more) regardless of whether they usually work full-time.
 * `PRNMCHLD` - number of own children under age 18 (available November 1999-onward).
-* *NEW* `NCHILDU18` - number of own children under age 18 in household (available for all years--calculated from family relationship variables).
-* *NEW* `NCHILDU5` - number of own children under age 5 in household (available for all years--calculated from family relationship variables).
 * `DISABILITY` - binary equal to one if person has any of six disabilities (available June 2008 onward).
 * `CPSID` - unique (over time, in bd CPS) household ID  (available 1998-onward; OPTIONAL - run the reader, run `bd_CPS_id` and then re-run the reader, to add the `CPSID`).
 * `BASICWGT` - weight equal to `PWSSWGT` before 1998 and `PWCMPWGT` after. The weight variables use the 2000-based revised weights for the years 2000-2002 and the December 2007 revised weights.
@@ -164,7 +163,7 @@ I would really appreciate feedback, especially if you spot an error. I also welc
 
 [FRBKC Psuedocode](https://www.kansascityfed.org/research/kcdc/cps/coreinfo/pseudocode/hrswk)
 
-[US Census Bureau's CPS FTP page](https://thedataweb.rm.census.gov/ftp/cps_ftp.html)
+[US Census Bureau's Basic Monthly CPS page](https://www.census.gov/data/datasets/time-series/demo/cps/cps-basic.html)
 
 [NBER CPS Basic Data](http://www.nber.org/data/cps_basic.html)
 
@@ -197,6 +196,8 @@ In addition to the files in this repo, to run the bd_CPS notebook, you will need
 - Revised data from Census for revised December 2007 weights;
 
 - Additional data from Census for 2015-16 professional certification variables;
+
+- Additional data on COVID-19, covering May 2020 onward;
 
 - BLS API code (to retrieve CPI data, free but requires registration);
 
