@@ -1,37 +1,59 @@
 def text_repl(string_item):
     return (string_item.replace('PEAGE', 'PRTAGE').replace('PTERNHLY', 'PRERNHLY')
-            .replace('PTERNWA', 'PRERNWA').replace('GEMETSTA', 'METSTA')
-            .replace('GTMETSTA', 'METSTA').replace('PERACE', 'PRDTRACE')
-            .replace('PTDTRACE', 'PRDTRACE').replace('PRORIGIN', 'PRDTHSP')
-            .replace('HRHHID (partII)', 'HRHHID2').replace('PTERN2', 'PUERN2')
+            .replace('PTERNWA', 'PRERNWA').replace('PTERN', 'PEERN')
+            .replace('GEMSAST', 'MSAST').replace('HUFAMINC', 'HEFAMINC')
+            .replace('GEMSAST', 'MSAST').replace('GTMSAST', 'MSAST')
+            .replace('GTCBSAST', 'MSAST').replace('GEMETSTA', 'METSTA')
+            .replace('GTMETSTA', 'METSTA')
+            .replace('PERACE', 'PRDTRACE').replace('PTDTRACE', 'PRDTRACE')
+            .replace('PRORIGIN', 'PRDTHSP')
+            .replace('HRHHID (partII)', 'HRHHID2')
+            .replace('PTIO2OCD', 'PEIO2OCD')
             .replace('PTIO1OCD', 'PEIO1OCD').replace('PUAFEVER', 'PEAFEVER')
             .replace('GECO', 'GTCO').replace('GEMSA', 'MSA').replace('GECMSA', 'CMSA')
-            .replace('GTMSA', 'MSA').replace('GTCMSA', 'CMSA').replace('PRSJMS', 'PRSJMJ'))
+            .replace('GTMSA', 'MSA').replace('GTCMSA', 'CMSA').replace('GTMSA', 'MSA')
+            .replace('PRSJMS', 'PRSJMJ'))
 
 
-VarList = ['PWORWGT', 'PWCMPWGT', 'PRERNWA', 'PEPARENT', 'PESPOUSE', 'PRSJMS',
-           'PTERNWA', 'PWSSWGT', 'HRHHID (partII)', 'HWHHWGT', 'HURESPLI',
-           'HRHHID2', 'HRYEAR', 'HRYEAR4', 'PRERNHLY', #'HRHTYPE', 
-           'PTERNHLY', 'HRMONTH', 'PESEX', 'PEMLR', #'PERRP', 
-           'PENLFRET', 'PENLFACT', 'GESTFIPS', 'PEDWRSN', 'PRFAMNUM', 'PRFAMREL', 
-           'HRMIS', 'PRFTLF', 'PEERNHRY', 'PWLGWGT', #'PRFAMTYP',
-           'PRSJMJ', 'PEEDUCA', 'PENATVTY', 'PUSLFPRX', 'PEHRFTPT', 'PRDISC',
+VarList = ['PWORWGT', 'PWCMPWGT', 'PWFMWGT', 'PWLGWGT', 
+           'PRERNWA', 'PEPARENT', 'PESPOUSE', 'PRSJMS', 'PRSJMJ', 
+           'PTERNWA', 'PWSSWGT', 'HRHHID (partII)', 'HWHHWGT', 
+           'PTERN', 'HUFAMINC', 'HEFAMINC',
+           'HRHHID2', 'HRYEAR', 'HRYEAR4', 'PRERNHLY', 'HRHTYPE', 
+           'PTERNHLY', 'HRMONTH', 'PESEX', 'PEMLR', 'PRUNTYPE', 
+           'PENLFRET', 'PENLFACT', 'GESTFIPS', 'PRFAMNUM',  
+           'HRMIS', 'PRFTLF', 'PEERNHRY', 
+           'PEEDUCA', 'PENATVTY', 'PUSLFPRX', 'PEHRFTPT', 'PRDISC',
            'PRWKSTAT', 'PRMJOCC1', 'PRMJOCC2', 'PRMJIND1', 'PRMJIND2', 
-           'GTMETSTA', 'GEMETSTA', 'GECO', 'GTCO', 'GEMSA', 'GECMSA',
-           'PEDWWNTO', 'PRUNTYPE', 'GTCBSA', 'GTCMSA', 'PWFMWGT', 'PREMPHRS',
-           'PERACE', 'PTDTRACE', 'PRDTRACE', 'PRORIGIN', 'PEERNPER',
-           'HUHHNUM', 'PRDTHSP', 'PRCHLD', 'PRTAGE', 'PRHERNAL', 'PRWERNAL',
-           'PEAGE', 'PULINENO', 'PRWNTJOB', 'PEERNLAB', 'PEERNHRO',
+           'GTMETSTA', 'GEMETSTA', 'GTMSAST', 'GEMSAST', 'GTCBSAST', 
+           'GECO', 'GTCO', 'GEMSA', 'GECMSA', 'GTCBSA', 'GTCMSA', 
+           'GTMSA', 'GTCSA',
+           'PERACE', 'PTDTRACE', 'PRDTRACE', 'PRORIGIN', 
+           'HUHHNUM', 'PRDTHSP', 'PRCHLD', 'PRTAGE', 
+           'PEAGE', 'PULINENO', 'PRWNTJOB', 'PEERNLAB', 
            'PRUNEDUR', 'PEHRUSL1', 'PRMARSTA', 'PRCITSHP', 'PRHRUSL',
            'PRDTOCC1', 'PRDTOCC2', 'PRDTIND1', 'PRDTIND2', 'PEMJNUM',
-           'PEHRUSL2', 'PEHRUSLT', 'PEIO2COW', 'PEPAR2', 'PEPAR2',
+           'PEHRUSL2', 'PEHRUSLT', 'PEIO2COW', 'PEPAR1', 'PEPAR2',
            'PEIO1COW', 'PEIO1OCD', 'PEIO2OCD', 'PEIO1ICD', 'PEIO2ICD',
-           'HRHHID', 'HRSAMPLE', 'HRSERSUF', 'PTIO1OCD', 'PEABSRSN',
-           'PRDISFLG', 'PUAFEVER', 'PEAFEVER', 'PECERT1', 'PEHRWANT',
-           'GTCSA', 'PEHRACTT', 'PEHRACT1', 'PEERNCOV', 'PERET1',
-           'PESCHENR', 'PRNMCHLD', 'PTERN2', 'PEHRACT2',
-           'PUERN2', 'QSTNUM', 'OCCURNUM', 'PRAGNA',
-           'PTHR', 'PTWK', 'PRNAGWS', 'PRDASIAN']
+           'HRHHID', 'HRSAMPLE', 'HRSERSUF', 'PTIO1OCD', 'PTIO2OCD',
+           'PRDISFLG', 'PUAFEVER', 'PEAFEVER', 'PECERT1', 
+           'PEHRACTT', 'PEHRACT1', 'PEERNCOV', 
+           'PESCHENR', 'PRNMCHLD', 'PEHRACT2', 
+           'QSTNUM', 'OCCURNUM', 'PRAGNA', 'PRJOBSEA', 'PEHRWANT',
+           'PRNAGWS', 'PRDASIAN', 'PRABSREA', 'PEHRRSN1', 'PEHRRSN2',
+           'PEHRRSN3', 'PESCHLVL', 'PESCHFT', 'PEERN', 'PRPTREA',
+           'PTHR', 'PTWK', 'PRWERNAL', 'PRHERNAL']
+
+# Old variables to drop
+DropVars = ['PESEX', 'PEAFEVER', 'PESCHENR', 'PRSJMJ', 'PRTAGE',
+            'PRCITSHP', 'PEERNHRY', 'PEHRRSN1', 'PEHRRSN2',
+            'PRMARSTA', 'PEIO1COW', 'PRHRUSL', 'PEHRWANT',
+            'PUSLFPRX', 'PEIO2COW', 'PEEDUCA', 'PRPTREA',
+            'HRHTYPE', 'PEMLR', 'PEMJNUM', 'PENLFRET',
+            'PEHRFTPT', 'PEHRRSN3', 'PRABSREA', 'PRDISC', 
+            'PRJOBSEA', 'PRUNTYPE', 'PRWNTJOB',
+            'PENLFACT', 'PESCHFT', 'PESCHLVL',
+            'PRFTLF']
 
 # Note: January_2020_Record_Layout.txt and jan98dd2.asc are edited versions
 # of the original data dictionaries, see bd_CPS_dd.ipynb. 
@@ -520,7 +542,8 @@ CodebookNotes = {'MONTH': {'Notes': 'Survey reference month. Original CPS variab
                           'Name': 'Month in sample'},
                   'HHID': {'Notes': 'First part of CPS household ID. Original CPS variable: HRHHID.',
                           'Name': 'Household ID 1'},
-                  'PULINENO': {'Notes': 'Unique line number for person.',
+                  'FAMINC': {'Name': 'Family Income category', 'Notes': 'Total family income in bin. Additional categories added starting October 2003. Variabled edited starting January 2010. Many instances are allocated by BLS/Census.'},
+                  'LINENO': {'Notes': 'Unique line number for person, over time. Used with CPSID to match people across different months. Derived from PULINENO.',
                           'Name': 'Person line number'},
                   'AGE': {'Notes': 'Person age, topcoded at 80. Original CPS variables: PRTAGE, PEAGE',
                           'Name': 'Age'},
@@ -528,7 +551,7 @@ CodebookNotes = {'MONTH': {'Notes': 'Survey reference month. Original CPS variab
                           'Name': 'Actual hours worked, total'},        
                   'UNEMPDUR': {'Notes': 'Number of weeks person has been unemployed. There is a definition change in 1994 that affects the results from this variable. From 1994 onwards, those continuously employed and not in the incoming rotation group have their unemployment duration calculated based on the duration they reported in their incoming rotation group interview. Prior to 1994, respondents were asked how many weeks they were unemployed for all eligible months in sample.',
                           'Name': 'Unemployment Duration'},
-                  'HRSUSL1': {'Notes': 'Usual hours worked at main job, per week.',
+                  'HRSUSL1': {'Notes': 'Usual hours worked at main job, per week. Value of -4 indicates hours vary. See also HRSUSL1I.',
                           'Name': 'Usual hours worked, main job'},
                   'EDUC': {'Notes': 'Highest level of education attained: Advanced degree, college degree, some college but no degree or associate degree, high school degree, less than high school degree. Some assumptions are made to create this variable for pre-1992 data, using highest grade completed and highest graded attended, since the highest degree completed information is unavailable. To see the mapping of HGC (highest grade attained) and HGC (highest grade completed) to EDUC for 1989-91, see bd_CPS_1989-93.ipynb. For 1992 and 1993, the data comes from A-HGA. For 1994-onward, derived from PEEDUCA.',
                           'Name': 'Education level'},
@@ -547,7 +570,7 @@ CodebookNotes = {'MONTH': {'Notes': 'Survey reference month. Original CPS variab
                           'Name': 'Race/Ethnic Group'},
                   'WBAO': {'Notes': 'Time-consistent racial/ethnic group: white, black, Asian, or other',
                           'Name': 'Race/Ethnic Group'},
-                  'HISPANIC': {'Notes': 'Equal to 1 if hispanic, otherwise 0.',
+                  'HISPANIC': {'Notes': 'Equal to 1 if Hispanic or Latino, any race, otherwise 0. Derived from PRORIGIN and PRDTHSP. In 2003 the question used to create this variable was changed to directly ask people if they are Hispanic/Latino.',
                           'Name': 'Hispanic'},
                   'STATE': {'Notes': 'Two letter US state code. Derived from GESTFIPS.',
                           'Name': 'State'},
@@ -557,12 +580,14 @@ CodebookNotes = {'MONTH': {'Notes': 'Survey reference month. Original CPS variab
                           'Name': 'Female'},
                   'VETERAN': {'Notes': 'Indicates if person is a veteran. Derived from PEAFEVER.',
                               'Name': 'Veteran'},
-                  'SCHENR': {'Notes': 'Indicates if person was enrolled in school during prior week. Derived from PESCHENR.',
+                  'SCHENR': {'Notes': 'Indicates if person was enrolled in school during prior week. Derived from PESCHENR. Only identified for people ages 16 to 24 from 1989 to 2012, and only identified for people ages 16 to 54 from 2013 onward.',
                               'Name': 'School enrolled'},
                   'UNEMPTYPE': {'Notes': 'Type of unemployment: job loser/on layoff, job leaver, re-entrant, or new entrant. Derived from PRUNTYPE for 1994-onward and A-UNTYPE for 1989-93.',
                               'Name': 'Unemployment type'},
                   'FORBORN': {'Notes': 'Indicates if person is born outside the US. Derived from PRCITSHP.',
                               'Name': 'Foreign born'},
+                  'CITIZEN': {'Notes': 'Indicates if person is US citizen, regardless of country of birth. Derived from PRCITSHP.',
+                              'Name': 'US Citizen'},
                   'NILFREASON': {'Notes': 'Primary reason person is not in the labor force. Derived from PEMLR, PRWNTJOB, PEDWWNTO, and PENLFACT.',
                               'Name': 'NILF reason'},
                   'MINWAGE': {'Notes': 'Indicates if person is paid the federal minimum wage or less. Uses federal minimum wage data provided by the Department of Labor.',
@@ -574,8 +599,8 @@ CodebookNotes = {'MONTH': {'Notes': 'Survey reference month. Original CPS variab
                   'INDGRP': {'Notes': 'Major industry group', 'Name': 'Industry Group'},
                   'MARRIED': {'Notes': 'Indicates if person is currently married, with spouse present or spouse absent, but not separated. Derived from PRMARSTA.',
                           'Name': 'Married'},
-                  'SPOUSE': {'Name': 'Spouse line number', 'Notes': 'Person line number (PULINENO) of spouse.'},
-                  'PARENT': {'Name': 'Parent line number', 'Notes': 'Person line number (PULINENO) of parent.'},
+                  'SPOUSE': {'Name': 'Spouse line number', 'Notes': 'Person line number (LINENO) of spouse.'},
+                  'PARENT': {'Name': 'Parent line number', 'Notes': 'Person line number (LINENO) of parent. Currently stops in 2019 because redesign of CPS for 2020 identifies two parents. To be updated. '},
                   'QSTNUM': {'Notes': 'Household number within current month. Created for months from January 1994 to December 1997.',
                               'Name': 'Unique household number'},
                   'OCCURNUM': {'Notes': 'Person number within household and current month. Created for months from January 1994 to December 2007.',
@@ -593,10 +618,10 @@ CodebookNotes = {'MONTH': {'Notes': 'Survey reference month. Original CPS variab
                   'WBHAOM': {'Notes': 'Racial/ethnic group with separate group for persons of more than one race.',
                               'Name': 'Race/ethnic group'},
                   'PRDTRACE': {'Notes': 'Original CPS definitions for race or combination of races', 'Name': 'Race/ethnicity'},
-                  'HRSUSL2': {'Notes': 'Number of hours usually worked, per week, at second job', 'Name': 'Usual hours, job 2'},
-                  'HRSUSLT': {'Notes': 'Number of hours usually worked, per week, total', 'Name': 'Usual hours, total'},
-                  'HRSACT1': {'Notes': 'Number of hours actually worked last week, main job', 'Name': 'Actual hours, main job'},
-                  'HRSACT2': {'Notes': 'Number of hours actually worked last week, second job', 'Name': 'Actual hours, job 2'},
+                  'HRSUSL2': {'Notes': 'Number of hours usually worked, per week, at second job.', 'Name': 'Usual hours, job 2'},
+                  'HRSUSLT': {'Notes': 'Number of hours usually worked, per week, total.', 'Name': 'Usual hours, total'},
+                  'HRSACT1': {'Notes': 'Number of hours actually worked last week, main job.', 'Name': 'Actual hours, main job'},
+                  'HRSACT2': {'Notes': 'Number of hours actually worked last week, second job.', 'Name': 'Actual hours, job 2'},
                   'PEIO1ICD': {'Notes': 'Industry code for main job', 'Name': 'Industry, main job'},
                   'IND': {'Notes': 'Industry code for main job', 'Name': 'Industry, main job'},
                   'OCC': {'Notes': 'Occupation code for main job', 'Name': 'Occupation, main job'},
@@ -632,6 +657,8 @@ CodebookNotes = {'MONTH': {'Notes': 'Survey reference month. Original CPS variab
                   'PWLGWGT': {'Notes': 'Person weight for matching month to month CPS observations.', 'Name': 'Longitudinal person weight'},
                   'PWSSWGT': {'Notes': 'Person weight, including children.', 'Name': 'Person weight'},
                   'HHWGT': {'Notes': 'Household weight, derived from H-HHWGT for 1989-93 and HWHHWGT for 1994 onward.', 'Name': 'Household weight'},
+                  'PWFMWGT': {'Notes': 'Family weight, derived from PWFMWGT for 1994 onward.', 'Name': 'Family weight'},
+                  'FAMNUM': {'Notes': 'Of which family within the household is the person a member. Set to 1 for primary family only calculations, such as the family calculations published by BLS. Derived from PRFAMNUM.', 'Name': 'Family number'},
                   'CBSA': {'Notes': 'Similar to metro area.',
                               'Name': 'Center-based statistical area'},
                   'CSA': {'Notes': 'Grouping of nearby metro areas.',
@@ -639,6 +666,8 @@ CodebookNotes = {'MONTH': {'Notes': 'Survey reference month. Original CPS variab
                   'COUNTY': {'Notes': 'U.S. county code, derived from GECO and GTCO', 'Name': 'County'},
                   'MSA': {'Notes': 'Metropolitan Statistical Area (MSA) code', 'Name': 'MSA code'},
                   'CMSA': {'Notes': 'Combined Metropolitan Statistical Area (MSA) code', 'Name': 'CMSA code'},
+                  'METSTAT': {'Name': 'Metropolitan area status', 'Notes': 'Identifies people who live in a metro area and those who do not. Some households are not identified. Not available June, July, or August 1995. Derived from GEMETSTA, GTMETSTA, and H-METSTA.'},
+                  'MPCSTAT': {'Name': 'Metropolitan area and principal city status', 'Notes': 'Identifies people who live in a principal city, or center city, or a metro area, those who live in a metro area but not the principal city, called the "balance", and those who do not live in a metro area. Many households are not identified in this measure even if they are identified in METSTAT. Not available June, July, or August 1995. Derived from GTCBAST, GEMSAST, GTMSAST, and HG-MSAS.'},
                   'DISABILITY': {'Notes': 'Indicates if person is has any of six disabilities: difficulty hearing, difficulty seeing even with glasses, difficulty remembering or making decisions, difficulty walking or climbing stairs, difficulty dressing or bathing, or difficulty doing errands alone. Includes data covering June to December 2008 that is released separately by Census. Derived from PRDISFLG.',
                               'Name': 'Disability'},
                   'CERT': {'Notes': 'Indicates if a person has a professional certification or license. Values for 2015 and 2016 added using separately published Census microdata. Derived from PECERT1.',
@@ -651,16 +680,16 @@ CodebookNotes = {'MONTH': {'Notes': 'Survey reference month. Original CPS variab
                           'Name': 'Union member'},
                   'PAIDHRLY': {'Notes': 'Indicates whether person is usually paid on a per-hour basis. Derived from PEERNHRY.',
                           'Name': 'Paid hourly'},
-                  'WKWAGE': {'Notes': 'Nominal weekly earnings, in USD. Derived from PRERNWA (1994-onward) and A-WERNTP (1989-93).',
-                          'Name': 'Weekly wage'},
-                  'HRWAGE': {'Notes': 'Nominal hourly earnings, in USD. Includes hourly wage calculation for individuals who report their pay on a weekly basis and report their hours worked. Use in combination with PAIDHRLY to identify only people who are paid on an hourly basis. For 1994-onward, derived from PRERNHLY when paid hourly, and otherwise equal to PRERNWA divided by PEHRUSL1. For 1989-93, derived from A-HERNTP when paid hourly, and A-WERNTP divided by A-USLHRS when paid weekly.',
-                          'Name': 'Hourly wage'},
-                  'RWKWAGE': {'Notes': 'Real weekly earnings, in USD, adjusted for inflation by regional CPI-U. The base period is always the latest month of available CPI data.',
-                          'Name': 'Real weekly wage'},
-                  'RHRWAGE': {'Notes': 'Real hourly earnings, in USD, adjusted for inflation by regional CPI-U. The base period is the latest month of available CPI data. Includes hourly wage calculation for individuals who report their pay on a weekly basis and report their hours worked. Use in combination with PAIDHRLY to identify only people who are paid on an hourly basis. ',
-                          'Name': 'Real hourly wage'},
-                  'BASICWGT': {'Notes': 'Basic person weight, equal to the composite weight where available (1998-onward). Basic weight for 2000-2002 is revised based on Census released 2000-based weights and based on revised December 2007 weights from Census.',
-                          'Name': 'Basic weight'},
+                  'WKWAGE': {'Notes': 'Nominal weekly earnings, in USD. Includes reported overtime, tips, and commissions. Derived from PRERNWA (1994-onward) and A-WERNTP (1989-93).', 'Name': 'Weekly wage'},
+                  'HRWAGE': {'Notes': 'Nominal hourly earnings, in USD. Includes hourly wage calculation for individuals who report their pay on a weekly basis and report their usual hours worked. Use in combination with PAIDHRLY to identify only people who are paid on an hourly basis. For 1994-onward, derived from PRERNHLY when paid hourly, and otherwise equal to PRERNWA divided by PEHRUSL1. For 1989-93, derived from A-HERNTP when paid hourly, and A-WERNTP divided by A-USLHRS when paid weekly.', 'Name': 'Hourly wage'},
+                  'RWKWAGE': {'Notes': 'Real weekly earnings, in USD, adjusted for inflation by regional CPI-U. The base period is always the latest month of available CPI data. Based on WKWAGE.', 'Name': 'Real weekly wage'},
+                  'RHRWAGE': {'Notes': 'Real hourly earnings, in USD, adjusted for inflation by regional CPI-U. The base period is the latest month of available CPI data. Includes hourly wage calculation for individuals who report their pay on a weekly basis and report their usual hours worked. Use in combination with PAIDHRLY to identify only people who are paid on an hourly basis. ', 'Name': 'Real hourly wage'},
+                  'RHRWAGEADJ': {'Notes': 'Adjusted real hourly earnings, in USD, adjusted for inflation by regional CPI-U. The base period is the latest month of available CPI data. Includes hourly wage calculation for individuals who report their pay on a weekly basis and report their usual hours worked. For those whose usual hours vary, imputed usual hours are used. For those with overtime, tips, or comissions, weekly earnings divided by hours are used instead of hourly wages, so that overtime, tips, and comissions are included.', 'Name': 'Real hourly wage (adjusted)'},
+                  'HRWAGEADJ': {'Notes': 'Adjusted hourly earnings, in USD. Includes hourly wage calculation for individuals who report their pay on a weekly basis and report their usual hours worked. For those whose usual hours vary, imputed usual hours are used. For those with overtime, tips, or comissions, weekly earnings divided by hours are used instead of hourly wages, so that overtime, tips, and comissions are included. The hourly wage variable without usual hours imputed for people whose hours vary and without overtime, tips, and commissions, is called HRWAGE.', 'Name': 'Hourly wage (adjusted)'},
+                  'HRSUSL1I': {'Name': 'Usual hours, first job, imputed', 'Notes': 'Usual hours worked on first job imputed from a series of regressions. Used to fill in the hours for people who report varying hours and do not report their hourly wage. Allows for calculating an hourly wage for more observations per month.'},
+                  'OTCAMT': {'Notes': 'Weekly total overtime pay, tips, and commissions, in USD. Derived from PEERN and PTERN', 'Name': 'Overtime pay, tips, commissions'},
+                  'ROTCAMT': {'Notes': 'Inflation-adjusted weekly total overtime pay, tips, and commissions, in USD adjusted by regional CPI-U. Base period is the most recent CPI month. Derived from PEERN and PTERN', 'Name': 'Real overtime pay, tips, commissions'},
+                  'BASICWGT': {'Notes': 'Basic person weight, equal to the composite weight where available (1998-onward). Basic weight for 2000-2002 is revised based on Census released 2000-based weights and based on revised December 2007 weights from Census.', 'Name': 'Basic weight'},
                   'PWORWGT': {'Notes': 'Person weight for outgoing rotation group (MIS 4 or 8) variables, such as wage or hours or union membership. ORG weight for 2000-2002 is revised based on Census released 2000-based weights. ',
                           'Name': 'Outgoing Rotation Group Weight'},
                   'PROXY': {'Notes': 'Identifies whether labor force information was collected by self, by proxy response, or both. Derived from PUSLFPRX.', 'Name': 'Proxy response'},
@@ -669,12 +698,22 @@ CodebookNotes = {'MONTH': {'Notes': 'Survey reference month. Original CPS variab
                   'ASIANDT': {'Name': 'Detailed Asian race', 'Notes': 'Derived from PRDASIAN.'},
                   'HISPDT': {'Name': 'Detailed Hispanic origin', 'Notes': 'Revised in January 2014. Derived from PRDTHSP.'},
                   'HISPDT03': {'Name': 'Detailed Hispanic origin, 2003', 'Notes': 'Based on origin groups available beginning January 2003. Derived from PRDTHSP.'},
-                  'PRFTLF': {'Name': 'Full-time labor force', 'Notes': 'Equal to 1 if full-time labor force and otherwise 2. Can be assigned for persons who are part-time.'},
-                  'NOTATWORK': {'Name': 'Employed, Not at Work', 'Notes': 'Equal to 1 if employed but not at work and otherwise 0.'},
+                  'FTLF': {'Name': 'Full-time labor force', 'Notes': 'Indicates if full-time labor force or part-time. Can be assigned for persons who are unemployed and for those whose hours vary. Derived from PRFTLF.'},
+                  'NOTATWORK': {'Name': 'Employed, Not at Work', 'Notes': 'Equal to 1 if employed but not at work and otherwise 0. Derived from PRWKSTAT.'},
+                  'ABSTYPE': {'Name': 'Work Absence Type', 'Notes': 'Type of work absence or reason for work absence. Only defined for people employed but not at work and people who usually work full time but were working part-time for non-economic reasons. Derived from PRABSREA and PEHRRSN3.'},
+                  'ABSPAID': {'Name': 'Work Absence Paid', 'Notes': 'Was work absence paid by employer. Based on PRABSREA'},
+                  'PTREASON': {'Name': 'Reason working or usually part-time', 'Notes': 'Defined for those usually part-time or who are usually full-time but working part-time for economic reasons. Lists the reason the person is usually working part-time, even if they worked full-time in the refernce week, or the reason they are working part-time in the reference week See also ABSTYPE which captures people who usually work full-time but were absent from work for all or part of the reference week (and are excluded from PTREASON). Derived from PRPRTREA, PEHRRSN1, and PEHRRSN2. '},
+                  'WANTFT': {'Name': 'Want full-time', 'Notes': 'Identifies part-time workers who want a full-time job.'},
+                  'SCHOOL': {'Name': 'School type', 'Notes': 'Identifies if in high school, or full- or part-time college or university. Derived from PESCHLVL and PESCHFT. Only identified for people ages 16 to 24 from 1989 to 2012, and only identified for people ages 16 to 54 from 2013 onward.'},
+                  'JLTYPE': {'Name': 'Job Loss Type', 'Notes': 'Identies type of unemployment if person lost job. Derived forom PRUNTYPE.'},
+                  'LAYOFF': {'Name': 'Unemployment Type 2', 'Notes': 'Is person on temporary layoff and expecting to return to a job, or are they unemployed and looking for work. Derived from PEMLR.'},
+                  'DWTYPE': {'Name': 'Discouraged Worker Type', 'Notes': 'The BLS definition of discouraged worker is narrow. In NILFREASON, anyone who wants a job is considered "Discouraged". This variable allows identifying which people from the NILREASON category are also in the BLS category. Derived from PRDISC and PRJOBSEA.'},
+                  'NUMJOBS': {'Name': 'Number of Jobs', 'Notes': 'Number of jobs, 0-4, topcoded at 4. Derived from PEMJNUM.'},
+                  'RETIRED': {'Name': 'Retired', 'Notes': 'Notes if someone who is not in the labor force is retired. Some are marked Discouraged in NILREASON because they want a job.'},
                   'PTCOVID1': {'Name': 'COVID Telework', 'Notes': 'Telework at any point during the past four weeks, due to the coronavirus pandemic. Yes: 1, No: 2, NIU: -1'},
                   'PTCOVID2': {'Name': 'COVID Lost Work', 'Notes': 'Lost work at any point during the past four weeks, due to the employer closing or losing business because of the coronavirus pandemic. Yes: 1, No: 2, NIU: -1'},
-                  'PTCOVID3': {'Name': 'COVID Pay for Lost Work', 'Notes': 'Did your pay for periods where you did not work? Yes: 1, No: 2, NIU: -1'},
-                  'PTCOVID4': {'Name': 'COVID Job Search', 'Notes': 'Among those not in the labor force, did the coronavirus pandemic interfere with job searching? Yes: 1, No: 2, NIU: -1'}}
+                  'PTCOVID3': {'Name': 'COVID Pay for Lost Work', 'Notes': 'Did your employer pay for periods where you did not work? Yes: 1, No: 2, NIU: -1'},
+                  'PTCOVID4': {'Name': 'COVID Job Search', 'Notes': 'Among those not in the labor force, did the coronavirus pandemic interfere with job searching in the past four weeks? Yes: 1, No: 2, NIU: -1'}}
                         
 
 ValueLabels = {'OCC': {10: 'Chief executives',
