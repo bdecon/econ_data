@@ -58,7 +58,7 @@ DropVars = ['PESEX', 'PEAFEVER', 'PESCHENR', 'PRSJMJ', 'PRTAGE',
 # Note: January_2020_Record_Layout.txt and jan98dd2.asc are edited versions
 # of the original data dictionaries, see bd_CPS_dd.ipynb. 
 DataDict = {'January_2020_Record_Layout.txt':
-            {'start': '2020-01-01', 'end': '2021-01-01',
+            {'start': '2020-01-01', 'end': '2022-01-01',
              're': f'({"|".join(VarList)})\s+(\d+)\s+.*?\t+.*?(\d\d*).*?(\d\d+)'},
             'January_2017_Record_Layout.txt':
             {'start': '2017-01-01', 'end': '2019-12-01',
