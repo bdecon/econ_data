@@ -5,7 +5,7 @@
 
 ========================
 
-updated: March 11, 2021
+updated: April 16, 2021
 
 variables:
 
@@ -421,7 +421,7 @@ RHRWAGE - Real hourly wage
     Data types: ['float32']
     Available from: 1989-01 to: 2020-12
     Value range: 
-0.0 to 3752.155029296875
+0.0 to 3780.779052734375
 
 
 
@@ -430,7 +430,7 @@ RWKWAGE - Real weekly wage
     Data types: ['float32']
     Available from: 1989-01 to: 2020-12
     Value range: 
-0.0 to 4932.1875
+0.0 to 4966.21875
 
 
 
@@ -806,7 +806,7 @@ ROTCAMT - Real overtime pay, tips, commissions
     Data types: ['float32']
     Available from: 1994-01 to: 2020-12
     Value range: 
-0.010259727947413921 to 10967.4521484375
+0.01033396553248167 to 11046.810546875
 
 
 
@@ -860,7 +860,7 @@ RHRWAGEADJ - Real hourly wage (adjusted)
     Data types: ['float32']
     Available from: 1994-01 to: 2020-12
     Value range: 
-0.0 to 3752.155029296875
+0.0 to 3780.779052734375
 
 
 
