@@ -99,7 +99,7 @@ Details on selected bd CPS variables are as follows:
 * `COW1` - Class of worker on first job: Federal Government, State Government, Local Government, Private, Self-employed Incorporated, Self-employed Unincorporated, Without Pay. 
 * `NILFREASON` - Reason for non-participation in the labor market: Discouraged, Disabled/Ill, Family, Retired, In School, Other (currently available 1994-onward only).
 * `RHRWAGE` - Real hourly wage - Available in ORG quartersample, this converts weekly pay to hourly where possible and then adjusts the wage using the not-seasonally-adjusted regional CPI (Northeast, Midwest, South, West). 
-* `RWKWAGE` - Real weekly wage - Same as above, except the weekly pay (therefore factoring in hours worked).
+* `RWKEARN` - Real usual weekly earnings - Same as above, except the usual weekly pay (therefore factoring in hours worked).
 * `RHRWAGEADJ` - Real hourly wage but also includes wages based on imputed hours for observations where usual weekly hours vary.
 * `MINWAGE` - equal to 1 if worker is paid the federal minimum wage or less. 
 * `PAIDHRLY` - equal to 1 if paid hourly and 0 if person has earnings but is not paid hourly.
