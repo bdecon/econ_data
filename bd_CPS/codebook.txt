@@ -128,17 +128,19 @@ UNEMPDUR - Unemployment Duration
 
 
 
-IND
-    Data types: ['int16']
-    Available from: 1989-01 to: 1993-12
+IND80 - Industry, main job
+    Notes: Industry code for main job. Available 1989 to 1991.
+    Data types: ['category']
+    Available from: 1989-01 to: 1991-12
     Value range: 
 -1 to 991
 
 
 
-OCC
-    Data types: ['int16']
-    Available from: 1989-01 to: 1993-12
+OCC80 - Occupation, main job
+    Notes: Occupation code for main job. Available 1989 to 1991.
+    Data types: ['category']
+    Available from: 1989-01 to: 1991-12
     Value range: 
 -1 to 905
 
@@ -477,6 +479,15 @@ OCCURNUM - Unique person number
 
 
 
+INDM - Major industry recode, main job (consistent)
+    Notes: Major Industry code for main job, consistent across years.
+    Data types: ['category']
+    Available from: 1989-01 to: 2021-03
+    Value range: 
+['Agriculture, mining, forestry and fisheries', 'Communications and utilities', 'Construction', 'Educational', 'Entertainment and recreation', 'Finance, insurance and real estate. Business, auto, repair, and other professional services.', 'Hospital', 'Manufacturing, durable goods', 'Manufacturing, nondurable goods', 'Medical, except hospital', 'Personal services, including private household', 'Public administration', 'Retail trade', 'Social Services', 'Transportation', 'Wholesale trade']
+
+
+
 CPSID - Unique household ID
     Notes: Manually created unique household ID that includes household start month and household number for start month. Can be used to match houeseholds over time. Applies only to the bd CPS, since the households matched prior to 1989 have January 1989 as the first part of their ID. Also, currently includes a gap in 1994-1995. Derived by bd_CPS_id.ipynb.
     Data types: ['int64', 'float64']
@@ -484,6 +495,24 @@ CPSID - Unique household ID
     Breaks in dtype: [Timestamp('1995-01-01 00:00:00')]
     Value range: 
 102215.0 to 991261372.0
+
+
+
+IND90 - Industry, main job
+    Notes: Industry code for main job. Available 1992 to 2002.
+    Data types: ['category']
+    Available from: 1992-01 to: 2002-12
+    Value range: 
+-1 to 991
+
+
+
+OCC90 - Occupation, main job
+    Notes: Occupation code for main job. Available 1992 to 2002.
+    Data types: ['category']
+    Available from: 1992-01 to: 2002-12
+    Value range: 
+-1 to 905
 
 
 
@@ -563,24 +592,6 @@ PRWKSTAT
     Available from: 1994-01 to: 2021-03
     Value range: 
 [-9, -1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-
-
-
-IND90 - Industry, main job
-    Notes: Industry code for main job. Available 1992 to 2002.
-    Data types: ['category']
-    Available from: 1994-01 to: 2002-12
-    Value range: 
--1 to 991
-
-
-
-OCC90 - Occupation, main job
-    Notes: Occupation code for main job. Available 1992 to 2002.
-    Data types: ['category']
-    Available from: 1994-01 to: 2002-12
-    Value range: 
--1 to 905
 
 
 
@@ -850,15 +861,6 @@ CTYBIRTH - Birth country
     Available from: 1994-01 to: 2021-03
     Value range: 
 ['Cambodia', 'Canada', 'China', 'Colombia', 'Cuba', 'Dominican Republic', 'Ecuador', 'El Salvador', 'Elsewhere', 'England', 'France', 'Germany', 'Greece', 'Guatemala', 'Guyana', 'Haiti', 'Holland/Netherlands', 'Honduras', 'Hong Kong', 'Hungary', 'India', 'Iran', 'Ireland/Eire', 'Italy', 'Jamaica', 'Japan', 'Korea/ South Korea', 'Laos', 'Mexico', 'Nicaragua', 'No coding available/US Outlying Area', 'Peru', 'Philippines', 'Poland', 'Portugal', 'Puerto Rico', 'Russia', 'Scotland', 'Taiwan', 'Thailand', 'Trinidad & Tobago', 'United States', 'Vietnam', 'Yugoslavia']
-
-
-
-INDM - Major industry recode, main job (consistent)
-    Notes: Major Industry code for main job, consistent across years.
-    Data types: ['category']
-    Available from: 1994-01 to: 2021-03
-    Value range: 
-['Agriculture, mining, forestry and fisheries', 'Communications and utilities', 'Construction', 'Educational', 'Entertainment and recreation', 'Finance, insurance and real estate. Business, auto, repair, and other professional services.', 'Hospital', 'Manufacturing, durable goods', 'Manufacturing, nondurable goods', 'Medical, except hospital', 'Personal services, including private household', 'Public administration', 'Retail trade', 'Social Services', 'Transportation', 'Wholesale trade']
 
 
 
