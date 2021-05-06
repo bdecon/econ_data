@@ -1,11 +1,11 @@
 # bd CPS
 ## BD Economics Current Population Survey Extract
 
-v0.4, updated: December 21, 2020
+v0.4.1, updated: May 6, 2021
 
 Working with Current Population Survey (CPS) public use microdata using jupyter notebooks and python.
 
-Brian Dew, twitter: @bd_econ, email: brianwdew@gmail.com
+Brian Dew, twitter: @bd_econ, email: brian.w.dew@gmail.com
 
 ### Contents
 - [Example](#example)
@@ -57,7 +57,7 @@ The above arbitrary example calculates how many age 25-54 people are in each of 
 
 ### Overview
 
-**UPDATE: v0.4 released.** The bd CPS is a series of jupyter notebooks I wrote to work with monthly Current Population Survey public use microdata. If the notebooks, or any part of them, could be helpful to you, please feel free to use them or modify them in any way. When set up correctly, the notebooks generate annual [feather](https://github.com/wesm/feather) files, for the years from 1989-present, which contain cleaned-up partial extracts of basic monthly CPS data. The raw source microdata files and data dictionaries can be downloaded from the [US Census Bureau's CPS page](https://www.census.gov/data/datasets/time-series/demo/cps/cps-basic.html). 
+**UPDATE: v0.4.1 released.** The bd CPS is a series of jupyter notebooks I wrote to work with monthly Current Population Survey public use microdata. If the notebooks, or any part of them, could be helpful to you, please feel free to use them or modify them in any way. When set up correctly, the notebooks generate annual [feather](https://github.com/wesm/feather) files, for the years from 1989-present, which contain cleaned-up partial extracts of basic monthly CPS data. The raw source microdata files and data dictionaries can be downloaded from the [US Census Bureau's CPS page](https://www.census.gov/data/datasets/time-series/demo/cps/cps-basic.html). 
 
 The bd CPS notebooks include:
 
@@ -98,12 +98,14 @@ Details on selected bd CPS variables are as follows:
 * `LFS` - Labor force status - Employed, Unemployed, or Not in Labor Force (NILF).
 * `COW1` - Class of worker on first job: Federal Government, State Government, Local Government, Private, Self-employed Incorporated, Self-employed Unincorporated, Without Pay. 
 * `NILFREASON` - Reason for non-participation in the labor market: Discouraged, Disabled/Ill, Family, Retired, In School, Other (currently available 1994-onward only).
-* `RHRWAGE` - Real hourly wage - Available in ORG quartersample, this converts weekly pay to hourly where possible and then adjusts the wage using the not-seasonally-adjusted regional CPI (Northeast, Midwest, South, West). 
-* `RWKEARN` - Real usual weekly earnings - Same as above, except the usual weekly pay (therefore factoring in hours worked).
-* `RHRWAGEADJ` - Real hourly wage but also includes wages based on imputed hours for observations where usual weekly hours vary.
+* `HRWAGE` - Hourly wage - Available in ORG quartersample. 
+* `WKEARN` - Usual weekly earnings - Same as above, except the usual weekly pay (therefore factoring in hours worked).
+* `WKEARNADJ` - Usual weekly earnings with topcode replaced with estimated mean above topcode. 
+* `HRWAGEADJ` - Hourly wage but also includes wages based on imputed hours for observations where usual weekly hours vary and uses WKEARNADJ.
 * `MINWAGE` - equal to 1 if worker is paid the federal minimum wage or less. 
 * `PAIDHRLY` - equal to 1 if paid hourly and 0 if person has earnings but is not paid hourly.
 * `INDGRP` - Industry group of first job - Consistent industry groups for first job: Construction and mining (also includes agriculture and the like), Manufacturing, Trade, transportation, and utilties, Finance and business services (also includes Information and the like), Leisure and hospitality, and Public administration. See bd_CPS_reader.ipynb for mapping. 
+* `INDM` - Major industry group on fisrst job. More groups than INDGRP. 
 * `UNEMPTYPE` - type of unemployment: job loser, job leaver, new entrant, or re-entrant. 
 * `UNEMPDUR` - duration of unemployment, in weeks. Slight definition change in 1994 revamp.
 * `VETERAN` - binary variable equal to 1 if served active duty armed forces.
