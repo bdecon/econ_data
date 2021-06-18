@@ -27,7 +27,7 @@ VarList = ['PWORWGT', 'PWCMPWGT', 'PWFMWGT', 'PWLGWGT',
            'PRWKSTAT', 'PRMJOCC1', 'PRMJOCC2', 'PRMJIND1', 'PRMJIND2', 
            'GTMETSTA', 'GEMETSTA', 'GTMSAST', 'GEMSAST', 'GTCBSAST', 
            'GECO', 'GTCO', 'GEMSA', 'GECMSA', 'GTCBSA', 'GTCMSA', 
-           'GTMSA', 'GTCSA',
+           'GTMSA', 'GTCSA', 'PUIODP1', 'PUIODP2',
            'PERACE', 'PTDTRACE', 'PRDTRACE', 'PRORIGIN', 
            'HUHHNUM', 'PRDTHSP', 'PRCHLD', 'PRTAGE', 
            'PEAGE', 'PULINENO', 'PRWNTJOB', 'PEERNLAB', 
@@ -53,7 +53,7 @@ DropVars = ['PESEX', 'PEAFEVER', 'PESCHENR', 'PRSJMJ', 'PRTAGE',
             'PEHRFTPT', 'PEHRRSN3', 'PRABSREA', 'PRDISC', 
             'PRJOBSEA', 'PRUNTYPE', 'PRWNTJOB',
             'PENLFACT', 'PESCHFT', 'PESCHLVL',
-            'PRFTLF']
+            'PRFTLF', 'PUIODP1', 'PUIODP2']
 
 # Note: January_2020_Record_Layout.txt and jan98dd2.asc are edited versions
 # of the original data dictionaries, see bd_CPS_dd.ipynb. 
