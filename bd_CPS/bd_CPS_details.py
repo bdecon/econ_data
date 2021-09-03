@@ -27,7 +27,7 @@ VarList = ['PWORWGT', 'PWCMPWGT', 'PWFMWGT', 'PWLGWGT',
            'PRWKSTAT', 'PRMJOCC1', 'PRMJOCC2', 'PRMJIND1', 'PRMJIND2', 
            'GTMETSTA', 'GEMETSTA', 'GTMSAST', 'GEMSAST', 'GTCBSAST', 
            'GECO', 'GTCO', 'GEMSA', 'GECMSA', 'GTCBSA', 'GTCMSA', 
-           'GTMSA', 'GTCSA', 'PUIODP1', 'PUIODP2',
+           'GTMSA', 'GTCSA', 'PUIODP1', 'PUIODP2', 'PUIODP3',
            'PERACE', 'PTDTRACE', 'PRDTRACE', 'PRORIGIN', 
            'HUHHNUM', 'PRDTHSP', 'PRCHLD', 'PRTAGE', 
            'PEAGE', 'PULINENO', 'PRWNTJOB', 'PEERNLAB', 
@@ -53,7 +53,7 @@ DropVars = ['PESEX', 'PEAFEVER', 'PESCHENR', 'PRSJMJ', 'PRTAGE',
             'PEHRFTPT', 'PEHRRSN3', 'PRABSREA', 'PRDISC', 
             'PRJOBSEA', 'PRUNTYPE', 'PRWNTJOB',
             'PENLFACT', 'PESCHFT', 'PESCHLVL',
-            'PRFTLF', 'PUIODP1', 'PUIODP2']
+            'PRFTLF', 'PUIODP1', 'PUIODP2', 'PUIODP3']
 
 # Note: January_2020_Record_Layout.txt and jan98dd2.asc are edited versions
 # of the original data dictionaries, see bd_CPS_dd.ipynb. 
@@ -983,6 +983,10 @@ CodebookNotes = {'MONTH': {'Notes': 'Survey reference month. Original CPS variab
                              'Notes': 'Based on Atlanta Fed WGT methodology, observations marked 1 are eligible for matching to other observations. This flag excludes topcoded and BLS imputed/allocated observations as well as agricultural workers. This variable is missing for 1994 to August 1995.' },
                   'WKEARNFLG': {'Name': 'Weekly Earnings Allocated by BLS',
                                 'Notes': 'Flag to indicate observations where the weekly earnings variable WKEARN has been allocated by BLS or imputed. BLS uses hotdecking to match missing data with similar non-missing data observations. Researchers should not use allocated earnings observations when they are interested in characteristics not captured in the hotdeck. This variable is missing for 1994 to August 1995.'},
+                  'SAMEEMP':{'Name': 'Same Employer', 'Notes': 'From PUIODP1; do you still work for same employer as last interview. 1 = Yes; 0 = No'},
+                  'CHDUTIES':{'Name': 'Change in Duties', 'Notes': 'From PUIODP2; did you usual job activities or duties change since last interview. 1 = Yes; 0 = No'},
+                  'SAMEACT':{'Name': 'Same Occupation and Activities', 'Notes': 'From PUIODP3; do you still work in the same occupation and perform the same activities as last month? 1 = Yes; 0 = No'},
+                  'CHJOBACT':{'Name': 'Change in Job or Activities', 'Notes': 'From PUIODP1, PUIODP2, and PUIODP3; Identifies individuals with a change in either job (employer) or activities, based on the three unedited variables. 1 = Yes; 0 = No'},
                   'PTCOVID1': {'Name': 'COVID Telework', 'Notes': 'Telework at any point during the past four weeks, due to the coronavirus pandemic. Yes: 1, No: 2, NIU: -1'},
                   'PTCOVID2': {'Name': 'COVID Lost Work', 'Notes': 'Lost work at any point during the past four weeks, due to the employer closing or losing business because of the coronavirus pandemic. Yes: 1, No: 2, NIU: -1'},
                   'PTCOVID3': {'Name': 'COVID Pay for Lost Work', 'Notes': 'Did your employer pay for periods where you did not work? Yes: 1, No: 2, NIU: -1'},
