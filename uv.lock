@@ -352,6 +352,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "config" },
+    { name = "httpx" },
     { name = "notebook" },
     { name = "pandas" },
     { name = "python-dotenv" },
@@ -361,6 +362,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "config", specifier = ">=0.5.1" },
+    { name = "httpx", specifier = ">=0.28.1" },
     { name = "notebook", specifier = ">=7.3.3" },
     { name = "pandas", specifier = ">=2.2.3" },
     { name = "python-dotenv", specifier = ">=1.1.0" },
