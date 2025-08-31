@@ -8,8 +8,9 @@ __pycache__/
 */CWS/*
 */micro/CWS/*
 */Shape/*
-*/.ipynb_checkpoints/*
 /Macro_Dash/Data/*
 /Japan/Data/*
 /CEPR/*
 *config.py
+*.ipynb_checkpoints*
+/micro/Chartbook*
