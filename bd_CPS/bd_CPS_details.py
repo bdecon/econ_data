@@ -549,7 +549,7 @@ INDGRPMap = {
         # Agriculture, mining, forestry, fisheries + Construction
         # Note: Landscaping (IND80: 20, 21; IND90: 20) moved to Finance and business services
         # to match post-2003 classification where landscaping (7690) is in business services
-        'IND80': [10, 11, 30, 31, 40, 41, 42, 50, 60],
+        'IND80': [10, 11, 20, 30, 31, 40, 41, 42, 50, 60],
         'IND90': [10, 11, 12, 30, 31, 32, 40, 41, 42, 50, 60],
         'IND02': [170, 180, 190, 270, 280, 290, 370, 380, 390,
                   470, 480, 490, 770, 7480],
@@ -639,8 +639,6 @@ INDGRPMap = {
                   3670, 3680, 3690, 3770, 3780, 3790, 3875, 3895,
                   3960, 3970, 3980, 3990]},
     'Trade, transportation, and utilities': {
-        # Transportation + Communications/utilities + Wholesale + Retail
-        # EXCLUDES eating/drinking (641) which goes to Leisure
         'IND80': [400, 401, 402, 410, 411, 412, 420, 421, 422, 432,
                   440, 441, 442, 460, 461, 462, 470, 471, 472,
                   500, 501, 502, 510, 511, 512, 521, 522, 530,
@@ -719,12 +717,7 @@ INDGRPMap = {
                   5171, 5181, 5191, 5276, 5281, 5296, 5371, 5382,
                   5392, 5471, 5481, 5491, 5571, 5581, 5680, 5791]},
     'Finance and business services': {
-        # Finance/insurance/real estate + Business/repair/professional services
-        # + Personal services EXCLUDING hotels (762, 770)
-        # IND80/IND90: 873-879 are religious/membership/professional orgs
-        # IND80: 20, 21 and IND90: 20 are landscaping/horticultural services
-        # (matches post-2003 where landscaping 7690 is in this category)
-        'IND80': [20, 21, 700, 701, 702, 710, 711, 712, 721, 722,
+        'IND80': [21, 700, 701, 702, 710, 711, 712, 721, 722,
                   730, 731, 732, 740, 741, 742, 750, 751, 752,
                   760, 841, 873, 874, 875, 876, 877, 878, 879,
                   880, 881, 882, 890, 891, 892,
