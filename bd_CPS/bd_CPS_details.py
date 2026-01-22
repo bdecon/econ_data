@@ -43,7 +43,8 @@ VarList = ['PWORWGT', 'PWCMPWGT', 'PWFMWGT', 'PWLGWGT',
            'PRNAGWS', 'PRDASIAN', 'PRABSREA', 'PEHRRSN1', 'PEHRRSN2',
            'PEHRRSN3', 'PESCHLVL', 'PESCHFT', 'PEERN', 'PRPTREA',
            'PTHR', 'PTWK', 'PRWERNAL', 'PRHERNAL',
-           'PTTLWK', 'PTTLWKHR']
+           'PTTLWK', 'PTTLWKHR',
+           'PEDIPGED', 'PEHGCOMP', 'PECYC', 'PEGRPROF', 'PEGR6COR', 'PEMS123']
 
 # Variables removed in May 2024
 LostVars = ['PTHR', 'PTWK', 'PTOT']
@@ -52,7 +53,7 @@ LostVars = ['PTHR', 'PTWK', 'PTOT']
 DropVars = ['PESEX', 'PEAFEVER', 'PESCHENR', 'PRSJMJ', 'PRTAGE',
             'PRCITSHP', 'PEERNHRY', 'PEHRRSN1', 'PEHRRSN2',
             'PRMARSTA', 'PEIO1COW', 'PRHRUSL', 'PEHRWANT',
-            'PUSLFPRX', 'PEIO2COW', 'PEEDUCA', 'PRPTREA',
+            'PUSLFPRX', 'PEIO2COW', 'PRPTREA',
             'HRHTYPE', 'PEMLR', 'PEMJNUM', 'PENLFRET',
             'PEHRFTPT', 'PEHRRSN3', 'PRABSREA', 'PRDISC', 
             'PRJOBSEA', 'PRUNTYPE', 
@@ -102,16 +103,16 @@ DataDict = {'2025_Basic_CPS_Public_Use_Record_Layout_plus_IO_Code_list.txt':
              're': f'\n(?:\x0c)?({"|".join(VarList)})\s+(\d+)\s+.*? \s+.*?(\d\d*).*?(\d\d+)'},
             'jan07dd.txt':
             {'start': '2007-01-01', 'end': '2008-12-31',
-             're': f'\n(?:\x0c)?({"|".join(VarList)})\s+(\d+)\s+.*? \s+.*?(\d\d*).*?(\d\d+)'},
+             're': f'\n(?:\x0c)?({"|".join(VarList)})(?:\s+(\d+))?\s+.*?\((\d+)\s*-\s*(\d+)\)'},
             'augnov05dd.txt':
             {'start': '2005-08-01', 'end': '2006-12-31',
-             're': f'\n(?:\x0c)?({"|".join(VarList)})\s+(\d+)\s+.*? \s+.*?(\d\d*).*?(\d\d+)'},
+             're': f'\n(?:\x0c)?({"|".join(VarList)})(?:\s+(\d+))?\s+.*?\((\d+)\s*-\s*(\d+)\)'},
             'may04dd.txt':
             {'start': '2004-05-01', 'end': '2005-7-31',
-             're': f'\n(?:\x0c)?({"|".join(VarList)})\s+(\d+)\s+.*? \s+.*?(\d\d*).*?(\d\d+)'},
+             're': f'\n(?:\x0c)?({"|".join(VarList)})(?:\s+(\d+))?\s+.*?\((\d+)\s*-\s*(\d+)\)'},
             'jan03dd.txt':
             {'start': '2003-01-01', 'end': '2004-04-30',
-             're': f'\n(?:\x0c)?({"|".join(VarList)})\s+(\d+)\s+.*? \s+.*?(\d\d*).*?(\d\d+)'},
+             're': f'\n(?:\x0c)?({"|".join(VarList)})(?:\s+(\d+))?\s+.*?\((\d+)\s*-\s*(\d+)\)'},
             'jan98dd.asc':
             {'start': '1998-01-01', 'end': '1999-10-31',
              're': 'D (\w+)\s+(\d{1,2})\s+(\d+)\s+'},
@@ -1118,6 +1119,7 @@ CodebookNotes = {'MONTH': {'Notes': 'Survey reference month. Original CPS variab
                   'EDUC': {'Notes': 'Highest level of education attained: Advanced degree, college degree, some college but no degree or associate degree, high school degree, less than high school degree. Some assumptions are made to create this variable for pre-1992 data, using highest grade completed and highest graded attended, since the highest degree completed information is unavailable. To see the mapping of HGC (highest grade attained) and HGC (highest grade completed) to EDUC for 1989-91, see bd_CPS_1989-93.ipynb. For 1992 and 1993, the data comes from A-HGA. For 1994-onward, derived from PEEDUCA.',
                           'Name': 'Education level'},
                   'EDUCDT': {'Name': 'Detailed Education level', 'Notes': 'Highest level of education attained, following original categories, available from 1992 onward and derived from A-HGA and PEEDUCA.'},
+                  'IMPHGC': {'Name': 'Imputed highest grade completed', 'Notes': 'Imputed years of schooling (0-18 scale) following Jaeger (2002). For 1989-1991, uses actual CPS highest grade completed/attended variables. For 1992-1997, uses simple linearization from degree codes. For 1998-2014, uses supplemental CPS questions on GED grade, college credits, and graduate courses. Post-2014 uses simplified imputation for BA/MA holders due to dropped graduate course questions.'},
                   'PTECON': {'Notes': 'Indicates person wants to work full-time but not able to for economic reasons. Derived from PRWKSTAT.',
                           'Name': 'Part-time for economic reasons'},
                   'COW1': {'Notes': 'Class of worker on main job. Derived from PEIO1COW.',
@@ -6466,4 +6468,26 @@ ValueLabels = {'IND80': {10: 'Agricultural production, crops',
   2725: 'Worcester County, Massachusetts',
   13342: 'York County, Pennsylvania',
   8542: 'Mercer County, Pennsylvania',
-  2704: 'Yuma County, Arizona'}}
+  2704: 'Yuma County, Arizona'},
+  'IMPHGC': {0: 'No schooling',
+  1: '1st grade',
+  2: '2nd grade',
+  2.5: '1st-4th grade (midpoint)',
+  3: '3rd grade',
+  4: '4th grade',
+  5: '5th grade',
+  5.5: '5th-6th grade (midpoint)',
+  6: '6th grade',
+  7: '7th grade',
+  7.5: '7th-8th grade (midpoint)',
+  8: '8th grade',
+  9: '9th grade',
+  10: '10th grade',
+  11: '11th grade',
+  12: 'High school diploma or GED',
+  13: 'Some college, less than 1 year',
+  14: 'Some college or Associate degree',
+  15: 'Some college, 3 years',
+  16: "Bachelor's degree",
+  17: "Bachelor's + some graduate or 1-year Master's",
+  18: 'Advanced degree (Master\'s, Professional, Doctorate)'}}

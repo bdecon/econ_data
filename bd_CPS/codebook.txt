@@ -5,7 +5,7 @@
 
 ========================
 
-updated: January 20, 2026
+updated: January 21, 2026
 
 variables:
 
@@ -208,6 +208,26 @@ OCC80D - Detailed occupation recode, main job
     Available from: 1989-01 to: 2002-12
     Value range: 
 [-1, 1, 2, 3, 4, 5]  ...  [41, 42, 43, 44, 45, 46]
+
+
+
+IMPHGC - Imputed highest grade completed
+    Notes: Imputed years of schooling (0-18 scale) following Jaeger (2002). For 1989-1991, uses actual CPS highest grade completed/attended variables. For 1992-1997, uses simple linearization from degree codes. For 1998-2014, uses supplemental CPS questions on GED grade, college credits, and graduate courses. Post-2014 uses simplified imputation for BA/MA holders due to dropped graduate course questions.
+    Source: Derived by bd_CPS
+    Data types: ['category']
+    Available from: 1989-01 to: 2025-12
+    Value range: 
+[0.0, 1.0, 2.0, 2.5, 3.0, 4.0]  ...  [13.0, 14.0, 15.0, 16.0, 17.0, 18.0]
+
+
+
+EDUCDT - Detailed Education level
+    Notes: Highest level of education attained, following original categories, available from 1992 onward and derived from A-HGA and PEEDUCA.
+    Source: Derived by bd_CPS
+    Data types: ['category']
+    Available from: 1989-01 to: 2025-12
+    Value range: 
+['10th grade', '11th grade', '12th grade-no diploma', '1st-4th grade', '5th-6th grade', '7th-8th grade']  ...  ['Doctorate', 'HS graduate, GED', 'Less than 1st grade', "Master's degree", 'Professional school', 'Some college but no degree']
 
 
 
@@ -447,8 +467,9 @@ INDGRP - Industry Group
 MANAGER - Manager, main job
     Notes: Detailed occupation recode == 1, Managerial occupations
     Source: Derived by bd_CPS
-    Data types: ['float64']
+    Data types: ['float64', 'category']
     Available from: 1989-01 to: 2025-12
+    Breaks in dtype: [1994]
     Value range: 
 [0.0, 1.0]
 
@@ -560,16 +581,6 @@ OCC90 - Occupation, main job
     Available from: 1992-01 to: 2002-12
     Value range: 
 -1 to 905
-
-
-
-EDUCDT - Detailed Education level
-    Notes: Highest level of education attained, following original categories, available from 1992 onward and derived from A-HGA and PEEDUCA.
-    Source: Derived by bd_CPS
-    Data types: ['category']
-    Available from: 1992-01 to: 2025-12
-    Value range: 
-['10th grade', '11th grade', '12th grade-no diploma', '1st-4th grade', '5th-6th grade', '7th-8th grade']  ...  ['Doctorate', 'HS graduate, GED', 'Less than 1st grade', "Master's degree", 'Professional school', 'Some college but no degree']
 
 
 
@@ -754,9 +765,8 @@ PRNAGWS - Non-agricultural wage/salary
 
 
 PTHR
-    Data types: ['int8', 'float64']
+    Data types: ['category']
     Available from: 1994-01 to: 2024-12
-    Breaks in dtype: [2024]
     Value range: 
 [0, 1]
 
@@ -843,42 +853,6 @@ FTLF - Full-time labor force
     Available from: 1994-01 to: 2025-12
     Value range: 
 ['Full-time', 'Part-time']
-
-
-
-SAMEEMP - Same Employer
-    Notes: From PUIODP1; do you still work for same employer as last interview. 1 = Yes; 0 = No
-    Data types: ['category']
-    Available from: 1994-02 to: 2025-12
-    Value range: 
-[0, 1]
-
-
-
-CHDUTIES - Change in Duties
-    Notes: From PUIODP2; did you usual job activities or duties change since last interview. 1 = Yes; 0 = No
-    Data types: ['category']
-    Available from: 1994-02 to: 2025-12
-    Value range: 
-[0, 1]
-
-
-
-SAMEACT - Same Occupation and Activities
-    Notes: From PUIODP3; do you still work in the same occupation and perform the same activities as last month? 1 = Yes; 0 = No
-    Data types: ['category']
-    Available from: 1994-02 to: 2025-12
-    Value range: 
-[0, 1]
-
-
-
-CHJOBACT - Change in Job or Activities
-    Notes: From PUIODP1, PUIODP2, and PUIODP3; Identifies individuals with a change in either job (employer) or activities, based on the three unedited variables. 1 = Yes; 0 = No
-    Data types: ['category']
-    Available from: 1994-02 to: 2025-12
-    Value range: 
-[0, 1]
 
 
 
@@ -998,6 +972,42 @@ MINWAGE - Minimum wage
     Source: Derived by bd_CPS
     Data types: ['category']
     Available from: 1994-01 to: 2025-12
+    Value range: 
+[0, 1]
+
+
+
+SAMEEMP - Same Employer
+    Notes: From PUIODP1; do you still work for same employer as last interview. 1 = Yes; 0 = No
+    Data types: ['category']
+    Available from: 1994-02 to: 2025-12
+    Value range: 
+[0, 1]
+
+
+
+CHDUTIES - Change in Duties
+    Notes: From PUIODP2; did you usual job activities or duties change since last interview. 1 = Yes; 0 = No
+    Data types: ['category']
+    Available from: 1994-02 to: 2025-12
+    Value range: 
+[0, 1]
+
+
+
+SAMEACT - Same Occupation and Activities
+    Notes: From PUIODP3; do you still work in the same occupation and perform the same activities as last month? 1 = Yes; 0 = No
+    Data types: ['category']
+    Available from: 1994-02 to: 2025-12
+    Value range: 
+[0, 1]
+
+
+
+CHJOBACT - Change in Job or Activities
+    Notes: From PUIODP1, PUIODP2, and PUIODP3; Identifies individuals with a change in either job (employer) or activities, based on the three unedited variables. 1 = Yes; 0 = No
+    Data types: ['category']
+    Available from: 1994-02 to: 2025-12
     Value range: 
 [0, 1]
 
@@ -1422,6 +1432,32 @@ IND225 - Industry, second job
     Variable value labels
 
 ==============================
+
+
+Imputed highest grade completed (IMPHGC):
+
+0     No schooling
+1     1st grade
+2     2nd grade
+2.5     1st-4th grade (midpoint)
+3     3rd grade
+4     4th grade
+5     5th grade
+5.5     5th-6th grade (midpoint)
+6     6th grade
+7     7th grade
+7.5     7th-8th grade (midpoint)
+8     8th grade
+9     9th grade
+10     10th grade
+11     11th grade
+12     High school diploma or GED
+13     Some college, less than 1 year
+14     Some college or Associate degree
+15     Some college, 3 years
+16     Bachelor's degree
+17     Bachelor's + some graduate or 1-year Master's
+18     Advanced degree (Master's, Professional, Doctorate)
 
 
 2018 Occupation codes (OCC18):
