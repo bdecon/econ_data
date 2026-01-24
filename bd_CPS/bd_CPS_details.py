@@ -1323,6 +1323,8 @@ CodebookNotes = {'MONTH': {'Notes': 'Survey reference month. Original CPS variab
                   'TLWK': {'Name': 'Teleworked last week', 'Notes': 'Indicates if person teleworked or worked from home in the past week. Available from October 2022 onward. Derived from telework supplement (PTCOVR1) for Oct 2022 - May 2024, and from regular CPS variable (PTTLWK) for June 2024 onward. Yes: 1, No: 0, NIU: NA'},
                   'TLWKHR': {'Name': 'Hours teleworked last week', 'Notes': 'Number of hours teleworked or worked from home in the past week. Available from October 2022 onward. Derived from telework supplement (PTCOVR2) for Oct 2022 - May 2024, and from regular CPS variable (PTTLWKHR) for June 2024 onward. Range: 0-97, NIU: NA'},
                   'GTCBSASZ': {'Name': 'CBSA size', 'Notes': 'Population size category of Core Based Statistical Area (CBSA). 0=Not in CBSA, 1=<100k, 2=100k-250k, 3=250k-500k, 4=500k-1M, 5=1M-2.5M, 6=2.5M-5M, 7=5M+'},
+                  'ZONE' : {'Name': 'CPS Zone', 'Notes': 'Splits US into 70 custom geographic zones, covering all respondents from September 1995 onward. Zones are designed to balance granularity with reasonable statistical significance and coherence over time. Currently, there are four eras, each with discrepencies in geography based on OMB Delineation changes.'},
+                  'ZONEERA': {'Name': 'CPS Zone Era', 'Notes': 'Identifies specific geographic era for each CPS observation, based on observed changes in CBSA codes and the CPS rotation design. Four ERAs are defined.'},
                   'PEDWWNTO': {'Name': 'Reason does not want work', 'Notes': 'Reason person not in labor force does not currently want a job. 1=Believes no work available, 2=Could not find work, 3=Lacks necessary schooling/training, 4=Employers think too young/old, 5=Other discrimination, -1=NIU'},
                   'PERET1': {'Name': 'Retired', 'Notes': 'Has person ever retired from a job or business. 1=Yes, 2=No, 3=Retired more than once, -1=NIU, -2=Don\'t know, -3=Refused'},
                   'PERRP': {'Name': 'Relationship to reference person', 'Notes': 'Household relationship to reference person (householder). Original CPS variable.'},
@@ -6491,3 +6493,4 @@ ValueLabels = {'IND80': {10: 'Agricultural production, crops',
   16: "Bachelor's degree",
   17: "Bachelor's + some graduate or 1-year Master's",
   18: 'Advanced degree (Master\'s, Professional, Doctorate)'}}
+

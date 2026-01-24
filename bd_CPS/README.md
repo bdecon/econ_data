@@ -116,8 +116,10 @@ Details on selected bd CPS variables are as follows:
 * `REGION` - Census region (Northeast, South, Midwest, West)
 * `CBSA` - core-based statistical area (where identified).
 * `CSA` - consolidated statistical area (where identified).
+* `ZONE` - 70 geographic zones covering full US and all CPS observations, from September 1995 onward. Use with `ZONEERA` for consistent delineation over time. Mostly comparable over time for 2005 onward. See subfolder for shapefiles and README. 
 * `EDUC` - Highest level of education obtained - Maps the educational categories to five groups: Less than high school, High school, Some college, Bachelor degree, Advanced degree.
 * `EDUCDT` - Detailed highest level of education attained.
+* `HGCI` - Imputed highest grade completed (0-18 scale). Uses Jaeger (2002) methodology with supplemental CPS questions (1998-2014) to impute years of schooling from degree categories. Note: Post-2014 has less precise imputation for BA/MA holders due to dropped graduate course questions. Available 1994+.
 * `WBHAO` - race/ethnic group - Each observation is mapped to one of five racial/ethnic groups: White, Black, Hispanic, Asian, and Other. White is white non-Hispanic only, black is any black non-Hispanic, Asian is any Asian but not black and non-Hispanic, Other is Native American, Native Hawaiian, Pacific Islander, and other groups. Hispanic is someone of Hispanic ethnicity of any race. 
 * `WBHAOM` - Race/ethnic group with more detail than WBHAO: White, Black, Asian/Pacific Islander, Native American, and multiracial (all non-Hispanic), plus Hispanic. Available 2003 onward.
 * `MARRIED` - binary variable equal to 1 if married and otherwise 0.
