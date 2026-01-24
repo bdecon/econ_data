@@ -133,6 +133,6 @@ Zone boundary shapefiles are available for each era:
 
 ## Maps
 
-![ERA3 Zone Map](visualizations/zone_era3_detail.png)
+![ERA3 Zone Map](ERA4/zone_era4_detail.png)
 
 Detailed maps for each era are in the `visualizations/` folder.
