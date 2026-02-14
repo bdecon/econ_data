@@ -40,7 +40,7 @@ An API key is required for some sources (stored locally in `config.py`).
 
 - [International Monetary Fund (IMF)](https://github.com/bdecon/econ_data/blob/master/APIs/IMF.ipynb): CPI inflation and trade data via the SDMX API (uses `sdmx1` library). [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/IMF.ipynb)
 
-- [Organization for Economic Cooperation and Development (OECD)](https://github.com/bdecon/econ_data/blob/master/APIs/OECD.ipynb): GDP per hour worked for Nordic countries and the US. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/OECD.ipynb). See also: [GDP growth](https://github.com/bdecon/econ_data/blob/master/APIs/OECD_Updated.ipynb).
+- [Organization for Economic Cooperation and Development (OECD)](https://github.com/bdecon/econ_data/blob/master/APIs/OECD.ipynb): Guide to the SDMX REST API — labor productivity and health spending vs. life expectancy. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/OECD.ipynb).
 
 - [UN ComTrade](https://github.com/bdecon/econ_data/blob/master/APIs/ComTrade.ipynb): Bilateral trade data by product — US exports/imports and a semiconductor trade network graph using HS 6-digit codes (public preview API, no key required). [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/ComTrade.ipynb)
 
