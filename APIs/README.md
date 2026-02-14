@@ -18,7 +18,7 @@ An API key is required for some sources (stored locally in `config.py`).
 
 - [Bureau of Economic Analysis (BEA)](https://github.com/bdecon/econ_data/blob/master/APIs/BEA.ipynb): National accounts — consumer spending, GDP by industry, gross output. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/BEA.ipynb)
 
-- [Bureau of Labor Statistics (BLS)](https://github.com/bdecon/econ_data/blob/master/APIs/BLS.ipynb): Unemployment rates by race/ethnicity. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/BLS.ipynb). See also: [guide](https://github.com/bdecon/econ_data/blob/master/APIs/BLS_guide.ipynb) (no API key needed), [prices](https://github.com/bdecon/econ_data/blob/master/APIs/BLS_Prices.ipynb).
+- [Bureau of Labor Statistics (BLS)](https://github.com/bdecon/econ_data/blob/master/APIs/BLS.ipynb): Unemployment rates by race/ethnicity. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/BLS.ipynb). See also: [prices](https://github.com/bdecon/econ_data/blob/master/APIs/BLS_Prices.ipynb).
 
 - [Census Bureau — ACS](https://github.com/bdecon/econ_data/blob/master/APIs/Census_ACS.ipynb): American Community Survey — county income choropleth and state work-from-home rates (2023). [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/Census_ACS.ipynb)
 
