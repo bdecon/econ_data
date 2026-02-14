@@ -5,7 +5,7 @@
 
 ========================
 
-updated: January 24, 2026
+updated: February 12, 2026
 
 variables:
 
@@ -230,6 +230,24 @@ OCC80D - Detailed occupation recode, main job
     Allocation rate: 51.6% (negative values treated as missing)
     Value range: 
 [-1, 1, 2, 3, 4, 5]  ...  [41, 42, 43, 44, 45, 46]
+
+
+
+LINDCHG
+    Data types: ['int8']
+    Available from: 1989-01 to: 1993-12
+    Allocation rate: 77.1% (negative values treated as missing)
+    Value range: 
+[-1, 0, 2, 3, 4]
+
+
+
+LOCCCHG
+    Data types: ['int8']
+    Available from: 1989-01 to: 1993-12
+    Allocation rate: 77.1% (negative values treated as missing)
+    Value range: 
+[-1, 0, 2, 3, 4]
 
 
 
@@ -553,7 +571,7 @@ PRICEADJ - Regional CPI Deflator
     Available from: 1989-01 to: 2025-12
     Allocation rate: 100.0%
     Value range: 
-0.9956413954485164 to 2.8248890714872634
+0.9969357292625994 to 2.828561427280197
 
 
 
@@ -597,7 +615,7 @@ OCCURNUM - Unique person number
     Available from: 1989-01 to: 2025-12
     Allocation rate: 100.0%
     Value range: 
-[1, 2, 3, 4, 5, 6]  ...  [35, 36, 37, 38, 39, 40]
+[1, 2, 3, 4, 5, 6]  ...  [25, 26, 27, 28, 29, 30]
 
 
 
@@ -621,6 +639,15 @@ CPSID - Unique household ID
     Breaks in dtype: [1997]
     Value range: 
 102215.0 to 991261372.0
+
+
+
+OCCGRP
+    Data types: ['category']
+    Available from: 1989-01 to: 2025-12
+    Allocation rate: 51.1%
+    Value range: 
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 
 
@@ -846,7 +873,7 @@ PRNAGWS - Non-agricultural wage/salary
 
 PTHR
     Data types: ['category']
-    Available from: 1994-01 to: 2024-12
+    Available from: 1994-01 to: 2025-12
     Allocation rate: 99.8%
     Value range: 
 [0, 1]
@@ -856,7 +883,7 @@ PTHR
 PTWK - Weekly earnings topcode flag
     Notes: Equal to 1 if observation is topcoded
     Data types: ['category']
-    Available from: 1994-01 to: 2024-12
+    Available from: 1994-01 to: 2025-12
     Allocation rate: 99.8%
     Value range: 
 [0, 1]
@@ -1373,6 +1400,72 @@ HISPDT03 - Detailed Hispanic origin, 2003
     Allocation rate: 13.7%
     Value range: 
 ['Central/South American', 'Cuban', 'Mexican', 'Other Spanish', 'Puerto Rican']
+
+
+
+OCCPD - Any physical demands
+    Notes: Employment-weighted proportion of occupation requiring any physical demands, based on O*NET work activities and context. Physical demands include general physical activities, handling objects, standing, walking, and repetitive motions. Range 0-1, where 1 means all SOC codes in the occupation meet criteria. Available 2003+. Derived from O*NET data.
+    Source: Derived by bd_CPS
+    Data types: ['float16']
+    Available from: 2003-01 to: 2025-12
+    Allocation rate: 50.8%
+    Value range: 
+[0.0, 0.0036373138427734375, 0.00447845458984375, 0.0047149658203125, 0.0051116943359375, 0.0051422119140625]  ...  [0.99658203125, 0.99755859375, 0.99853515625, 0.9990234375, 0.99951171875, 1.0]
+
+
+
+OCCHPD - High physical demands
+    Notes: Employment-weighted proportion of occupation requiring high/strenuous physical demands, based on O*NET abilities (strength, stamina) and work context (bending, kneeling). Range 0-1. Available 2003+. Derived from O*NET data.
+    Source: Derived by bd_CPS
+    Data types: ['float16']
+    Available from: 2003-01 to: 2025-12
+    Allocation rate: 50.8%
+    Value range: 
+[0.0, 0.0002803802490234375, 0.0003104209899902344, 0.00031638145446777344, 0.00036406517028808594, 0.0006480216979980469]  ...  [0.9892578125, 0.98974609375, 0.99169921875, 0.99267578125, 0.9931640625, 1.0]
+
+
+
+OCCDWC - Difficult working conditions
+    Notes: Employment-weighted proportion of occupation with difficult working conditions: outdoor work, non-climate-controlled environments, exposure to hazards, contaminants, or noise. Range 0-1. Available 2003+. Derived from O*NET data.
+    Source: Derived by bd_CPS
+    Data types: ['float16']
+    Available from: 2003-01 to: 2025-12
+    Allocation rate: 50.8%
+    Value range: 
+[0.0, 0.0004172325134277344, 0.0004794597625732422, 0.0005464553833007812, 0.0006122589111328125, 0.001232147216796875]  ...  [0.99609375, 0.99658203125, 0.99755859375, 0.998046875, 0.99853515625, 1.0]
+
+
+
+OCCTLWK - Telework feasibility
+    Notes: Employment-weighted proportion of occupation suitable for telework, using DFLP methodology (Dey et al. 2021). Based on O*NET work activities and context. Range 0-1, where 1 means fully telework-feasible. Available 2003+. Derived from O*NET data.
+    Source: Derived by bd_CPS
+    Data types: ['float16']
+    Available from: 2003-01 to: 2025-12
+    Allocation rate: 50.8%
+    Value range: 
+[0.0, 0.00396728515625, 0.00457763671875, 0.00461578369140625, 0.00466156005859375, 0.005069732666015625]  ...  [0.97900390625, 0.98046875, 0.98388671875, 0.984375, 0.98583984375, 1.0]
+
+
+
+OCCAI - AI exposure
+    Notes: AI exposure score based on Pew Research methodology (2023). Measures relative importance of high-AI-exposure work activities (information processing, computer work, data analysis) vs medium/low exposure activities. Range ~0.30-0.40, higher = more exposed. Available 2003+. Derived from O*NET data.
+    Source: Derived by bd_CPS
+    Data types: ['float16']
+    Available from: 2003-01 to: 2025-12
+    Allocation rate: 50.8%
+    Value range: 
+0.294677734375 to 0.41015625
+
+
+
+OCCJZ - Job Zone
+    Notes: O*NET Job Zone (1-5 scale) indicating preparation level typically needed for the occupation. Zone 1=Little/none, 2=HS diploma, 3=Vocational/associates, 4=Bachelors, 5=Graduate degree. Use for education mismatch: EDUMISMATCH = WORKER_JZ - OCCJZ (positive=overqualified). Fractional values occur when Census occupation maps to multiple SOC codes. Available 2003+. Derived from O*NET data.
+    Source: Derived by bd_CPS
+    Data types: ['float16']
+    Available from: 2003-01 to: 2025-12
+    Allocation rate: 50.8%
+    Value range: 
+[1.0, 1.005859375, 1.0068359375, 1.0078125, 1.0087890625, 1.0126953125]  ...  [4.87109375, 4.875, 4.87890625, 4.8828125, 4.8984375, 5.0]
 
 
 

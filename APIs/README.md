@@ -1,42 +1,51 @@
 # APIs
 
-## BD Economics examples of using economic data Application Programming Interfaces (APIs)
+## Economic Data APIs with Python
 
-Updated: December 28, 2019
+*Updated: February 2026*
 
-Contact: Brian Dew, twitter: @bd_econ; email: brian.w.dew@gmail.com
+Contact: Brian Dew, [bd-econ.com](https://bd-econ.com); email: brian.w.dew@gmail.com
 
-Goal: Retrieve data from several common sources, on demand, without clicking around on their website.
+Examples of retrieving economic data from public APIs using Python. Each notebook demonstrates the request, data cleaning, and visualization workflow using `requests` and `pandas`.
+
+An API key is required for some sources (stored locally in `config.py`).
 
 ------
 
 ### Contents
 
-- [U.S. Bureau of Economic Analysis](https://github.com/bdecon/econ_data/blob/master/APIs/BEA.ipynb): Provider of US national accounts statistics. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/BEA.ipynb)
+**U.S. Government**
 
-- [U.S. Bureau of Labor Statistics](https://github.com/bdecon/econ_data/blob/master/APIs/BLS.ipynb): Provider of labor statistics and prices statistics. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/BLS.ipynb). See also: [tool](https://github.com/bdecon/econ_data/blob/master/APIs/BLS_tool.ipynb) and [prices example](https://github.com/bdecon/econ_data/blob/master/APIs/BLS_Prices.ipynb).
+- [Bureau of Economic Analysis (BEA)](https://github.com/bdecon/econ_data/blob/master/APIs/BEA.ipynb): National accounts — consumer spending, GDP by industry, gross output. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/BEA.ipynb)
 
-- [U.S. Census Bureau](https://github.com/bdecon/econ_data/blob/master/APIs/Census_ACS.ipynb): Example of collected American Community Survey published results. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/Census_ACS.ipynb)
+- [Bureau of Labor Statistics (BLS)](https://github.com/bdecon/econ_data/blob/master/APIs/BLS.ipynb): Unemployment rates by race/ethnicity. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/BLS.ipynb). See also: [guide](https://github.com/bdecon/econ_data/blob/master/APIs/BLS_guide.ipynb) (no API key needed), [prices](https://github.com/bdecon/econ_data/blob/master/APIs/BLS_Prices.ipynb).
 
-- [U.S. Census Bureau](https://github.com/bdecon/econ_data/blob/master/APIs/Census_TimeSeries_M3.ipynb): Manufacturers survey (M3) time series example. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/Census_TimeSeries_M3.ipynb)
+- [Census Bureau — ACS](https://github.com/bdecon/econ_data/blob/master/APIs/Census_ACS.ipynb): American Community Survey — county income choropleth and state work-from-home rates (2023). [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/Census_ACS.ipynb)
 
-- [U.S. Census Bureau](https://github.com/bdecon/econ_data/blob/master/APIs/Census_Trade.ipynb): International trade by partner example. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/Census_Trade.ipynb)
+- [Census Bureau — M3](https://github.com/bdecon/econ_data/blob/master/APIs/Census_TimeSeries_M3.ipynb): Manufacturers' new orders for nondefense capital goods. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/Census_TimeSeries_M3.ipynb)
 
-- [UN ComTrade](https://github.com/bdecon/econ_data/blob/master/APIs/ComTrade.ipynb): Data on bilateral trade by product. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/ComTrade.ipynb)
+- [Census Bureau — Trade](https://github.com/bdecon/econ_data/blob/master/APIs/Census_Trade.ipynb): U.S. exports by partner country. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/Census_Trade.ipynb)
 
-- [European Central Bank](https://github.com/bdecon/econ_data/blob/master/APIs/ECB.ipynb): Data on government bond yields in selected EU countries. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/ECB.ipynb)
+- [Energy Information Administration (EIA)](https://github.com/bdecon/econ_data/blob/master/APIs/EIA.ipynb): U.S. crude oil production by region. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/EIA.ipynb)
 
-- [FRED](https://github.com/bdecon/econ_data/blob/master/APIs/FRED.ipynb): Collected statistics from the Federal Reserve Bank of Saint Louis. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/FRED.ipynb)
+- [FRED](https://github.com/bdecon/econ_data/blob/master/APIs/FRED.ipynb): Federal Reserve Bank of St. Louis — average hourly earnings by industry. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/FRED.ipynb)
 
-- [Engery Information Administration](https://github.com/bdecon/econ_data/blob/master/APIs/EIA.ipynb): Energy production and consumption data primarily for the US but with some international data. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/EIA.ipynb)
+- [Treasury](https://github.com/bdecon/econ_data/blob/master/APIs/Treasury.ipynb): Federal revenue by type from the Monthly Treasury Statement. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/Treasury.ipynb)
 
-- [International Labour Organization](https://github.com/bdecon/econ_data/blob/master/APIs/ILO.ipynb): Labor statistics for many countries, included harmonized microdata results. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/ILO.ipynb)
+**International**
 
-- [International Monatery Fund](https://github.com/bdecon/econ_data/blob/master/APIs/IMF.ipynb): Statistics published by the IMF's Statistics Department, including International Financial Statistics (IFS) data. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/IMF.ipynb)
+- [European Central Bank (ECB)](https://github.com/bdecon/econ_data/blob/master/APIs/ECB.ipynb): Government bond yields, exchange rates, and unemployment for Eurozone countries. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/ECB.ipynb)
 
-- [Organization for Economic Cooperation and Development](https://github.com/bdecon/econ_data/blob/master/APIs/OECD.ipynb): Detailed analysis/harmonization of data from 35 or so wealthy countries. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/OECD.ipynb)
+- [International Labour Organization (ILO)](https://github.com/bdecon/econ_data/blob/master/APIs/ILO.ipynb): Unemployment rate by sex and age for Canada and G7 countries. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/ILO.ipynb)
 
-- [World Bank](https://github.com/bdecon/econ_data/blob/master/APIs/World_Bank.ipynb): Data on poverty and international development for most countries. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/World_Bank.ipynb)
+- [International Monetary Fund (IMF)](https://github.com/bdecon/econ_data/blob/master/APIs/IMF.ipynb): CPI inflation and trade data via the SDMX API (uses `sdmx1` library). [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/IMF.ipynb)
 
-- [Yahoo! Finance](https://github.com/bdecon/econ_data/blob/master/APIs/Yahoo_Finance.ipynb): Daily stock price time series. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/Yahoo_Finance.ipynb)
+- [Organization for Economic Cooperation and Development (OECD)](https://github.com/bdecon/econ_data/blob/master/APIs/OECD.ipynb): GDP per hour worked for Nordic countries and the US. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/OECD.ipynb). See also: [GDP growth](https://github.com/bdecon/econ_data/blob/master/APIs/OECD_Updated.ipynb).
 
+- [UN ComTrade](https://github.com/bdecon/econ_data/blob/master/APIs/ComTrade.ipynb): Bilateral trade data by product — US exports/imports and a semiconductor trade network graph using HS 6-digit codes (public preview API, no key required). [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/ComTrade.ipynb)
+
+- [World Bank](https://github.com/bdecon/econ_data/blob/master/APIs/World_Bank.ipynb): Foreign direct investment for Brazil and Chile. [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/World_Bank.ipynb)
+
+**Other**
+
+- [SEC EDGAR](https://github.com/bdecon/econ_data/blob/master/APIs/SEC_EDGAR.ipynb): Operating cash flow for the "Magnificent 7" from XBRL company facts (no API key required). [nbviewer](https://nbviewer.jupyter.org/github/bdecon/econ_data/blob/master/APIs/SEC_EDGAR.ipynb)
