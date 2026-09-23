@@ -34,7 +34,7 @@ VarList = ['PWORWGT', 'PWCMPWGT', 'PWFMWGT', 'PWLGWGT',
            'PRUNEDUR', 'PEHRUSL1', 'PRMARSTA', 'PRCITSHP', 'PRHRUSL',
            'PRDTOCC1', 'PRDTOCC2', 'PRDTIND1', 'PRDTIND2', 'PEMJNUM',
            'PEHRUSL2', 'PEHRUSLT', 'PEIO2COW', 'PEPAR1', 'PEPAR2',
-           'PEIO1COW', 'PEIO1OCD', 'PEIO2OCD', 'PEIO1ICD', 'PEIO2ICD',
+           'PEIO1COW', 'PRDTCOW1', 'PEIO1OCD', 'PEIO2OCD', 'PEIO1ICD', 'PEIO2ICD',
            'HRHHID', 'HRSAMPLE', 'HRSERSUF', 'PTIO1OCD', 'PTIO2OCD',
            'PRDISFLG', 'PUAFEVER', 'PEAFEVER', 'PECERT1', 
            'PEHRACTT', 'PEHRACT1', 'PEERNCOV', 'GTCBSASZ',
@@ -53,7 +53,7 @@ LostVars = ['PTHR', 'PTWK', 'PTOT']
 # Old variables to drop
 DropVars = ['PESEX', 'PEAFEVER', 'PESCHENR', 'PRSJMJ', 'PRTAGE',
             'PRCITSHP', 'PEERNHRY', 'PEHRRSN1', 'PEHRRSN2',
-            'PRMARSTA', 'PEIO1COW', 'PRHRUSL', 'PEHRWANT',
+            'PRMARSTA', 'PEIO1COW', 'PRDTCOW1', 'PRHRUSL', 'PEHRWANT',
             'PUSLFPRX', 'PEIO2COW', 'PRPTREA',
             'HRHTYPE', 'PEMLR', 'PEMJNUM', 'PENLFRET',
             'PEHRFTPT', 'PEHRRSN3', 'PRABSREA', 'PRDISC', 
@@ -101,10 +101,10 @@ DataDict = {'2026_Basic_CPS_Public_Use_Record_Layout_plus_IO_Code_list.txt':
              're': f'({"|".join(VarList)})\s+(\d+)\s+.*?\t+.*?(\d\d*).*?(\d\d+)'},
             'jan10dd.txt':
             {'start': '2010-01-01', 'end': '2012-04-30',
-             're': f'\n(?:\x0c)?({"|".join(VarList)})\s+(\d+)\s+.*? \s+.*?(\d\d*).*?(\d\d+)'},
+             're': f'\n(?:\x0c)?({"|".join(VarList)})\s+(\d+)\s+.*?\s(\d+)\s*-\s*(\d+)\s*\n'},
             'jan09dd.txt':
             {'start': '2009-01-01', 'end': '2009-12-31',
-             're': f'\n(?:\x0c)?({"|".join(VarList)})\s+(\d+)\s+.*? \s+.*?(\d\d*).*?(\d\d+)'},
+             're': f'\n(?:\x0c)?({"|".join(VarList)})\s+(\d+)\s+.*?\s(\d+)\s*-\s*(\d+)\s*\n'},
             'jan07dd.txt':
             {'start': '2007-01-01', 'end': '2008-12-31',
              're': f'\n(?:\x0c)?({"|".join(VarList)})(?:\s+(\d+))?\s+.*?\((\d+)\s*-\s*(\d+)\)'},
@@ -125,16 +125,16 @@ DataDict = {'2026_Basic_CPS_Public_Use_Record_Layout_plus_IO_Code_list.txt':
              're': 'D (\w+)\s+(\d{1,2})\s+(\d+)\s+'},
             'sep95_dec97_dd.txt':
             {'start': '1995-09-01', 'end': '1997-12-31',
-             're': f'\n(?:\x0c)?({"|".join(VarList)})\s+(\d+)\s+.*? \s+.*?(\d\d*).*?(\d\d+)'},
+             're': f'\n(?:\x0c)?({"|".join(VarList)})\s+(\d+)\s+.*?\((\d+)\s*-\s*(\d+)\)'},
             'jun95_aug95_dd.txt':
             {'start': '1995-06-01', 'end': '1995-08-31',
-             're': f'\n(?:\x0c)?({"|".join(VarList)})\s+(\d+)\s+.*? \s+.*?(\d\d*).*?(\d\d+)'},
+             're': f'\n(?:\x0c)?({"|".join(VarList)})\s+(\d+)\s+.*?\((\d+)\s*-\s*(\d+)\)'},
             'apr94_may95_dd.txt':
             {'start': '1994-04-01', 'end': '1995-05-31',
-             're': f'\n(?:\x0c)?({"|".join(VarList)})\s+(\d+)\s+.*? \s+.*?(\d\d*).*?(\d\d+)'},
+             're': f'\n(?:\x0c)?({"|".join(VarList)})\s+(\d+)\s+.*?\((\d+)\s*-\s*(\d+)\)'},
             'jan94_mar94_dd.txt':
             {'start': '1994-01-01', 'end': '1995-03-31',
-             're': f'\n(?:\x0c)?({"|".join(VarList)})\s+(\d+)\s+.*? \s+.*?(\d\d*).*?(\d\d+)'},
+             're': f'\n(?:\x0c)?({"|".join(VarList)})\s+(\d+)\s+.*?\((\d+)\s*-\s*(\d+)\)'},
 #            'cps89.ddf':
 #            {'start': '1989-01-01', 'end': '1991-12-31',
 #             're': '(\w{1,2}[\$\-%]\w*|PADDING)\s*CHARACTER\*(\d{3})\s*\.{0,1}\s*\((\d*):(\d*)\).*'},

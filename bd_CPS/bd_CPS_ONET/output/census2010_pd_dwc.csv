@@ -1,0 +1,536 @@
+census_code,occupation_title,high_pd,any_pd,dwc,difficult
+10,Chief executives,0.0,0.0,0.0,0.0
+20,General and operations managers,0.0,0.0,0.0,0.0
+30,Legislators,0.0,0.0,0.0,0.0
+40,Advertising and promotions managers,0.0,0.0,0.0,0.0
+50,Marketing and sales managers,0.0,0.0,0.0,0.0
+60,Public relations and fundraising managers,0.0,0.0,0.0,0.0
+100,Administrative services managers,0.0,0.0,0.0,0.0
+110,Computer and information systems managers,0.0,0.0,0.0,0.0
+120,Financial managers,0.0,0.0,0.0,0.0
+135,Compensation and benefits managers,0.0,0.0,0.0,0.0
+136,Human resources managers,0.0,0.0,0.0,0.0
+137,Training and development managers,0.0,0.0,0.0,0.0
+140,Industrial production managers,0.0,0.0,0.7142857142857143,0.7142857142857143
+150,Purchasing managers,0.0,0.0,0.0,0.0
+160,"Transportation, storage, and distribution managers",0.0,0.0,0.25,0.25
+205,"Farmers, ranchers, and other agricultural managers",0.0,0.25,0.75,0.75
+220,Construction managers,0.0,0.0,0.0,0.0
+230,Education administrators,0.0,0.0,0.0,0.0
+300,Architectural and engineering managers,0.0,0.0,0.0,0.0
+310,Food service managers,0.0,1.0,0.0,1.0
+325,Funeral service managers,0.0,0.0,0.0,0.0
+330,Gaming managers,0.0,0.0,0.0,0.0
+340,Lodging managers,0.0,0.0,0.0,0.0
+350,Medical and health services managers,0.0,0.0,0.0,0.0
+360,Natural sciences managers,0.0,0.0,0.0,0.0
+400,Postmasters and mail superintendents,0.0,0.0,0.0,0.0
+410,"Property, real estate, and community association managers",0.0,0.0,0.0,0.0
+420,Social and community service managers,0.0,0.0,0.0,0.0
+425,Emergency management directors,0.0,0.0,0.0,0.0
+430,"Managers, all other",0.0,0.0,0.0,0.0
+500,"Agents and business managers of artists, performers, and athletes",0.0,0.0,0.0,0.0
+510,"Buyers and purchasing agents, farm products",0.0,0.0,0.0,0.0
+520,"Wholesale and retail buyers, except farm products",0.0,0.0,0.0,0.0
+530,"Purchasing agents, except wholesale, retail, and farm products",0.0,0.0,0.0,0.0
+540,"Claims adjusters, appraisers, examiners, and investigators",0.0,0.16666666666666666,0.5,0.6666666666666666
+565,Compliance officers,0.0,0.0,0.0,0.0
+600,Cost estimators,0.0,0.0,0.0,0.0
+630,Human resources workers,0.0,0.0,0.3333333333333333,0.3333333333333333
+640,"Compensation, benefits, and job analysis specialists",0.0,0.0,0.0,0.0
+650,Training and development specialists,0.0,0.0,0.0,0.0
+700,Logisticians,0.0,0.0,0.0,0.0
+710,Management analysts,0.0,0.0,0.0,0.0
+725,"Meeting, convention, and event planners",0.0,0.0,0.0,0.0
+726,Fundraisers,0.0,0.0,0.0,0.0
+735,Market research analysts and marketing specialists,0.0,0.0,0.0,0.0
+740,"Business operations specialists, all other",0.0,0.0,0.0,0.0
+800,Accountants and auditors,0.0,0.0,0.0,0.0
+810,Appraisers and assessors of real estate,0.0,0.0,0.3333333333333333,0.3333333333333333
+820,Budget analysts,0.0,0.0,0.0,0.0
+830,Credit analysts,0.0,0.0,0.0,0.0
+840,Financial analysts,0.0,0.0,0.0,0.0
+850,Personal financial advisors,0.0,0.0,0.0,0.0
+860,Insurance underwriters,0.0,0.0,0.0,0.0
+900,Financial examiners,0.0,0.0,0.0,0.0
+910,Credit counselors and loan officers,0.0,0.0,0.0,0.0
+930,"Tax examiners and collectors, and revenue agents",0.0,0.0,0.0,0.0
+940,Tax preparers,0.0,0.0,0.0,0.0
+950,"Financial specialists, all other",0.0,0.0,0.0,0.0
+1005,Computer and information research scientists,0.0,0.0,0.0,0.0
+1006,Computer systems analysts,0.0,0.0,0.0,0.0
+1007,Information security analysts,0.0,0.0,0.0,0.0
+1010,Computer programmers,0.0,0.0,0.0,0.0
+1020,"Software developers, applications and systems software",0.0,0.0,0.0,0.0
+1030,Web developers,0.0,1.0,0.0,1.0
+1050,Computer support specialists,0.0,0.0,0.0,0.0
+1060,Database administrators,0.0,0.0,0.0,0.0
+1105,Network and computer systems administrators,0.0,0.0,0.0,0.0
+1106,Computer network architects,0.0,0.0,0.0,0.0
+1107,"Computer occupations, all other",0.0,0.07692307692307693,0.0,0.07692307692307693
+1200,Actuaries,0.0,0.0,0.0,0.0
+1210,Mathematicians,0.0,0.0,0.0,0.0
+1220,Operations research analysts,0.0,0.0,0.0,0.0
+1230,Statisticians,0.0,0.0,0.0,0.0
+1240,Miscellaneous mathematical science occupations,0.0,0.0,0.0,0.0
+1300,"Architects, except naval",0.0,0.0,0.0,0.0
+1310,"Surveyors, cartographers, and photogrammetrists",0.0,0.0,0.25,0.25
+1320,Aerospace engineers,0.0,0.0,0.0,0.0
+1330,Agricultural engineers,0.0,0.0,0.0,0.0
+1340,Biomedical engineers,0.0,0.0,0.0,0.0
+1350,Chemical engineers,0.0,0.0,0.0,0.0
+1360,Civil engineers,0.0,0.0,0.0,0.0
+1400,Computer hardware engineers,0.0,0.0,0.0,0.0
+1410,Electrical and electronics engineers,0.0,0.0,0.0,0.0
+1420,Environmental engineers,0.0,0.0,0.0,0.0
+1430,"Industrial engineers, including health and safety",0.0,0.0,0.0,0.0
+1440,Marine engineers and naval architects,0.0,0.0,0.0,0.0
+1450,Materials engineers,0.0,0.0,0.0,0.0
+1460,Mechanical engineers,0.0,0.0,0.0,0.0
+1500,"Mining and geological engineers, including mining safety engineers",0.0,0.0,0.0,0.0
+1510,Nuclear engineers,0.0,0.0,0.0,0.0
+1520,Petroleum engineers,0.0,0.0,0.0,0.0
+1530,"Engineers, all other",0.0,0.0,0.0,0.0
+1540,Drafters,0.0,0.08333333333333333,0.0,0.08333333333333333
+1550,"Engineering technicians, except drafters",0.0,0.0,0.17307692307692307,0.17307692307692307
+1560,Surveying and mapping technicians,0.0,0.0,0.3333333333333333,0.3333333333333333
+1600,Agricultural and food scientists,0.0,0.0,0.0,0.0
+1610,Biological scientists,0.0,0.0,0.0,0.0
+1640,Conservation scientists and foresters,0.0,0.0,0.75,0.75
+1650,Medical scientists,0.0,0.0,0.0,0.0
+1660,"Life scientists, all other",0.0,0.0,0.0,0.0
+1700,Astronomers and physicists,0.0,0.0,0.0,0.0
+1710,Atmospheric and space scientists,0.0,0.0,0.0,0.0
+1720,Chemists and materials scientists,0.0,0.0,0.5,0.5
+1740,Environmental scientists and geoscientists,0.0,0.0,0.0,0.0
+1760,"Physical scientists, all other",0.0,0.0,0.0,0.0
+1800,Economists,0.0,0.0,0.0,0.0
+1815,Survey researchers,0.0,0.0,0.0,0.0
+1820,Psychologists,0.0,0.0,0.0,0.0
+1830,Sociologists,0.0,0.0,0.0,0.0
+1840,Urban and regional planners,0.0,0.0,0.0,0.0
+1860,Miscellaneous social scientists and related workers,0.0,0.0,0.0,0.0
+1900,Agricultural and food science technicians,0.0,0.3333333333333333,0.0,0.3333333333333333
+1910,Biological technicians,0.0,0.0,0.0,0.0
+1920,Chemical technicians,0.0,1.0,1.0,1.0
+1930,Geological and petroleum technicians,0.0,0.0,0.0,0.0
+1940,Nuclear technicians,0.0,0.0,0.3333333333333333,0.3333333333333333
+1950,Social science research assistants,0.0,0.0,0.0,0.0
+1965,"Miscellaneous life, physical, and social science technicians",0.0,0.0,0.5625,0.5625
+2000,Counselors,0.0,0.0,0.0,0.0
+2010,Social workers,0.0,0.0,0.0,0.0
+2015,Probation officers and correctional treatment specialists,0.0,0.0,0.0,0.0
+2016,Social and human service assistants,0.0,0.0,0.0,0.0
+2025,"Miscellaneous community and social service specialists, including health educators and community health workers",0.0,0.0,0.0,0.0
+2040,Clergy,0.0,0.0,0.0,0.0
+2050,"Directors, religious activities and education",0.0,0.0,0.0,0.0
+2060,"Religious workers, all other",0.0,0.0,0.0,0.0
+2100,Lawyers,0.0,0.0,0.0,0.0
+2105,Judicial law clerks,0.0,0.0,0.0,0.0
+2110,"Judges, magistrates, and other judicial workers",0.0,0.0,0.0,0.0
+2145,Paralegals and legal assistants,0.0,0.0,0.0,0.0
+2160,Miscellaneous legal support workers,0.0,0.3333333333333333,0.0,0.3333333333333333
+2200,Postsecondary teachers,0.0,0.0,0.0,0.0
+2300,Preschool and kindergarten teachers,0.0,0.5,0.0,0.5
+2310,Elementary and middle school teachers,0.0,0.3333333333333333,0.0,0.3333333333333333
+2320,Secondary school teachers,0.0,0.0,0.0,0.0
+2330,Special education teachers,0.0,0.1,0.0,0.1
+2340,Other teachers and instructors,0.0,0.0,0.0,0.0
+2400,"Archivists, curators, and museum technicians",0.0,0.3333333333333333,0.0,0.3333333333333333
+2430,Librarians,0.0,0.0,0.0,0.0
+2440,Library technicians,0.0,0.0,0.0,0.0
+2540,Teacher assistants,0.0,0.0,0.0,0.0
+2550,"Other education, training, and library workers",0.0,0.0,0.0,0.0
+2600,Artists and related workers,0.0,0.2,0.0,0.2
+2630,Designers,0.0,0.25,0.0,0.25
+2700,Actors,0.0,1.0,0.0,1.0
+2710,Producers and directors,0.0,0.0,0.0,0.0
+2720,"Athletes, coaches, umpires, and related workers",0.0,1.0,0.3333333333333333,1.0
+2740,Dancers and choreographers,1.0,1.0,0.0,1.0
+2750,"Musicians, singers, and related workers",0.0,0.16666666666666666,0.0,0.16666666666666666
+2760,"Entertainers and performers, sports and related workers, all other",0.0,0.0,0.0,0.0
+2800,Announcers,0.0,0.0,0.0,0.0
+2810,"News analysts, reporters and correspondents",0.0,0.0,0.0,0.0
+2825,Public relations specialists,0.0,0.0,0.0,0.0
+2830,Editors,0.0,0.0,0.0,0.0
+2840,Technical writers,0.0,1.0,0.0,1.0
+2850,Writers and authors,0.0,0.0,0.0,0.0
+2860,Miscellaneous media and communication workers,0.0,0.0,0.0,0.0
+2900,Broadcast and sound engineering technicians and radio operators,0.0,0.0,0.5,0.5
+2910,Photographers,0.0,0.0,0.0,0.0
+2920,"Television, video, and motion picture camera operators and editors",0.0,0.0,0.0,0.0
+2960,"Media and communication equipment workers, all other",0.0,0.0,0.0,0.0
+3000,Chiropractors,0.0,1.0,0.0,1.0
+3010,Dentists,0.2,0.6,0.2,0.6
+3030,Dietitians and nutritionists,0.0,0.0,0.0,0.0
+3040,Optometrists,0.0,0.0,0.0,0.0
+3050,Pharmacists,0.0,1.0,0.0,1.0
+3060,Physicians and surgeons,0.0,0.14423076923076922,0.125,0.2692307692307692
+3110,Physician assistants,0.0,0.0,0.0,0.0
+3120,Podiatrists,0.0,0.0,0.0,0.0
+3140,Audiologists,0.0,0.0,0.0,0.0
+3150,Occupational therapists,0.0,0.0,0.5,0.5
+3160,Physical therapists,0.0,1.0,0.0,1.0
+3200,Radiation therapists,0.0,1.0,0.0,1.0
+3210,Recreational therapists,0.0,0.0,0.0,0.0
+3220,Respiratory therapists,0.0,0.0,0.0,0.0
+3230,Speech-language pathologists,0.0,0.0,0.0,0.0
+3235,Exercise physiologists,0.0,1.0,0.0,1.0
+3245,"Therapists, all other",0.0,0.0,0.0,0.0
+3250,Veterinarians,0.0,1.0,0.0,1.0
+3255,Registered nurses,0.0,0.2,0.2,0.4
+3256,Nurse anesthetists,0.0,0.0,1.0,1.0
+3257,Nurse midwives,0.0,0.0,0.0,0.0
+3258,Nurse practitioners,0.0,0.0,0.0,0.0
+3260,"Health diagnosing and treating practitioners, all other",0.0,0.0,0.0,0.0
+3300,Clinical laboratory technologists and technicians,0.0,0.375,0.375,0.5
+3310,Dental hygienists,1.0,1.0,1.0,1.0
+3320,Diagnostic related technologists and technicians,0.0,0.6,0.2,0.8
+3400,Emergency medical technicians and paramedics,0.0,1.0,1.0,1.0
+3420,Health practitioner support technologists and technicians,0.0,0.5714285714285714,0.14285714285714285,0.5714285714285714
+3500,Licensed practical and licensed vocational nurses,0.0,0.0,0.0,0.0
+3510,Medical records and health information technicians,0.0,0.0,0.0,0.0
+3520,"Opticians, dispensing",0.0,0.0,0.0,0.0
+3535,Miscellaneous health technologists and technicians,0.0,0.06666666666666667,0.3333333333333333,0.39999999999999997
+3540,Other healthcare practitioners and technical occupations,0.0,0.0,0.0,0.0
+3600,"Nursing, psychiatric, and home health aides",0.25,0.5,0.0,0.5
+3610,Occupational therapy assistants and aides,0.0,1.0,0.5,1.0
+3620,Physical therapist assistants and aides,0.0,1.0,0.0,1.0
+3630,Massage therapists,0.0,1.0,0.0,1.0
+3640,Dental assistants,0.0,1.0,1.0,1.0
+3645,Medical assistants,0.0,0.0,0.0,0.0
+3646,Medical transcriptionists,0.0,1.0,0.0,1.0
+3647,Pharmacy aides,0.0,1.0,0.0,1.0
+3648,Veterinary assistants and laboratory animal caretakers,0.0,1.0,1.0,1.0
+3649,Phlebotomists,0.0,1.0,0.0,1.0
+3655,"Miscellaneous healthcare support occupations, including medical equipment preparers",0.0,0.6666666666666666,0.6666666666666666,0.6666666666666666
+3700,First-line supervisors of correctional officers,0.0,0.0,1.0,1.0
+3710,First-line supervisors of police and detectives,0.0,0.0,1.0,1.0
+3720,First-line supervisors of fire fighting and prevention workers,0.0,0.6666666666666666,0.6666666666666666,0.6666666666666666
+3730,"First-line supervisors of protective service workers, all other",0.0,0.0,0.0,0.0
+3740,Firefighters,0.3333333333333333,0.6666666666666666,0.6666666666666666,0.6666666666666666
+3750,Fire inspectors,0.0,0.16666666666666666,0.8333333333333333,0.8333333333333333
+3800,"Bailiffs, correctional officers, and jailers",0.0,0.0,0.0,0.0
+3820,Detectives and criminal investigators,0.0,0.0,0.6666666666666666,0.6666666666666666
+3830,Fish and game wardens,0.0,1.0,1.0,1.0
+3840,Parking enforcement workers,0.0,0.0,1.0,1.0
+3850,Police and sheriff's patrol officers,0.0,0.0,0.6666666666666666,0.6666666666666666
+3860,Transit and railroad police,0.0,1.0,1.0,1.0
+3900,Animal control workers,0.0,1.0,1.0,1.0
+3910,Private detectives and investigators,0.0,0.0,0.0,0.0
+3930,Security guards and gaming surveillance officers,0.0,0.0,0.0,0.0
+3940,Crossing guards,0.0,1.0,1.0,1.0
+3945,Transportation security screeners,0.0,1.0,1.0,1.0
+3955,"Lifeguards and other recreational, and all other protective service workers",0.0,0.5,0.0,0.5
+4000,Chefs and head cooks,0.0,1.0,1.0,1.0
+4010,First-line supervisors of food preparation and serving workers,0.0,1.0,0.0,1.0
+4020,Cooks,0.0,0.8333333333333334,0.0,0.8333333333333334
+4030,Food preparation workers,0.0,1.0,0.0,1.0
+4040,Bartenders,0.0,1.0,0.0,1.0
+4050,"Combined food preparation and serving workers, including fast food",0.0,1.0,0.0,1.0
+4060,"Counter attendants, cafeteria, food concession, and coffee shop",0.0,1.0,0.0,1.0
+4110,Waiters and waitresses,0.0,1.0,0.0,1.0
+4120,"Food servers, nonrestaurant",1.0,1.0,0.0,1.0
+4130,Dining room and cafeteria attendants and bartender helpers,0.0,1.0,0.0,1.0
+4140,Dishwashers,0.0,1.0,0.0,1.0
+4150,"Hosts and hostesses, restaurant, lounge, and coffee shop",0.0,1.0,0.0,1.0
+4160,"Food preparation and serving related workers, all other",0.0,0.0,0.0,0.0
+4200,First-line supervisors of housekeeping and janitorial workers,0.0,0.0,0.0,0.0
+4210,"First-line supervisors of landscaping, lawn service, and groundskeeping workers",0.0,0.0,1.0,1.0
+4220,Janitors and building cleaners,0.0,0.5,0.0,0.5
+4230,Maids and housekeeping cleaners,1.0,1.0,0.0,1.0
+4240,Pest control workers,0.0,0.0,1.0,1.0
+4250,Grounds maintenance workers,0.0,0.75,0.75,0.75
+4300,First-line supervisors of gaming workers,0.0,1.0,0.5,1.0
+4320,First-line supervisors of personal service workers,0.0,0.0,0.0,0.0
+4340,Animal trainers,0.0,1.0,1.0,1.0
+4350,Nonfarm animal caretakers,0.0,1.0,1.0,1.0
+4400,Gaming services workers,0.0,0.6666666666666666,0.3333333333333333,0.6666666666666666
+4410,Motion picture projectionists,0.0,0.0,0.0,0.0
+4420,"Ushers, lobby attendants, and ticket takers",0.0,1.0,0.0,1.0
+4430,Miscellaneous entertainment attendants and related workers,0.0,0.75,0.0,0.75
+4460,Embalmers and funeral attendants,0.0,0.5,1.0,1.0
+4465,"Morticians, undertakers, and funeral directors",0.0,0.0,1.0,1.0
+4500,Barbers,0.0,1.0,0.0,1.0
+4510,"Hairdressers, hairstylists, and cosmetologists",0.0,1.0,0.0,1.0
+4520,Miscellaneous personal appearance workers,0.0,1.0,0.25,1.0
+4530,"Baggage porters, bellhops, and concierges",0.0,0.5,0.5,0.5
+4540,Tour and travel guides,0.0,0.0,0.0,0.0
+4600,Childcare workers,0.0,0.0,0.0,0.0
+4610,Personal care aides,0.0,1.0,0.0,1.0
+4620,Recreation and fitness workers,0.5,0.5,0.0,0.5
+4640,Residential advisors,0.0,0.0,0.0,0.0
+4650,"Personal care and service workers, all other",0.0,0.0,0.0,0.0
+4700,First-line supervisors of retail sales workers,0.0,0.0,0.0,0.0
+4710,First-line supervisors of non-retail sales workers,0.0,0.0,0.0,0.0
+4720,Cashiers,0.0,1.0,0.0,1.0
+4740,Counter and rental clerks,0.0,0.0,0.0,0.0
+4750,Parts salespersons,0.0,0.0,0.0,0.0
+4760,Retail salespersons,0.0,1.0,0.0,1.0
+4800,Advertising sales agents,0.0,0.0,0.0,0.0
+4810,Insurance sales agents,0.0,0.0,0.0,0.0
+4820,"Securities, commodities, and financial services sales agents",0.0,0.0,0.0,0.0
+4830,Travel agents,0.0,0.0,0.0,0.0
+4840,"Sales representatives, services, all other",0.0,0.0,0.0,0.0
+4850,"Sales representatives, wholesale and manufacturing",0.0,0.0,0.0,0.0
+4900,"Models, demonstrators, and product promoters",0.0,0.5,0.0,0.5
+4920,Real estate brokers and sales agents,0.0,0.0,0.0,0.0
+4930,Sales engineers,0.0,0.0,0.0,0.0
+4940,Telemarketers,0.0,0.0,0.0,0.0
+4950,"Door-to-door sales workers, news and street vendors, and related workers",0.0,0.0,0.0,0.0
+4965,"Sales and related workers, all other",0.0,0.0,0.0,0.0
+5000,First-line supervisors of office and administrative support workers,0.0,0.0,0.0,0.0
+5010,"Switchboard operators, including answering service",0.0,0.0,0.0,0.0
+5020,Telephone operators,0.0,1.0,0.0,1.0
+5030,"Communications equipment operators, all other",0.0,0.0,0.0,0.0
+5100,Bill and account collectors,0.0,0.0,0.0,0.0
+5110,Billing and posting clerks,0.0,0.0,0.0,0.0
+5120,"Bookkeeping, accounting, and auditing clerks",0.0,1.0,0.0,1.0
+5130,Gaming cage workers,0.0,1.0,0.0,1.0
+5140,Payroll and timekeeping clerks,0.0,0.0,0.0,0.0
+5150,Procurement clerks,0.0,0.0,0.0,0.0
+5160,Tellers,0.0,1.0,0.0,1.0
+5165,"Financial clerks, all other",0.0,0.0,0.0,0.0
+5200,Brokerage clerks,0.0,0.0,0.0,0.0
+5210,Correspondence clerks,0.0,0.0,0.0,0.0
+5220,"Court, municipal, and license clerks",0.0,0.0,0.0,0.0
+5230,"Credit authorizers, checkers, and clerks",0.0,0.3333333333333333,0.0,0.3333333333333333
+5240,Customer service representatives,0.0,0.0,0.0,0.0
+5250,"Eligibility interviewers, government programs",0.0,0.0,0.0,0.0
+5260,File clerks,0.0,0.0,0.0,0.0
+5300,"Hotel, motel, and resort desk clerks",0.0,0.0,0.0,0.0
+5310,"Interviewers, except eligibility and loan",0.0,1.0,0.0,1.0
+5320,"Library assistants, clerical",0.0,1.0,0.0,1.0
+5330,Loan interviewers and clerks,0.0,0.0,0.0,0.0
+5340,New accounts clerks,0.0,0.0,0.0,0.0
+5350,Order clerks,0.0,0.0,0.0,0.0
+5360,"Human resources assistants, except payroll and timekeeping",0.0,0.0,0.0,0.0
+5400,Receptionists and information clerks,0.0,0.0,0.0,0.0
+5410,Reservation and transportation ticket agents and travel clerks,0.0,1.0,0.0,1.0
+5420,"Information and record clerks, all other",0.0,0.0,0.0,0.0
+5500,Cargo and freight agents,0.0,0.0,0.0,0.0
+5510,Couriers and messengers,0.0,0.0,0.0,0.0
+5520,Dispatchers,0.0,0.5,0.0,0.5
+5530,"Meter readers, utilities",0.0,1.0,1.0,1.0
+5540,Postal service clerks,0.0,1.0,0.0,1.0
+5550,Postal service mail carriers,0.0,1.0,1.0,1.0
+5560,"Postal service mail sorters, processors, and processing machine operators",0.0,1.0,1.0,1.0
+5600,"Production, planning, and expediting clerks",0.0,0.0,0.0,0.0
+5610,"Shipping, receiving, and traffic clerks",0.0,0.0,0.0,0.0
+5620,Stock clerks and order fillers,0.0,0.4,0.0,0.4
+5630,"Weighers, measurers, checkers, and samplers, recordkeeping",0.0,0.0,0.0,0.0
+5700,Secretaries and administrative assistants,0.0,0.0,0.0,0.0
+5800,Computer operators,0.0,0.0,0.0,0.0
+5810,Data entry keyers,0.0,1.0,0.0,1.0
+5820,Word processors and typists,0.0,1.0,0.0,1.0
+5830,Desktop publishers,0.0,1.0,0.0,1.0
+5840,Insurance claims and policy processing clerks,0.0,0.3333333333333333,0.0,0.3333333333333333
+5850,"Mail clerks and mail machine operators, except postal service",0.0,0.0,0.0,0.0
+5860,"Office clerks, general",0.0,0.0,0.0,0.0
+5900,"Office machine operators, except computer",0.0,0.0,0.0,0.0
+5910,Proofreaders and copy markers,0.0,1.0,0.0,1.0
+5920,Statistical assistants,0.0,0.0,0.0,0.0
+5940,"Office and administrative support workers, all other",0.0,0.0,0.0,0.0
+6005,"First-line supervisors of farming, fishing, and forestry workers",0.0,0.0,0.4,0.4
+6010,Agricultural inspectors,0.0,0.0,1.0,1.0
+6020,Animal breeders,0.0,1.0,1.0,1.0
+6040,"Graders and sorters, agricultural products",0.0,1.0,0.0,1.0
+6050,Miscellaneous agricultural workers,0.0,0.3333333333333333,0.6666666666666666,0.6666666666666666
+6100,Fishers and related fishing workers,0.0,1.0,1.0,1.0
+6110,Hunters and trappers,0.0,1.0,1.0,1.0
+6120,Forest and conservation workers,0.0,1.0,1.0,1.0
+6130,Logging workers,0.25,0.5,0.75,0.75
+6200,First-line supervisors of construction trades and extraction workers,0.0,0.0,1.0,1.0
+6210,Boilermakers,0.0,1.0,1.0,1.0
+6220,"Brickmasons, blockmasons, and stonemasons",0.5,1.0,1.0,1.0
+6230,Carpenters,0.0,0.6666666666666666,0.6666666666666666,0.6666666666666666
+6240,"Carpet, floor, and tile installers and finishers",0.75,1.0,1.0,1.0
+6250,"Cement masons, concrete finishers, and terrazzo workers",0.5,1.0,1.0,1.0
+6260,Construction laborers,0.0,1.0,1.0,1.0
+6300,"Paving, surfacing, and tamping equipment operators",0.0,1.0,1.0,1.0
+6310,Pile-driver operators,0.0,1.0,1.0,1.0
+6320,Operating engineers and other construction equipment operators,0.0,0.0,1.0,1.0
+6330,"Drywall installers, ceiling tile installers, and tapers",0.0,1.0,1.0,1.0
+6355,Electricians,0.0,1.0,1.0,1.0
+6360,Glaziers,0.0,1.0,1.0,1.0
+6400,Insulation workers,0.5,1.0,1.0,1.0
+6420,"Painters, construction and maintenance",1.0,1.0,0.0,1.0
+6430,Paperhangers,0.0,1.0,0.0,1.0
+6440,"Pipelayers, plumbers, pipefitters, and steamfitters",0.6666666666666666,0.6666666666666666,0.8333333333333333,0.8333333333333333
+6460,Plasterers and stucco masons,0.0,1.0,1.0,1.0
+6500,Reinforcing iron and rebar workers,1.0,1.0,1.0,1.0
+6515,Roofers,1.0,1.0,1.0,1.0
+6520,Sheet metal workers,0.0,1.0,1.0,1.0
+6530,Structural iron and steel workers,1.0,1.0,1.0,1.0
+6540,Solar photovoltaic installers,0.0,1.0,1.0,1.0
+6600,"Helpers, construction trades",0.2857142857142857,0.8571428571428571,0.7142857142857143,0.8571428571428571
+6660,Construction and building inspectors,0.0,0.0,1.0,1.0
+6700,Elevator installers and repairers,0.0,1.0,1.0,1.0
+6710,Fence erectors,0.0,1.0,1.0,1.0
+6720,Hazardous materials removal workers,0.0,0.0,1.0,1.0
+6730,Highway maintenance workers,1.0,1.0,1.0,1.0
+6740,Rail-track laying and maintenance equipment operators,0.0,1.0,1.0,1.0
+6750,Septic tank servicers and sewer pipe cleaners,0.0,1.0,1.0,1.0
+6765,Miscellaneous construction and related workers,0.0,0.5,0.8333333333333333,0.8333333333333333
+6800,"Derrick, rotary drill, and service unit operators, oil, gas, and mining",0.3333333333333333,1.0,1.0,1.0
+6820,"Earth drillers, except oil and gas",0.0,1.0,1.0,1.0
+6830,"Explosives workers, ordnance handling experts, and blasters",0.0,1.0,1.0,1.0
+6840,Mining machine operators,0.0,0.6666666666666666,0.6666666666666666,0.6666666666666666
+6910,"Roof bolters, mining",1.0,1.0,1.0,1.0
+6920,"Roustabouts, oil and gas",0.0,1.0,1.0,1.0
+6930,Helpers–extraction workers,0.0,1.0,1.0,1.0
+6940,Other extraction workers,0.0,0.5,0.5,0.5
+7000,"First-line supervisors of mechanics, installers, and repairers",0.0,0.0,0.0,0.0
+7010,"Computer, automated teller, and office machine repairers",0.0,0.0,0.0,0.0
+7020,Radio and telecommunications equipment installers and repairers,0.25,0.25,0.5,0.75
+7030,Avionics technicians,0.0,0.0,0.0,0.0
+7040,"Electric motor, power tool, and related repairers",0.0,1.0,1.0,1.0
+7050,"Electrical and electronics installers and repairers, transportation equipment",0.0,0.0,0.0,0.0
+7100,"Electrical and electronics repairers, industrial and utility",0.0,0.0,0.5,0.5
+7110,"Electronic equipment installers and repairers, motor vehicles",0.0,1.0,1.0,1.0
+7120,Electronic home entertainment equipment installers and repairers,0.0,0.0,0.0,0.0
+7130,Security and fire alarm systems installers,0.0,1.0,0.0,1.0
+7140,Aircraft mechanics and service technicians,0.0,0.0,1.0,1.0
+7150,Automotive body and related repairers,0.0,1.0,1.0,1.0
+7160,Automotive glass installers and repairers,0.0,1.0,1.0,1.0
+7200,Automotive service technicians and mechanics,0.0,0.6666666666666666,0.6666666666666666,0.6666666666666666
+7210,Bus and truck mechanics and diesel engine specialists,0.0,1.0,1.0,1.0
+7220,Heavy vehicle and mobile equipment service technicians and mechanics,0.6666666666666666,1.0,1.0,1.0
+7240,Small engine mechanics,0.0,1.0,1.0,1.0
+7260,"Miscellaneous vehicle and mobile equipment mechanics, installers, and repairers",0.3333333333333333,1.0,1.0,1.0
+7300,Control and valve installers and repairers,0.0,0.5,1.0,1.0
+7315,"Heating, air conditioning, and refrigeration mechanics and installers",0.0,0.3333333333333333,0.6666666666666666,0.6666666666666666
+7320,Home appliance repairers,0.0,1.0,1.0,1.0
+7330,Industrial and refractory machinery mechanics,0.5,1.0,1.0,1.0
+7340,"Maintenance and repair workers, general",0.0,1.0,1.0,1.0
+7350,"Maintenance workers, machinery",0.0,1.0,1.0,1.0
+7360,Millwrights,0.0,1.0,1.0,1.0
+7410,Electrical power-line installers and repairers,0.0,1.0,1.0,1.0
+7420,Telecommunications line installers and repairers,0.0,1.0,1.0,1.0
+7430,Precision instrument and equipment repairers,0.0,0.0,0.0,0.0
+7440,Wind turbine service technicians,0.0,1.0,1.0,1.0
+7510,"Coin, vending, and amusement machine servicers and repairers",0.0,0.0,0.0,0.0
+7520,Commercial divers,0.0,1.0,1.0,1.0
+7540,Locksmiths and safe repairers,0.0,0.0,1.0,1.0
+7550,Manufactured building and mobile home installers,1.0,1.0,1.0,1.0
+7560,Riggers,0.0,0.0,1.0,1.0
+7600,Signal and track switch repairers,0.0,0.0,1.0,1.0
+7610,"Helpers–installation, maintenance, and repair workers",1.0,1.0,0.0,1.0
+7630,"Other installation, maintenance, and repair workers",0.0,0.0,0.75,0.75
+7700,First-line supervisors of production and operating workers,0.0,0.0,1.0,1.0
+7710,"Aircraft structure, surfaces, rigging, and systems assemblers",0.0,0.0,1.0,1.0
+7720,"Electrical, electronics, and electromechanical assemblers",0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333
+7730,Engine and other machine assemblers,0.0,1.0,1.0,1.0
+7740,Structural metal fabricators and fitters,0.0,0.0,1.0,1.0
+7750,Miscellaneous assemblers and fabricators,0.0,0.5,0.25,0.5
+7800,Bakers,0.0,1.0,1.0,1.0
+7810,"Butchers and other meat, poultry, and fish processing workers",0.0,1.0,0.6666666666666666,1.0
+7830,"Food and tobacco roasting, baking, and drying machine operators and tenders",0.0,1.0,1.0,1.0
+7840,Food batchmakers,0.0,1.0,1.0,1.0
+7850,Food cooking machine operators and tenders,0.0,1.0,1.0,1.0
+7855,"Food processing workers, all other",0.0,0.0,0.0,0.0
+7900,Computer control programmers and operators,0.0,0.5,1.0,1.0
+7920,"Extruding and drawing machine setters, operators, and tenders, metal and plastic",0.0,1.0,1.0,1.0
+7930,"Forging machine setters, operators, and tenders, metal and plastic",0.0,1.0,1.0,1.0
+7940,"Rolling machine setters, operators, and tenders, metal and plastic",0.0,1.0,1.0,1.0
+7950,"Cutting, punching, and press machine setters, operators, and tenders, metal and plastic",0.0,1.0,1.0,1.0
+7960,"Drilling and boring machine tool setters, operators, and tenders, metal and plastic",0.0,1.0,1.0,1.0
+8000,"Grinding, lapping, polishing, and buffing machine tool setters, operators, and tenders, metal and plastic",0.0,1.0,0.0,1.0
+8010,"Lathe and turning machine tool setters, operators, and tenders, metal and plastic",0.0,1.0,1.0,1.0
+8020,"Milling and planing machine setters, operators, and tenders, metal and plastic",0.0,1.0,0.0,1.0
+8030,Machinists,0.0,1.0,1.0,1.0
+8040,"Metal furnace operators, tenders, pourers, and casters",0.0,1.0,1.0,1.0
+8060,"Model makers and patternmakers, metal and plastic",0.0,0.5,1.0,1.0
+8100,"Molders and molding machine setters, operators, and tenders, metal and plastic",0.0,1.0,1.0,1.0
+8120,"Multiple machine tool setters, operators, and tenders, metal and plastic",0.0,1.0,1.0,1.0
+8130,Tool and die makers,0.0,1.0,1.0,1.0
+8140,"Welding, soldering, and brazing workers",0.0,0.6666666666666666,0.6666666666666666,0.6666666666666666
+8150,"Heat treating equipment setters, operators, and tenders, metal and plastic",0.0,1.0,1.0,1.0
+8160,"Layout workers, metal and plastic",0.0,1.0,1.0,1.0
+8200,"Plating and coating machine setters, operators, and tenders, metal and plastic",0.0,1.0,1.0,1.0
+8210,"Tool grinders, filers, and sharpeners",0.0,1.0,1.0,1.0
+8220,"Metal workers and plastic workers, all other",0.0,0.0,0.0,0.0
+8250,Prepress technicians and workers,0.0,0.0,0.0,0.0
+8255,Printing press operators,0.0,1.0,1.0,1.0
+8256,Print binding and finishing workers,0.0,1.0,0.0,1.0
+8300,Laundry and dry-cleaning workers,0.0,1.0,0.0,1.0
+8310,"Pressers, textile, garment, and related materials",0.0,1.0,0.0,1.0
+8320,Sewing machine operators,0.0,1.0,0.0,1.0
+8330,Shoe and leather workers and repairers,0.0,0.0,0.0,0.0
+8340,Shoe machine operators and tenders,1.0,1.0,0.0,1.0
+8350,"Tailors, dressmakers, and sewers",0.0,1.0,0.0,1.0
+8360,Textile bleaching and dyeing machine operators and tenders,0.0,1.0,0.0,1.0
+8400,"Textile cutting machine setters, operators, and tenders",0.0,1.0,0.0,1.0
+8410,"Textile knitting and weaving machine setters, operators, and tenders",0.0,1.0,1.0,1.0
+8420,"Textile winding, twisting, and drawing out machine setters, operators, and tenders",0.0,1.0,1.0,1.0
+8430,"Extruding and forming machine setters, operators, and tenders, synthetic and glass fibers",0.0,0.0,1.0,1.0
+8440,Fabric and apparel patternmakers,0.0,0.0,0.0,0.0
+8450,Upholsterers,0.0,1.0,0.0,1.0
+8460,"Textile, apparel, and furnishings workers, all other",0.0,0.0,0.0,0.0
+8500,Cabinetmakers and bench carpenters,0.0,1.0,1.0,1.0
+8510,Furniture finishers,0.0,1.0,1.0,1.0
+8520,"Model makers and patternmakers, wood",0.0,1.0,1.0,1.0
+8530,"Sawing machine setters, operators, and tenders, wood",0.0,1.0,1.0,1.0
+8540,"Woodworking machine setters, operators, and tenders, except sawing",0.0,1.0,1.0,1.0
+8550,"Woodworkers, all other",0.0,0.0,0.0,0.0
+8600,"Power plant operators, distributors, and dispatchers",0.0,0.0,0.3333333333333333,0.3333333333333333
+8610,Stationary engineers and boiler operators,0.0,0.0,1.0,1.0
+8620,Water and wastewater treatment plant and system operators,0.0,0.0,1.0,1.0
+8630,Miscellaneous plant and system operators,0.0,0.05,0.9,0.9
+8640,"Chemical processing machine setters, operators, and tenders",0.0,0.0,1.0,1.0
+8650,"Crushing, grinding, polishing, mixing, and blending workers",0.0,0.6666666666666666,1.0,1.0
+8710,Cutting workers,0.0,1.0,1.0,1.0
+8720,"Extruding, forming, pressing, and compacting machine setters, operators, and tenders",0.0,1.0,1.0,1.0
+8730,"Furnace, kiln, oven, drier, and kettle operators and tenders",0.0,1.0,1.0,1.0
+8740,"Inspectors, testers, sorters, samplers, and weighers",0.0,0.0,1.0,1.0
+8750,Jewelers and precious stone and metal workers,0.0,0.0,0.5,0.5
+8760,"Medical, dental, and ophthalmic laboratory technicians",0.0,1.0,0.6666666666666666,1.0
+8800,Packaging and filling machine operators and tenders,0.0,1.0,1.0,1.0
+8810,Painting workers,0.3333333333333333,1.0,1.0,1.0
+8830,Photographic process workers and processing machine operators,0.0,0.0,1.0,1.0
+8840,Semiconductor processors,0.0,1.0,1.0,1.0
+8850,Adhesive bonding machine operators and tenders,0.0,1.0,1.0,1.0
+8860,"Cleaning, washing, and metal pickling equipment operators and tenders",0.0,1.0,1.0,1.0
+8900,Cooling and freezing equipment operators and tenders,0.0,1.0,1.0,1.0
+8910,Etchers and engravers,0.0,0.0,1.0,1.0
+8920,"Molders, shapers, and casters, except metal and plastic",0.0,0.6,0.8,0.8
+8930,"Paper goods machine setters, operators, and tenders",0.0,1.0,1.0,1.0
+8940,Tire builders,1.0,1.0,1.0,1.0
+8950,Helpers–production workers,0.0,1.0,1.0,1.0
+8965,"Production workers, all other",0.0,0.5,0.5,0.5
+9000,Supervisors of transportation and material moving workers,0.0,0.3333333333333333,0.6666666666666666,0.6666666666666666
+9030,Aircraft pilots and flight engineers,0.5,0.5,1.0,1.0
+9040,Air traffic controllers and airfield operations specialists,0.0,0.0,0.5,0.5
+9050,Flight attendants,1.0,1.0,1.0,1.0
+9110,"Ambulance drivers and attendants, except emergency medical technicians",0.0,0.0,1.0,1.0
+9120,Bus drivers,0.0,0.0,1.0,1.0
+9130,Driver/sales workers and truck drivers,0.0,0.3333333333333333,1.0,1.0
+9140,Taxi drivers and chauffeurs,0.0,0.0,0.0,0.0
+9150,"Motor vehicle operators, all other",0.0,0.0,0.0,0.0
+9200,Locomotive engineers and operators,0.0,0.3333333333333333,1.0,1.0
+9230,"Railroad brake, signal, and switch operators",0.0,1.0,1.0,1.0
+9240,Railroad conductors and yardmasters,0.0,0.0,1.0,1.0
+9260,"Subway, streetcar, and other rail transportation workers",0.0,0.5,0.5,0.5
+9300,Sailors and marine oilers,0.0,1.0,1.0,1.0
+9310,Ship and boat captains and operators,0.0,0.0,0.875,0.875
+9330,Ship engineers,0.0,0.0,1.0,1.0
+9340,Bridge and lock tenders,0.0,0.0,0.0,0.0
+9350,Parking lot attendants,0.0,0.0,0.0,0.0
+9360,Automotive and watercraft service attendants,0.0,1.0,1.0,1.0
+9410,Transportation inspectors,0.0,0.25,0.5,0.5
+9415,"Transportation attendants, except flight attendants",0.0,0.0,0.0,0.0
+9420,Other transportation workers,0.0,0.0,0.5,0.5
+9500,Conveyor operators and tenders,0.0,0.0,1.0,1.0
+9510,Crane and tower operators,0.0,1.0,1.0,1.0
+9520,"Dredge, excavating, and loading machine operators",0.0,0.3333333333333333,1.0,1.0
+9560,Hoist and winch operators,1.0,1.0,1.0,1.0
+9600,Industrial truck and tractor operators,0.0,1.0,1.0,1.0
+9610,Cleaners of vehicles and equipment,0.0,1.0,1.0,1.0
+9620,"Laborers and freight, stock, and material movers, hand",0.0,1.0,0.0,1.0
+9630,Machine feeders and offbearers,0.0,1.0,1.0,1.0
+9640,"Packers and packagers, hand",0.0,1.0,0.0,1.0
+9650,Pumping station operators,0.0,0.0,1.0,1.0
+9720,Refuse and recyclable material collectors,0.0,1.0,1.0,1.0
+9730,Mine shuttle car operators,0.0,1.0,1.0,1.0
+9740,"Tank car, truck, and ship loaders",0.0,1.0,1.0,1.0
+9750,"Material moving workers, all other",0.0,0.0,0.0,0.0

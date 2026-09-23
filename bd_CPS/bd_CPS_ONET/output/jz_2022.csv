@@ -1,0 +1,571 @@
+census_code,occupation_title,job_zone,onet_version,oews_year
+10,Chief executives,5.0,25.1,2022
+20,General and operations managers,4.0,25.1,2022
+30,Legislators,4.0,25.1,2022
+40,Advertising and promotions managers,4.0,25.1,2022
+51,Marketing managers,4.0,25.1,2022
+52,Sales managers,4.0,25.1,2022
+60,Public relations and fundraising managers,4.0,25.1,2022
+101,Administrative services managers,3.0,25.1,2022
+102,Facilities managers,3.0,25.1,2022
+110,Computer and information systems managers,4.0,25.1,2022
+120,Financial managers,4.333333333333333,25.1,2022
+135,Compensation and benefits managers,4.0,25.1,2022
+136,Human resources managers,4.0,25.1,2022
+137,Training and development managers,4.0,25.1,2022
+140,Industrial production managers,3.6666666666666665,25.1,2022
+150,Purchasing managers,4.0,25.1,2022
+160,"Transportation, storage, and distribution managers",4.0,25.1,2022
+205,"Farmers, ranchers, and other agricultural managers",4.0,25.1,2022
+220,Construction managers,4.0,25.1,2022
+230,Education and childcare administrators ,4.883016881749776,25.1,2022
+300,Architectural and engineering managers,4.5,25.1,2022
+310,Food service managers,2.0,25.1,2022
+325,Funeral home managers,3.0,25.1,2022
+335,Entertainment and recreation managers,3.0,25.1,2022
+340,Lodging managers,4.0,25.1,2022
+350,Medical and health services managers,5.0,25.1,2022
+360,Natural sciences managers,4.333333333333333,25.1,2022
+400,Postmasters and mail superintendents,2.0,25.1,2022
+410,"Property, real estate, and community association managers",4.0,25.1,2022
+420,Social and community service managers,4.0,25.1,2022
+425,Emergency management directors,4.0,25.1,2022
+426,"Personal service managers, all other",3.5,25.1,2022
+440,"Managers, all other",4.0,25.1,2022
+500,"Agents and business managers of artists, performers, and athletes",4.0,25.1,2022
+510,"Buyers and purchasing agents, farm products",4.0,25.1,2022
+520,"Wholesale and retail buyers, except farm products",3.0,25.1,2022
+530,"Purchasing agents, except wholesale, retail, and farm products",4.0,25.1,2022
+540,"Claims adjusters, appraisers, examiners, and investigators",3.9614762386248734,25.1,2022
+565,Compliance officers,3.4285714285714284,25.1,2022
+600,Cost estimators,4.0,25.1,2022
+630,Human resources workers,3.998775205709768,25.1,2022
+640,"Compensation, benefits, and job analysis specialists",4.0,25.1,2022
+650,Training and development specialists,4.0,25.1,2022
+700,Logisticians,4.0,25.1,2022
+705,Project management specialists,4.0,25.1,2022
+710,Management analysts,5.0,25.1,2022
+725,"Meeting, convention, and event planners",4.0,25.1,2022
+726,Fundraisers,4.0,25.1,2022
+735,Market research analysts and marketing specialists,4.0,25.1,2022
+750,"Business operations specialists, all other",4.0,25.1,2022
+800,Accountants and auditors,4.0,25.1,2022
+810,Property appraisers and assessors,4.0,25.1,2022
+820,Budget analysts,4.0,25.1,2022
+830,Credit analysts,4.0,25.1,2022
+845,Financial and investment analysts,4.0,25.1,2022
+850,Personal financial advisors,4.0,25.1,2022
+860,Insurance underwriters,4.0,25.1,2022
+900,Financial examiners,4.0,25.1,2022
+910,Credit counselors and loan officers,4.0,25.1,2022
+930,"Tax examiners and collectors, and revenue agents",3.0,25.1,2022
+940,Tax preparers,3.0,25.1,2022
+960,Other financial specialists,3.9733808980067287,25.1,2022
+1005,Computer and information research scientists,5.0,25.1,2022
+1006,Computer systems analysts,4.0,25.1,2022
+1007,Information security analysts,4.0,25.1,2022
+1010,Computer programmers,4.0,25.1,2022
+1021,Software developers,3.8279657562168774,25.1,2022
+1022,Software quality assurance analysts and testers,4.0,25.1,2022
+1031,Web developers,3.0,25.1,2022
+1032,Web and digital interface designers,4.0,25.1,2022
+1050,Computer support specialists,3.1951140629511983,25.1,2022
+1065,Database administrators and architects,3.864725281563064,25.1,2022
+1105,Network and computer systems administrators,4.0,25.1,2022
+1106,Computer network architects,3.5,25.1,2022
+1108,"Computer occupations, all other",4.0,25.1,2022
+1200,Actuaries,4.0,25.1,2022
+1210,Mathematicians,5.0,25.1,2022
+1220,Operations research analysts,5.0,25.1,2022
+1230,Statisticians,5.0,25.1,2022
+1240,Other mathematical science occupations,4.42256671057872,25.1,2022
+1305,"Architects, except landscape and naval",4.0,25.1,2022
+1306,Landscape architects,4.0,25.1,2022
+1310,"Surveyors, cartographers, and photogrammetrists",4.0,25.1,2022
+1320,Aerospace engineers,4.0,25.1,2022
+1330,Agricultural engineers,4.0,25.1,2022
+1340,Bioengineers and biomedical engineers,4.0,25.1,2022
+1350,Chemical engineers,4.0,25.1,2022
+1360,Civil engineers,4.0,25.1,2022
+1400,Computer hardware engineers,4.0,25.1,2022
+1410,Electrical and electronics engineers,4.0,25.1,2022
+1420,Environmental engineers,4.0,25.1,2022
+1430,"Industrial engineers, including health and safety ",4.234311209611572,25.1,2022
+1440,Marine engineers and naval architects,4.0,25.1,2022
+1450,Materials engineers,4.0,25.1,2022
+1460,Mechanical engineers,4.333333333333333,25.1,2022
+1500,"Mining and geological engineers, including mining safety engineers",4.0,25.1,2022
+1510,Nuclear engineers,4.0,25.1,2022
+1520,Petroleum engineers,4.0,25.1,2022
+1530,"Engineers, all other",4.25,25.1,2022
+1541,Architectural and civil drafters,3.0,25.1,2022
+1545,Other drafters,3.0,25.1,2022
+1551,Electrical and electronic engineering technologists and technicians,3.0,25.1,2022
+1555,"Other engineering technologists and technicians, except drafters",3.030771484114937,25.1,2022
+1560,Surveying and mapping technicians,3.0,25.1,2022
+1600,Agricultural and food scientists,4.5572932330827065,25.1,2022
+1610,Biological scientists,5.0,25.1,2022
+1640,Conservation scientists and foresters,4.0,25.1,2022
+1650,Medical scientists,5.0,25.1,2022
+1660,"Life scientists, all other",4.848515106615989,25.1,2022
+1700,Astronomers and physicists,5.0,25.1,2022
+1710,Atmospheric and space scientists,4.0,25.1,2022
+1720,Chemists and materials scientists,4.0832241153342075,25.1,2022
+1745,"Environmental scientists and specialists, including health",4.75,25.1,2022
+1750,"Geoscientists and hydrologists, except geographers",4.822400478072998,25.1,2022
+1760,"Physical scientists, all other",5.0,25.1,2022
+1800,Economists,5.0,25.1,2022
+1815,Survey researchers,5.0,25.1,2022
+1821,Clinical and counseling psychologists,5.0,25.1,2022
+1822,School psychologists,5.0,25.1,2022
+1825,Other psychologists,5.0,25.1,2022
+1830,Sociologists,5.0,25.1,2022
+1840,Urban and regional planners,5.0,25.1,2022
+1860,Miscellaneous social scientists and related workers,4.344970414201184,25.1,2022
+1900,Agricultural and food science technicians,3.2389959985449255,25.1,2022
+1910,Biological technicians,4.0,25.1,2022
+1920,Chemical technicians,3.0,25.1,2022
+1935,Environmental  science and geoscience technicians,4.0,25.1,2022
+1940,Nuclear technicians,3.0,25.1,2022
+1950,Social science research assistants,4.0,25.1,2022
+1970,"Other life, physical, and social science technicians",3.581909761634506,25.1,2022
+1980,Occupational health and safety specialists and technicians,3.8221637866265965,25.1,2022
+2001,Substance abuse and behavioral disorder counselors,5.0,25.1,2022
+2002,"Educational, guidance, and career counselors and advisors",5.0,25.1,2022
+2003,Marriage and family therapists,5.0,25.1,2022
+2004,Mental health counselors,5.0,25.1,2022
+2005,Rehabilitation counselors,4.0,25.1,2022
+2006,"Counselors, all other",4.81785635359116,25.1,2022
+2011,"Child, family, and school social workers",4.0,25.1,2022
+2012,Healthcare social workers,5.0,25.1,2022
+2013,Mental health and substance abuse social workers,5.0,25.1,2022
+2014,"Social workers, all other",4.4571662494292505,25.1,2022
+2015,Probation officers and correctional treatment specialists,4.0,25.1,2022
+2016,Social and human service assistants,4.0,25.1,2022
+2025,Other community and social service specialists,4.0,25.1,2022
+2040,Clergy,5.0,25.1,2022
+2050,"Directors, religious activities and education",4.0,25.1,2022
+2060,"Religious workers, all other",4.688609563301801,25.1,2022
+2100,Lawyers,5.0,25.1,2022
+2105,Judicial law clerks,5.0,25.1,2022
+2110,"Judges, magistrates, and other judicial workers",5.0,25.1,2022
+2145,Paralegals and legal assistants,3.0,25.1,2022
+2170,"Title examiners, abstractors, and searchers",2.0,25.1,2022
+2180,"Legal support workers, all other",2.0,25.1,2022
+2205,Postsecondary teachers,5.0,25.1,2022
+2300,Preschool and kindergarten teachers,3.223059800602308,25.1,2022
+2310,Elementary and middle school teachers,4.0,25.1,2022
+2320,Secondary school teachers,4.0,25.1,2022
+2330,Special education teachers,4.218286245476578,25.1,2022
+2350,Tutors,4.0,25.1,2022
+2360,Other teachers and instructors,3.4600974718245507,25.1,2022
+2400,"Archivists, curators, and museum technicians",4.606304277902862,25.1,2022
+2435,Librarians and media collections specialists,5.0,25.1,2022
+2440,Library technicians,3.0,25.1,2022
+2545,Teaching assistants,5.0,25.1,2022
+2555,Other educational instruction and library workers,5.0,25.1,2022
+2600,Artists and related workers,3.8430568499534017,25.1,2022
+2631,Commercial and industrial designers,4.0,25.1,2022
+2632,Fashion designers,3.0,25.1,2022
+2633,Floral designers,2.0,25.1,2022
+2634,Graphic designers,4.0,25.1,2022
+2635,Interior designers,4.0,25.1,2022
+2636,Merchandise displayers and window trimmers,3.0,25.1,2022
+2640,Other designers,3.5116805095633605,25.1,2022
+2700,Actors,2.0,25.1,2022
+2710,Producers and directors,4.0,25.1,2022
+2721,Athletes and sports competitors,2.0,25.1,2022
+2722,Coaches and scouts,4.0,25.1,2022
+2723,"Umpires, referees, and other sports officials",3.0,25.1,2022
+2740,Dancers and choreographers,3.3768318213538033,25.1,2022
+2751,Music directors and composers,4.0,25.1,2022
+2752,Musicians and singers,3.0,25.1,2022
+2755,"Disc jockeys, except radio ",3.635631822822587,25.1,2022
+2770,"Entertainers and performers, sports and related workers, all other",3.635631822822587,25.1,2022
+2805,Broadcast announcers and radio disc jockeys,4.0,25.1,2022
+2810,"News analysts, reporters, and journalists",4.0,25.1,2022
+2825,Public relations specialists,4.0,25.1,2022
+2830,Editors,4.0,25.1,2022
+2840,Technical writers,4.0,25.1,2022
+2850,Writers and authors,4.0,25.1,2022
+2861,Interpreters and translators,4.0,25.1,2022
+2862,Court reporters and simultaneous captioners,3.0,25.1,2022
+2865,"Media and communication workers, all other",3.7855421686746986,25.1,2022
+2905,"Broadcast, sound, and lighting technicians",3.0,25.1,2022
+2910,Photographers,3.0,25.1,2022
+2920,"Television, video, and film camera operators and editors",3.582742960944596,25.1,2022
+2970,"Media and communication equipment workers, all other",3.1565030734705823,25.1,2022
+3000,Chiropractors,5.0,25.1,2022
+3010,Dentists,5.0,25.1,2022
+3030,Dietitians and nutritionists,5.0,25.1,2022
+3040,Optometrists,5.0,25.1,2022
+3050,Pharmacists,5.0,25.1,2022
+3065,Emergency medicine physicians,5.0,25.1,2022
+3070,Radiologists,5.0,25.1,2022
+3090,Other physicians,4.534243009306462,25.1,2022
+3100,Surgeons,5.0,25.1,2022
+3110,Physician assistants,5.0,25.1,2022
+3120,Podiatrists,5.0,25.1,2022
+3140,Audiologists,5.0,25.1,2022
+3150,Occupational therapists,5.0,25.1,2022
+3160,Physical therapists,5.0,25.1,2022
+3200,Radiation therapists,3.0,25.1,2022
+3210,Recreational therapists,4.0,25.1,2022
+3220,Respiratory therapists,3.0,25.1,2022
+3230,Speech-language pathologists,5.0,25.1,2022
+3235,Exercise physiologists,4.0,25.1,2022
+3245,"Therapists, all other",4.5,25.1,2022
+3250,Veterinarians,5.0,25.1,2022
+3255,Registered nurses,3.8,25.1,2022
+3256,Nurse anesthetists,5.0,25.1,2022
+3257,Nurse midwives,5.0,25.1,2022
+3258,Nurse practitioners,5.0,25.1,2022
+3261,Acupuncturists,5.0,25.1,2022
+3270,"Healthcare diagnosing or treating practitioners, all other",5.0,25.1,2022
+3300,Clinical laboratory technologists and technicians,3.6666666666666665,25.1,2022
+3310,Dental hygienists,3.0,25.1,2022
+3321,Cardiovascular technologists and technicians,3.0,25.1,2022
+3322,Diagnostic medical sonographers,3.0,25.1,2022
+3323,Radiologic technologists and technicians,3.0,25.1,2022
+3324,Magnetic resonance imaging technologists,3.0,25.1,2022
+3330,Nuclear medicine technologists and medical dosimetrists,3.0,25.1,2022
+3401,Emergency medical technicians,2.999357055963884,25.1,2022
+3402,Paramedics,2.999357055963884,25.1,2022
+3421,Pharmacy technicians,3.0,25.1,2022
+3422,Psychiatric technicians,3.0,25.1,2022
+3423,Surgical technologists,3.0,25.1,2022
+3424,Veterinary technologists and technicians,3.0,25.1,2022
+3430,Dietetic technicians and ophthalmic medical technicians,2.9772758748038037,25.1,2022
+3500,Licensed practical and licensed vocational nurses,3.0,25.1,2022
+3515,Medical records specialists,2.999357055963884,25.1,2022
+3520,"Opticians, dispensing",3.0,25.1,2022
+3545,Miscellaneous health technologists and technicians,3.100532879195737,25.1,2022
+3550,Other healthcare practitioners and technical occupations,4.154119930974979,25.1,2022
+3601,Home health aides,2.0,25.1,2022
+3602,Personal care aides,2.0,25.1,2022
+3603,Nursing assistants,3.0,25.1,2022
+3605,Orderlies and psychiatric aides,2.945592470425199,25.1,2022
+3610,Occupational therapy assistants and aides,3.0,25.1,2022
+3620,Physical therapist assistants and aides,2.6954603671552584,25.1,2022
+3630,Massage therapists,3.0,25.1,2022
+3640,Dental assistants,3.0,25.1,2022
+3645,Medical assistants,3.0,25.1,2022
+3646,Medical transcriptionists,3.0,25.1,2022
+3647,Pharmacy aides,2.0,25.1,2022
+3648,Veterinary assistants and laboratory animal caretakers,2.0,25.1,2022
+3649,Phlebotomists,3.0,25.1,2022
+3655,Other healthcare support workers,2.8655022477706535,25.1,2022
+3700,First-line supervisors of correctional officers,3.0,25.1,2022
+3710,First-line supervisors of police and detectives,3.0,25.1,2022
+3720,First-line supervisors of firefighting and prevention workers,3.0,25.1,2022
+3725,First-line supervisors of security workers,3.0,25.1,2022
+3735,"First-line supervisors of protective service workers, all other",3.0,25.1,2022
+3740,Firefighters,3.0,25.1,2022
+3750,Fire inspectors ,3.0,25.1,2022
+3801,Bailiffs,3.0,25.1,2022
+3802,Correctional officers and jailers,2.0,25.1,2022
+3820,Detectives and criminal investigators,3.3333333333333335,25.1,2022
+3830,Fish and game wardens,4.0,25.1,2022
+3840,Parking enforcement workers,2.0,25.1,2022
+3870,Police officers,3.0,25.1,2022
+3900,Animal control workers,2.0,25.1,2022
+3910,Private detectives and investigators,3.0,25.1,2022
+3930,Security guards and gambling surveillance officers,2.0,25.1,2022
+3940,Crossing guards and flaggers,2.0,25.1,2022
+3945,Transportation security screeners,2.0,25.1,2022
+3946,School bus monitors,2.0,25.1,2022
+3960,Other protective service workers,2.0,25.1,2022
+4000,Chefs and head cooks,3.0,25.1,2022
+4010,First-line supervisors of food preparation and serving workers,2.0,25.1,2022
+4020,Cooks,1.7210274170274171,25.1,2022
+4030,Food preparation workers,1.0,25.1,2022
+4040,Bartenders,2.0,25.1,2022
+4055,Fast food and counter workers,1.0,25.1,2022
+4110,Waiters and waitresses,2.0,25.1,2022
+4120,"Food servers, nonrestaurant",2.0,25.1,2022
+4130,Dining room and cafeteria attendants and bartender helpers,1.0,25.1,2022
+4140,Dishwashers,1.0,25.1,2022
+4150,"Hosts and hostesses, restaurant, lounge, and coffee shop",2.0,25.1,2022
+4160,"Food preparation and serving related workers, all other",1.314788173234908,25.1,2022
+4200,First-line supervisors of housekeeping and janitorial workers,2.0,25.1,2022
+4210,"First-line supervisors of landscaping, lawn service, and groundskeeping workers",3.0,25.1,2022
+4220,Janitors and building cleaners,1.7358018179700931,25.1,2022
+4230,Maids and housekeeping cleaners,1.0,25.1,2022
+4240,Pest control workers,2.0,25.1,2022
+4251,Landscaping and groundskeeping workers,1.0,25.1,2022
+4252,Tree trimmers and pruners,2.0,25.1,2022
+4255,Other grounds maintenance workers,1.0719607763521195,25.1,2022
+4330,Supervisors of personal care and service workers,2.826713087513847,25.1,2022
+4340,Animal trainers,2.0,25.1,2022
+4350,Animal caretakers,2.0,25.1,2022
+4400,Gambling services workers,2.0,25.1,2022
+4420,"Ushers, lobby attendants, and ticket takers",2.0,25.1,2022
+4435,Other entertainment attendants and related workers,1.3780681752859798,25.1,2022
+4461,"Embalmers, crematory operators and funeral attendants",2.4584155161078236,25.1,2022
+4465,"Morticians, undertakers, and funeral arrangers",3.0,25.1,2022
+4500,Barbers,3.0,25.1,2022
+4510,"Hairdressers, hairstylists, and cosmetologists",3.0,25.1,2022
+4521,Manicurists and pedicurists,2.0,25.1,2022
+4522,Skincare specialists,3.0,25.1,2022
+4525,Other personal appearance workers,2.3086572270265133,25.1,2022
+4530,"Baggage porters, bellhops, and concierges",2.5864004990642546,25.1,2022
+4540,Tour and travel guides,3.0,25.1,2022
+4600,Childcare workers,2.0,25.1,2022
+4621,Exercise trainers and group fitness instructors,3.0,25.1,2022
+4622,Recreation workers,4.0,25.1,2022
+4640,Residential advisors,3.0,25.1,2022
+4655,"Personal care and service workers, all other",2.8228177856908587,25.1,2022
+4700,First-Line supervisors of retail sales workers,2.0,25.1,2022
+4710,First-Line supervisors of non-retail sales workers,4.0,25.1,2022
+4720,Cashiers,2.0,25.1,2022
+4740,Counter and rental clerks,2.0,25.1,2022
+4750,Parts salespersons,2.0,25.1,2022
+4760,Retail salespersons,2.0,25.1,2022
+4800,Advertising sales agents,4.0,25.1,2022
+4810,Insurance sales agents,4.0,25.1,2022
+4820,"Securities, commodities, and financial services sales agents",4.0,25.1,2022
+4830,Travel agents,3.0,25.1,2022
+4840,"Sales representatives of services, except advertising, insurance, financial services, and travel",3.9492799237005247,25.1,2022
+4850,"Sales representatives, wholesale and manufacturing",3.9070373282701394,25.1,2022
+4900,"Models, demonstrators, and product promoters",1.9544854881266491,25.1,2022
+4920,Real estate brokers and sales agents,3.2132316973748574,25.1,2022
+4930,Sales engineers,4.0,25.1,2022
+4940,Telemarketers,2.0,25.1,2022
+4950,"Door-to-door sales workers, news and street vendors, and related workers",1.0,25.1,2022
+4965,"Sales and related workers, all other",1.0,25.1,2022
+5000,First-Line supervisors of office and administrative support workers,3.0,25.1,2022
+5010,"Switchboard operators, including answering service",2.0,25.1,2022
+5020,Telephone operators,2.0,25.1,2022
+5040,"Communications equipment operators, all other",2.0,25.1,2022
+5100,Bill and account collectors,2.0,25.1,2022
+5110,Billing and posting clerks,2.0,25.1,2022
+5120,"Bookkeeping, accounting, and auditing clerks",3.0,25.1,2022
+5130,Gambling cage workers,2.0,25.1,2022
+5140,Payroll and timekeeping clerks,2.0,25.1,2022
+5150,Procurement clerks,3.0,25.1,2022
+5160,Tellers,2.0,25.1,2022
+5165,"Financial clerks, all other",2.5801342069605036,25.1,2022
+5200,Brokerage clerks,3.0,25.1,2022
+5210,Correspondence clerks,2.0,25.1,2022
+5220,"Court, municipal, and license clerks",2.0,25.1,2022
+5230,"Credit authorizers, checkers, and clerks",2.0,25.1,2022
+5240,Customer service representatives,2.0,25.1,2022
+5250,"Eligibility interviewers, government programs",3.0,25.1,2022
+5260,File clerks,2.0,25.1,2022
+5300,"Hotel, motel, and resort desk clerks",2.0,25.1,2022
+5310,"Interviewers, except eligibility and loan",2.0,25.1,2022
+5320,"Library assistants, clerical",2.0,25.1,2022
+5330,Loan interviewers and clerks,3.0,25.1,2022
+5340,New accounts clerks,3.0,25.1,2022
+5350,Order clerks,2.0,25.1,2022
+5360,"Human resources assistants, except payroll and timekeeping",3.0,25.1,2022
+5400,Receptionists and information clerks,2.0,25.1,2022
+5410,Reservation and transportation ticket agents and travel clerks,2.0,25.1,2022
+5420,"Information and record clerks, all other",2.20805476132269,25.1,2022
+5500,Cargo and freight agents,2.0,25.1,2022
+5510,Couriers and messengers,2.0,25.1,2022
+5521,Public safety telecommunicators,2.0,25.1,2022
+5522,"Dispatchers, except police, fire, and ambulance",2.0,25.1,2022
+5530,"Meter readers, utilities",2.0,25.1,2022
+5540,Postal service clerks,2.0,25.1,2022
+5550,Postal service mail carriers,2.0,25.1,2022
+5560,"Postal service mail sorters, processors, and processing machine operators",2.0,25.1,2022
+5600,"Production, planning, and expediting clerks",3.0,25.1,2022
+5610,"Shipping, receiving, and inventory clerks",2.0,25.1,2022
+5630,"Weighers, measurers, checkers, and samplers, recordkeeping",2.0,25.1,2022
+5710,Executive secretaries and executive administrative assistants,3.0,25.1,2022
+5720,Legal secretaries and administrative assistants,3.0,25.1,2022
+5730,Medical secretaries and administrative assistants,3.0,25.1,2022
+5740,"Secretaries and administrative assistants, except legal, medical, and executive",2.0,25.1,2022
+5810,Data entry keyers,2.0,25.1,2022
+5820,Word processors and typists,2.0,25.1,2022
+5830,Desktop publishers,3.0,25.1,2022
+5840,Insurance claims and policy processing clerks,2.0,25.1,2022
+5850,"Mail clerks and mail machine operators, except postal service",2.0,25.1,2022
+5860,"Office clerks, general",2.0,25.1,2022
+5900,"Office machine operators, except computer",2.0,25.1,2022
+5910,Proofreaders and copy markers,4.0,25.1,2022
+5920,Statistical assistants,4.0,25.1,2022
+5940,"Office and administrative support workers, all other",4.0,25.1,2022
+6005,"First-line supervisors of farming, fishing, and forestry workers",3.0,25.1,2022
+6010,Agricultural inspectors,2.0,25.1,2022
+6020,Animal breeders,2.0,25.1,2022
+6040,"Graders and sorters, agricultural products",1.0,25.1,2022
+6050,Miscellaneous agricultural workers,1.0954749168714761,25.1,2022
+6115,Fishing and hunting workers,1.0,25.1,2022
+6120,Forest and conservation workers,3.0,25.1,2022
+6130,Logging workers,1.11876127480457,25.1,2022
+6200,First-line supervisors of construction trades and extraction workers,3.0,25.1,2022
+6210,Boilermakers,3.0,25.1,2022
+6220,"Brickmasons, blockmasons, and stonemasons",2.1554372623574145,25.1,2022
+6230,Carpenters,2.0,25.1,2022
+6240,"Carpet, floor, and tile installers and finishers",2.0,25.1,2022
+6250,"Cement masons, concrete finishers, and terrazzo workers",1.0073666683485545,25.1,2022
+6260,Construction laborers,2.0,25.1,2022
+6305,Construction equipment operators,2.0,25.1,2022
+6330,"Drywall installers, ceiling tile installers, and tapers",2.0,25.1,2022
+6355,Electricians,3.0,25.1,2022
+6360,Glaziers,2.0,25.1,2022
+6400,Insulation workers,2.0,25.1,2022
+6410,Painters and paperhangers,2.0,25.1,2022
+6441,Pipelayers,2.0,25.1,2022
+6442,"Plumbers, pipefitters, and steamfitters",3.0,25.1,2022
+6460,Plasterers and stucco masons,1.0,25.1,2022
+6500,Reinforcing iron and rebar workers,2.0,25.1,2022
+6515,Roofers,2.0,25.1,2022
+6520,Sheet metal workers,2.0,25.1,2022
+6530,Structural iron and steel workers,2.0,25.1,2022
+6540,Solar photovoltaic installers,2.0,25.1,2022
+6600,"Helpers, construction trades",1.9505415783139435,25.1,2022
+6660,Construction and building inspectors,3.0,25.1,2022
+6700,Elevator and escalator installers and repairers,3.0,25.1,2022
+6710,Fence erectors,2.0,25.1,2022
+6720,Hazardous materials removal workers,3.0,25.1,2022
+6730,Highway maintenance workers,2.0,25.1,2022
+6740,Rail-track laying and maintenance equipment operators,2.0,25.1,2022
+6750,Septic tank servicers and sewer pipe cleaners,1.0,25.1,2022
+6765,Miscellaneous construction and related workers,2.0,25.1,2022
+6800,"Derrick, rotary drill, and service unit operators, oil and gas  ",1.815842583249243,25.1,2022
+6821,"Excavating and loading machine and dragline operators, surface mining",2.0,25.1,2022
+6825,"Earth drillers, except oil and gas",2.0,25.1,2022
+6835,"Explosives workers, ordnance handling experts, and blasters",2.0,25.1,2022
+6850,Underground mining machine operators,2.0,25.1,2022
+6920,"Roustabouts, oil and gas",1.0,25.1,2022
+6950,Other extraction workers,1.7117213377497595,25.1,2022
+7000,"First-line supervisors of mechanics, installers, and repairers",3.0,25.1,2022
+7010,"Computer, automated teller, and office machine repairers",3.0,25.1,2022
+7020,Radio and telecommunications equipment installers and repairers,3.0,25.1,2022
+7030,Avionics technicians,3.0,25.1,2022
+7040,"Electric motor, power tool, and related repairers",3.0,25.1,2022
+7050,"Electrical and electronics installers and repairers, transportation equipment",3.0,25.1,2022
+7100,"Electrical and electronics repairers, industrial and utility ",3.0,25.1,2022
+7110,"Electronic equipment installers and repairers, motor vehicles",3.0,25.1,2022
+7120,Audiovisual equipment installers and repairers ,3.0,25.1,2022
+7130,Security and fire alarm systems installers,3.0,25.1,2022
+7140,Aircraft mechanics and service technicians,3.0,25.1,2022
+7150,Automotive body and related repairers,2.0,25.1,2022
+7160,Automotive glass installers and repairers,2.0,25.1,2022
+7200,Automotive service technicians and mechanics,3.0,25.1,2022
+7210,Bus and truck mechanics and diesel engine specialists,3.0,25.1,2022
+7220,Heavy vehicle and mobile equipment service technicians and mechanics,2.907102033167807,25.1,2022
+7240,Small engine mechanics,2.526931772842133,25.1,2022
+7260,"Miscellaneous vehicle and mobile equipment mechanics, installers, and repairers",2.0,25.1,2022
+7300,Control and valve installers and repairers,2.629373474369406,25.1,2022
+7315,"Heating, air conditioning, and refrigeration mechanics and installers",3.0,25.1,2022
+7320,Home appliance repairers,2.0,25.1,2022
+7330,Industrial and refractory machinery mechanics,2.9153548123980424,25.1,2022
+7340,"Maintenance and repair workers, general",3.0,25.1,2022
+7350,"Maintenance workers, machinery",3.0,25.1,2022
+7360,Millwrights,2.0,25.1,2022
+7410,Electrical power-line installers and repairers,3.0,25.1,2022
+7420,Telecommunications line installers and repairers,2.0,25.1,2022
+7430,Precision instrument and equipment repairers,3.0,25.1,2022
+7440,Wind turbine service technicians,3.0,25.1,2022
+7510,"Coin, vending, and amusement machine servicers and repairers",2.0,25.1,2022
+7520,Commercial divers,3.0,25.1,2022
+7540,Locksmiths and safe repairers,2.0,25.1,2022
+7550,Manufactured building and mobile home installers,2.0,25.1,2022
+7560,Riggers,2.0,25.1,2022
+7610,"Helpers--installation, maintenance, and repair workers",2.0,25.1,2022
+7640,"Other installation, maintenance, and repair workers",2.0305730308292294,25.1,2022
+7700,First-line supervisors of production and operating workers,3.0,25.1,2022
+7710,"Aircraft structure, surfaces, rigging, and systems assemblers",2.0,25.1,2022
+7720,"Electrical, electronics, and electromechanical assemblers",2.0,25.1,2022
+7730,Engine and other machine assemblers,2.0,25.1,2022
+7740,Structural metal fabricators and fitters,3.0,25.1,2022
+7750,Other assemblers and fabricators,2.337809146726344,25.1,2022
+7800,Bakers,2.0,25.1,2022
+7810,"Butchers and other meat, poultry, and fish processing workers",1.6092176153665965,25.1,2022
+7830,"Food and tobacco roasting, baking, and drying machine operators and tenders",2.0,25.1,2022
+7840,Food batchmakers,2.0,25.1,2022
+7850,Food cooking machine operators and tenders,2.0,25.1,2022
+7855,"Food processing workers, all other",2.0,25.1,2022
+7905,Computer numerically controlled tool operators and programmers,3.0,25.1,2022
+7925,"Forming machine setters, operators, and tenders, metal and plastic",2.0,25.1,2022
+7950,"Cutting, punching, and press machine setters, operators, and tenders, metal and plastic",2.0,25.1,2022
+8000,"Grinding, lapping, polishing, and buffing machine tool setters, operators, and tenders, metal and plastic",2.0,25.1,2022
+8025,"Other machine tool setters, operators, and tenders, metal and plastic",2.0,25.1,2022
+8030,Machinists,3.0,25.1,2022
+8040,"Metal furnace operators, tenders, pourers, and casters",2.0,25.1,2022
+8060,"Model makers and patternmakers, metal and plastic",3.0,25.1,2022
+8100,"Molders and molding machine setters, operators, and tenders, metal and plastic",2.0,25.1,2022
+8130,Tool and die makers,3.0,25.1,2022
+8140,"Welding, soldering, and brazing workers",2.0,25.1,2022
+8225,Other metal workers and plastic workers,2.236671554071537,25.1,2022
+8250,Prepress technicians and workers,3.0,25.1,2022
+8255,Printing press operators,2.0,25.1,2022
+8256,Print binding and finishing workers,2.0,25.1,2022
+8300,Laundry and dry-cleaning workers,1.0,25.1,2022
+8310,"Pressers, textile, garment, and related materials",1.0,25.1,2022
+8320,Sewing machine operators,1.0,25.1,2022
+8335,Shoe and leather workers,2.0,25.1,2022
+8350,"Tailors, dressmakers, and sewers",2.0,25.1,2022
+8365,"Textile machine setters, operators, and tenders",2.0,25.1,2022
+8450,Upholsterers,2.0,25.1,2022
+8465,"Other textile, apparel, and furnishings workers",2.0689577717879604,25.1,2022
+8500,Cabinetmakers and bench carpenters,2.0,25.1,2022
+8510,Furniture finishers,2.0,25.1,2022
+8530,"Sawing machine setters, operators, and tenders, wood",2.0,25.1,2022
+8540,"Woodworking machine setters, operators, and tenders, except sawing",2.0,25.1,2022
+8555,Other woodworkers,2.004727600180099,25.1,2022
+8600,"Power plant operators, distributors, and dispatchers",2.5463162429987074,25.1,2022
+8610,Stationary engineers and boiler operators,3.0,25.1,2022
+8620,Water and wastewater treatment plant and system operators,3.0,25.1,2022
+8630,Miscellaneous plant and system operators,2.17922990091559,25.1,2022
+8640,"Chemical processing machine setters, operators, and tenders",2.0,25.1,2022
+8650,"Crushing, grinding, polishing, mixing, and blending workers",1.9056578684927863,25.1,2022
+8710,Cutting workers,1.8677036561898652,25.1,2022
+8720,"Extruding, forming, pressing, and compacting machine setters, operators, and tenders",2.0,25.1,2022
+8730,"Furnace, kiln, oven, drier, and kettle operators and tenders",2.0,25.1,2022
+8740,"Inspectors, testers, sorters, samplers, and weighers",2.0,25.1,2022
+8750,Jewelers and precious stone and metal workers,3.0,25.1,2022
+8760,Dental and ophthalmic laboratory technicians and medical appliance technicians,2.2265568559456725,25.1,2022
+8800,Packaging and filling machine operators and tenders,2.0,25.1,2022
+8810,Painting workers,1.926939248065322,25.1,2022
+8830,Photographic process workers and processing machine operators,2.0,25.1,2022
+8850,Adhesive bonding machine operators and tenders,2.0,25.1,2022
+8910,Etchers and engravers,2.0,25.1,2022
+8920,"Molders, shapers, and casters, except metal and plastic",2.25,25.1,2022
+8930,"Paper goods machine setters, operators, and tenders",2.0,25.1,2022
+8940,Tire builders,2.0,25.1,2022
+8950,Helpers--production workers,2.0,25.1,2022
+8865,Other production equipment operators and tenders,2.025731903343962,25.1,2022
+8990,Other production workers,2.1785369460270516,25.1,2022
+9005,Supervisors of transportation and material moving workers,2.0,25.1,2022
+9030,Aircraft pilots and flight engineers,3.647581869442637,25.1,2022
+9040,Air traffic controllers and airfield operations specialists,3.0,25.1,2022
+9050,Flight attendants,3.0,25.1,2022
+9110,"Ambulance drivers and attendants, except emergency medical technicians",2.0,25.1,2022
+9121,"Bus drivers, school",2.0,25.1,2022
+9122,"Bus drivers, transit and intercity",2.0,25.1,2022
+9130,Driver/sales workers and truck drivers,2.0,25.1,2022
+9141,Shuttle drivers and chauffeurs,2.0,25.1,2022
+9142,Taxi drivers,2.0,25.1,2022
+9150,"Motor vehicle operators, all other",2.0,25.1,2022
+9210,Locomotive engineers and operators,2.0,25.1,2022
+9240,Railroad conductors and yardmasters,2.0,25.1,2022
+9265,Other rail transportation workers,2.0,25.1,2022
+9300,Sailors and marine oilers,2.0,25.1,2022
+9310,Ship and boat captains and operators,2.9182654402102495,25.1,2022
+9330,Ship engineers ,3.0,25.1,2022
+9350,Parking attendants,2.0,25.1,2022
+9365,Transportation service attendants,2.0,25.1,2022
+9410,Transportation inspectors,3.0,25.1,2022
+9415,Passenger attendants,2.0,25.1,2022
+9430,Other transportation workers,2.1251627154747346,25.1,2022
+9510,Crane and tower operators,3.0,25.1,2022
+9570,"Conveyor, dredge, and hoist and winch operators",2.0022177886242587,25.1,2022
+9600,Industrial truck and tractor operators,2.0,25.1,2022
+9610,Cleaners of vehicles and equipment,2.0,25.1,2022
+9620,"Laborers and freight, stock, and material movers, hand",2.0,25.1,2022
+9630,Machine feeders and offbearers,2.0,25.1,2022
+9640,"Packers and packagers, hand",2.0,25.1,2022
+9645,Stockers and order fillers,2.0,25.1,2022
+9650,Pumping station operators,2.0,25.1,2022
+9720,Refuse and recyclable material collectors,2.0,25.1,2022
+9760,Other material moving workers,2.0,25.1,2022
+9800,Military officer special and tactical operations leaders,,25.1,2022
+9810,First-line enlisted military supervisors,,25.1,2022
+9825,Military enlisted tactical operations and air/weapons specialists and crew members,,25.1,2022
+9830,"Military, rank not Specified",,25.1,2022
+9920,"Unemployed, with no work experience in the last 5 years or earlier or never worked",,25.1,2022

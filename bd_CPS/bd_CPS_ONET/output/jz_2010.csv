@@ -1,0 +1,511 @@
+census_code,occupation_title,job_zone,onet_version,oews_year
+10,Chief executives,5.0,14.0,2009
+20,General and operations managers,3.0,14.0,2009
+30,Legislators,4.0,14.0,2009
+40,Advertising and promotions managers,4.0,14.0,2009
+50,Marketing and sales managers,4.0,14.0,2009
+60,Public relations managers,4.0,14.0,2009
+100,Administrative services managers,3.0,14.0,2009
+110,Computer and information systems managers,4.0,14.0,2009
+120,Financial managers,4.5,14.0,2009
+130,Human resources managers,4.0,14.0,2009
+140,Industrial production managers,3.0,14.0,2009
+150,Purchasing managers,4.0,14.0,2009
+160,"Transportation, storage, and distribution managers",4.0,14.0,2009
+200,"Farm, ranch, and other agricultural managers",3.6666666666666665,14.0,2009
+210,Farmers and ranchers,3.0,14.0,2009
+220,Construction managers,4.0,14.0,2009
+230,Education administrators,4.8641050170068025,14.0,2009
+300,Engineering managers,5.0,14.0,2009
+310,Food service managers,3.0,14.0,2009
+320,Funeral directors,3.0,14.0,2009
+330,Gaming managers,3.0,14.0,2009
+340,Lodging managers,3.0,14.0,2009
+350,Medical and health services managers,5.0,14.0,2009
+360,Natural sciences managers,5.0,14.0,2009
+400,Postmasters and mail superintendents,3.0,14.0,2009
+410,"Property, real estate, and community association managers",3.0,14.0,2009
+420,Social and community service managers,4.0,14.0,2009
+430,"Managers, all other",4.0,14.0,2009
+500,"Agents and business managers of artists, performers, and athletes",4.0,14.0,2009
+510,"Purchasing agents and buyers, farm products",3.0,14.0,2009
+520,"Wholesale and retail buyers, except farm products",3.0,14.0,2009
+530,"Purchasing agents, except wholesale, retail, and farm products",3.0,14.0,2009
+540,"Claims adjusters, appraisers, examiners, and investigators",3.0,14.0,2009
+560,"Compliance officers, except agriculture, construction, health and safety, and transportation",3.6666666666666665,14.0,2009
+600,Cost estimators,4.0,14.0,2009
+620,"Human resources, training, and labor relations specialists",4.0,14.0,2009
+700,Logisticians,4.0,14.0,2009
+710,Management analysts,4.0,14.0,2009
+720,Meeting and convention planners,4.0,14.0,2009
+730,Other business operations specialists,3.368307176596069,14.0,2009
+800,Accountants and auditors,4.0,14.0,2009
+810,Appraisers and assessors of real estate,3.5,14.0,2009
+820,Budget analysts,4.0,14.0,2009
+830,Credit analysts,4.0,14.0,2009
+840,Financial analysts,4.0,14.0,2009
+850,Personal financial advisors,4.0,14.0,2009
+860,Insurance underwriters,4.0,14.0,2009
+900,Financial examiners,4.0,14.0,2009
+910,Loan counselors and officers,3.0924032140248356,14.0,2009
+930,"Tax examiners, collectors, and revenue agents",3.0,14.0,2009
+940,Tax preparers,3.0,14.0,2009
+950,"Financial specialists, all other",3.796735623876177,14.0,2009
+1000,Computer scientists and systems analysts,3.7479436000579724,14.0,2009
+1010,Computer programmers,4.0,14.0,2009
+1020,Computer software engineers,4.0,14.0,2009
+1040,Computer support specialists,3.0,14.0,2009
+1060,Database administrators,4.0,14.0,2009
+1100,Network and computer systems administrators,4.0,14.0,2009
+1110,Network systems and data communications analysts,3.0,14.0,2009
+1200,Actuaries,4.0,14.0,2009
+1210,Mathematicians,5.0,14.0,2009
+1220,Operations research analysts,5.0,14.0,2009
+1230,Statisticians,5.0,14.0,2009
+1240,Miscellaneous mathematical science occupations,4.0,14.0,2009
+1300,"Architects, except naval",4.842912830720743,14.0,2009
+1310,"Surveyors, cartographers, and photogrammetrists",3.810819513765899,14.0,2009
+1320,Aerospace engineers,4.0,14.0,2009
+1330,Agricultural engineers,4.0,14.0,2009
+1340,Biomedical engineers,4.0,14.0,2009
+1350,Chemical engineers,4.0,14.0,2009
+1360,Civil engineers,4.0,14.0,2009
+1400,Computer hardware engineers,4.0,14.0,2009
+1410,Electrical and electronic engineers,4.0,14.0,2009
+1420,Environmental engineers,4.0,14.0,2009
+1430,"Industrial engineers, including health and safety",4.0,14.0,2009
+1440,Marine engineers and naval architects,4.0,14.0,2009
+1450,Materials engineers,4.0,14.0,2009
+1460,Mechanical engineers,4.0,14.0,2009
+1500,"Mining and geological engineers, including mining safety engineers",4.0,14.0,2009
+1510,Nuclear engineers,4.0,14.0,2009
+1520,Petroleum engineers,4.0,14.0,2009
+1530,"Engineers, all other",4.0,14.0,2009
+1540,Drafters,3.0,14.0,2009
+1550,"Engineering technicians, except drafters",3.0925260314555834,14.0,2009
+1560,Surveying and mapping technicians,3.0,14.0,2009
+1600,Agricultural and food scientists,5.0,14.0,2009
+1610,Biological scientists,5.0,14.0,2009
+1640,Conservation scientists and foresters,4.0,14.0,2009
+1650,Medical scientists,5.0,14.0,2009
+1700,Astronomers and physicists,5.0,14.0,2009
+1710,Atmospheric and space scientists,4.0,14.0,2009
+1720,Chemists and materials scientists,4.100011262529564,14.0,2009
+1740,Environmental scientists and geoscientists,4.05834829443447,14.0,2009
+1760,"Physical scientists, all other",5.0,14.0,2009
+1800,Economists,5.0,14.0,2009
+1810,Market and survey researchers,4.0,14.0,2009
+1820,Psychologists,5.0,14.0,2009
+1830,Sociologists,5.0,14.0,2009
+1840,Urban and regional planners,5.0,14.0,2009
+1860,Miscellaneous social scientists and related workers,5.0,14.0,2009
+1900,Agricultural and food science technicians,3.0,14.0,2009
+1910,Biological technicians,4.0,14.0,2009
+1920,Chemical technicians,3.0,14.0,2009
+1930,Geological and petroleum technicians,3.5,14.0,2009
+1940,Nuclear technicians,3.0,14.0,2009
+1960,"Other life, physical, and social science technicians",3.4400119527864934,14.0,2009
+2000,Counselors,4.804214878904757,14.0,2009
+2010,Social workers,4.48419155892406,14.0,2009
+2020,Miscellaneous community and social service specialists,3.312285120332614,14.0,2009
+2040,Clergy,5.0,14.0,2009
+2050,"Directors, religious activities and education",4.0,14.0,2009
+2060,"Religious workers, all other",4.739130434782608,14.0,2009
+2100,Lawyers,5.0,14.0,2009
+2110,"Judges, magistrates, and other judicial workers",4.829621848739496,14.0,2009
+2140,Paralegals and legal assistants,3.0,14.0,2009
+2150,Miscellaneous legal support workers,3.3014875727617112,14.0,2009
+2200,Postsecondary teachers,5.0,14.0,2009
+2300,Preschool and kindergarten teachers,3.3181444345284965,14.0,2009
+2310,Elementary and middle school teachers,4.0,14.0,2009
+2320,Secondary school teachers,4.0,14.0,2009
+2330,Special education teachers,4.0,14.0,2009
+2340,Other teachers and instructors,3.296541861674467,14.0,2009
+2400,"Archivists, curators, and museum technicians",3.6008634222919937,14.0,2009
+2430,Librarians,5.0,14.0,2009
+2440,Library technicians,4.0,14.0,2009
+2540,Teacher assistants,3.0,14.0,2009
+2550,"Other education, training, and library workers",3.1992347443029394,14.0,2009
+2600,Artists and related workers,3.7369547765587368,14.0,2009
+2630,Designers,3.4151071463201785,14.0,2009
+2700,Actors,2.0,14.0,2009
+2710,Producers and directors,3.8,14.0,2009
+2720,"Athletes, coaches, umpires, and related workers",4.661178051941818,14.0,2009
+2740,Dancers and choreographers,3.578740157480315,14.0,2009
+2750,"Musicians, singers, and related workers",2.7326676408507873,14.0,2009
+2760,"Entertainers and performers, sports and related workers, all other",3.8873602274918064,14.0,2009
+2800,Announcers,2.828342372082056,14.0,2009
+2810,"News analysts, reporters and correspondents",4.0,14.0,2009
+2820,Public relations specialists,4.0,14.0,2009
+2830,Editors,4.0,14.0,2009
+2840,Technical writers,4.0,14.0,2009
+2850,Writers and authors,4.0,14.0,2009
+2860,Miscellaneous media and communication workers,4.0,14.0,2009
+2900,Broadcast and sound engineering technicians and radio operators,3.0,14.0,2009
+2910,Photographers,3.0,14.0,2009
+2920,"Television, video, and motion picture camera operators and editors",3.0,14.0,2009
+2960,"Media and communication equipment workers, all other",3.0,14.0,2009
+3000,Chiropractors,5.0,14.0,2009
+3010,Dentists,5.0,14.0,2009
+3030,Dietitians and nutritionists,5.0,14.0,2009
+3040,Optometrists,5.0,14.0,2009
+3050,Pharmacists,5.0,14.0,2009
+3060,Physicians and surgeons,5.0,14.0,2009
+3110,Physician assistants,5.0,14.0,2009
+3120,Podiatrists,5.0,14.0,2009
+3130,Registered nurses,3.0,14.0,2009
+3140,Audiologists,5.0,14.0,2009
+3150,Occupational therapists,5.0,14.0,2009
+3160,Physical therapists,5.0,14.0,2009
+3200,Radiation therapists,3.0,14.0,2009
+3210,Recreational therapists,4.0,14.0,2009
+3220,Respiratory therapists,3.0,14.0,2009
+3230,Speech-language pathologists,5.0,14.0,2009
+3240,"Therapists, all other",4.505615486921826,14.0,2009
+3250,Veterinarians,5.0,14.0,2009
+3260,"Health diagnosing and treating practitioners, all other",5.0,14.0,2009
+3300,Clinical laboratory technologists and technicians,3.522613380105237,14.0,2009
+3310,Dental hygienists,3.0,14.0,2009
+3320,Diagnostic related technologists and technicians,3.0,14.0,2009
+3400,Emergency medical technicians and paramedics,3.0,14.0,2009
+3410,Health diagnosing and treating practitioner support technicians,2.959995429914474,14.0,2009
+3500,Licensed practical and licensed vocational nurses,3.0,14.0,2009
+3510,Medical records and health information technicians,2.0,14.0,2009
+3520,"Opticians, dispensing",3.0,14.0,2009
+3530,Miscellaneous health technologists and technicians,5.0,14.0,2009
+3540,Other healthcare practitioners and technical occupations,4.067245400362788,14.0,2009
+3600,"Nursing, psychiatric, and home health aides",2.0,14.0,2009
+3610,Occupational therapist assistants and aides,2.7684331797235022,14.0,2009
+3620,Physical therapist assistants and aides,2.59077008618293,14.0,2009
+3630,Massage therapists,3.0,14.0,2009
+3640,Dental assistants,3.0,14.0,2009
+3650,Medical assistants and other healthcare support occupations,2.8364559873496575,14.0,2009
+3700,First-line supervisors/managers of correctional officers,3.0,14.0,2009
+3710,First-line supervisors/managers of police and detectives,3.0,14.0,2009
+3720,First-line supervisors/managers of fire fighting and prevention workers,3.0,14.0,2009
+3730,"Supervisors, protective service workers, all other",3.0,14.0,2009
+3740,Fire fighters,2.5,14.0,2009
+3750,Fire inspectors,3.0,14.0,2009
+3800,"Bailiffs, correctional officers, and jailers",2.963724099980952,14.0,2009
+3820,Detectives and criminal investigators,3.5,14.0,2009
+3830,Fish and game wardens,4.0,14.0,2009
+3840,Parking enforcement workers,2.0,14.0,2009
+3850,Police and sheriff's patrol officers,3.0,14.0,2009
+3860,Transit and railroad police,3.0,14.0,2009
+3900,Animal control workers,2.0,14.0,2009
+3910,Private detectives and investigators,3.0,14.0,2009
+3920,Security guards and gaming surveillance officers,2.0,14.0,2009
+3940,Crossing guards,1.0,14.0,2009
+3950,Lifeguards and other protective service workers,1.3231001139747784,14.0,2009
+4000,Chefs and head cooks,3.0,14.0,2009
+4010,First-line supervisors/managers of food preparation and serving workers,2.0,14.0,2009
+4020,Cooks,1.6455684109433375,14.0,2009
+4030,Food preparation workers,1.0,14.0,2009
+4040,Bartenders,2.0,14.0,2009
+4050,"Combined food preparation and serving workers, including fast food",1.0,14.0,2009
+4060,"Counter attendants, cafeteria, food concession, and coffee shop",1.0,14.0,2009
+4110,Waiters and waitresses,1.0,14.0,2009
+4120,"Food servers, nonrestaurant",1.0,14.0,2009
+4130,Dining room and cafeteria attendants and bartender helpers,1.0,14.0,2009
+4140,Dishwashers,1.0,14.0,2009
+4150,"Hosts and hostesses, restaurant, lounge, and coffee shop",1.0,14.0,2009
+4160,"Food preparation and serving related workers, all other",1.0,14.0,2009
+4200,First-line supervisors/managers of housekeeping and janitorial workers,3.0,14.0,2009
+4210,"First-line supervisors/managers of landscaping, lawn service, and groundskeeping workers",2.0,14.0,2009
+4220,Janitors and building cleaners,1.0,14.0,2009
+4230,Maids and housekeeping cleaners,1.0,14.0,2009
+4240,Pest control workers,2.0,14.0,2009
+4250,Grounds maintenance workers,1.0921395389224156,14.0,2009
+4300,First-line supervisors/managers of gaming workers,2.0,14.0,2009
+4320,First-line supervisors/managers of personal service workers,3.0,14.0,2009
+4340,Animal trainers,2.0,14.0,2009
+4350,Nonfarm animal caretakers,2.0,14.0,2009
+4400,Gaming services workers,2.0,14.0,2009
+4410,Motion picture projectionists,2.0,14.0,2009
+4420,"Ushers, lobby attendants, and ticket takers",1.0,14.0,2009
+4430,Miscellaneous entertainment attendants and related workers,1.0183293590062996,14.0,2009
+4460,Funeral service workers,2.2042903467198802,14.0,2009
+4500,Barbers,3.0,14.0,2009
+4510,"Hairdressers, hairstylists, and cosmetologists",3.0,14.0,2009
+4520,Miscellaneous personal appearance workers,2.8372093023255816,14.0,2009
+4530,"Baggage porters, bellhops, and concierges",1.293056549749463,14.0,2009
+4540,Tour and travel guides,3.0,14.0,2009
+4550,Transportation attendants,2.0,14.0,2009
+4600,Child care workers,2.5,14.0,2009
+4610,Personal and home care aides,2.0,14.0,2009
+4620,Recreation and fitness workers,3.5564346811819596,14.0,2009
+4640,Residential advisors,3.0,14.0,2009
+4650,"Personal care and service workers, all other ",2.642764186043925,14.0,2009
+4700,First-line supervisors/managers of retail sales workers,2.0,14.0,2009
+4710,First-line supervisors/managers of non-retail sales workers,4.0,14.0,2009
+4720,Cashiers,1.0056319134049947,14.0,2009
+4740,Counter and rental clerks,1.0,14.0,2009
+4750,Parts salespersons,2.0,14.0,2009
+4760,Retail salespersons,2.0,14.0,2009
+4800,Advertising sales agents,3.0,14.0,2009
+4810,Insurance sales agents,4.0,14.0,2009
+4820,"Securities, commodities, and financial services sales agents",4.0,14.0,2009
+4830,Travel agents,3.0,14.0,2009
+4840,"Sales representatives, services, all other",3.7225293000641035,14.0,2009
+4850,"Sales representatives, wholesale and manufacturing",3.2236552271025154,14.0,2009
+4900,"Models, demonstrators, and product promoters",1.9816792040766804,14.0,2009
+4920,Real estate brokers and sales agents,3.0,14.0,2009
+4930,Sales engineers,4.0,14.0,2009
+4940,Telemarketers,2.0,14.0,2009
+4950,"Door-to-door sales workers, news and street vendors, and related workers",2.0,14.0,2009
+4960,"Sales and related workers, all other",2.0,14.0,2009
+5000,First-line supervisors/managers of office and administrative support workers,3.0,14.0,2009
+5010,"Switchboard operators, including answering service",2.0,14.0,2009
+5020,Telephone operators,2.0,14.0,2009
+5030,"Communications equipment operators, all other",2.0,14.0,2009
+5100,Bill and account collectors,2.0,14.0,2009
+5110,Billing and posting clerks and machine operators,2.3333333333333335,14.0,2009
+5120,"Bookkeeping, accounting, and auditing clerks",3.0,14.0,2009
+5130,Gaming cage workers,2.0,14.0,2009
+5140,Payroll and timekeeping clerks,2.0,14.0,2009
+5150,Procurement clerks,3.0,14.0,2009
+5160,Tellers,2.0,14.0,2009
+5200,Brokerage clerks,3.0,14.0,2009
+5210,Correspondence clerks,2.0,14.0,2009
+5220,"Court, municipal, and license clerks",2.3333333333333335,14.0,2009
+5230,"Credit authorizers, checkers, and clerks",2.5,14.0,2009
+5240,Customer service representatives,2.0,14.0,2009
+5250,"Eligibility interviewers, government programs",3.0,14.0,2009
+5260,File Clerks,3.0,14.0,2009
+5300,"Hotel, motel, and resort desk clerks",2.0,14.0,2009
+5310,"Interviewers, except eligibility and loan",2.0,14.0,2009
+5320,"Library assistants, clerical",3.0,14.0,2009
+5330,Loan interviewers and clerks,3.0,14.0,2009
+5340,New accounts clerks,2.0,14.0,2009
+5350,Order clerks,2.0,14.0,2009
+5360,"Human resources assistants, except payroll and timekeeping",3.0,14.0,2009
+5400,Receptionists and information clerks,2.0,14.0,2009
+5410,Reservation and transportation ticket agents and travel clerks,2.0,14.0,2009
+5420,"Information and record clerks, all other",2.2155817019704096,14.0,2009
+5500,Cargo and freight agents,2.0,14.0,2009
+5510,Couriers and messengers,2.0,14.0,2009
+5520,Dispatchers,2.0,14.0,2009
+5530,"Meter readers, utilities",2.0,14.0,2009
+5540,Postal service clerks,2.0,14.0,2009
+5550,Postal service mail carriers,2.0,14.0,2009
+5560,"Postal service mail sorters, processors, and processing machine operators",2.0,14.0,2009
+5600,"Production, planning, and expediting clerks",2.0,14.0,2009
+5610,"Shipping, receiving, and traffic clerks",2.0,14.0,2009
+5620,Stock clerks and order fillers,1.5,14.0,2009
+5630,"Weighers, measurers, checkers, and samplers, recordkeeping",2.0,14.0,2009
+5700,Secretaries and administrative assistants,2.414553726348839,14.0,2009
+5800,Computer operators,3.0,14.0,2009
+5810,Data entry keyers,2.0,14.0,2009
+5820,Word processors and typists,2.0,14.0,2009
+5830,Desktop publishers,3.0,14.0,2009
+5840,Insurance claims and policy processing clerks,2.0,14.0,2009
+5850,"Mail clerks and mail machine operators, except postal service",2.0,14.0,2009
+5860,"Office clerks, general",2.0,14.0,2009
+5900,"Office machine operators, except computer",2.0,14.0,2009
+5910,Proofreaders and copy markers,4.0,14.0,2009
+5920,Statistical assistants,3.0,14.0,2009
+5930,"Office and administrative support workers, all other",3.0,14.0,2009
+6000,"First-line supervisors/managers of farming, fishing, and forestry workers",2.714622641509434,14.0,2009
+6010,Agricultural inspectors,3.0,14.0,2009
+6020,Animal breeders,3.0,14.0,2009
+6040,"Graders and sorters, agricultural products",1.0,14.0,2009
+6050,Miscellaneous agricultural workers ,1.0770261449135947,14.0,2009
+6100,Fishers and related fishing workers,1.0,14.0,2009
+6110,Hunters and trappers,1.0,14.0,2009
+6120,Forest and conservation workers,3.0,14.0,2009
+6130,Logging workers,1.177912254160363,14.0,2009
+6200,First-line supervisors/managers of construction trades and extraction workers,3.0,14.0,2009
+6210,Boilermakers,2.0,14.0,2009
+6220,"Brickmasons, blockmasons, and stonemasons",2.138228941684665,14.0,2009
+6230,Carpenters,2.0,14.0,2009
+6240,"Carpet, floor, and tile installers and finishers",1.6735885060051634,14.0,2009
+6250,"Cement masons, concrete finishers, and terrazzo workers",2.9747632213659627,14.0,2009
+6260,Construction laborers,1.0,14.0,2009
+6300,"Paving, surfacing, and tamping equipment operators",2.0,14.0,2009
+6310,Pile-driver operators,2.0,14.0,2009
+6320,Operating engineers and other construction equipment operators,3.0,14.0,2009
+6330,"Drywall installers, ceiling tile installers, and tapers",2.0,14.0,2009
+6350,Electricians,3.0,14.0,2009
+6360,Glaziers,2.0,14.0,2009
+6400,Insulation workers,2.0,14.0,2009
+6420,"Painters, construction and maintenance",2.0,14.0,2009
+6430,Paperhangers,2.0,14.0,2009
+6440,"Pipelayers, plumbers, pipefitters, and steamfitters",2.8907277412475563,14.0,2009
+6460,Plasterers and stucco masons,2.0,14.0,2009
+6500,Reinforcing iron and rebar workers,2.0,14.0,2009
+6510,Roofers,2.0,14.0,2009
+6520,Sheet metal workers,2.0,14.0,2009
+6530,Structural iron and steel workers,2.0,14.0,2009
+6600,"Helpers, construction trades",1.807244943207013,14.0,2009
+6660,Construction and building inspectors,3.0,14.0,2009
+6700,Elevator installers and repairers,3.0,14.0,2009
+6710,Fence erectors,2.0,14.0,2009
+6720,Hazardous materials removal workers,2.0,14.0,2009
+6730,Highway maintenance workers,2.0,14.0,2009
+6740,Rail-track laying and maintenance equipment operators,2.0,14.0,2009
+6750,Septic tank servicers and sewer pipe cleaners,1.0,14.0,2009
+6760,Miscellaneous construction and related workers,2.0,14.0,2009
+6800,"Derrick, rotary drill, and service unit operators, oil, gas, and mining",1.7461158617367216,14.0,2009
+6820,"Earth drillers, except oil and gas",2.0,14.0,2009
+6830,"Explosives workers, ordnance handling experts, and blasters",2.0,14.0,2009
+6840,Mining machine operators,1.414188836724048,14.0,2009
+6910,"Roof bolters, mining",2.0,14.0,2009
+6920,"Roustabouts, oil and gas",2.0,14.0,2009
+6930,Helpers--extraction workers,2.0,14.0,2009
+6940,Other extraction workers,1.8381047291175938,14.0,2009
+7000,"First-line supervisors/managers of mechanics, installers, and repairers",3.0,14.0,2009
+7010,"Computer, automated teller, and office machine repairers",3.0,14.0,2009
+7020,Radio and telecommunications equipment installers and repairers,3.0,14.0,2009
+7030,Avionics technicians,3.0,14.0,2009
+7040,"Electric motor, power tool, and related repairers",3.0,14.0,2009
+7050,"Electrical and electronics installers and repairers, transportation equipment",3.0,14.0,2009
+7100,"Electrical and electronics repairers, industrial and utility",3.0,14.0,2009
+7110,"Electronic equipment installers and repairers, motor vehicles",3.0,14.0,2009
+7120,Electronic home entertainment equipment installers and repairers,3.0,14.0,2009
+7130,Security and fire alarm systems installers,3.0,14.0,2009
+7140,Aircraft mechanics and service technicians,3.0,14.0,2009
+7150,Automotive body and related repairers,2.0,14.0,2009
+7160,Automotive glass installers and repairers,2.0,14.0,2009
+7200,Automotive service technicians and mechanics,3.0,14.0,2009
+7210,Bus and truck mechanics and diesel engine specialists,3.0,14.0,2009
+7220,Heavy vehicle and mobile equipment service technicians and mechanics,2.8781539537323,14.0,2009
+7240,Small engine mechanics,2.568370394955194,14.0,2009
+7260,"Miscellaneous vehicle and mobile equipment mechanics, installers, and repairers",1.1789679367617016,14.0,2009
+7300,Control and valve installers and repairers,2.7334376630151276,14.0,2009
+7310,"Heating, air conditioning, and refrigeration mechanics and installers",3.0,14.0,2009
+7320,Home appliance repairers,3.0,14.0,2009
+7330,Industrial and refractory machinery mechanics,2.9586351471361167,14.0,2009
+7340,"Maintenance and repair workers, general",3.0,14.0,2009
+7350,"Maintenance workers, machinery",2.0,14.0,2009
+7360,Millwrights,3.0,14.0,2009
+7410,Electrical power-line installers and repairers,3.0,14.0,2009
+7420,Telecommunications line installers and repairers,2.0,14.0,2009
+7430,Precision instrument and equipment repairers,3.0,14.0,2009
+7510,"Coin, vending, and amusement machine servicers and repairers",2.0,14.0,2009
+7520,Commercial divers,3.0,14.0,2009
+7540,Locksmiths and safe repairers,2.0,14.0,2009
+7550,Manufactured building and mobile home installers,2.0,14.0,2009
+7560,Riggers,2.0,14.0,2009
+7600,Signal and track switch repairers,3.0,14.0,2009
+7610,"Helpers--installation, maintenance, and repair workers ",2.0,14.0,2009
+7620,"Other installation, maintenance, and repair workers",2.038976857490865,14.0,2009
+7700,First-line supervisors/managers of production and operating workers,3.0,14.0,2009
+7710,"Aircraft structure, surfaces, rigging, and systems assemblers",2.0,14.0,2009
+7720,"Electrical, electronics, and electromechanical assemblers",2.0,14.0,2009
+7730,Engine and other machine assemblers,2.0,14.0,2009
+7740,Structural metal fabricators and fitters,3.0,14.0,2009
+7750,Miscellaneous assemblers and fabricators,2.0,14.0,2009
+7800,Bakers,2.0,14.0,2009
+7810,"Butchers and other meat, poultry, and fish processing workers",1.3203910757134834,14.0,2009
+7830,"Food and tobacco roasting, baking, and drying machine operators and tenders",2.0,14.0,2009
+7840,Food batchmakers,2.0,14.0,2009
+7850,Food cooking machine operators and tenders,2.0,14.0,2009
+7900,Computer control programmers and operators,2.1065675340768277,14.0,2009
+7920,"Extruding and drawing machine setters, operators, and tenders, metal and plastic",2.0,14.0,2009
+7930,"Forging machine setters, operators, and tenders, metal and plastic",2.0,14.0,2009
+7940,"Rolling machine setters, operators, and tenders, metal and plastic",2.0,14.0,2009
+7950,"Cutting, punching, and press machine setters, operators, and tenders, metal and plastic",2.0,14.0,2009
+7960,"Drilling and boring machine tool setters, operators, and tenders, metal and plastic ",3.0,14.0,2009
+8000,"Grinding, lapping, polishing, and buffing machine tool setters, operators, and tenders, metal and plastic",2.0,14.0,2009
+8010,"Lathe and turning machine tool setters, operators, and tenders, metal and plastic",2.0,14.0,2009
+8020,"Milling and planing machine setters, operators, and tenders, metal and plastic",3.0,14.0,2009
+8030,Machinists,3.0,14.0,2009
+8040,Metal furnace and kiln operators and tenders,2.0,14.0,2009
+8060,"Model makers and patternmakers, metal and plastic",3.0,14.0,2009
+8100,"Molders and molding machine setters, operators, and tenders, metal and plastic",2.0,14.0,2009
+8120,"Multiple machine tool setters, operators, and tenders, metal and plastic ",2.0,14.0,2009
+8130,Tool and die makers,3.0,14.0,2009
+8140,"Welding, soldering, and brazing workers",2.0,14.0,2009
+8150,"Heat treating equipment setters, operators, and tenders, metal and plastic",2.0,14.0,2009
+8160,"Lay-out workers, metal and plastic",2.0,14.0,2009
+8200,"Plating and coating machine setters, operators, and tenders, metal and plastic",2.0,14.0,2009
+8210,"Tool grinders, filers, and sharpeners",2.0,14.0,2009
+8220,"Metalworkers and plastic workers, all other",2.0,14.0,2009
+8230,Bookbinders and bindery workers,2.0,14.0,2009
+8240,Job printers,3.0,14.0,2009
+8250,Prepress technicians and workers,3.0,14.0,2009
+8260,Printing machine operators,2.0,14.0,2009
+8300,Laundry and dry-cleaning workers,2.0,14.0,2009
+8310,"Pressers, textile, garment, and related materials",1.0,14.0,2009
+8320,Sewing machine operators,1.0,14.0,2009
+8330,Shoe and leather workers and repairers,2.0,14.0,2009
+8340,Shoe machine operators and tenders,2.0,14.0,2009
+8350,"Tailors, dressmakers, and sewers",2.8145980905451187,14.0,2009
+8360,Textile bleaching and dyeing machine operators and tenders,2.0,14.0,2009
+8400,"Textile cutting machine setters, operators, and tenders",2.0,14.0,2009
+8410,"Textile knitting and weaving machine setters, operators, and tenders",2.0,14.0,2009
+8420,"Textile winding, twisting, and drawing out machine setters, operators, and tenders",2.0,14.0,2009
+8430,"Extruding and forming machine setters, operators, and tenders, synthetic and glass fibers",2.0,14.0,2009
+8440,Fabric and apparel patternmakers,3.0,14.0,2009
+8450,Upholsterers,2.0,14.0,2009
+8460,"Textile, apparel, and furnishings workers, all other",2.1226676519490115,14.0,2009
+8500,Cabinetmakers and bench carpenters,3.0,14.0,2009
+8510,Furniture finishers,1.0,14.0,2009
+8520,"Model makers and patternmakers, wood",3.0,14.0,2009
+8530,"Sawing machine setters, operators, and tenders, wood",2.0,14.0,2009
+8540,"Woodworking machine setters, operators, and tenders, except sawing",2.0,14.0,2009
+8550,"Woodworkers, all other",2.357686775530925,14.0,2009
+8600,"Power plant operators, distributors, and dispatchers",3.0,14.0,2009
+8610,Stationary engineers and boiler operators,3.0,14.0,2009
+8620,Water and liquid waste treatment plant and system operators,3.0,14.0,2009
+8630,Miscellaneous plant and system operators,2.132427843803056,14.0,2009
+8640,"Chemical processing machine setters, operators, and tenders",2.0,14.0,2009
+8650,"Crushing, grinding, polishing, mixing, and blending workers",1.8382176435287056,14.0,2009
+8710,Cutting workers,2.0,14.0,2009
+8720,"Extruding, forming, pressing, and compacting machine setters, operators, and tenders",2.0,14.0,2009
+8730,"Furnace, kiln, oven, drier, and kettle operators and tenders",2.0,14.0,2009
+8740,"Inspectors, testers, sorters, samplers, and weighers",2.0,14.0,2009
+8750,Jewelers and precious stone and metal workers,3.0,14.0,2009
+8760,"Medical, dental, and ophthalmic laboratory technicians",2.1622258901202547,14.0,2009
+8800,Packaging and filling machine operators and tenders,2.0,14.0,2009
+8810,Painting workers,2.0,14.0,2009
+8830,Photographic process workers and processing machine operators,2.0,14.0,2009
+8840,Semiconductor processors,2.0,14.0,2009
+8850,Cementing and gluing machine operators and tenders,2.0,14.0,2009
+8860,"Cleaning, washing, and metal pickling equipment operators and tenders",2.0,14.0,2009
+8900,Cooling and freezing equipment operators and tenders,2.0,14.0,2009
+8910,Etchers and engravers,2.0,14.0,2009
+8920,"Molders, shapers, and casters, except metal and plastic",2.5,14.0,2009
+8930,"Paper goods machine setters, operators, and tenders",2.0,14.0,2009
+8940,Tire builders,2.0,14.0,2009
+8950,Helpers--production workers,1.0,14.0,2009
+8960,"Production workers, all other",1.3450642086189237,14.0,2009
+9000,"Supervisors, transportation and material moving workers",2.9860769011382198,14.0,2009
+9030,Aircraft pilots and flight engineers,3.7183397683397685,14.0,2009
+9040,Air traffic controllers and airfield operations specialists,3.0,14.0,2009
+9110,"Ambulance drivers and attendants, except emergency medical technicians",2.0,14.0,2009
+9120,Bus drivers,2.0,14.0,2009
+9130,Driver/sales workers and truck drivers,1.8679222631295567,14.0,2009
+9140,Taxi drivers and chauffeurs,1.0,14.0,2009
+9150,"Motor vehicle operators, all other",1.851446659166093,14.0,2009
+9200,Locomotive engineers and operators,2.0,14.0,2009
+9230,"Railroad brake, signal, and switch operators",2.0,14.0,2009
+9240,Railroad conductors and yardmasters,2.0,14.0,2009
+9260,"Subway, streetcar, and other rail transportation workers",2.0,14.0,2009
+9300,Sailors and marine oilers,2.0,14.0,2009
+9310,Ship and boat captains and operators,2.9084128878281623,14.0,2009
+9330,Ship engineers,3.0,14.0,2009
+9340,Bridge and lock tenders,1.0,14.0,2009
+9350,Parking lot attendants,1.0,14.0,2009
+9360,Service station attendants,1.0,14.0,2009
+9410,Transportation inspectors,3.3333333333333335,14.0,2009
+9420,Other transportation workers ,1.2850737318396164,14.0,2009
+9500,Conveyor operators and tenders,2.0,14.0,2009
+9510,Crane and tower operators,3.0,14.0,2009
+9520,"Dredge, excavating, and loading machine operators",2.0,14.0,2009
+9560,Hoist and winch operators,2.0,14.0,2009
+9600,Industrial truck and tractor operators,2.0,14.0,2009
+9610,Cleaners of vehicles and equipment,1.0,14.0,2009
+9620,"Laborers and freight, stock, and material movers, hand",2.0,14.0,2009
+9630,Machine feeders and offbearers,2.0,14.0,2009
+9640,"Packers and packagers, hand",1.0,14.0,2009
+9650,Pumping station operators,2.0,14.0,2009
+9720,Refuse and recyclable material collectors,2.0,14.0,2009
+9730,Shuttle car operators,2.0,14.0,2009
+9740,"Tank car, truck, and ship loaders",2.0,14.0,2009
+9750,"Material moving workers, all other",2.0,14.0,2009
+9800,Military officer special and tactical operations leaders/managers,,14.0,2009
+9810,First-line enlisted military supervisors/managers,,14.0,2009
+9820,Military enlisted tactical operations and air/weapons specialists and crew members,,14.0,2009
+9830,"Military, rank not specified",,14.0,2009
+9920,"Unemployed, last worked five years ago or earlier or never worked",,14.0,2009

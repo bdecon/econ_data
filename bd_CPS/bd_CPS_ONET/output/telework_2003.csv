@@ -1,0 +1,511 @@
+census_code,occupation_title,telework,onet_version,oews_year
+10,Chief executives,0.0,14.0,2003
+20,General and operations managers,1.0,14.0,2003
+30,Legislators,0.8291453763026198,14.0,2003
+40,Advertising and promotions managers,0.0,14.0,2003
+50,Marketing and sales managers,1.0,14.0,2003
+60,Public relations managers,1.0,14.0,2003
+100,Administrative services managers,1.0,14.0,2003
+110,Computer and information systems managers,1.0,14.0,2003
+120,Financial managers,1.0,14.0,2003
+130,Human resources managers,0.0,14.0,2003
+140,Industrial production managers,0.0,14.0,2003
+150,Purchasing managers,1.0,14.0,2003
+160,"Transportation, storage, and distribution managers",0.5,14.0,2003
+200,"Farm, ranch, and other agricultural managers",0.3333333333333333,14.0,2003
+210,Farmers and ranchers,0.0,14.0,2003
+220,Construction managers,0.0,14.0,2003
+230,Education administrators,0.2722884882108183,14.0,2003
+300,Engineering managers,1.0,14.0,2003
+310,Food service managers,0.0,14.0,2003
+320,Funeral directors,0.0,14.0,2003
+330,Gaming managers,0.0,14.0,2003
+340,Lodging managers,1.0,14.0,2003
+350,Medical and health services managers,0.0,14.0,2003
+360,Natural sciences managers,1.0,14.0,2003
+400,Postmasters and mail superintendents,0.0,14.0,2003
+410,"Property, real estate, and community association managers",0.0,14.0,2003
+420,Social and community service managers,1.0,14.0,2003
+430,"Managers, all other",1.0,14.0,2003
+500,"Agents and business managers of artists, performers, and athletes",1.0,14.0,2003
+510,"Purchasing agents and buyers, farm products",1.0,14.0,2003
+520,"Wholesale and retail buyers, except farm products",1.0,14.0,2003
+530,"Purchasing agents, except wholesale, retail, and farm products",1.0,14.0,2003
+540,"Claims adjusters, appraisers, examiners, and investigators",0.4766935352548445,14.0,2003
+560,"Compliance officers, except agriculture, construction, health and safety, and transportation",0.5,14.0,2003
+600,Cost estimators,1.0,14.0,2003
+620,"Human resources, training, and labor relations specialists",1.0,14.0,2003
+700,Logisticians,1.0,14.0,2003
+710,Management analysts,1.0,14.0,2003
+720,Meeting and convention planners,1.0,14.0,2003
+730,Other business operations specialists,1.0,14.0,2003
+800,Accountants and auditors,1.0,14.0,2003
+810,Appraisers and assessors of real estate,0.5,14.0,2003
+820,Budget analysts,1.0,14.0,2003
+830,Credit analysts,1.0,14.0,2003
+840,Financial analysts,1.0,14.0,2003
+850,Personal financial advisors,1.0,14.0,2003
+860,Insurance underwriters,1.0,14.0,2003
+900,Financial examiners,1.0,14.0,2003
+910,Loan counselors and officers,1.0,14.0,2003
+930,"Tax examiners, collectors, and revenue agents",1.0,14.0,2003
+940,Tax preparers,1.0,14.0,2003
+950,"Financial specialists, all other",0.9836738294721196,14.0,2003
+1000,Computer scientists and systems analysts,1.0,14.0,2003
+1010,Computer programmers,1.0,14.0,2003
+1020,Computer software engineers,1.0,14.0,2003
+1040,Computer support specialists,1.0,14.0,2003
+1060,Database administrators,1.0,14.0,2003
+1100,Network and computer systems administrators,1.0,14.0,2003
+1110,Network systems and data communications analysts,1.0,14.0,2003
+1200,Actuaries,1.0,14.0,2003
+1210,Mathematicians,1.0,14.0,2003
+1220,Operations research analysts,1.0,14.0,2003
+1230,Statisticians,1.0,14.0,2003
+1240,Miscellaneous mathematical science occupations,1.0,14.0,2003
+1300,"Architects, except naval",1.0,14.0,2003
+1310,"Surveyors, cartographers, and photogrammetrists",0.0,14.0,2003
+1320,Aerospace engineers,1.0,14.0,2003
+1330,Agricultural engineers,1.0,14.0,2003
+1340,Biomedical engineers,0.0,14.0,2003
+1350,Chemical engineers,1.0,14.0,2003
+1360,Civil engineers,1.0,14.0,2003
+1400,Computer hardware engineers,1.0,14.0,2003
+1410,Electrical and electronic engineers,1.0,14.0,2003
+1420,Environmental engineers,1.0,14.0,2003
+1430,"Industrial engineers, including health and safety",0.16025709694697376,14.0,2003
+1440,Marine engineers and naval architects,0.5,14.0,2003
+1450,Materials engineers,1.0,14.0,2003
+1460,Mechanical engineers,1.0,14.0,2003
+1500,"Mining and geological engineers, including mining safety engineers",1.0,14.0,2003
+1510,Nuclear engineers,1.0,14.0,2003
+1520,Petroleum engineers,1.0,14.0,2003
+1530,"Engineers, all other",1.0,14.0,2003
+1540,Drafters,1.0,14.0,2003
+1550,"Engineering technicians, except drafters",0.5531218758520403,14.0,2003
+1560,Surveying and mapping technicians,0.5,14.0,2003
+1600,Agricultural and food scientists,1.0,14.0,2003
+1610,Biological scientists,0.0,14.0,2003
+1640,Conservation scientists and foresters,0.0,14.0,2003
+1650,Medical scientists,1.0,14.0,2003
+1700,Astronomers and physicists,1.0,14.0,2003
+1710,Atmospheric and space scientists,1.0,14.0,2003
+1720,Chemists and materials scientists,0.08232418620153316,14.0,2003
+1740,Environmental scientists and geoscientists,1.0,14.0,2003
+1760,"Physical scientists, all other",1.0,14.0,2003
+1800,Economists,1.0,14.0,2003
+1810,Market and survey researchers,1.0,14.0,2003
+1820,Psychologists,0.013102157422913999,14.0,2003
+1830,Sociologists,1.0,14.0,2003
+1840,Urban and regional planners,1.0,14.0,2003
+1860,Miscellaneous social scientists and related workers,0.8110932475884244,14.0,2003
+1900,Agricultural and food science technicians,0.0,14.0,2003
+1910,Biological technicians,1.0,14.0,2003
+1920,Chemical technicians,0.0,14.0,2003
+1930,Geological and petroleum technicians,1.0,14.0,2003
+1940,Nuclear technicians,0.0,14.0,2003
+1960,"Other life, physical, and social science technicians",0.2796907940969782,14.0,2003
+2000,Counselors,0.3611277504891977,14.0,2003
+2010,Social workers,0.0,14.0,2003
+2020,Miscellaneous community and social service specialists,0.0,14.0,2003
+2040,Clergy,1.0,14.0,2003
+2050,"Directors, religious activities and education",0.0,14.0,2003
+2060,"Religious workers, all other",0.763247350529894,14.0,2003
+2100,Lawyers,0.0,14.0,2003
+2110,"Judges, magistrates, and other judicial workers",0.0,14.0,2003
+2140,Paralegals and legal assistants,1.0,14.0,2003
+2150,Miscellaneous legal support workers,0.45666284841542576,14.0,2003
+2200,Postsecondary teachers,0.9683391964451028,14.0,2003
+2300,Preschool and kindergarten teachers,0.0,14.0,2003
+2310,Elementary and middle school teachers,0.0,14.0,2003
+2320,Secondary school teachers,0.0,14.0,2003
+2330,Special education teachers,0.0,14.0,2003
+2340,Other teachers and instructors,0.3138209749485416,14.0,2003
+2400,"Archivists, curators, and museum technicians",0.3333333333333333,14.0,2003
+2430,Librarians,1.0,14.0,2003
+2440,Library technicians,1.0,14.0,2003
+2540,Teacher assistants,0.0,14.0,2003
+2550,"Other education, training, and library workers",0.08705334023821854,14.0,2003
+2600,Artists and related workers,0.36036036036036034,14.0,2003
+2630,Designers,0.6309802785750019,14.0,2003
+2700,Actors,0.0,14.0,2003
+2710,Producers and directors,0.6,14.0,2003
+2720,"Athletes, coaches, umpires, and related workers",0.0,14.0,2003
+2740,Dancers and choreographers,0.0,14.0,2003
+2750,"Musicians, singers, and related workers",0.0,14.0,2003
+2760,"Entertainers and performers, sports and related workers, all other",0.10140188368406329,14.0,2003
+2800,Announcers,0.5,14.0,2003
+2810,"News analysts, reporters and correspondents",1.0,14.0,2003
+2820,Public relations specialists,1.0,14.0,2003
+2830,Editors,1.0,14.0,2003
+2840,Technical writers,1.0,14.0,2003
+2850,Writers and authors,1.0,14.0,2003
+2860,Miscellaneous media and communication workers,0.0,14.0,2003
+2900,Broadcast and sound engineering technicians and radio operators,0.3897881456796001,14.0,2003
+2910,Photographers,1.0,14.0,2003
+2920,"Television, video, and motion picture camera operators and editors",0.0,14.0,2003
+2960,"Media and communication equipment workers, all other",0.5075438891693309,14.0,2003
+3000,Chiropractors,0.0,14.0,2003
+3010,Dentists,0.0,14.0,2003
+3030,Dietitians and nutritionists,1.0,14.0,2003
+3040,Optometrists,1.0,14.0,2003
+3050,Pharmacists,0.0,14.0,2003
+3060,Physicians and surgeons,0.0,14.0,2003
+3110,Physician assistants,0.0,14.0,2003
+3120,Podiatrists,0.0,14.0,2003
+3130,Registered nurses,0.0,14.0,2003
+3140,Audiologists,0.0,14.0,2003
+3150,Occupational therapists,0.0,14.0,2003
+3160,Physical therapists,0.0,14.0,2003
+3200,Radiation therapists,0.0,14.0,2003
+3210,Recreational therapists,0.0,14.0,2003
+3220,Respiratory therapists,0.0,14.0,2003
+3230,Speech-language pathologists,1.0,14.0,2003
+3240,"Therapists, all other",0.19823818785036038,14.0,2003
+3250,Veterinarians,0.0,14.0,2003
+3260,"Health diagnosing and treating practitioners, all other",0.25,14.0,2003
+3300,Clinical laboratory technologists and technicians,0.0,14.0,2003
+3310,Dental hygienists,0.0,14.0,2003
+3320,Diagnostic related technologists and technicians,0.0,14.0,2003
+3400,Emergency medical technicians and paramedics,0.0,14.0,2003
+3410,Health diagnosing and treating practitioner support technicians,0.0,14.0,2003
+3500,Licensed practical and licensed vocational nurses,0.0,14.0,2003
+3510,Medical records and health information technicians,1.0,14.0,2003
+3520,"Opticians, dispensing",0.0,14.0,2003
+3530,Miscellaneous health technologists and technicians,0.0,14.0,2003
+3540,Other healthcare practitioners and technical occupations,0.0,14.0,2003
+3600,"Nursing, psychiatric, and home health aides",0.0,14.0,2003
+3610,Occupational therapist assistants and aides,0.0,14.0,2003
+3620,Physical therapist assistants and aides,0.0,14.0,2003
+3630,Massage therapists,0.0,14.0,2003
+3640,Dental assistants,0.0,14.0,2003
+3650,Medical assistants and other healthcare support occupations,0.10924707643162704,14.0,2003
+3700,First-line supervisors/managers of correctional officers,0.0,14.0,2003
+3710,First-line supervisors/managers of police and detectives,0.0,14.0,2003
+3720,First-line supervisors/managers of fire fighting and prevention workers,0.0,14.0,2003
+3730,"Supervisors, protective service workers, all other",0.0,14.0,2003
+3740,Fire fighters,0.0,14.0,2003
+3750,Fire inspectors,0.0,14.0,2003
+3800,"Bailiffs, correctional officers, and jailers",0.0,14.0,2003
+3820,Detectives and criminal investigators,0.0,14.0,2003
+3830,Fish and game wardens,0.0,14.0,2003
+3840,Parking enforcement workers,0.0,14.0,2003
+3850,Police and sheriff's patrol officers,0.0,14.0,2003
+3860,Transit and railroad police,0.0,14.0,2003
+3900,Animal control workers,0.0,14.0,2003
+3910,Private detectives and investigators,0.0,14.0,2003
+3920,Security guards and gaming surveillance officers,0.0,14.0,2003
+3940,Crossing guards,0.0,14.0,2003
+3950,Lifeguards and other protective service workers,0.0,14.0,2003
+4000,Chefs and head cooks,0.0,14.0,2003
+4010,First-line supervisors/managers of food preparation and serving workers,0.0,14.0,2003
+4020,Cooks,0.0,14.0,2003
+4030,Food preparation workers,0.0,14.0,2003
+4040,Bartenders,0.0,14.0,2003
+4050,"Combined food preparation and serving workers, including fast food",0.0,14.0,2003
+4060,"Counter attendants, cafeteria, food concession, and coffee shop",0.0,14.0,2003
+4110,Waiters and waitresses,0.0,14.0,2003
+4120,"Food servers, nonrestaurant",0.0,14.0,2003
+4130,Dining room and cafeteria attendants and bartender helpers,0.0,14.0,2003
+4140,Dishwashers,0.0,14.0,2003
+4150,"Hosts and hostesses, restaurant, lounge, and coffee shop",0.0,14.0,2003
+4160,"Food preparation and serving related workers, all other",0.0,14.0,2003
+4200,First-line supervisors/managers of housekeeping and janitorial workers,0.0,14.0,2003
+4210,"First-line supervisors/managers of landscaping, lawn service, and groundskeeping workers",0.0,14.0,2003
+4220,Janitors and building cleaners,0.0,14.0,2003
+4230,Maids and housekeeping cleaners,0.0,14.0,2003
+4240,Pest control workers,0.0,14.0,2003
+4250,Grounds maintenance workers,0.0,14.0,2003
+4300,First-line supervisors/managers of gaming workers,0.0,14.0,2003
+4320,First-line supervisors/managers of personal service workers,0.0,14.0,2003
+4340,Animal trainers,0.0,14.0,2003
+4350,Nonfarm animal caretakers,0.0,14.0,2003
+4400,Gaming services workers,0.0,14.0,2003
+4410,Motion picture projectionists,0.0,14.0,2003
+4420,"Ushers, lobby attendants, and ticket takers",0.0,14.0,2003
+4430,Miscellaneous entertainment attendants and related workers,0.0,14.0,2003
+4460,Funeral service workers,0.0,14.0,2003
+4500,Barbers,0.0,14.0,2003
+4510,"Hairdressers, hairstylists, and cosmetologists",0.0,14.0,2003
+4520,Miscellaneous personal appearance workers,0.0,14.0,2003
+4530,"Baggage porters, bellhops, and concierges",0.0,14.0,2003
+4540,Tour and travel guides,0.16595615103532277,14.0,2003
+4550,Transportation attendants,0.0,14.0,2003
+4600,Child care workers,0.0,14.0,2003
+4610,Personal and home care aides,0.0,14.0,2003
+4620,Recreation and fitness workers,0.0,14.0,2003
+4640,Residential advisors,0.0,14.0,2003
+4650,"Personal care and service workers, all other ",0.0,14.0,2003
+4700,First-line supervisors/managers of retail sales workers,0.0,14.0,2003
+4710,First-line supervisors/managers of non-retail sales workers,0.0,14.0,2003
+4720,Cashiers,0.0,14.0,2003
+4740,Counter and rental clerks,0.0,14.0,2003
+4750,Parts salespersons,0.0,14.0,2003
+4760,Retail salespersons,0.0,14.0,2003
+4800,Advertising sales agents,0.0,14.0,2003
+4810,Insurance sales agents,1.0,14.0,2003
+4820,"Securities, commodities, and financial services sales agents",0.5,14.0,2003
+4830,Travel agents,1.0,14.0,2003
+4840,"Sales representatives, services, all other",0.6560879647724016,14.0,2003
+4850,"Sales representatives, wholesale and manufacturing",0.2153068321061521,14.0,2003
+4900,"Models, demonstrators, and product promoters",0.0,14.0,2003
+4920,Real estate brokers and sales agents,1.0,14.0,2003
+4930,Sales engineers,1.0,14.0,2003
+4940,Telemarketers,0.0,14.0,2003
+4950,"Door-to-door sales workers, news and street vendors, and related workers",0.0,14.0,2003
+4960,"Sales and related workers, all other",0.0,14.0,2003
+5000,First-line supervisors/managers of office and administrative support workers,1.0,14.0,2003
+5010,"Switchboard operators, including answering service",0.0,14.0,2003
+5020,Telephone operators,0.0,14.0,2003
+5030,"Communications equipment operators, all other",0.0,14.0,2003
+5100,Bill and account collectors,0.0,14.0,2003
+5110,Billing and posting clerks and machine operators,0.6666666666666666,14.0,2003
+5120,"Bookkeeping, accounting, and auditing clerks",1.0,14.0,2003
+5130,Gaming cage workers,0.0,14.0,2003
+5140,Payroll and timekeeping clerks,1.0,14.0,2003
+5150,Procurement clerks,1.0,14.0,2003
+5160,Tellers,0.0,14.0,2003
+5200,Brokerage clerks,1.0,14.0,2003
+5210,Correspondence clerks,1.0,14.0,2003
+5220,"Court, municipal, and license clerks",0.3333333333333333,14.0,2003
+5230,"Credit authorizers, checkers, and clerks",0.0,14.0,2003
+5240,Customer service representatives,0.0,14.0,2003
+5250,"Eligibility interviewers, government programs",0.0,14.0,2003
+5260,File Clerks,1.0,14.0,2003
+5300,"Hotel, motel, and resort desk clerks",0.0,14.0,2003
+5310,"Interviewers, except eligibility and loan",0.0,14.0,2003
+5320,"Library assistants, clerical",1.0,14.0,2003
+5330,Loan interviewers and clerks,1.0,14.0,2003
+5340,New accounts clerks,1.0,14.0,2003
+5350,Order clerks,0.0,14.0,2003
+5360,"Human resources assistants, except payroll and timekeeping",1.0,14.0,2003
+5400,Receptionists and information clerks,1.0,14.0,2003
+5410,Reservation and transportation ticket agents and travel clerks,0.0,14.0,2003
+5420,"Information and record clerks, all other",0.7105429486898126,14.0,2003
+5500,Cargo and freight agents,0.0,14.0,2003
+5510,Couriers and messengers,0.0,14.0,2003
+5520,Dispatchers,0.0,14.0,2003
+5530,"Meter readers, utilities",0.0,14.0,2003
+5540,Postal service clerks,0.0,14.0,2003
+5550,Postal service mail carriers,0.0,14.0,2003
+5560,"Postal service mail sorters, processors, and processing machine operators",0.0,14.0,2003
+5600,"Production, planning, and expediting clerks",1.0,14.0,2003
+5610,"Shipping, receiving, and traffic clerks",0.0,14.0,2003
+5620,Stock clerks and order fillers,0.0,14.0,2003
+5630,"Weighers, measurers, checkers, and samplers, recordkeeping",0.0,14.0,2003
+5700,Secretaries and administrative assistants,0.9099085857218375,14.0,2003
+5800,Computer operators,1.0,14.0,2003
+5810,Data entry keyers,1.0,14.0,2003
+5820,Word processors and typists,1.0,14.0,2003
+5830,Desktop publishers,1.0,14.0,2003
+5840,Insurance claims and policy processing clerks,1.0,14.0,2003
+5850,"Mail clerks and mail machine operators, except postal service",0.0,14.0,2003
+5860,"Office clerks, general",1.0,14.0,2003
+5900,"Office machine operators, except computer",0.0,14.0,2003
+5910,Proofreaders and copy markers,0.0,14.0,2003
+5920,Statistical assistants,1.0,14.0,2003
+5930,"Office and administrative support workers, all other",1.0,14.0,2003
+6000,"First-line supervisors/managers of farming, fishing, and forestry workers",0.0,14.0,2003
+6010,Agricultural inspectors,0.0,14.0,2003
+6020,Animal breeders,0.0,14.0,2003
+6040,"Graders and sorters, agricultural products",0.0,14.0,2003
+6050,Miscellaneous agricultural workers ,0.0,14.0,2003
+6100,Fishers and related fishing workers,0.0,14.0,2003
+6110,Hunters and trappers,0.0,14.0,2003
+6120,Forest and conservation workers,0.0,14.0,2003
+6130,Logging workers,0.0,14.0,2003
+6200,First-line supervisors/managers of construction trades and extraction workers,0.0,14.0,2003
+6210,Boilermakers,0.0,14.0,2003
+6220,"Brickmasons, blockmasons, and stonemasons",0.0,14.0,2003
+6230,Carpenters,0.0,14.0,2003
+6240,"Carpet, floor, and tile installers and finishers",0.0,14.0,2003
+6250,"Cement masons, concrete finishers, and terrazzo workers",0.0,14.0,2003
+6260,Construction laborers,0.0,14.0,2003
+6300,"Paving, surfacing, and tamping equipment operators",0.0,14.0,2003
+6310,Pile-driver operators,0.0,14.0,2003
+6320,Operating engineers and other construction equipment operators,0.0,14.0,2003
+6330,"Drywall installers, ceiling tile installers, and tapers",0.0,14.0,2003
+6350,Electricians,0.0,14.0,2003
+6360,Glaziers,0.0,14.0,2003
+6400,Insulation workers,0.0,14.0,2003
+6420,"Painters, construction and maintenance",0.0,14.0,2003
+6430,Paperhangers,0.0,14.0,2003
+6440,"Pipelayers, plumbers, pipefitters, and steamfitters",0.0,14.0,2003
+6460,Plasterers and stucco masons,0.0,14.0,2003
+6500,Reinforcing iron and rebar workers,0.0,14.0,2003
+6510,Roofers,0.0,14.0,2003
+6520,Sheet metal workers,0.0,14.0,2003
+6530,Structural iron and steel workers,0.0,14.0,2003
+6600,"Helpers, construction trades",0.0,14.0,2003
+6660,Construction and building inspectors,0.0,14.0,2003
+6700,Elevator installers and repairers,0.0,14.0,2003
+6710,Fence erectors,0.0,14.0,2003
+6720,Hazardous materials removal workers,0.0,14.0,2003
+6730,Highway maintenance workers,0.0,14.0,2003
+6740,Rail-track laying and maintenance equipment operators,0.0,14.0,2003
+6750,Septic tank servicers and sewer pipe cleaners,0.0,14.0,2003
+6760,Miscellaneous construction and related workers,0.0,14.0,2003
+6800,"Derrick, rotary drill, and service unit operators, oil, gas, and mining",0.0,14.0,2003
+6820,"Earth drillers, except oil and gas",0.0,14.0,2003
+6830,"Explosives workers, ordnance handling experts, and blasters",0.0,14.0,2003
+6840,Mining machine operators,0.0,14.0,2003
+6910,"Roof bolters, mining",0.0,14.0,2003
+6920,"Roustabouts, oil and gas",0.0,14.0,2003
+6930,Helpers--extraction workers,0.0,14.0,2003
+6940,Other extraction workers,0.0,14.0,2003
+7000,"First-line supervisors/managers of mechanics, installers, and repairers",0.0,14.0,2003
+7010,"Computer, automated teller, and office machine repairers",0.0,14.0,2003
+7020,Radio and telecommunications equipment installers and repairers,0.0,14.0,2003
+7030,Avionics technicians,0.0,14.0,2003
+7040,"Electric motor, power tool, and related repairers",0.0,14.0,2003
+7050,"Electrical and electronics installers and repairers, transportation equipment",0.0,14.0,2003
+7100,"Electrical and electronics repairers, industrial and utility",0.0,14.0,2003
+7110,"Electronic equipment installers and repairers, motor vehicles",0.0,14.0,2003
+7120,Electronic home entertainment equipment installers and repairers,0.0,14.0,2003
+7130,Security and fire alarm systems installers,0.0,14.0,2003
+7140,Aircraft mechanics and service technicians,0.0,14.0,2003
+7150,Automotive body and related repairers,0.0,14.0,2003
+7160,Automotive glass installers and repairers,0.0,14.0,2003
+7200,Automotive service technicians and mechanics,0.0,14.0,2003
+7210,Bus and truck mechanics and diesel engine specialists,0.0,14.0,2003
+7220,Heavy vehicle and mobile equipment service technicians and mechanics,0.0,14.0,2003
+7240,Small engine mechanics,0.0,14.0,2003
+7260,"Miscellaneous vehicle and mobile equipment mechanics, installers, and repairers",0.0,14.0,2003
+7300,Control and valve installers and repairers,0.0,14.0,2003
+7310,"Heating, air conditioning, and refrigeration mechanics and installers",0.0,14.0,2003
+7320,Home appliance repairers,0.0,14.0,2003
+7330,Industrial and refractory machinery mechanics,0.0,14.0,2003
+7340,"Maintenance and repair workers, general",0.0,14.0,2003
+7350,"Maintenance workers, machinery",0.0,14.0,2003
+7360,Millwrights,0.0,14.0,2003
+7410,Electrical power-line installers and repairers,0.0,14.0,2003
+7420,Telecommunications line installers and repairers,0.0,14.0,2003
+7430,Precision instrument and equipment repairers,0.0,14.0,2003
+7510,"Coin, vending, and amusement machine servicers and repairers",0.0,14.0,2003
+7520,Commercial divers,0.0,14.0,2003
+7540,Locksmiths and safe repairers,0.0,14.0,2003
+7550,Manufactured building and mobile home installers,0.0,14.0,2003
+7560,Riggers,0.0,14.0,2003
+7600,Signal and track switch repairers,0.0,14.0,2003
+7610,"Helpers--installation, maintenance, and repair workers ",0.0,14.0,2003
+7620,"Other installation, maintenance, and repair workers",0.0,14.0,2003
+7700,First-line supervisors/managers of production and operating workers,0.0,14.0,2003
+7710,"Aircraft structure, surfaces, rigging, and systems assemblers",0.0,14.0,2003
+7720,"Electrical, electronics, and electromechanical assemblers",0.0,14.0,2003
+7730,Engine and other machine assemblers,0.0,14.0,2003
+7740,Structural metal fabricators and fitters,0.0,14.0,2003
+7750,Miscellaneous assemblers and fabricators,0.0,14.0,2003
+7800,Bakers,0.0,14.0,2003
+7810,"Butchers and other meat, poultry, and fish processing workers",0.0,14.0,2003
+7830,"Food and tobacco roasting, baking, and drying machine operators and tenders",0.0,14.0,2003
+7840,Food batchmakers,0.0,14.0,2003
+7850,Food cooking machine operators and tenders,0.0,14.0,2003
+7900,Computer control programmers and operators,0.0,14.0,2003
+7920,"Extruding and drawing machine setters, operators, and tenders, metal and plastic",0.0,14.0,2003
+7930,"Forging machine setters, operators, and tenders, metal and plastic",0.0,14.0,2003
+7940,"Rolling machine setters, operators, and tenders, metal and plastic",0.0,14.0,2003
+7950,"Cutting, punching, and press machine setters, operators, and tenders, metal and plastic",0.0,14.0,2003
+7960,"Drilling and boring machine tool setters, operators, and tenders, metal and plastic ",0.0,14.0,2003
+8000,"Grinding, lapping, polishing, and buffing machine tool setters, operators, and tenders, metal and plastic",0.0,14.0,2003
+8010,"Lathe and turning machine tool setters, operators, and tenders, metal and plastic",0.0,14.0,2003
+8020,"Milling and planing machine setters, operators, and tenders, metal and plastic",0.0,14.0,2003
+8030,Machinists,0.0,14.0,2003
+8040,Metal furnace and kiln operators and tenders,0.0,14.0,2003
+8060,"Model makers and patternmakers, metal and plastic",0.0,14.0,2003
+8100,"Molders and molding machine setters, operators, and tenders, metal and plastic",0.0,14.0,2003
+8120,"Multiple machine tool setters, operators, and tenders, metal and plastic ",0.0,14.0,2003
+8130,Tool and die makers,0.0,14.0,2003
+8140,"Welding, soldering, and brazing workers",0.0,14.0,2003
+8150,"Heat treating equipment setters, operators, and tenders, metal and plastic",0.0,14.0,2003
+8160,"Lay-out workers, metal and plastic",0.0,14.0,2003
+8200,"Plating and coating machine setters, operators, and tenders, metal and plastic",0.0,14.0,2003
+8210,"Tool grinders, filers, and sharpeners",0.0,14.0,2003
+8220,"Metalworkers and plastic workers, all other",0.0,14.0,2003
+8230,Bookbinders and bindery workers,0.0,14.0,2003
+8240,Job printers,0.0,14.0,2003
+8250,Prepress technicians and workers,1.0,14.0,2003
+8260,Printing machine operators,0.0,14.0,2003
+8300,Laundry and dry-cleaning workers,0.0,14.0,2003
+8310,"Pressers, textile, garment, and related materials",0.0,14.0,2003
+8320,Sewing machine operators,0.0,14.0,2003
+8330,Shoe and leather workers and repairers,0.0,14.0,2003
+8340,Shoe machine operators and tenders,0.0,14.0,2003
+8350,"Tailors, dressmakers, and sewers",0.0,14.0,2003
+8360,Textile bleaching and dyeing machine operators and tenders,0.0,14.0,2003
+8400,"Textile cutting machine setters, operators, and tenders",0.0,14.0,2003
+8410,"Textile knitting and weaving machine setters, operators, and tenders",0.0,14.0,2003
+8420,"Textile winding, twisting, and drawing out machine setters, operators, and tenders",0.0,14.0,2003
+8430,"Extruding and forming machine setters, operators, and tenders, synthetic and glass fibers",0.0,14.0,2003
+8440,Fabric and apparel patternmakers,1.0,14.0,2003
+8450,Upholsterers,0.0,14.0,2003
+8460,"Textile, apparel, and furnishings workers, all other",0.134472414242859,14.0,2003
+8500,Cabinetmakers and bench carpenters,0.0,14.0,2003
+8510,Furniture finishers,0.0,14.0,2003
+8520,"Model makers and patternmakers, wood",0.0,14.0,2003
+8530,"Sawing machine setters, operators, and tenders, wood",0.0,14.0,2003
+8540,"Woodworking machine setters, operators, and tenders, except sawing",0.0,14.0,2003
+8550,"Woodworkers, all other",0.0,14.0,2003
+8600,"Power plant operators, distributors, and dispatchers",0.2174465382172348,14.0,2003
+8610,Stationary engineers and boiler operators,0.0,14.0,2003
+8620,Water and liquid waste treatment plant and system operators,0.0,14.0,2003
+8630,Miscellaneous plant and system operators,0.0,14.0,2003
+8640,"Chemical processing machine setters, operators, and tenders",0.0,14.0,2003
+8650,"Crushing, grinding, polishing, mixing, and blending workers",0.0,14.0,2003
+8710,Cutting workers,0.0,14.0,2003
+8720,"Extruding, forming, pressing, and compacting machine setters, operators, and tenders",0.0,14.0,2003
+8730,"Furnace, kiln, oven, drier, and kettle operators and tenders",0.0,14.0,2003
+8740,"Inspectors, testers, sorters, samplers, and weighers",0.0,14.0,2003
+8750,Jewelers and precious stone and metal workers,0.0,14.0,2003
+8760,"Medical, dental, and ophthalmic laboratory technicians",0.0,14.0,2003
+8800,Packaging and filling machine operators and tenders,0.0,14.0,2003
+8810,Painting workers,0.0,14.0,2003
+8830,Photographic process workers and processing machine operators,0.0,14.0,2003
+8840,Semiconductor processors,0.0,14.0,2003
+8850,Cementing and gluing machine operators and tenders,0.0,14.0,2003
+8860,"Cleaning, washing, and metal pickling equipment operators and tenders",0.0,14.0,2003
+8900,Cooling and freezing equipment operators and tenders,0.0,14.0,2003
+8910,Etchers and engravers,0.0,14.0,2003
+8920,"Molders, shapers, and casters, except metal and plastic",0.0,14.0,2003
+8930,"Paper goods machine setters, operators, and tenders",0.0,14.0,2003
+8940,Tire builders,0.0,14.0,2003
+8950,Helpers--production workers,0.0,14.0,2003
+8960,"Production workers, all other",0.0,14.0,2003
+9000,"Supervisors, transportation and material moving workers",0.0,14.0,2003
+9030,Aircraft pilots and flight engineers,0.0,14.0,2003
+9040,Air traffic controllers and airfield operations specialists,0.0,14.0,2003
+9110,"Ambulance drivers and attendants, except emergency medical technicians",0.0,14.0,2003
+9120,Bus drivers,0.0,14.0,2003
+9130,Driver/sales workers and truck drivers,0.0,14.0,2003
+9140,Taxi drivers and chauffeurs,0.0,14.0,2003
+9150,"Motor vehicle operators, all other",0.0,14.0,2003
+9200,Locomotive engineers and operators,0.0,14.0,2003
+9230,"Railroad brake, signal, and switch operators",0.0,14.0,2003
+9240,Railroad conductors and yardmasters,0.0,14.0,2003
+9260,"Subway, streetcar, and other rail transportation workers",0.0,14.0,2003
+9300,Sailors and marine oilers,0.0,14.0,2003
+9310,Ship and boat captains and operators,0.0,14.0,2003
+9330,Ship engineers,0.0,14.0,2003
+9340,Bridge and lock tenders,0.0,14.0,2003
+9350,Parking lot attendants,0.0,14.0,2003
+9360,Service station attendants,0.0,14.0,2003
+9410,Transportation inspectors,0.0,14.0,2003
+9420,Other transportation workers ,0.026115782664941786,14.0,2003
+9500,Conveyor operators and tenders,0.0,14.0,2003
+9510,Crane and tower operators,0.0,14.0,2003
+9520,"Dredge, excavating, and loading machine operators",0.0,14.0,2003
+9560,Hoist and winch operators,0.0,14.0,2003
+9600,Industrial truck and tractor operators,0.0,14.0,2003
+9610,Cleaners of vehicles and equipment,0.0,14.0,2003
+9620,"Laborers and freight, stock, and material movers, hand",0.0,14.0,2003
+9630,Machine feeders and offbearers,0.0,14.0,2003
+9640,"Packers and packagers, hand",0.0,14.0,2003
+9650,Pumping station operators,0.0,14.0,2003
+9720,Refuse and recyclable material collectors,0.0,14.0,2003
+9730,Shuttle car operators,0.0,14.0,2003
+9740,"Tank car, truck, and ship loaders",0.0,14.0,2003
+9750,"Material moving workers, all other",0.0,14.0,2003
+9800,Military officer special and tactical operations leaders/managers,,14.0,2003
+9810,First-line enlisted military supervisors/managers,,14.0,2003
+9820,Military enlisted tactical operations and air/weapons specialists and crew members,,14.0,2003
+9830,"Military, rank not specified",,14.0,2003
+9920,"Unemployed, last worked five years ago or earlier or never worked",,14.0,2003

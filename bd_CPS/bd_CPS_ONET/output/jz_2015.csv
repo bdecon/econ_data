@@ -1,0 +1,536 @@
+census_code,occupation_title,job_zone,onet_version,oews_year
+10,Chief executives,5.0,20.1,2015
+20,General and operations managers,4.0,20.1,2015
+30,Legislators,4.0,20.1,2015
+40,Advertising and promotions managers,4.0,20.1,2015
+50,Marketing and sales managers,4.0,20.1,2015
+60,Public relations and fundraising managers,4.0,20.1,2015
+100,Administrative services managers,3.0,20.1,2015
+110,Computer and information systems managers,4.0,20.1,2015
+120,Financial managers,4.5,20.1,2015
+135,Compensation and benefits managers,4.0,20.1,2015
+136,Human resources managers,4.0,20.1,2015
+137,Training and development managers,4.0,20.1,2015
+140,Industrial production managers,3.75,20.1,2015
+150,Purchasing managers,4.0,20.1,2015
+160,"Transportation, storage, and distribution managers",4.0,20.1,2015
+205,"Farmers, ranchers, and other agricultural managers",3.6666666666666665,20.1,2015
+220,Construction managers,4.0,20.1,2015
+230,Education administrators,4.860493058027768,20.1,2015
+300,Architectural and engineering managers,4.5,20.1,2015
+310,Food service managers,3.0,20.1,2015
+325,Funeral service managers,3.0,20.1,2015
+330,Gaming managers,3.0,20.1,2015
+340,Lodging managers,3.0,20.1,2015
+350,Medical and health services managers,5.0,20.1,2015
+360,Natural sciences managers,4.333333333333333,20.1,2015
+400,Postmasters and mail superintendents,3.0,20.1,2015
+410,"Property, real estate, and community association managers",4.0,20.1,2015
+420,Social and community service managers,4.0,20.1,2015
+425,Emergency management directors,4.0,20.1,2015
+430,"Managers, all other",4.142857142857143,20.1,2015
+500,"Agents and business managers of artists, performers, and athletes",4.0,20.1,2015
+510,"Buyers and purchasing agents, farm products",4.0,20.1,2015
+520,"Wholesale and retail buyers, except farm products",3.0,20.1,2015
+530,"Purchasing agents, except wholesale, retail, and farm products",4.0,20.1,2015
+540,"Claims adjusters, appraisers, examiners, and investigators",3.473385157039774,20.1,2015
+565,Compliance officers,3.5,20.1,2015
+600,Cost estimators,4.0,20.1,2015
+630,Human resources workers,3.9956966675413277,20.1,2015
+640,"Compensation, benefits, and job analysis specialists",4.0,20.1,2015
+650,Training and development specialists,4.0,20.1,2015
+700,Logisticians,4.0,20.1,2015
+710,Management analysts,4.0,20.1,2015
+725,"Meeting, convention, and event planners",4.0,20.1,2015
+726,Fundraisers,4.0,20.1,2015
+735,Market research analysts and marketing specialists,4.0,20.1,2015
+740,"Business operations specialists, all other",3.6666666666666665,20.1,2015
+800,Accountants and auditors,4.0,20.1,2015
+810,Appraisers and assessors of real estate,3.5,20.1,2015
+820,Budget analysts,4.0,20.1,2015
+830,Credit analysts,4.0,20.1,2015
+840,Financial analysts,4.0,20.1,2015
+850,Personal financial advisors,4.0,20.1,2015
+860,Insurance underwriters,4.0,20.1,2015
+900,Financial examiners,4.0,20.1,2015
+910,Credit counselors and loan officers,3.0912434954243673,20.1,2015
+930,"Tax examiners and collectors, and revenue agents",3.0,20.1,2015
+940,Tax preparers,3.0,20.1,2015
+950,"Financial specialists, all other",4.0,20.1,2015
+1005,Computer and information research scientists,5.0,20.1,2015
+1006,Computer systems analysts,4.0,20.1,2015
+1007,Information security analysts,4.0,20.1,2015
+1010,Computer programmers,4.0,20.1,2015
+1020,"Software developers, applications and systems software",4.0,20.1,2015
+1030,Web developers,3.0,20.1,2015
+1050,Computer support specialists,3.2398165352182215,20.1,2015
+1060,Database administrators,4.0,20.1,2015
+1105,Network and computer systems administrators,4.0,20.1,2015
+1106,Computer network architects ,3.5,20.1,2015
+1107,"Computer occupations, all other",3.909090909090909,20.1,2015
+1200,Actuaries,4.0,20.1,2015
+1210,Mathematicians,5.0,20.1,2015
+1220,Operations research analysts,5.0,20.1,2015
+1230,Statisticians,4.666666666666667,20.1,2015
+1240,Miscellaneous mathematical science occupations,4.0,20.1,2015
+1300,"Architects, except naval",4.0,20.1,2015
+1310,"Surveyors, cartographers, and photogrammetrists",4.0,20.1,2015
+1320,Aerospace engineers,4.0,20.1,2015
+1330,Agricultural engineers,4.0,20.1,2015
+1340,Biomedical engineers,4.0,20.1,2015
+1350,Chemical engineers,4.0,20.1,2015
+1360,Civil engineers,4.0,20.1,2015
+1400,Computer hardware engineers,4.0,20.1,2015
+1410,Electrical and electronics engineers,4.0,20.1,2015
+1420,Environmental engineers,4.5,20.1,2015
+1430,"Industrial engineers, including health and safety",4.4543068961720556,20.1,2015
+1440,Marine engineers and naval architects,4.0,20.1,2015
+1450,Materials engineers,4.0,20.1,2015
+1460,Mechanical engineers,4.333333333333333,20.1,2015
+1500,"Mining and geological engineers, including mining safety engineers",4.0,20.1,2015
+1510,Nuclear engineers,4.0,20.1,2015
+1520,Petroleum engineers,4.0,20.1,2015
+1530,"Engineers, all other",4.1,20.1,2015
+1540,Drafters,3.2510936594107416,20.1,2015
+1550,"Engineering technicians, except drafters",3.1230644964642766,20.1,2015
+1560,Surveying and mapping technicians,3.0,20.1,2015
+1600,Agricultural and food scientists,4.537539432176656,20.1,2015
+1610,Biological scientists,5.0,20.1,2015
+1640,Conservation scientists and foresters,4.0,20.1,2015
+1650,Medical scientists,5.0,20.1,2015
+1660,"Life scientists, all other",4.840468497576737,20.1,2015
+1700,Astronomers and physicists,5.0,20.1,2015
+1710,Atmospheric and space scientists,4.0,20.1,2015
+1720,Chemists and materials scientists,4.074199541033766,20.1,2015
+1740,Environmental scientists and geoscientists,4.520874791053092,20.1,2015
+1760,"Physical scientists, all other",5.0,20.1,2015
+1800,Economists,5.0,20.1,2015
+1815,Survey researchers,5.0,20.1,2015
+1820,Psychologists,5.0,20.1,2015
+1830,Sociologists,5.0,20.1,2015
+1840,Urban and regional planners,5.0,20.1,2015
+1860,Miscellaneous social scientists and related workers,4.307661126874747,20.1,2015
+1900,Agricultural and food science technicians,3.0,20.1,2015
+1910,Biological technicians,4.0,20.1,2015
+1920,Chemical technicians,3.0,20.1,2015
+1930,Geological and petroleum technicians,4.0,20.1,2015
+1940,Nuclear technicians,3.0,20.1,2015
+1950,Social science research assistants,4.0,20.1,2015
+1965,"Miscellaneous life, physical, and social science technicians",3.481696081696082,20.1,2015
+2000,Counselors,5.0,20.1,2015
+2010,Social workers,4.4746132132775935,20.1,2015
+2015,Probation officers and correctional treatment specialists,4.0,20.1,2015
+2016,Social and human service assistants,4.0,20.1,2015
+2025,"Miscellaneous community and social service specialists, including health educators and community health workers",4.0,20.1,2015
+2040,Clergy,5.0,20.1,2015
+2050,"Directors, religious activities and education",4.0,20.1,2015
+2060,"Religious workers, all other",4.704071209689187,20.1,2015
+2100,Lawyers,5.0,20.1,2015
+2105,Judicial law clerks,5.0,20.1,2015
+2110,"Judges, magistrates, and other judicial workers",5.0,20.1,2015
+2145,Paralegals and legal assistants,3.0,20.1,2015
+2160,Miscellaneous legal support workers,3.0,20.1,2015
+2200,Postsecondary teachers,5.0,20.1,2015
+2300,Preschool and kindergarten teachers,3.299333762350002,20.1,2015
+2310,Elementary and middle school teachers,4.0,20.1,2015
+2320,Secondary school teachers,4.0,20.1,2015
+2330,Special education teachers,4.0,20.1,2015
+2340,Other teachers and instructors,3.2303637135578827,20.1,2015
+2400,"Archivists, curators, and museum technicians",4.6171652421652425,20.1,2015
+2430,Librarians,5.0,20.1,2015
+2440,Library technicians,4.0,20.1,2015
+2540,Teacher assistants,3.0,20.1,2015
+2550,"Other education, training, and library workers",4.305271734819697,20.1,2015
+2600,Artists and related workers,3.7236778262979136,20.1,2015
+2630,Designers,3.5760003455051934,20.1,2015
+2700,Actors,2.0,20.1,2015
+2710,Producers and directors,4.0,20.1,2015
+2720,"Athletes, coaches, umpires, and related workers",3.8347744065398524,20.1,2015
+2740,Dancers and choreographers,3.338390501319261,20.1,2015
+2750,"Musicians, singers, and related workers",2.8673887088521233,20.1,2015
+2760,"Entertainers and performers, sports and related workers, all other",3.5457337883959044,20.1,2015
+2800,Announcers,2.791612399062256,20.1,2015
+2810,"News analysts, reporters and correspondents",4.0,20.1,2015
+2825,Public relations specialists,4.0,20.1,2015
+2830,Editors,4.0,20.1,2015
+2840,Technical writers,4.0,20.1,2015
+2850,Writers and authors,4.0,20.1,2015
+2860,Miscellaneous media and communication workers,4.0,20.1,2015
+2900,Broadcast and sound engineering technicians and radio operators,3.0,20.1,2015
+2910,Photographers,3.0,20.1,2015
+2920,"Television, video, and motion picture camera operators and editors",3.0,20.1,2015
+2960,"Media and communication equipment workers, all other",3.0,20.1,2015
+3000,Chiropractors,5.0,20.1,2015
+3010,Dentists,5.0,20.1,2015
+3030,Dietitians and nutritionists,5.0,20.1,2015
+3040,Optometrists,5.0,20.1,2015
+3050,Pharmacists,5.0,20.1,2015
+3060,Physicians and surgeons,5.0,20.1,2015
+3110,Physician assistants,5.0,20.1,2015
+3120,Podiatrists,5.0,20.1,2015
+3140,Audiologists,5.0,20.1,2015
+3150,Occupational therapists,5.0,20.1,2015
+3160,Physical therapists,5.0,20.1,2015
+3200,Radiation therapists,3.0,20.1,2015
+3210,Recreational therapists,4.333333333333333,20.1,2015
+3220,Respiratory therapists,3.0,20.1,2015
+3230,Speech-language pathologists,5.0,20.1,2015
+3235,Exercise physiologists,5.0,20.1,2015
+3245,"Therapists, all other",4.5361746227087245,20.1,2015
+3250,Veterinarians,5.0,20.1,2015
+3255,Registered nurses,3.8,20.1,2015
+3256,Nurse anesthetists,5.0,20.1,2015
+3257,Nurse midwives,5.0,20.1,2015
+3258,Nurse practitioners,5.0,20.1,2015
+3260,"Health diagnosing and treating practitioners, all other",5.0,20.1,2015
+3300,Clinical laboratory technologists and technicians,3.508329173945595,20.1,2015
+3310,Dental hygienists,3.0,20.1,2015
+3320,Diagnostic related technologists and technicians,3.0,20.1,2015
+3400,Emergency medical technicians and paramedics,3.0,20.1,2015
+3420,Health practitioner support technologists and technicians,2.9593427427849166,20.1,2015
+3500,Licensed practical and licensed vocational nurses,3.0,20.1,2015
+3510,Medical records and health information technicians,3.0,20.1,2015
+3520,"Opticians, dispensing",3.0,20.1,2015
+3535,Miscellaneous health technologists and technicians,3.121326042378674,20.1,2015
+3540,Other healthcare practitioners and technical occupations,4.065400843881856,20.1,2015
+3600,"Nursing, psychiatric, and home health aides",2.0,20.1,2015
+3610,Occupational therapy assistants and aides,3.0,20.1,2015
+3620,Physical therapist assistants and aides,2.6164529103741367,20.1,2015
+3630,Massage therapists,3.0,20.1,2015
+3640,Dental assistants,3.0,20.1,2015
+3645,Medical assistants,3.0,20.1,2015
+3646,Medical transcriptionists,3.0,20.1,2015
+3647,Pharmacy aides,2.0,20.1,2015
+3648,Veterinary assistants and laboratory animal caretakers,3.0,20.1,2015
+3649,Phlebotomists,3.0,20.1,2015
+3655,"Miscellaneous healthcare support occupations, including medical equipment preparers",2.5,20.1,2015
+3700,First-line supervisors of correctional officers,3.0,20.1,2015
+3710,First-line supervisors of police and detectives,3.0,20.1,2015
+3720,First-line supervisors of fire fighting and prevention workers,3.0,20.1,2015
+3730,"First-line supervisors of protective service workers, all other",3.0,20.1,2015
+3740,Firefighters,2.5,20.1,2015
+3750,Fire inspectors,3.0,20.1,2015
+3800,"Bailiffs, correctional officers, and jailers",2.960203806787574,20.1,2015
+3820,Detectives and criminal investigators,3.2,20.1,2015
+3830,Fish and game wardens,4.0,20.1,2015
+3840,Parking enforcement workers,2.0,20.1,2015
+3850,Police and sheriff's patrol officers,3.0,20.1,2015
+3860,Transit and railroad police,3.0,20.1,2015
+3900,Animal control workers,2.0,20.1,2015
+3910,Private detectives and investigators,3.0,20.1,2015
+3930,Security guards and gaming surveillance officers,2.0,20.1,2015
+3940,Crossing guards,1.0,20.1,2015
+3945,Transportation security screeners,2.0,20.1,2015
+3955,"Lifeguards and other recreational, and all other protective service workers",2.0,20.1,2015
+4000,Chefs and head cooks,3.0,20.1,2015
+4010,First-line supervisors of food preparation and serving workers,2.0,20.1,2015
+4020,Cooks,1.6858943286476005,20.1,2015
+4030,Food preparation workers,1.0,20.1,2015
+4040,Bartenders,2.0,20.1,2015
+4050,"Combined food preparation and serving workers, including fast food",1.0,20.1,2015
+4060,"Counter attendants, cafeteria, food concession, and coffee shop",1.0,20.1,2015
+4110,Waiters and waitresses,1.0,20.1,2015
+4120,"Food servers, nonrestaurant",1.0,20.1,2015
+4130,Dining room and cafeteria attendants and bartender helpers,1.0,20.1,2015
+4140,Dishwashers,1.0,20.1,2015
+4150,"Hosts and hostesses, restaurant, lounge, and coffee shop",1.0,20.1,2015
+4160,"Food preparation and serving related workers, all other",1.0,20.1,2015
+4200,First-line supervisors of housekeeping and janitorial workers,2.0,20.1,2015
+4210,"First-line supervisors of landscaping, lawn service, and groundskeeping workers",3.0,20.1,2015
+4220,Janitors and building cleaners,2.0,20.1,2015
+4230,Maids and housekeeping cleaners,2.0,20.1,2015
+4240,Pest control workers,2.0,20.1,2015
+4250,Grounds maintenance workers,1.067044460185841,20.1,2015
+4300,First-line supervisors of gaming workers,2.0,20.1,2015
+4320,First-line supervisors of personal service workers,3.0,20.1,2015
+4340,Animal trainers,2.0,20.1,2015
+4350,Nonfarm animal caretakers,1.0,20.1,2015
+4400,Gaming services workers,2.0,20.1,2015
+4410,Motion picture projectionists,2.0,20.1,2015
+4420,"Ushers, lobby attendants, and ticket takers",2.0,20.1,2015
+4430,Miscellaneous entertainment attendants and related workers,1.0791809562235224,20.1,2015
+4460,Embalmers and funeral attendants,2.5,20.1,2015
+4465,"Morticians, undertakers, and funeral directors",3.0,20.1,2015
+4500,Barbers,3.0,20.1,2015
+4510,"Hairdressers, hairstylists, and cosmetologists",3.0,20.1,2015
+4520,Miscellaneous personal appearance workers,2.30397807140849,20.1,2015
+4530,"Baggage porters, bellhops, and concierges",2.403052064631957,20.1,2015
+4540,Tour and travel guides,3.0,20.1,2015
+4600,Childcare workers,2.5,20.1,2015
+4610,Personal care aides,2.0,20.1,2015
+4620,Recreation and fitness workers,3.5857190151765956,20.1,2015
+4640,Residential advisors,3.0,20.1,2015
+4650,"Personal care and service workers, all other ",2.4960902898683526,20.1,2015
+4700,First-line supervisors of retail sales workers,2.0,20.1,2015
+4710,First-line supervisors of non-retail sales workers,4.0,20.1,2015
+4720,Cashiers,1.0065091782555173,20.1,2015
+4740,Counter and rental clerks,1.0,20.1,2015
+4750,Parts salespersons,2.0,20.1,2015
+4760,Retail salespersons,2.0,20.1,2015
+4800,Advertising sales agents,3.0,20.1,2015
+4810,Insurance sales agents,4.0,20.1,2015
+4820,"Securities, commodities, and financial services sales agents",3.6666666666666665,20.1,2015
+4830,Travel agents,3.0,20.1,2015
+4840,"Sales representatives, services, all other",4.0,20.1,2015
+4850,"Sales representatives, wholesale and manufacturing",3.9042160866273603,20.1,2015
+4900,"Models, demonstrators, and product promoters",1.9493642143505903,20.1,2015
+4920,Real estate brokers and sales agents,3.203716340349588,20.1,2015
+4930,Sales engineers,4.0,20.1,2015
+4940,Telemarketers,2.0,20.1,2015
+4950,"Door-to-door sales workers, news and street vendors, and related workers",2.0,20.1,2015
+4965,"Sales and related workers, all other",2.0,20.1,2015
+5000,First-line supervisors of office and administrative support workers,3.0,20.1,2015
+5010,"Switchboard operators, including answering service",2.0,20.1,2015
+5020,Telephone operators,2.0,20.1,2015
+5030,"Communications equipment operators, all other",2.0,20.1,2015
+5100,Bill and account collectors,2.0,20.1,2015
+5110,Billing and posting clerks ,2.0,20.1,2015
+5120,"Bookkeeping, accounting, and auditing clerks",3.0,20.1,2015
+5130,Gaming cage workers,2.0,20.1,2015
+5140,Payroll and timekeeping clerks,2.0,20.1,2015
+5150,Procurement clerks,3.0,20.1,2015
+5160,Tellers,2.0,20.1,2015
+5165,"Financial clerks, all other",2.5252564763049605,20.1,2015
+5200,Brokerage clerks,3.0,20.1,2015
+5210,Correspondence clerks,2.0,20.1,2015
+5220,"Court, municipal, and license clerks",2.3333333333333335,20.1,2015
+5230,"Credit authorizers, checkers, and clerks",2.5,20.1,2015
+5240,Customer service representatives,3.0,20.1,2015
+5250,"Eligibility interviewers, government programs",3.0,20.1,2015
+5260,File clerks,2.0,20.1,2015
+5300,"Hotel, motel, and resort desk clerks",2.0,20.1,2015
+5310,"Interviewers, except eligibility and loan",2.0,20.1,2015
+5320,"Library assistants, clerical",2.0,20.1,2015
+5330,Loan interviewers and clerks,3.0,20.1,2015
+5340,New accounts clerks,2.0,20.1,2015
+5350,Order clerks,2.0,20.1,2015
+5360,"Human resources assistants, except payroll and timekeeping",3.0,20.1,2015
+5400,Receptionists and information clerks,2.0,20.1,2015
+5410,Reservation and transportation ticket agents and travel clerks,2.0,20.1,2015
+5420,"Information and record clerks, all other",2.178628349061584,20.1,2015
+5500,Cargo and freight agents,2.0,20.1,2015
+5510,Couriers and messengers,2.0,20.1,2015
+5520,Dispatchers,2.0,20.1,2015
+5530,"Meter readers, utilities",2.0,20.1,2015
+5540,Postal service clerks,2.0,20.1,2015
+5550,Postal service mail carriers,2.0,20.1,2015
+5560,"Postal service mail sorters, processors, and processing machine operators",2.0,20.1,2015
+5600,"Production, planning, and expediting clerks",3.0,20.1,2015
+5610,"Shipping, receiving, and traffic clerks",2.0,20.1,2015
+5620,Stock clerks and order fillers,2.0,20.1,2015
+5630,"Weighers, measurers, checkers, and samplers, recordkeeping",2.0,20.1,2015
+5700,Secretaries and administrative assistants,3.0,20.1,2015
+5800,Computer operators,3.0,20.1,2015
+5810,Data entry keyers,2.0,20.1,2015
+5820,Word processors and typists,2.0,20.1,2015
+5830,Desktop publishers,3.0,20.1,2015
+5840,Insurance claims and policy processing clerks,2.5,20.1,2015
+5850,"Mail clerks and mail machine operators, except postal service",2.0,20.1,2015
+5860,"Office clerks, general",2.0,20.1,2015
+5900,"Office machine operators, except computer",2.0,20.1,2015
+5910,Proofreaders and copy markers,4.0,20.1,2015
+5920,Statistical assistants,4.0,20.1,2015
+5940,"Office and administrative support workers, all other",4.0,20.1,2015
+6005,"First-line supervisors of farming, fishing, and forestry workers",3.0,20.1,2015
+6010,Agricultural inspectors,2.0,20.1,2015
+6020,Animal breeders,3.0,20.1,2015
+6040,"Graders and sorters, agricultural products",1.0,20.1,2015
+6050,Miscellaneous agricultural workers ,1.0817062180835086,20.1,2015
+6100,Fishers and related fishing workers,1.0,20.1,2015
+6110,Hunters and trappers,1.0,20.1,2015
+6120,Forest and conservation workers,3.0,20.1,2015
+6130,Logging workers,1.152773905770839,20.1,2015
+6200,First-line supervisors of construction trades and extraction workers,3.0,20.1,2015
+6210,Boilermakers,3.0,20.1,2015
+6220,"Brickmasons, blockmasons, and stonemasons",2.1771489875284966,20.1,2015
+6230,Carpenters,2.0,20.1,2015
+6240,"Carpet, floor, and tile installers and finishers",2.0,20.1,2015
+6250,"Cement masons, concrete finishers, and terrazzo workers",2.0,20.1,2015
+6260,Construction laborers,2.0,20.1,2015
+6300,"Paving, surfacing, and tamping equipment operators",2.0,20.1,2015
+6310,Pile-driver operators,2.0,20.1,2015
+6320,Operating engineers and other construction equipment operators,2.0,20.1,2015
+6330,"Drywall installers, ceiling tile installers, and tapers",2.0,20.1,2015
+6355,Electricians,3.0,20.1,2015
+6360,Glaziers,2.0,20.1,2015
+6400,Insulation workers,2.0,20.1,2015
+6420,"Painters, construction and maintenance",2.0,20.1,2015
+6430,Paperhangers,2.0,20.1,2015
+6440,"Pipelayers, plumbers, pipefitters, and steamfitters",2.90584888642198,20.1,2015
+6460,Plasterers and stucco masons,1.0,20.1,2015
+6500,Reinforcing iron and rebar workers,2.0,20.1,2015
+6515,Roofers,2.0,20.1,2015
+6520,Sheet metal workers,2.0,20.1,2015
+6530,Structural iron and steel workers,2.0,20.1,2015
+6540,Solar photovoltaic installers,2.0,20.1,2015
+6600,"Helpers, construction trades",1.947418601325261,20.1,2015
+6660,Construction and building inspectors,3.0,20.1,2015
+6700,Elevator installers and repairers,3.0,20.1,2015
+6710,Fence erectors,2.0,20.1,2015
+6720,Hazardous materials removal workers,3.0,20.1,2015
+6730,Highway maintenance workers,2.0,20.1,2015
+6740,Rail-track laying and maintenance equipment operators,2.0,20.1,2015
+6750,Septic tank servicers and sewer pipe cleaners,1.0,20.1,2015
+6765,Miscellaneous construction and related workers,2.4815805109922757,20.1,2015
+6800,"Derrick, rotary drill, and service unit operators, oil, gas, and mining",1.8161149162861492,20.1,2015
+6820,"Earth drillers, except oil and gas",2.0,20.1,2015
+6830,"Explosives workers, ordnance handling experts, and blasters",2.0,20.1,2015
+6840,Mining machine operators,1.3733108108108107,20.1,2015
+6910,"Roof bolters, mining",2.0,20.1,2015
+6920,"Roustabouts, oil and gas",1.0,20.1,2015
+6930,Helpers—extraction workers,2.0,20.1,2015
+6940,Other extraction workers,1.2908728750049305,20.1,2015
+7000,"First-line supervisors of mechanics, installers, and repairers",3.0,20.1,2015
+7010,"Computer, automated teller, and office machine repairers",3.0,20.1,2015
+7020,Radio and telecommunications equipment installers and repairers,3.0,20.1,2015
+7030,Avionics technicians,3.0,20.1,2015
+7040,"Electric motor, power tool, and related repairers",3.0,20.1,2015
+7050,"Electrical and electronics installers and repairers, transportation equipment",3.0,20.1,2015
+7100,"Electrical and electronics repairers, industrial and utility",3.0,20.1,2015
+7110,"Electronic equipment installers and repairers, motor vehicles",3.0,20.1,2015
+7120,Electronic home entertainment equipment installers and repairers,3.0,20.1,2015
+7130,Security and fire alarm systems installers,3.0,20.1,2015
+7140,Aircraft mechanics and service technicians,3.0,20.1,2015
+7150,Automotive body and related repairers,2.0,20.1,2015
+7160,Automotive glass installers and repairers,2.0,20.1,2015
+7200,Automotive service technicians and mechanics,3.0,20.1,2015
+7210,Bus and truck mechanics and diesel engine specialists,3.0,20.1,2015
+7220,Heavy vehicle and mobile equipment service technicians and mechanics,2.881312711347636,20.1,2015
+7240,Small engine mechanics,2.5348563006632276,20.1,2015
+7260,"Miscellaneous vehicle and mobile equipment mechanics, installers, and repairers",2.0,20.1,2015
+7300,Control and valve installers and repairers,2.7033421575115817,20.1,2015
+7315,"Heating, air conditioning, and refrigeration mechanics and installers",3.0,20.1,2015
+7320,Home appliance repairers,3.0,20.1,2015
+7330,Industrial and refractory machinery mechanics,2.5,20.1,2015
+7340,"Maintenance and repair workers, general",3.0,20.1,2015
+7350,"Maintenance workers, machinery",3.0,20.1,2015
+7360,Millwrights,3.0,20.1,2015
+7410,Electrical power-line installers and repairers,3.0,20.1,2015
+7420,Telecommunications line installers and repairers,2.0,20.1,2015
+7430,Precision instrument and equipment repairers,3.0,20.1,2015
+7440,Wind turbine service technicians,3.0,20.1,2015
+7510,"Coin, vending, and amusement machine servicers and repairers",2.0,20.1,2015
+7520,Commercial divers,3.0,20.1,2015
+7540,Locksmiths and safe repairers,2.0,20.1,2015
+7550,Manufactured building and mobile home installers,2.0,20.1,2015
+7560,Riggers,2.0,20.1,2015
+7600,Signal and track switch repairers,3.0,20.1,2015
+7610,"Helpers—installation, maintenance, and repair workers ",2.0,20.1,2015
+7630,"Other installation, maintenance, and repair workers",1.5,20.1,2015
+7700,First-line supervisors of production and operating workers,2.0,20.1,2015
+7710,"Aircraft structure, surfaces, rigging, and systems assemblers",2.0,20.1,2015
+7720,"Electrical, electronics, and electromechanical assemblers",2.0,20.1,2015
+7730,Engine and other machine assemblers,2.0,20.1,2015
+7740,Structural metal fabricators and fitters,3.0,20.1,2015
+7750,Miscellaneous assemblers and fabricators,2.0,20.1,2015
+7800,Bakers,2.0,20.1,2015
+7810,"Butchers and other meat, poultry, and fish processing workers",1.368240435400413,20.1,2015
+7830,"Food and tobacco roasting, baking, and drying machine operators and tenders",2.0,20.1,2015
+7840,Food batchmakers,2.0,20.1,2015
+7850,Food cooking machine operators and tenders,2.0,20.1,2015
+7855,"Food processing workers, all other",2.0,20.1,2015
+7900,Computer control programmers and operators,3.0,20.1,2015
+7920,"Extruding and drawing machine setters, operators, and tenders, metal and plastic",2.0,20.1,2015
+7930,"Forging machine setters, operators, and tenders, metal and plastic",2.0,20.1,2015
+7940,"Rolling machine setters, operators, and tenders, metal and plastic",2.0,20.1,2015
+7950,"Cutting, punching, and press machine setters, operators, and tenders, metal and plastic",2.0,20.1,2015
+7960,"Drilling and boring machine tool setters, operators, and tenders, metal and plastic ",2.0,20.1,2015
+8000,"Grinding, lapping, polishing, and buffing machine tool setters, operators, and tenders, metal and plastic",2.0,20.1,2015
+8010,"Lathe and turning machine tool setters, operators, and tenders, metal and plastic",2.0,20.1,2015
+8020,"Milling and planing machine setters, operators, and tenders, metal and plastic",3.0,20.1,2015
+8030,Machinists,3.0,20.1,2015
+8040,"Metal furnace operators, tenders, pourers, and casters",2.0,20.1,2015
+8060,"Model makers and patternmakers, metal and plastic",3.0,20.1,2015
+8100,"Molders and molding machine setters, operators, and tenders, metal and plastic",2.0,20.1,2015
+8120,"Multiple machine tool setters, operators, and tenders, metal and plastic ",2.0,20.1,2015
+8130,Tool and die makers,3.0,20.1,2015
+8140,"Welding, soldering, and brazing workers",2.439588454884822,20.1,2015
+8150,"Heat treating equipment setters, operators, and tenders, metal and plastic",2.0,20.1,2015
+8160,"Layout workers, metal and plastic",2.0,20.1,2015
+8200,"Plating and coating machine setters, operators, and tenders, metal and plastic",2.0,20.1,2015
+8210,"Tool grinders, filers, and sharpeners",2.0,20.1,2015
+8220,"Metal workers and plastic workers, all other",2.0,20.1,2015
+8250,Prepress technicians and workers,3.0,20.1,2015
+8255,Printing press operators,3.0,20.1,2015
+8256,Print binding and finishing workers,2.0,20.1,2015
+8300,Laundry and dry-cleaning workers,1.0,20.1,2015
+8310,"Pressers, textile, garment, and related materials",1.0,20.1,2015
+8320,Sewing machine operators,1.0,20.1,2015
+8330,Shoe and leather workers and repairers,2.0,20.1,2015
+8340,Shoe machine operators and tenders,2.0,20.1,2015
+8350,"Tailors, dressmakers, and sewers",2.7427509293680297,20.1,2015
+8360,Textile bleaching and dyeing machine operators and tenders,2.0,20.1,2015
+8400,"Textile cutting machine setters, operators, and tenders",2.0,20.1,2015
+8410,"Textile knitting and weaving machine setters, operators, and tenders",2.0,20.1,2015
+8420,"Textile winding, twisting, and drawing out machine setters, operators, and tenders",2.0,20.1,2015
+8430,"Extruding and forming machine setters, operators, and tenders, synthetic and glass fibers",2.0,20.1,2015
+8440,Fabric and apparel patternmakers,3.0,20.1,2015
+8450,Upholsterers,2.0,20.1,2015
+8460,"Textile, apparel, and furnishings workers, all other",2.0932341737710867,20.1,2015
+8500,Cabinetmakers and bench carpenters,2.0,20.1,2015
+8510,Furniture finishers,1.0,20.1,2015
+8520,"Model makers and patternmakers, wood",3.0,20.1,2015
+8530,"Sawing machine setters, operators, and tenders, wood",2.0,20.1,2015
+8540,"Woodworking machine setters, operators, and tenders, except sawing",2.0,20.1,2015
+8550,"Woodworkers, all other",1.939566945783642,20.1,2015
+8600,"Power plant operators, distributors, and dispatchers",2.330058939096267,20.1,2015
+8610,Stationary engineers and boiler operators,3.0,20.1,2015
+8620,Water and wastewater treatment plant and system operators,3.0,20.1,2015
+8630,Miscellaneous plant and system operators,2.1588908867228165,20.1,2015
+8640,"Chemical processing machine setters, operators, and tenders",2.0,20.1,2015
+8650,"Crushing, grinding, polishing, mixing, and blending workers",1.8508911521323999,20.1,2015
+8710,Cutting workers,2.0,20.1,2015
+8720,"Extruding, forming, pressing, and compacting machine setters, operators, and tenders",2.0,20.1,2015
+8730,"Furnace, kiln, oven, drier, and kettle operators and tenders",2.0,20.1,2015
+8740,"Inspectors, testers, sorters, samplers, and weighers",2.0,20.1,2015
+8750,Jewelers and precious stone and metal workers,3.0,20.1,2015
+8760,"Medical, dental, and ophthalmic laboratory technicians",2.182657517155334,20.1,2015
+8800,Packaging and filling machine operators and tenders,2.0,20.1,2015
+8810,Painting workers,2.0,20.1,2015
+8830,Photographic process workers and processing machine operators,2.0,20.1,2015
+8840,Semiconductor processors,2.0,20.1,2015
+8850,Adhesive bonding machine operators and tenders,2.0,20.1,2015
+8860,"Cleaning, washing, and metal pickling equipment operators and tenders",2.0,20.1,2015
+8900,Cooling and freezing equipment operators and tenders,2.0,20.1,2015
+8910,Etchers and engravers,2.0,20.1,2015
+8920,"Molders, shapers, and casters, except metal and plastic",2.25,20.1,2015
+8930,"Paper goods machine setters, operators, and tenders",2.0,20.1,2015
+8940,Tire builders,2.0,20.1,2015
+8950,Helpers—production workers,2.0,20.1,2015
+8965,"Production workers, all other",2.0,20.1,2015
+9000,Supervisors of transportation and material moving workers,2.0,20.1,2015
+9030,Aircraft pilots and flight engineers,3.671703410123029,20.1,2015
+9040,Air traffic controllers and airfield operations specialists,3.0,20.1,2015
+9050,Flight attendants,3.0,20.1,2015
+9110,"Ambulance drivers and attendants, except emergency medical technicians",2.0,20.1,2015
+9120,Bus drivers,2.0,20.1,2015
+9130,Driver/sales workers and truck drivers,2.0,20.1,2015
+9140,Taxi drivers and chauffeurs,1.0,20.1,2015
+9150,"Motor vehicle operators, all other",1.9523480990325315,20.1,2015
+9200,Locomotive engineers and operators,2.0,20.1,2015
+9230,"Railroad brake, signal, and switch operators",2.0,20.1,2015
+9240,Railroad conductors and yardmasters,2.0,20.1,2015
+9260,"Subway, streetcar, and other rail transportation workers",2.0,20.1,2015
+9300,Sailors and marine oilers,2.0,20.1,2015
+9310,Ship and boat captains and operators,2.6004715270221253,20.1,2015
+9330,Ship engineers,3.0,20.1,2015
+9340,Bridge and lock tenders,1.0,20.1,2015
+9350,Parking lot attendants,2.0,20.1,2015
+9360,Automotive and watercraft service attendants   ,1.0,20.1,2015
+9410,Transportation inspectors,3.0,20.1,2015
+9415,"Transportation attendants, except flight attendants",2.0,20.1,2015
+9420,Other transportation workers ,2.3685477531769945,20.1,2015
+9500,Conveyor operators and tenders,2.0,20.1,2015
+9510,Crane and tower operators,3.0,20.1,2015
+9520,"Dredge, excavating, and loading machine operators",2.0,20.1,2015
+9560,Hoist and winch operators,2.0,20.1,2015
+9600,Industrial truck and tractor operators,2.0,20.1,2015
+9610,Cleaners of vehicles and equipment,2.0,20.1,2015
+9620,"Laborers and freight, stock, and material movers, hand",2.0,20.1,2015
+9630,Machine feeders and offbearers,2.0,20.1,2015
+9640,"Packers and packagers, hand",2.0,20.1,2015
+9650,Pumping station operators,2.0,20.1,2015
+9720,Refuse and recyclable material collectors,2.0,20.1,2015
+9730,Mine shuttle car operators,2.0,20.1,2015
+9740,"Tank car, truck, and ship loaders",2.0,20.1,2015
+9750,"Material moving workers, all other",2.0,20.1,2015

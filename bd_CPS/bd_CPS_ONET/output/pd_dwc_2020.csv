@@ -1,0 +1,571 @@
+census_code,occupation_title,high_pd,any_pd,dwc,difficult,onet_version,oews_year,offshorability
+10,Chief executives,0.0,0.0,0.0,0.0,25.1,2020,0.46866226
+20,General and operations managers,0.0,0.0,0.0,0.0,25.1,2020,-0.14223063
+30,Legislators,0.0,0.0,0.0,0.0,25.1,2020,
+40,Advertising and promotions managers,0.0,0.0,0.0,0.0,25.1,2020,0.32495964
+51,Marketing managers,0.0,0.0,0.0,0.0,25.1,2020,
+52,Sales managers,0.0,0.0,0.0,0.0,25.1,2020,
+60,Public relations and fundraising managers,0.0,0.0,0.0,0.0,25.1,2020,0.32495964
+101,Administrative services managers,0.0,0.0,0.0,0.0,25.1,2020,
+102,Facilities managers,0.0,0.0,0.0,0.0,25.1,2020,
+110,Computer and information systems managers,0.0,0.0,0.0,0.0,25.1,2020,-0.14223063
+120,Financial managers,0.0,0.0,0.0,0.0,25.1,2020,0.47275448
+135,Compensation and benefits managers,0.0,0.0,0.0,0.0,25.1,2020,1.1813816
+136,Human resources managers,0.0,0.0,0.0,0.0,25.1,2020,1.1813816
+137,Training and development managers,0.0,0.0,0.0,0.0,25.1,2020,1.1813816
+140,Industrial production managers,0.0,0.0,0.8333333333333334,0.8333333333333334,25.1,2020,-0.14223063
+150,Purchasing managers,0.0,0.0,0.0,0.0,25.1,2020,0.9856056
+160,"Transportation, storage, and distribution managers",0.0,0.0,0.0,0.0,25.1,2020,0.71980846
+205,"Farmers, ranchers, and other agricultural managers",0.0,0.0,1.0,1.0,25.1,2020,-0.1618563
+220,Construction managers,0.0,0.0,1.0,1.0,25.1,2020,-0.14223063
+230,Education and childcare administrators ,0.0,0.0,0.0,0.0,25.1,2020,-1.1653323
+300,Architectural and engineering managers,0.0,0.0,0.0,0.0,25.1,2020,-0.14223063
+310,Food service managers,0.0,1.0,0.0,1.0,25.1,2020,-0.14223063
+325,Funeral home managers,0.0,0.0,0.0,0.0,25.1,2020,
+335,Entertainment and recreation managers,0.0,0.0,0.0,0.0,25.1,2020,
+340,Lodging managers,0.0,0.0,0.0,0.0,25.1,2020,-0.14223063
+350,Medical and health services managers,0.0,0.0,0.0,0.0,25.1,2020,-2.188437
+360,Natural sciences managers,0.0,0.0,0.0,0.0,25.1,2020,-0.14223063
+400,Postmasters and mail superintendents,0.0,0.0,0.0,0.0,25.1,2020,
+410,"Property, real estate, and community association managers",0.0,0.0,0.0,0.0,25.1,2020,0.4990003
+420,Social and community service managers,0.0,0.0,0.0,0.0,25.1,2020,-0.14223063
+425,Emergency management directors,0.0,0.0,0.0,0.0,25.1,2020,0.0085452795
+426,"Personal service managers, all other",0.0,0.0,0.0,0.0,25.1,2020,
+440,"Managers, all other",0.0,0.0,0.0,0.0,25.1,2020,
+500,"Agents and business managers of artists, performers, and athletes",0.0,0.0,0.0,0.0,25.1,2020,0.7345849
+510,"Buyers and purchasing agents, farm products",0.0,0.0,0.0,0.0,25.1,2020,0.7120725
+520,"Wholesale and retail buyers, except farm products",0.0,0.0,0.0,0.0,25.1,2020,1.1786948
+530,"Purchasing agents, except wholesale, retail, and farm products",0.0,0.0,0.0,0.0,25.1,2020,0.9856056
+540,"Claims adjusters, appraisers, examiners, and investigators",0.0,0.0,0.04401238472550521,0.04401238472550521,25.1,2020,1.7648889
+565,Compliance officers,0.0,0.0,0.0,0.0,25.1,2020,-0.057901263
+600,Cost estimators,0.0,0.0,0.0,0.0,25.1,2020,-0.14223063
+630,Human resources workers,0.0,0.0,0.0,0.0,25.1,2020,0.63267636
+640,"Compensation, benefits, and job analysis specialists",0.0,0.0,0.0,0.0,25.1,2020,0.63267636
+650,Training and development specialists,0.0,0.0,0.0,0.0,25.1,2020,0.63267636
+700,Logisticians,0.0,0.0,0.0,0.0,25.1,2020,2.7579606
+705,Project management specialists,0.0,0.0,0.0,0.0,25.1,2020,
+710,Management analysts,0.0,0.0,0.0,0.0,25.1,2020,-0.052943587
+725,"Meeting, convention, and event planners",0.0,0.0,0.0,0.0,25.1,2020,-0.14223063
+726,Fundraisers,0.0,0.0,0.0,0.0,25.1,2020,1.5643047
+735,Market research analysts and marketing specialists,0.0,0.0,0.0,0.0,25.1,2020,2.1586444
+750,"Business operations specialists, all other",0.0,0.0,0.0,0.0,25.1,2020,
+800,Accountants and auditors,0.0,0.0,0.0,0.0,25.1,2020,1.9673074
+810,Property appraisers and assessors,0.0,0.0,0.0,0.0,25.1,2020,-0.07501614
+820,Budget analysts,0.0,0.0,0.0,0.0,25.1,2020,1.3725127
+830,Credit analysts,0.0,0.0,0.0,0.0,25.1,2020,1.3725127
+845,Financial and investment analysts,0.0,0.0,0.0,0.0,25.1,2020,
+850,Personal financial advisors,0.0,0.0,0.0,0.0,25.1,2020,1.3725127
+860,Insurance underwriters,0.0,0.0,0.0,0.0,25.1,2020,2.551788
+900,Financial examiners,0.0,0.0,0.0,0.0,25.1,2020,-0.057901263
+910,Credit counselors and loan officers,0.0,0.0,0.0,0.0,25.1,2020,1.3725127
+930,"Tax examiners and collectors, and revenue agents",0.0,0.0,0.0,0.0,25.1,2020,1.9673074
+940,Tax preparers,0.0,0.0,0.0,0.0,25.1,2020,1.3725127
+960,Other financial specialists,0.0,0.0,0.0,0.0,25.1,2020,
+1005,Computer and information research scientists,0.0,0.0,0.0,0.0,25.1,2020,0.55302966
+1006,Computer systems analysts,0.0,0.0,0.0,0.0,25.1,2020,0.55302966
+1007,Information security analysts,0.0,0.0,0.0,0.0,25.1,2020,0.55302966
+1010,Computer programmers,0.0,0.0,0.0,0.0,25.1,2020,2.6609855
+1021,Software developers,0.0,0.0,0.0,0.0,25.1,2020,
+1022,Software quality assurance analysts and testers,0.0,0.0,0.0,0.0,25.1,2020,
+1031,Web developers,0.0,1.0,0.0,1.0,25.1,2020,
+1032,Web and digital interface designers,0.0,0.0,0.0,0.0,25.1,2020,
+1050,Computer support specialists,0.0,0.0,0.0,0.0,25.1,2020,0.55302966
+1065,Database administrators and architects,0.0,0.0,0.0,0.0,25.1,2020,
+1105,Network and computer systems administrators,0.0,0.0,0.0,0.0,25.1,2020,0.55302966
+1106,Computer network architects,0.0,0.0,0.0,0.0,25.1,2020,0.55302966
+1108,"Computer occupations, all other",0.0,0.0,0.0,0.0,25.1,2020,
+1200,Actuaries,0.0,0.0,0.0,0.0,25.1,2020,2.5070732
+1210,Mathematicians,0.0,0.0,0.0,0.0,25.1,2020,
+1220,Operations research analysts,0.0,0.0,0.0,0.0,25.1,2020,2.7579606
+1230,Statisticians,0.0,0.0,0.0,0.0,25.1,2020,
+1240,Other mathematical science occupations,0.0,0.0,0.0,0.0,25.1,2020,2.7870965
+1305,"Architects, except landscape and naval",0.0,0.0,0.0,0.0,25.1,2020,
+1306,Landscape architects,0.0,0.0,0.0,0.0,25.1,2020,
+1310,"Surveyors, cartographers, and photogrammetrists",0.0,0.0,0.38811933937133725,0.38811933937133725,25.1,2020,-0.17191468
+1320,Aerospace engineers,0.0,0.0,0.0,0.0,25.1,2020,0.9344667
+1330,Agricultural engineers,0.0,0.0,0.0,0.0,25.1,2020,
+1340,Bioengineers and biomedical engineers,0.0,0.0,0.0,0.0,25.1,2020,0.12239017
+1350,Chemical engineers,0.0,0.0,0.0,0.0,25.1,2020,0.38232005
+1360,Civil engineers,0.0,0.0,0.0,0.0,25.1,2020,0.10051954
+1400,Computer hardware engineers,0.0,0.0,0.0,0.0,25.1,2020,1.3399316
+1410,Electrical and electronics engineers,0.0,0.0,0.0,0.0,25.1,2020,1.3399316
+1420,Environmental engineers,0.0,0.0,0.0,0.0,25.1,2020,0.12239017
+1430,"Industrial engineers, including health and safety ",0.0,0.0,0.0,0.0,25.1,2020,0.50717866
+1440,Marine engineers and naval architects,0.0,0.0,0.0,0.0,25.1,2020,0.12239017
+1450,Materials engineers,0.0,0.0,0.0,0.0,25.1,2020,0.56463325
+1460,Mechanical engineers,0.0,0.0,0.0,0.0,25.1,2020,0.9184209
+1500,"Mining and geological engineers, including mining safety engineers",0.0,0.0,0.0,0.0,25.1,2020,
+1510,Nuclear engineers,0.0,0.0,0.0,0.0,25.1,2020,
+1520,Petroleum engineers,0.0,0.0,0.0,0.0,25.1,2020,2.3023481
+1530,"Engineers, all other",0.0,0.0,0.0,0.0,25.1,2020,0.12239017
+1541,Architectural and civil drafters,0.0,0.0,0.0,0.0,25.1,2020,
+1545,Other drafters,0.0,0.0,0.0,0.0,25.1,2020,
+1551,Electrical and electronic engineering technologists and technicians,0.0,0.0,0.0,0.0,25.1,2020,
+1555,"Other engineering technologists and technicians, except drafters",0.0,0.0,0.19228772936830213,0.19228772936830213,25.1,2020,
+1560,Surveying and mapping technicians,0.0,0.0,0.0,0.0,25.1,2020,-0.17191468
+1600,Agricultural and food scientists,0.0,0.0,0.0,0.0,25.1,2020,0.63094676
+1610,Biological scientists,0.0,0.0,0.0,0.0,25.1,2020,-0.28231725
+1640,Conservation scientists and foresters,0.0,0.0,0.7660930528999362,0.7660930528999362,25.1,2020,-1.1972
+1650,Medical scientists,0.0,0.0,0.0,0.0,25.1,2020,-0.44843423
+1660,"Life scientists, all other",0.0,0.0,0.07874222076645922,0.07874222076645922,25.1,2020,
+1700,Astronomers and physicists,0.0,0.0,0.0,0.0,25.1,2020,1.1379269
+1710,Atmospheric and space scientists,0.0,0.0,0.0,0.0,25.1,2020,0.59962904
+1720,Chemists and materials scientists,0.0,0.0,0.9228886168910648,0.9228886168910648,25.1,2020,0.29382718
+1745,"Environmental scientists and specialists, including health",0.0,0.0,0.0,0.0,25.1,2020,
+1750,"Geoscientists and hydrologists, except geographers",0.0,0.0,0.0,0.0,25.1,2020,
+1760,"Physical scientists, all other",0.0,0.0,0.0,0.0,25.1,2020,2.0048308
+1800,Economists,0.0,0.0,0.0,0.0,25.1,2020,2.1586444
+1815,Survey researchers,0.0,0.0,0.0,0.0,25.1,2020,
+1821,Clinical and counseling psychologists,0.0,0.0,0.0,0.0,25.1,2020,
+1822,School psychologists,0.0,0.0,0.0,0.0,25.1,2020,
+1825,Other psychologists,0.0,0.0,0.0,0.0,25.1,2020,
+1830,Sociologists,0.0,0.0,0.0,0.0,25.1,2020,
+1840,Urban and regional planners,0.0,0.0,0.0,0.0,25.1,2020,1.7483796
+1860,Miscellaneous social scientists and related workers,0.0,0.0,0.0,0.0,25.1,2020,1.487038
+1900,Agricultural and food science technicians,0.0,0.5,0.0,0.5,25.1,2020,1.0691465
+1910,Biological technicians,0.0,0.0,0.0,0.0,25.1,2020,1.0691465
+1920,Chemical technicians,0.0,1.0,1.0,1.0,25.1,2020,0.31521046
+1935,Environmental  science and geoscience technicians,0.0,0.0,1.0,1.0,25.1,2020,
+1940,Nuclear technicians,0.0,0.0,0.5,0.5,25.1,2020,
+1950,Social science research assistants,0.0,0.0,0.0,0.0,25.1,2020,
+1970,"Other life, physical, and social science technicians",0.0,0.19454573310862572,0.4891067871916654,0.4891067871916654,25.1,2020,
+1980,Occupational health and safety specialists and technicians,0.0,0.0,0.0,0.0,25.1,2020,
+2001,Substance abuse and behavioral disorder counselors,0.0,0.0,0.0,0.0,25.1,2020,
+2002,"Educational, guidance, and career counselors and advisors",0.0,0.0,0.0,0.0,25.1,2020,
+2003,Marriage and family therapists,0.0,0.0,0.0,0.0,25.1,2020,
+2004,Mental health counselors,0.0,0.0,0.0,0.0,25.1,2020,
+2005,Rehabilitation counselors,0.0,0.0,0.0,0.0,25.1,2020,
+2006,"Counselors, all other",0.0,0.0,0.0,0.0,25.1,2020,
+2011,"Child, family, and school social workers",0.0,0.0,0.0,0.0,25.1,2020,
+2012,Healthcare social workers,0.0,0.0,0.0,0.0,25.1,2020,
+2013,Mental health and substance abuse social workers,0.0,0.0,0.0,0.0,25.1,2020,
+2014,"Social workers, all other",0.0,0.0,0.0,0.0,25.1,2020,
+2015,Probation officers and correctional treatment specialists,0.0,0.0,0.0,0.0,25.1,2020,-1.0121664
+2016,Social and human service assistants,0.0,0.0,0.0,0.0,25.1,2020,-1.0121664
+2025,Other community and social service specialists,0.0,0.0,0.0,0.0,25.1,2020,-1.0121664
+2040,Clergy,0.0,0.0,0.0,0.0,25.1,2020,-2.2907472
+2050,"Directors, religious activities and education",0.0,0.0,0.0,0.0,25.1,2020,-2.2907472
+2060,"Religious workers, all other",0.0,0.0,0.0,0.0,25.1,2020,-2.2907472
+2100,Lawyers,0.0,0.0,0.0,0.0,25.1,2020,1.0808032
+2105,Judicial law clerks,0.0,0.0,0.0,0.0,25.1,2020,1.0808032
+2110,"Judges, magistrates, and other judicial workers",0.0,0.0,0.0,0.0,25.1,2020,
+2145,Paralegals and legal assistants,0.0,0.0,0.0,0.0,25.1,2020,1.8841863
+2170,"Title examiners, abstractors, and searchers",0.0,0.0,0.0,0.0,25.1,2020,
+2180,"Legal support workers, all other",0.0,0.0,0.0,0.0,25.1,2020,
+2205,Postsecondary teachers,0.0,0.0,0.0,0.0,25.1,2020,
+2300,Preschool and kindergarten teachers,0.0,0.2445521567349599,0.0,0.2445521567349599,25.1,2020,-0.37327826
+2310,Elementary and middle school teachers,0.0,0.6907027114561298,0.0,0.6907027114561298,25.1,2020,-0.8749312
+2320,Secondary school teachers,0.0,0.0,0.0,0.0,25.1,2020,-1.1499335
+2330,Special education teachers,0.0,0.11944464583484377,0.0,0.11944464583484377,25.1,2020,-0.51153433
+2350,Tutors,0.0,0.0,0.0,0.0,25.1,2020,
+2360,Other teachers and instructors,0.0,0.0,0.0,0.0,25.1,2020,
+2400,"Archivists, curators, and museum technicians",0.0,0.3946410850148859,0.0,0.3946410850148859,25.1,2020,0.20980538
+2435,Librarians and media collections specialists,0.0,0.0,0.0,0.0,25.1,2020,
+2440,Library technicians,0.0,0.0,0.0,0.0,25.1,2020,0.7163352
+2545,Teaching assistants,0.0,0.0,0.0,0.0,25.1,2020,
+2555,Other educational instruction and library workers,0.0,0.0,0.0,0.0,25.1,2020,
+2600,Artists and related workers,0.0,0.49594283638125225,0.0,0.49594283638125225,25.1,2020,1.8305568
+2631,Commercial and industrial designers,0.0,0.0,0.0,0.0,25.1,2020,
+2632,Fashion designers,0.0,0.0,0.0,0.0,25.1,2020,
+2633,Floral designers,0.0,1.0,0.0,1.0,25.1,2020,
+2634,Graphic designers,0.0,0.0,0.0,0.0,25.1,2020,
+2635,Interior designers,0.0,0.0,0.0,0.0,25.1,2020,
+2636,Merchandise displayers and window trimmers,0.0,1.0,0.0,1.0,25.1,2020,
+2640,Other designers,0.0,0.34695777098804154,0.0,0.34695777098804154,25.1,2020,
+2700,Actors,0.0,1.0,0.0,1.0,25.1,2020,-0.53611004
+2710,Producers and directors,0.0,0.0,0.0,0.0,25.1,2020,-0.53611004
+2721,Athletes and sports competitors,0.0,1.0,1.0,1.0,25.1,2020,
+2722,Coaches and scouts,0.0,0.0,0.0,0.0,25.1,2020,
+2723,"Umpires, referees, and other sports officials",0.0,1.0,0.0,1.0,25.1,2020,
+2740,Dancers and choreographers,1.0,1.0,0.0,1.0,25.1,2020,-0.05979669
+2751,Music directors and composers,0.0,0.0,0.0,0.0,25.1,2020,
+2752,Musicians and singers,0.0,0.0,0.0,0.0,25.1,2020,
+2755,"Disc jockeys, except radio ",0.024224591832219814,0.17782399008893413,0.01853900269899562,0.17782399008893413,25.1,2020,
+2770,"Entertainers and performers, sports and related workers, all other",0.024224591832219814,0.17782399008893413,0.01853900269899562,0.17782399008893413,25.1,2020,
+2805,Broadcast announcers and radio disc jockeys,0.0,0.0,0.0,0.0,25.1,2020,
+2810,"News analysts, reporters, and journalists",0.0,0.0,0.0,0.0,25.1,2020,1.1662115
+2825,Public relations specialists,0.0,0.0,0.0,0.0,25.1,2020,0.32495964
+2830,Editors,0.0,0.0,0.0,0.0,25.1,2020,1.1662115
+2840,Technical writers,0.0,1.0,0.0,1.0,25.1,2020,2.6414232
+2850,Writers and authors,0.0,0.0,0.0,0.0,25.1,2020,2.2520046
+2861,Interpreters and translators,0.0,0.0,0.0,0.0,25.1,2020,
+2862,Court reporters and simultaneous captioners,0.0,0.0,0.0,0.0,25.1,2020,
+2865,"Media and communication workers, all other",0.0,0.0,0.0,0.0,25.1,2020,
+2905,"Broadcast, sound, and lighting technicians",0.0,0.0,0.0,0.0,25.1,2020,
+2910,Photographers,0.0,0.0,0.0,0.0,25.1,2020,0.73343265
+2920,"Television, video, and film camera operators and editors",0.0,0.0,0.0,0.0,25.1,2020,1.1662115
+2970,"Media and communication equipment workers, all other",0.0,0.0,0.0,0.0,25.1,2020,
+3000,Chiropractors,0.0,1.0,0.0,1.0,25.1,2020,-2.2664003
+3010,Dentists,0.005018464160590853,0.9522772464728719,0.005018464160590853,0.9522772464728719,25.1,2020,-3.1549306
+3030,Dietitians and nutritionists,0.0,0.0,0.0,0.0,25.1,2020,-1.1801716
+3040,Optometrists,0.0,0.0,0.0,0.0,25.1,2020,-1.3177618
+3050,Pharmacists,0.0,1.0,0.0,1.0,25.1,2020,-1.5714599
+3065,Emergency medicine physicians,0.0,0.0,0.14536302623550945,0.14536302623550945,25.1,2020,
+3070,Radiologists,0.0,0.0,0.0,0.0,25.1,2020,
+3090,Other physicians,0.4382141250562303,0.4382141250562303,0.502519118308592,0.502519118308592,25.1,2020,
+3100,Surgeons,0.0,0.0,0.0,0.0,25.1,2020,
+3110,Physician assistants,0.0,0.0,0.0,0.0,25.1,2020,-1.5423132
+3120,Podiatrists,0.0,0.0,0.0,0.0,25.1,2020,-2.7806387
+3140,Audiologists,0.0,0.0,0.0,0.0,25.1,2020,-1.1537625
+3150,Occupational therapists,0.0,0.0,0.5,0.5,25.1,2020,-2.3024116
+3160,Physical therapists,0.0,0.0,0.0,0.0,25.1,2020,-2.387278
+3200,Radiation therapists,0.0,1.0,0.0,1.0,25.1,2020,-2.3315701
+3210,Recreational therapists,0.0,0.0,0.0,0.0,25.1,2020,-2.3315701
+3220,Respiratory therapists,0.0,0.0,0.0,0.0,25.1,2020,-3.2332487
+3230,Speech-language pathologists,0.0,0.0,0.0,0.0,25.1,2020,-1.1537625
+3235,Exercise physiologists,0.0,1.0,0.0,1.0,25.1,2020,
+3245,"Therapists, all other",0.0,0.0,0.0,0.0,25.1,2020,-2.3315701
+3250,Veterinarians,0.0,0.0,1.0,1.0,25.1,2020,-1.4699517
+3255,Registered nurses,0.0,0.2,0.4,0.6,25.1,2020,-2.710765
+3256,Nurse anesthetists,0.0,0.0,1.0,1.0,25.1,2020,-2.710765
+3257,Nurse midwives,0.0,0.0,0.0,0.0,25.1,2020,
+3258,Nurse practitioners,0.0,0.0,0.0,0.0,25.1,2020,-2.710765
+3261,Acupuncturists,0.0,0.0,0.0,0.0,25.1,2020,
+3270,"Healthcare diagnosing or treating practitioners, all other",0.0,0.0,0.0,0.0,25.1,2020,
+3300,Clinical laboratory technologists and technicians,0.0,0.3333333333333333,0.3333333333333333,0.5,25.1,2020,-0.26919806
+3310,Dental hygienists,1.0,1.0,1.0,1.0,25.1,2020,-0.8656534
+3321,Cardiovascular technologists and technicians,0.0,1.0,0.0,1.0,25.1,2020,
+3322,Diagnostic medical sonographers,0.0,1.0,0.0,1.0,25.1,2020,
+3323,Radiologic technologists and technicians,0.0,1.0,0.0,1.0,25.1,2020,
+3324,Magnetic resonance imaging technologists,0.0,0.0,1.0,1.0,25.1,2020,
+3330,Nuclear medicine technologists and medical dosimetrists,0.0,0.8556685307574987,0.0998220640569395,0.9554905948144382,25.1,2020,
+3401,Emergency medical technicians,0.0,0.49448261078162165,0.07973418535569551,0.5194001817012546,25.1,2020,
+3402,Paramedics,0.0,0.49448261078162165,0.07973418535569551,0.5194001817012546,25.1,2020,
+3421,Pharmacy technicians,0.0,1.0,0.0,1.0,25.1,2020,
+3422,Psychiatric technicians,0.0,0.0,0.0,0.0,25.1,2020,
+3423,Surgical technologists,0.0,1.0,1.0,1.0,25.1,2020,
+3424,Veterinary technologists and technicians,0.0,1.0,0.0,1.0,25.1,2020,
+3430,Dietetic technicians and ophthalmic medical technicians,0.0,0.7863966563837198,0.13359538262513682,0.7863966563837198,25.1,2020,
+3500,Licensed practical and licensed vocational nurses,0.0,0.0,0.0,0.0,25.1,2020,-2.217206
+3515,Medical records specialists,0.0,0.49448261078162165,0.07973418535569551,0.5194001817012546,25.1,2020,
+3520,"Opticians, dispensing",0.0,0.0,0.0,0.0,25.1,2020,-1.0900618
+3545,Miscellaneous health technologists and technicians,0.0,0.0,0.5513856812933026,0.5513856812933026,25.1,2020,
+3550,Other healthcare practitioners and technical occupations,0.0,0.0,0.0,0.0,25.1,2020,
+3601,Home health aides,0.0,0.0,0.0,0.0,25.1,2020,
+3602,Personal care aides,0.0,1.0,0.0,1.0,25.1,2020,
+3603,Nursing assistants,0.0,1.0,0.0,1.0,25.1,2020,
+3605,Orderlies and psychiatric aides,0.029716881398473574,0.9648403663968026,0.0,0.9648403663968026,25.1,2020,
+3610,Occupational therapy assistants and aides,0.0,1.0,0.8836295990078545,1.0,25.1,2020,-0.7371174
+3620,Physical therapist assistants and aides,0.0,1.0,0.0,1.0,25.1,2020,-0.7371174
+3630,Massage therapists,0.0,1.0,0.0,1.0,25.1,2020,-0.7371174
+3640,Dental assistants,0.0,1.0,1.0,1.0,25.1,2020,-1.3174714
+3645,Medical assistants,0.0,0.0,0.0,0.0,25.1,2020,-0.7371174
+3646,Medical transcriptionists,0.0,1.0,0.0,1.0,25.1,2020,-0.7371174
+3647,Pharmacy aides,0.0,1.0,0.0,1.0,25.1,2020,-0.7371174
+3648,Veterinary assistants and laboratory animal caretakers,0.0,1.0,1.0,1.0,25.1,2020,-0.7371174
+3649,Phlebotomists,0.0,1.0,0.0,1.0,25.1,2020,-0.7371174
+3655,Other healthcare support workers,0.0,0.49130560156653413,0.346153072378436,0.49130560156653413,25.1,2020,-0.7371174
+3700,First-line supervisors of correctional officers,0.0,0.0,1.0,1.0,25.1,2020,-1.1609381
+3710,First-line supervisors of police and detectives,0.0,0.0,1.0,1.0,25.1,2020,-2.4290214
+3720,First-line supervisors of firefighting and prevention workers,0.0,1.0,1.0,1.0,25.1,2020,-3.0113926
+3725,First-line supervisors of security workers,0.0,0.2819433661586238,1.0,1.0,25.1,2020,
+3735,"First-line supervisors of protective service workers, all other",0.0,0.2819433661586238,1.0,1.0,25.1,2020,
+3740,Firefighters,1.0,1.0,1.0,1.0,25.1,2020,-3.0113926
+3750,Fire inspectors ,0.0,1.0,1.0,1.0,25.1,2020,-3.0113926
+3801,Bailiffs,0.0,0.0,0.0,0.0,25.1,2020,
+3802,Correctional officers and jailers,0.0,0.0,0.0,0.0,25.1,2020,
+3820,Detectives and criminal investigators,0.0,0.0,0.6666666666666666,0.6666666666666666,25.1,2020,-2.4290214
+3830,Fish and game wardens,0.0,1.0,1.0,1.0,25.1,2020,
+3840,Parking enforcement workers,0.0,0.0,1.0,1.0,25.1,2020,-0.3425442
+3870,Police officers,0.0,0.005768938818885684,1.0,1.0,25.1,2020,
+3900,Animal control workers,0.0,1.0,1.0,1.0,25.1,2020,-0.3425442
+3910,Private detectives and investigators,0.0,0.0,0.0,0.0,25.1,2020,0.96317375
+3930,Security guards and gambling surveillance officers,0.0,0.0,0.0,0.0,25.1,2020,0.96317375
+3940,Crossing guards and flaggers,0.0,1.0,1.0,1.0,25.1,2020,0.99095273
+3945,Transportation security screeners,0.0,1.0,1.0,1.0,25.1,2020,-0.057901263
+3946,School bus monitors,0.0,1.0,0.5382574984697001,1.0,25.1,2020,
+3960,Other protective service workers,0.0,1.0,0.5382574984697001,1.0,25.1,2020,
+4000,Chefs and head cooks,0.0,1.0,1.0,1.0,25.1,2020,0.7675408
+4010,First-line supervisors of food preparation and serving workers,0.0,1.0,0.0,1.0,25.1,2020,-1.4109763
+4020,Cooks,0.0,1.0,0.0,1.0,25.1,2020,0.7675408
+4030,Food preparation workers,0.0,1.0,0.0,1.0,25.1,2020,0.5983263
+4040,Bartenders,0.0,1.0,0.0,1.0,25.1,2020,0.1088444
+4055,Fast food and counter workers,0.0,1.0,0.0,1.0,25.1,2020,
+4110,Waiters and waitresses,0.0,1.0,0.0,1.0,25.1,2020,0.10985315
+4120,"Food servers, nonrestaurant",1.0,1.0,0.0,1.0,25.1,2020,1.2176026
+4130,Dining room and cafeteria attendants and bartender helpers,0.0,1.0,0.0,1.0,25.1,2020,1.2176026
+4140,Dishwashers,0.0,1.0,0.0,1.0,25.1,2020,1.2176026
+4150,"Hosts and hostesses, restaurant, lounge, and coffee shop",0.0,1.0,0.0,1.0,25.1,2020,1.2176026
+4160,"Food preparation and serving related workers, all other",0.0,1.0,0.0,1.0,25.1,2020,
+4200,First-line supervisors of housekeeping and janitorial workers,0.0,0.0,0.0,0.0,25.1,2020,0.91154516
+4210,"First-line supervisors of landscaping, lawn service, and groundskeeping workers",0.0,0.0,1.0,1.0,25.1,2020,-2.3257513
+4220,Janitors and building cleaners,0.2855568716126485,1.0,0.0,1.0,25.1,2020,0.6277369
+4230,Maids and housekeeping cleaners,1.0,1.0,0.0,1.0,25.1,2020,2.1521168
+4240,Pest control workers,0.0,0.0,1.0,1.0,25.1,2020,-1.9773549
+4251,Landscaping and groundskeeping workers,0.0,1.0,1.0,1.0,25.1,2020,
+4252,Tree trimmers and pruners,0.0,1.0,1.0,1.0,25.1,2020,
+4255,Other grounds maintenance workers,0.0,1.0,1.0,1.0,25.1,2020,
+4330,Supervisors of personal care and service workers,0.0,1.0,1.0,1.0,25.1,2020,
+4340,Animal trainers,0.0,1.0,1.0,1.0,25.1,2020,-1.0105594
+4350,Animal caretakers,0.0,1.0,1.0,1.0,25.1,2020,-1.0105594
+4400,Gambling services workers,0.0,1.0,0.0,1.0,25.1,2020,-0.3562101
+4420,"Ushers, lobby attendants, and ticket takers",0.0,1.0,0.0,1.0,25.1,2020,1.3052528
+4435,Other entertainment attendants and related workers,0.0,0.9948193623479471,0.0,0.9948193623479471,25.1,2020,
+4461,"Embalmers, crematory operators and funeral attendants",0.0,0.06357048748353096,1.0,1.0,25.1,2020,
+4465,"Morticians, undertakers, and funeral arrangers",0.0,0.0,1.0,1.0,25.1,2020,-2.209604
+4500,Barbers,0.0,1.0,0.0,1.0,25.1,2020,-0.22789061
+4510,"Hairdressers, hairstylists, and cosmetologists",0.0,1.0,0.0,1.0,25.1,2020,-0.81292045
+4521,Manicurists and pedicurists,0.0,1.0,1.0,1.0,25.1,2020,
+4522,Skincare specialists,0.0,1.0,0.0,1.0,25.1,2020,
+4525,Other personal appearance workers,0.0,1.0,0.5584365917087349,1.0,25.1,2020,
+4530,"Baggage porters, bellhops, and concierges",0.0,0.43592887798896385,0.43592887798896385,0.43592887798896385,25.1,2020,0.046703458
+4540,Tour and travel guides,0.0,0.0,0.0,0.0,25.1,2020,1.1594584
+4600,Childcare workers,0.0,0.0,0.0,0.0,25.1,2020,0.16581261
+4621,Exercise trainers and group fitness instructors,1.0,1.0,0.0,1.0,25.1,2020,
+4622,Recreation workers,0.0,0.0,0.0,0.0,25.1,2020,
+4640,Residential advisors,0.0,0.0,0.0,0.0,25.1,2020,0.16581261
+4655,"Personal care and service workers, all other",0.21193144927040974,0.21193144927040974,0.0,0.21193144927040974,25.1,2020,
+4700,First-Line supervisors of retail sales workers,0.0,0.0,0.0,0.0,25.1,2020,-0.5162374
+4710,First-Line supervisors of non-retail sales workers,0.0,0.0,0.0,0.0,25.1,2020,-0.5162374
+4720,Cashiers,0.0,1.0,0.0041827253443279255,1.0,25.1,2020,0.9254247
+4740,Counter and rental clerks,0.0,0.0,0.0,0.0,25.1,2020,-0.6834582
+4750,Parts salespersons,0.0,0.0,0.0,0.0,25.1,2020,-0.6834582
+4760,Retail salespersons,0.0,1.0,0.0,1.0,25.1,2020,-0.6834582
+4800,Advertising sales agents,0.0,0.0,0.0,0.0,25.1,2020,1.072406
+4810,Insurance sales agents,0.0,0.0,0.0,0.0,25.1,2020,0.6309631
+4820,"Securities, commodities, and financial services sales agents",0.0,0.0,0.0,0.0,25.1,2020,0.20836937
+4830,Travel agents,0.0,0.0,0.0,0.0,25.1,2020,0.02485931
+4840,"Sales representatives of services, except advertising, insurance, financial services, and travel",0.0,0.0,0.0,0.0,25.1,2020,-0.6834582
+4850,"Sales representatives, wholesale and manufacturing",0.0,0.0,0.0,0.0,25.1,2020,1.5643047
+4900,"Models, demonstrators, and product promoters",0.0,0.9675145147912635,0.0,0.9675145147912635,25.1,2020,2.4572597
+4920,Real estate brokers and sales agents,0.0,0.0,0.0,0.0,25.1,2020,-0.07501614
+4930,Sales engineers,0.0,0.0,0.0,0.0,25.1,2020,-0.65831697
+4940,Telemarketers,0.0,0.0,0.0,0.0,25.1,2020,1.5643047
+4950,"Door-to-door sales workers, news and street vendors, and related workers",0.0,0.0,0.0,0.0,25.1,2020,1.4542236
+4965,"Sales and related workers, all other",0.0,0.0,0.0,0.0,25.1,2020,1.5643047
+5000,First-Line supervisors of office and administrative support workers,0.0,0.0,0.0,0.0,25.1,2020,-0.690127
+5010,"Switchboard operators, including answering service",0.0,0.0,0.0,0.0,25.1,2020,2.251352
+5020,Telephone operators,0.0,1.0,0.0,1.0,25.1,2020,2.251352
+5040,"Communications equipment operators, all other",0.0,0.07245696400625978,0.0,0.07245696400625978,25.1,2020,
+5100,Bill and account collectors,0.0,0.0,0.0,0.0,25.1,2020,2.1353426
+5110,Billing and posting clerks,0.0,0.0,0.0,0.0,25.1,2020,2.6859927
+5120,"Bookkeeping, accounting, and auditing clerks",0.0,1.0,0.0,1.0,25.1,2020,2.3707495
+5130,Gambling cage workers,0.0,1.0,0.0,1.0,25.1,2020,0.9254247
+5140,Payroll and timekeeping clerks,0.0,0.0,0.0,0.0,25.1,2020,2.5262375
+5150,Procurement clerks,0.0,0.0,0.0,0.0,25.1,2020,0.6863316
+5160,Tellers,0.0,1.0,0.0,1.0,25.1,2020,0.5964254
+5165,"Financial clerks, all other",0.0,0.6853944885826585,0.0,0.6853944885826585,25.1,2020,0.5964254
+5200,Brokerage clerks,0.0,0.0,0.0,0.0,25.1,2020,1.4460781
+5210,Correspondence clerks,0.0,0.0,0.0,0.0,25.1,2020,
+5220,"Court, municipal, and license clerks",0.0,0.0,0.0,0.0,25.1,2020,0.6770688
+5230,"Credit authorizers, checkers, and clerks",0.0,0.0,0.0,0.0,25.1,2020,1.0849874
+5240,Customer service representatives,0.0,0.0,0.0,0.0,25.1,2020,1.563753
+5250,"Eligibility interviewers, government programs",0.0,0.0,0.0,0.0,25.1,2020,-0.17375708
+5260,File clerks,0.0,0.0,0.0,0.0,25.1,2020,0.96597946
+5300,"Hotel, motel, and resort desk clerks",0.0,0.0,0.0,0.0,25.1,2020,0.18663919
+5310,"Interviewers, except eligibility and loan",0.0,1.0,0.0,1.0,25.1,2020,1.0849874
+5320,"Library assistants, clerical",0.0,1.0,0.0,1.0,25.1,2020,0.7163352
+5330,Loan interviewers and clerks,0.0,0.0,0.0,0.0,25.1,2020,1.563753
+5340,New accounts clerks,0.0,0.0,0.0,0.0,25.1,2020,1.0849874
+5350,Order clerks,0.0,0.0,0.0,0.0,25.1,2020,2.6321197
+5360,"Human resources assistants, except payroll and timekeeping",0.0,0.0,0.0,0.0,25.1,2020,1.0614815
+5400,Receptionists and information clerks,0.0,0.0,0.0,0.0,25.1,2020,0.8168781
+5410,Reservation and transportation ticket agents and travel clerks,0.0,1.0,0.0,1.0,25.1,2020,0.02485931
+5420,"Information and record clerks, all other",0.0,0.20304697231929272,0.0,0.20304697231929272,25.1,2020,1.4460781
+5500,Cargo and freight agents,0.0,0.0,0.0,0.0,25.1,2020,0.15331805
+5510,Couriers and messengers,0.0,0.0,0.0,0.0,25.1,2020,0.0030960068
+5521,Public safety telecommunicators,0.0,1.0,0.0,1.0,25.1,2020,
+5522,"Dispatchers, except police, fire, and ambulance",0.0,0.0,0.0,0.0,25.1,2020,
+5530,"Meter readers, utilities",0.0,1.0,1.0,1.0,25.1,2020,-0.49188912
+5540,Postal service clerks,0.0,1.0,0.0,1.0,25.1,2020,0.90401614
+5550,Postal service mail carriers,0.0,1.0,1.0,1.0,25.1,2020,0.6060623
+5560,"Postal service mail sorters, processors, and processing machine operators",0.0,1.0,1.0,1.0,25.1,2020,1.3570219
+5600,"Production, planning, and expediting clerks",0.0,0.0,0.0,0.0,25.1,2020,0.71980846
+5610,"Shipping, receiving, and inventory clerks",0.0,0.0,1.0,1.0,25.1,2020,0.15331805
+5630,"Weighers, measurers, checkers, and samplers, recordkeeping",0.0,0.0,0.0,0.0,25.1,2020,2.8022041
+5710,Executive secretaries and executive administrative assistants,0.0,0.0,0.0,0.0,25.1,2020,
+5720,Legal secretaries and administrative assistants,0.0,0.0,0.0,0.0,25.1,2020,
+5730,Medical secretaries and administrative assistants,0.0,0.0,0.0,0.0,25.1,2020,
+5740,"Secretaries and administrative assistants, except legal, medical, and executive",0.0,0.0,0.0,0.0,25.1,2020,
+5810,Data entry keyers,0.0,1.0,0.0,1.0,25.1,2020,1.6802756
+5820,Word processors and typists,0.0,1.0,0.0,1.0,25.1,2020,1.4336649
+5830,Desktop publishers,0.0,1.0,0.0,1.0,25.1,2020,
+5840,Insurance claims and policy processing clerks,0.0,0.0,0.0,0.0,25.1,2020,1.7648889
+5850,"Mail clerks and mail machine operators, except postal service",0.0,0.0,0.0,0.0,25.1,2020,1.4927493
+5860,"Office clerks, general",0.0,0.0,0.0,0.0,25.1,2020,1.3330011
+5900,"Office machine operators, except computer",0.0,0.0,0.0,0.0,25.1,2020,-0.78528464
+5910,Proofreaders and copy markers,0.0,1.0,0.0,1.0,25.1,2020,1.76984
+5920,Statistical assistants,0.0,0.0,0.0,0.0,25.1,2020,2.1966615
+5940,"Office and administrative support workers, all other",0.0,0.0,0.0,0.0,25.1,2020,0.6770688
+6005,"First-line supervisors of farming, fishing, and forestry workers",0.0,0.0,1.0,1.0,25.1,2020,-0.6759268
+6010,Agricultural inspectors,0.0,0.0,1.0,1.0,25.1,2020,-0.3728615
+6020,Animal breeders,0.0,1.0,1.0,1.0,25.1,2020,
+6040,"Graders and sorters, agricultural products",0.0,1.0,0.0,1.0,25.1,2020,1.7669066
+6050,Miscellaneous agricultural workers,0.0,0.18346992637866372,1.0,1.0,25.1,2020,0.75169504
+6115,Fishing and hunting workers,0.0,0.0,1.0,1.0,25.1,2020,
+6120,Forest and conservation workers,0.0,1.0,1.0,1.0,25.1,2020,-0.6759268
+6130,Logging workers,0.14273023393544565,0.8996150429375185,1.0,1.0,25.1,2020,-0.6759268
+6200,First-line supervisors of construction trades and extraction workers,0.0,0.0,1.0,1.0,25.1,2020,-1.8653873
+6210,Boilermakers,0.0,1.0,1.0,1.0,25.1,2020,-2.1149921
+6220,"Brickmasons, blockmasons, and stonemasons",0.835167897450188,1.0,1.0,1.0,25.1,2020,0.19531
+6230,Carpenters,0.0,1.0,1.0,1.0,25.1,2020,-0.8630005
+6240,"Carpet, floor, and tile installers and finishers",0.9385468128690204,1.0,1.0,1.0,25.1,2020,0.19531
+6250,"Cement masons, concrete finishers, and terrazzo workers",0.9850415512465374,1.0,1.0,1.0,25.1,2020,0.9676913
+6260,Construction laborers,0.0,1.0,1.0,1.0,25.1,2020,-0.35863554
+6305,Construction equipment operators,0.0,0.9012520775623268,1.0,1.0,25.1,2020,
+6330,"Drywall installers, ceiling tile installers, and tapers",0.0,1.0,1.0,1.0,25.1,2020,-0.80075943
+6355,Electricians,0.0,1.0,1.0,1.0,25.1,2020,-1.1340958
+6360,Glaziers,0.0,1.0,1.0,1.0,25.1,2020,0.72370136
+6400,Insulation workers,0.4580026455026455,1.0,1.0,1.0,25.1,2020,-0.56954134
+6410,Painters and paperhangers,0.9872224739465337,1.0,0.0,1.0,25.1,2020,
+6441,Pipelayers,1.0,1.0,1.0,1.0,25.1,2020,
+6442,"Plumbers, pipefitters, and steamfitters",0.0,0.5,1.0,1.0,25.1,2020,
+6460,Plasterers and stucco masons,0.0,1.0,1.0,1.0,25.1,2020,-0.4276346
+6500,Reinforcing iron and rebar workers,1.0,1.0,1.0,1.0,25.1,2020,-0.14821446
+6515,Roofers,1.0,1.0,1.0,1.0,25.1,2020,-0.37074077
+6520,Sheet metal workers,0.0,1.0,1.0,1.0,25.1,2020,-1.1918746
+6530,Structural iron and steel workers,1.0,1.0,1.0,1.0,25.1,2020,-0.14821446
+6540,Solar photovoltaic installers,0.0,1.0,1.0,1.0,25.1,2020,
+6600,"Helpers, construction trades",0.6487541278895227,1.0,0.952466726708696,1.0,25.1,2020,-0.1921736
+6660,Construction and building inspectors,0.0,0.0,0.5,0.5,25.1,2020,-0.2578994
+6700,Elevator and escalator installers and repairers,0.0,1.0,1.0,1.0,25.1,2020,-2.782741
+6710,Fence erectors,0.0,1.0,1.0,1.0,25.1,2020,-1.3905832
+6720,Hazardous materials removal workers,0.0,0.0,1.0,1.0,25.1,2020,-0.56954134
+6730,Highway maintenance workers,1.0,1.0,1.0,1.0,25.1,2020,-0.35863554
+6740,Rail-track laying and maintenance equipment operators,0.0,1.0,1.0,1.0,25.1,2020,-0.88621294
+6750,Septic tank servicers and sewer pipe cleaners,0.0,1.0,1.0,1.0,25.1,2020,
+6765,Miscellaneous construction and related workers,0.0,1.0,1.0,1.0,25.1,2020,-1.3905832
+6800,"Derrick, rotary drill, and service unit operators, oil and gas  ",0.13582219639744333,1.0,1.0,1.0,25.1,2020,-1.4607388
+6821,"Excavating and loading machine and dragline operators, surface mining",0.0,1.0,1.0,1.0,25.1,2020,
+6825,"Earth drillers, except oil and gas",0.0,1.0,1.0,1.0,25.1,2020,
+6835,"Explosives workers, ordnance handling experts, and blasters",0.0,1.0,1.0,1.0,25.1,2020,
+6850,Underground mining machine operators,0.1010199125789218,0.82904322486644,1.0,1.0,25.1,2020,
+6920,"Roustabouts, oil and gas",0.0,1.0,1.0,1.0,25.1,2020,
+6950,Other extraction workers,0.05960575719649562,0.9816437213183146,1.0,1.0,25.1,2020,
+7000,"First-line supervisors of mechanics, installers, and repairers",0.0,0.0,0.0,0.0,25.1,2020,-2.4784794
+7010,"Computer, automated teller, and office machine repairers",0.0,0.0,0.0,0.0,25.1,2020,-1.581271
+7020,Radio and telecommunications equipment installers and repairers,0.06484390339681917,0.06484390339681917,0.9351560966031809,1.0,25.1,2020,-1.7688347
+7030,Avionics technicians,0.0,0.0,0.0,0.0,25.1,2020,-1.7446295
+7040,"Electric motor, power tool, and related repairers",0.0,1.0,1.0,1.0,25.1,2020,-2.7802935
+7050,"Electrical and electronics installers and repairers, transportation equipment",0.0,1.0,1.0,1.0,25.1,2020,
+7100,"Electrical and electronics repairers, industrial and utility ",0.0,0.4555005643830859,0.25644699140401145,0.5556568550837891,25.1,2020,-0.18076861
+7110,"Electronic equipment installers and repairers, motor vehicles",0.0,1.0,1.0,1.0,25.1,2020,-1.7446295
+7120,Audiovisual equipment installers and repairers ,0.0,0.0,0.0,0.0,25.1,2020,-0.18076861
+7130,Security and fire alarm systems installers,0.0,1.0,0.0,1.0,25.1,2020,-1.1340958
+7140,Aircraft mechanics and service technicians,0.0,0.0,1.0,1.0,25.1,2020,-1.2007929
+7150,Automotive body and related repairers,1.0,1.0,1.0,1.0,25.1,2020,0.92195547
+7160,Automotive glass installers and repairers,0.0,1.0,1.0,1.0,25.1,2020,0.92195547
+7200,Automotive service technicians and mechanics,0.0,1.0,1.0,1.0,25.1,2020,-1.3149225
+7210,Bus and truck mechanics and diesel engine specialists,0.0,1.0,1.0,1.0,25.1,2020,-0.89749587
+7220,Heavy vehicle and mobile equipment service technicians and mechanics,0.7179038452189976,1.0,1.0,1.0,25.1,2020,-1.0662009
+7240,Small engine mechanics,0.0,1.0,1.0,1.0,25.1,2020,-1.4525167
+7260,"Miscellaneous vehicle and mobile equipment mechanics, installers, and repairers",0.78848,1.0,1.0,1.0,25.1,2020,-1.0662009
+7300,Control and valve installers and repairers,0.0,0.3092446141259885,1.0,1.0,25.1,2020,-0.92500365
+7315,"Heating, air conditioning, and refrigeration mechanics and installers",0.0,1.0,1.0,1.0,25.1,2020,-2.255906
+7320,Home appliance repairers,0.0,1.0,1.0,1.0,25.1,2020,-1.835435
+7330,Industrial and refractory machinery mechanics,0.001531085055804021,1.0,1.0,1.0,25.1,2020,-0.9199778
+7340,"Maintenance and repair workers, general",0.0,1.0,1.0,1.0,25.1,2020,-0.8856431
+7350,"Maintenance workers, machinery",0.0,1.0,1.0,1.0,25.1,2020,-0.42601502
+7360,Millwrights,0.0,1.0,1.0,1.0,25.1,2020,-1.5653158
+7410,Electrical power-line installers and repairers,0.0,1.0,1.0,1.0,25.1,2020,-2.7802935
+7420,Telecommunications line installers and repairers,0.0,1.0,1.0,1.0,25.1,2020,-1.7688347
+7430,Precision instrument and equipment repairers,0.0,0.0,0.0,0.0,25.1,2020,-0.18572748
+7440,Wind turbine service technicians,0.0,1.0,1.0,1.0,25.1,2020,
+7510,"Coin, vending, and amusement machine servicers and repairers",0.0,0.0,0.0,0.0,25.1,2020,-0.8856431
+7520,Commercial divers,0.0,1.0,1.0,1.0,25.1,2020,
+7540,Locksmiths and safe repairers,0.0,0.0,1.0,1.0,25.1,2020,-2.2858868
+7550,Manufactured building and mobile home installers,1.0,1.0,1.0,1.0,25.1,2020,-0.8856431
+7560,Riggers,0.0,1.0,1.0,1.0,25.1,2020,-0.8856431
+7610,"Helpers--installation, maintenance, and repair workers",0.0,1.0,1.0,1.0,25.1,2020,-0.66552866
+7640,"Other installation, maintenance, and repair workers",0.009089484406832785,0.8479548660084626,0.9213916314057358,0.9213916314057358,25.1,2020,
+7700,First-line supervisors of production and operating workers,0.0,0.0,1.0,1.0,25.1,2020,-0.8961581
+7710,"Aircraft structure, surfaces, rigging, and systems assemblers",0.0,0.0,1.0,1.0,25.1,2020,0.45880902
+7720,"Electrical, electronics, and electromechanical assemblers",0.0,1.0,1.0,1.0,25.1,2020,0.45880902
+7730,Engine and other machine assemblers,0.0,1.0,1.0,1.0,25.1,2020,0.45880902
+7740,Structural metal fabricators and fitters,0.0,0.0,1.0,1.0,25.1,2020,-0.14821446
+7750,Other assemblers and fabricators,0.10335349092908191,0.40071467839472236,0.994502473886751,0.994502473886751,25.1,2020,0.45880902
+7800,Bakers,0.0,1.0,1.0,1.0,25.1,2020,-0.4362234
+7810,"Butchers and other meat, poultry, and fish processing workers",0.0,1.0,0.7880747907381237,1.0,25.1,2020,1.288432
+7830,"Food and tobacco roasting, baking, and drying machine operators and tenders",0.0,1.0,1.0,1.0,25.1,2020,0.35695088
+7840,Food batchmakers,0.0,1.0,1.0,1.0,25.1,2020,1.2404829
+7850,Food cooking machine operators and tenders,0.0,1.0,1.0,1.0,25.1,2020,-0.45913088
+7855,"Food processing workers, all other",0.0,1.0,1.0,1.0,25.1,2020,-0.25816548
+7905,Computer numerically controlled tool operators and programmers,0.0,0.8538219295734326,1.0,1.0,25.1,2020,
+7925,"Forming machine setters, operators, and tenders, metal and plastic",0.0,1.0,1.0,1.0,25.1,2020,
+7950,"Cutting, punching, and press machine setters, operators, and tenders, metal and plastic",0.0,1.0,1.0,1.0,25.1,2020,1.1627845
+8000,"Grinding, lapping, polishing, and buffing machine tool setters, operators, and tenders, metal and plastic",0.0,1.0,0.0,1.0,25.1,2020,-0.56270087
+8025,"Other machine tool setters, operators, and tenders, metal and plastic",0.0,1.0,0.7131089668157213,1.0,25.1,2020,
+8030,Machinists,0.0,1.0,0.0,1.0,25.1,2020,0.2596177
+8040,"Metal furnace operators, tenders, pourers, and casters",0.0,1.0,1.0,1.0,25.1,2020,0.36648023
+8060,"Model makers and patternmakers, metal and plastic",0.0,0.5862068965517241,1.0,1.0,25.1,2020,0.67341363
+8100,"Molders and molding machine setters, operators, and tenders, metal and plastic",0.0,1.0,1.0,1.0,25.1,2020,1.4854428
+8130,Tool and die makers,0.0,1.0,1.0,1.0,25.1,2020,-0.079295754
+8140,"Welding, soldering, and brazing workers",0.0,0.07696772695611795,0.07696772695611795,0.07696772695611795,25.1,2020,0.58102834
+8225,Other metal workers and plastic workers,0.0,0.7604975088627,0.4950536552649229,0.7619347034588483,25.1,2020,
+8250,Prepress technicians and workers,0.0,0.0,0.0,0.0,25.1,2020,1.0460588
+8255,Printing press operators,0.0,1.0,1.0,1.0,25.1,2020,1.0460588
+8256,Print binding and finishing workers,0.0,1.0,0.0,1.0,25.1,2020,1.1833388
+8300,Laundry and dry-cleaning workers,0.0,1.0,0.0,1.0,25.1,2020,1.0685676
+8310,"Pressers, textile, garment, and related materials",0.0,1.0,0.0,1.0,25.1,2020,3.3317041
+8320,Sewing machine operators,0.0,1.0,0.0,1.0,25.1,2020,2.2252026
+8335,Shoe and leather workers,0.35602094240837695,0.35602094240837695,0.0,0.35602094240837695,25.1,2020,
+8350,"Tailors, dressmakers, and sewers",0.0,0.14050267820354348,0.0,0.14050267820354348,25.1,2020,0.077452324
+8365,"Textile machine setters, operators, and tenders",0.0,1.0,0.8869511055745873,1.0,25.1,2020,
+8450,Upholsterers,0.0,1.0,0.0,1.0,25.1,2020,0.31652677
+8465,"Other textile, apparel, and furnishings workers",0.0,0.56071964017991,0.33925894195759265,0.8999785821375027,25.1,2020,
+8500,Cabinetmakers and bench carpenters,0.0,1.0,1.0,1.0,25.1,2020,0.5263213
+8510,Furniture finishers,0.0,1.0,1.0,1.0,25.1,2020,-0.2857138
+8530,"Sawing machine setters, operators, and tenders, wood",0.0,1.0,1.0,1.0,25.1,2020,-0.24033177
+8540,"Woodworking machine setters, operators, and tenders, except sawing",0.0,1.0,1.0,1.0,25.1,2020,0.98802984
+8555,Other woodworkers,0.0,1.0,1.0,1.0,25.1,2020,
+8600,"Power plant operators, distributors, and dispatchers",0.0,0.22789186199267095,0.6836755859780128,0.6836755859780128,25.1,2020,-0.6832148
+8610,Stationary engineers and boiler operators,0.0,0.0,1.0,1.0,25.1,2020,-0.5181366
+8620,Water and wastewater treatment plant and system operators,0.0,0.0,1.0,1.0,25.1,2020,-1.6837236
+8630,Miscellaneous plant and system operators,0.0,0.0,1.0,1.0,25.1,2020,-0.5058867
+8640,"Chemical processing machine setters, operators, and tenders",0.0,0.0,1.0,1.0,25.1,2020,-1.0632325
+8650,"Crushing, grinding, polishing, mixing, and blending workers",0.0,0.3272148233931673,1.0,1.0,25.1,2020,-0.33421433
+8710,Cutting workers,0.0,1.0,0.8686203490286467,1.0,25.1,2020,-0.45913088
+8720,"Extruding, forming, pressing, and compacting machine setters, operators, and tenders",0.0,1.0,1.0,1.0,25.1,2020,0.9337441
+8730,"Furnace, kiln, oven, drier, and kettle operators and tenders",0.0,1.0,1.0,1.0,25.1,2020,0.36648023
+8740,"Inspectors, testers, sorters, samplers, and weighers",0.0,0.0,1.0,1.0,25.1,2020,0.55965793
+8750,Jewelers and precious stone and metal workers,0.0,0.0,0.5,0.5,25.1,2020,-0.18572748
+8760,Dental and ophthalmic laboratory technicians and medical appliance technicians,0.0,1.0,0.6300070771408351,1.0,25.1,2020,-0.5079981
+8800,Packaging and filling machine operators and tenders,0.0,1.0,1.0,1.0,25.1,2020,-0.42305148
+8810,Painting workers,0.0,0.9205998527147352,1.0,1.0,25.1,2020,0.39871275
+8830,Photographic process workers and processing machine operators,0.0,0.0,1.0,1.0,25.1,2020,0.22533429
+8850,Adhesive bonding machine operators and tenders,0.0,1.0,1.0,1.0,25.1,2020,1.1449159
+8910,Etchers and engravers,0.0,0.0,1.0,1.0,25.1,2020,-0.00932467
+8920,"Molders, shapers, and casters, except metal and plastic",0.0,0.75,1.0,1.0,25.1,2020,0.36609328
+8930,"Paper goods machine setters, operators, and tenders",0.0,1.0,1.0,1.0,25.1,2020,-0.35416663
+8940,Tire builders,1.0,1.0,1.0,1.0,25.1,2020,-0.25816548
+8950,Helpers--production workers,0.0,1.0,1.0,1.0,25.1,2020,1.2768697
+8865,Other production equipment operators and tenders,0.04241795888928958,0.9551365849260729,1.0,1.0,25.1,2020,
+8990,Other production workers,0.01596850420424752,0.9438514470926631,1.0,1.0,25.1,2020,
+9005,Supervisors of transportation and material moving workers,0.0,1.0,1.0,1.0,25.1,2020,
+9030,Aircraft pilots and flight engineers,0.6923841882820917,0.6923841882820917,1.0,1.0,25.1,2020,-1.5728499
+9040,Air traffic controllers and airfield operations specialists,0.0,0.0,0.3230628431970714,0.3230628431970714,25.1,2020,0.8460785
+9050,Flight attendants,1.0,1.0,1.0,1.0,25.1,2020,-1.0909182
+9110,"Ambulance drivers and attendants, except emergency medical technicians",0.0,0.0,1.0,1.0,25.1,2020,-1.128831
+9121,"Bus drivers, school",0.0,0.0,1.0,1.0,25.1,2020,
+9122,"Bus drivers, transit and intercity",0.0,0.0,1.0,1.0,25.1,2020,
+9130,Driver/sales workers and truck drivers,0.13369778943924374,0.13369778943924374,1.0,1.0,25.1,2020,-0.6003915
+9141,Shuttle drivers and chauffeurs,0.0,0.0,1.0,1.0,25.1,2020,
+9142,Taxi drivers,0.0,0.0,1.0,1.0,25.1,2020,
+9150,"Motor vehicle operators, all other",0.12658193585641075,0.12658193585641075,1.0,1.0,25.1,2020,-1.128831
+9210,Locomotive engineers and operators,0.0,0.0,1.0,1.0,25.1,2020,
+9240,Railroad conductors and yardmasters,0.0,0.0,1.0,1.0,25.1,2020,-0.32731235
+9265,Other rail transportation workers,0.0,0.10000888967908259,1.0,1.0,25.1,2020,
+9300,Sailors and marine oilers,0.0,1.0,1.0,1.0,25.1,2020,-1.8445779
+9310,Ship and boat captains and operators,0.0,0.0,1.0,1.0,25.1,2020,-1.8445779
+9330,Ship engineers ,0.0,0.0,1.0,1.0,25.1,2020,
+9350,Parking attendants,0.0,0.0,0.0,0.0,25.1,2020,-0.31772983
+9365,Transportation service attendants,0.0,1.0,1.0,1.0,25.1,2020,
+9410,Transportation inspectors,0.0,0.3333333333333333,0.6666666666666666,0.6666666666666666,25.1,2020,-1.0909182
+9415,Passenger attendants,0.0,0.0,0.0,0.0,25.1,2020,-1.0909182
+9430,Other transportation workers,0.0,0.4097848016139879,0.46543375924680563,0.46543375924680563,25.1,2020,
+9510,Crane and tower operators,0.0,1.0,1.0,1.0,25.1,2020,0.13855827
+9570,"Conveyor, dredge, and hoist and winch operators",0.000647974208883058,0.9925410323129918,0.47500141653554634,1.0,25.1,2020,
+9600,Industrial truck and tractor operators,0.0,1.0,1.0,1.0,25.1,2020,-0.6003915
+9610,Cleaners of vehicles and equipment,0.0,1.0,1.0,1.0,25.1,2020,-0.035372853
+9620,"Laborers and freight, stock, and material movers, hand",0.0,1.0,0.5,1.0,25.1,2020,-0.88621294
+9630,Machine feeders and offbearers,0.0,1.0,1.0,1.0,25.1,2020,0.9836348
+9640,"Packers and packagers, hand",0.0,1.0,1.0,1.0,25.1,2020,0.9449698
+9645,Stockers and order fillers,0.0,1.0,0.0,1.0,25.1,2020,
+9650,Pumping station operators,0.0,0.0,1.0,1.0,25.1,2020,-0.6654588
+9720,Refuse and recyclable material collectors,0.0,1.0,1.0,1.0,25.1,2020,0.014129996
+9760,Other material moving workers,0.0,1.0,1.0,1.0,25.1,2020,
+9800,Military officer special and tactical operations leaders,,,,,25.1,2020,
+9810,First-line enlisted military supervisors,,,,,25.1,2020,
+9825,Military enlisted tactical operations and air/weapons specialists and crew members,,,,,25.1,2020,
+9830,"Military, rank not Specified",,,,,25.1,2020,
+9920,"Unemployed, with no work experience in the last 5 years or earlier or never worked",,,,,25.1,2020,

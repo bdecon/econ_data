@@ -1,0 +1,571 @@
+census_code,occupation_title,ai_exposure,onet_version,oews_year
+10,Chief executives,0.34323722077902036,25.1,2021
+20,General and operations managers,0.3432482076198377,25.1,2021
+30,Legislators,0.3432475161393809,25.1,2021
+40,Advertising and promotions managers,0.3544455047754994,25.1,2021
+51,Marketing managers,0.3318092604157374,25.1,2021
+52,Sales managers,0.3299677855718409,25.1,2021
+60,Public relations and fundraising managers,0.33137761969418617,25.1,2021
+101,Administrative services managers,0.3465599999999999,25.1,2021
+102,Facilities managers,0.3465599999999999,25.1,2021
+110,Computer and information systems managers,0.3446654636704542,25.1,2021
+120,Financial managers,0.34801811825718465,25.1,2021
+135,Compensation and benefits managers,0.3475476607145622,25.1,2021
+136,Human resources managers,0.323270643312616,25.1,2021
+137,Training and development managers,0.3281405168045938,25.1,2021
+140,Industrial production managers,0.34444667793016864,25.1,2021
+150,Purchasing managers,0.3335448258359241,25.1,2021
+160,"Transportation, storage, and distribution managers",0.34005021816978115,25.1,2021
+205,"Farmers, ranchers, and other agricultural managers",0.34043632335177487,25.1,2021
+220,Construction managers,0.35079917335914407,25.1,2021
+230,Education and childcare administrators ,0.33954086456650245,25.1,2021
+300,Architectural and engineering managers,0.354771506676019,25.1,2021
+310,Food service managers,0.3318714696379175,25.1,2021
+325,Funeral home managers,0.3495462321319841,25.1,2021
+335,Entertainment and recreation managers,0.3431696803751999,25.1,2021
+340,Lodging managers,0.33663893510815307,25.1,2021
+350,Medical and health services managers,0.3499615643643834,25.1,2021
+360,Natural sciences managers,0.3600588500178228,25.1,2021
+400,Postmasters and mail superintendents,0.34598262032085564,25.1,2021
+410,"Property, real estate, and community association managers",0.3411725903247317,25.1,2021
+420,Social and community service managers,0.34764957566685967,25.1,2021
+425,Emergency management directors,0.3406799591330553,25.1,2021
+426,"Personal service managers, all other",0.32626864011663254,25.1,2021
+440,"Managers, all other",0.35236917229248516,25.1,2021
+500,"Agents and business managers of artists, performers, and athletes",0.3420552436089701,25.1,2021
+510,"Buyers and purchasing agents, farm products",0.3516048824593128,25.1,2021
+520,"Wholesale and retail buyers, except farm products",0.35964561257483113,25.1,2021
+530,"Purchasing agents, except wholesale, retail, and farm products",0.3562354161265232,25.1,2021
+540,"Claims adjusters, appraisers, examiners, and investigators",0.37628484757794906,25.1,2021
+565,Compliance officers,0.36206531344031573,25.1,2021
+600,Cost estimators,0.3549635666782809,25.1,2021
+630,Human resources workers,0.35097437039006135,25.1,2021
+640,"Compensation, benefits, and job analysis specialists",0.3608587087458417,25.1,2021
+650,Training and development specialists,0.3362288715827616,25.1,2021
+700,Logisticians,0.35657125553545926,25.1,2021
+705,Project management specialists,0.35657125553545926,25.1,2021
+710,Management analysts,0.33866457034728403,25.1,2021
+725,"Meeting, convention, and event planners",0.3382103626744119,25.1,2021
+726,Fundraisers,0.3453222963475312,25.1,2021
+735,Market research analysts and marketing specialists,0.36415668115596256,25.1,2021
+750,"Business operations specialists, all other",0.35941222943297446,25.1,2021
+800,Accountants and auditors,0.3624621082025475,25.1,2021
+810,Property appraisers and assessors,0.3816306830221553,25.1,2021
+820,Budget analysts,0.3754180462887473,25.1,2021
+830,Credit analysts,0.3758184083338488,25.1,2021
+845,Financial and investment analysts,0.3606764810250099,25.1,2021
+850,Personal financial advisors,0.3572760913384879,25.1,2021
+860,Insurance underwriters,0.3689818436329202,25.1,2021
+900,Financial examiners,0.3556640950213687,25.1,2021
+910,Credit counselors and loan officers,0.3712859451669762,25.1,2021
+930,"Tax examiners and collectors, and revenue agents",0.3827486785199424,25.1,2021
+940,Tax preparers,0.3851908979598327,25.1,2021
+960,Other financial specialists,0.3653566697362855,25.1,2021
+1005,Computer and information research scientists,0.3711740384901396,25.1,2021
+1006,Computer systems analysts,0.3511712563349362,25.1,2021
+1007,Information security analysts,0.3765344287449652,25.1,2021
+1010,Computer programmers,0.3684629657649335,25.1,2021
+1021,Software developers,0.3668548569049534,25.1,2021
+1022,Software quality assurance analysts and testers,0.367273878525157,25.1,2021
+1031,Web developers,0.37291796708170444,25.1,2021
+1032,Web and digital interface designers,0.3566660867089509,25.1,2021
+1050,Computer support specialists,0.35578407997224437,25.1,2021
+1065,Database administrators and architects,0.366516573040482,25.1,2021
+1105,Network and computer systems administrators,0.36286156821737725,25.1,2021
+1106,Computer network architects,0.36184915690061803,25.1,2021
+1108,"Computer occupations, all other",0.3639869312656365,25.1,2021
+1200,Actuaries,0.3648039183990172,25.1,2021
+1210,Mathematicians,0.36743023882666026,25.1,2021
+1220,Operations research analysts,0.3635155437420547,25.1,2021
+1230,Statisticians,0.36169187064387776,25.1,2021
+1240,Other mathematical science occupations,0.36476462670324783,25.1,2021
+1305,"Architects, except landscape and naval",0.36051058907769,25.1,2021
+1306,Landscape architects,0.3656449579397723,25.1,2021
+1310,"Surveyors, cartographers, and photogrammetrists",0.37155880269633673,25.1,2021
+1320,Aerospace engineers,0.37622945335325736,25.1,2021
+1330,Agricultural engineers,0.36831484725981173,25.1,2021
+1340,Bioengineers and biomedical engineers,0.36458688245315163,25.1,2021
+1350,Chemical engineers,0.3745033257164481,25.1,2021
+1360,Civil engineers,0.36191752158052326,25.1,2021
+1400,Computer hardware engineers,0.37439472268357155,25.1,2021
+1410,Electrical and electronics engineers,0.3713230567372468,25.1,2021
+1420,Environmental engineers,0.3626371341645125,25.1,2021
+1430,"Industrial engineers, including health and safety ",0.36201217252676593,25.1,2021
+1440,Marine engineers and naval architects,0.36475623371790106,25.1,2021
+1450,Materials engineers,0.35157785542694914,25.1,2021
+1460,Mechanical engineers,0.36764455549316394,25.1,2021
+1500,"Mining and geological engineers, including mining safety engineers",0.3672127193138041,25.1,2021
+1510,Nuclear engineers,0.3706023545548063,25.1,2021
+1520,Petroleum engineers,0.36045341739888664,25.1,2021
+1530,"Engineers, all other",0.3632794262058673,25.1,2021
+1541,Architectural and civil drafters,0.3911219504074447,25.1,2021
+1545,Other drafters,0.39069759119100167,25.1,2021
+1551,Electrical and electronic engineering technologists and technicians,0.3606569154286043,25.1,2021
+1555,"Other engineering technologists and technicians, except drafters",0.3632606178932217,25.1,2021
+1560,Surveying and mapping technicians,0.3783470386006745,25.1,2021
+1600,Agricultural and food scientists,0.3608766646477264,25.1,2021
+1610,Biological scientists,0.3617827043157413,25.1,2021
+1640,Conservation scientists and foresters,0.3518364255301421,25.1,2021
+1650,Medical scientists,0.34981836920451725,25.1,2021
+1660,"Life scientists, all other",0.355932337727051,25.1,2021
+1700,Astronomers and physicists,0.3728447543687007,25.1,2021
+1710,Atmospheric and space scientists,0.36286197096551187,25.1,2021
+1720,Chemists and materials scientists,0.3591499119338869,25.1,2021
+1745,"Environmental scientists and specialists, including health",0.3595858459251298,25.1,2021
+1750,"Geoscientists and hydrologists, except geographers",0.360281026857621,25.1,2021
+1760,"Physical scientists, all other",0.36876330378236766,25.1,2021
+1800,Economists,0.37360675179287417,25.1,2021
+1815,Survey researchers,0.37346452362036303,25.1,2021
+1821,Clinical and counseling psychologists,0.3329408686551544,25.1,2021
+1822,School psychologists,0.3440845480550179,25.1,2021
+1825,Other psychologists,0.3384370152663783,25.1,2021
+1830,Sociologists,0.3670879922216821,25.1,2021
+1840,Urban and regional planners,0.35425518749226514,25.1,2021
+1860,Miscellaneous social scientists and related workers,0.3642233203774589,25.1,2021
+1900,Agricultural and food science technicians,0.35307008410914187,25.1,2021
+1910,Biological technicians,0.3841897807860685,25.1,2021
+1920,Chemical technicians,0.35203300442327323,25.1,2021
+1935,Environmental  science and geoscience technicians,0.3660567407952988,25.1,2021
+1940,Nuclear technicians,0.35846227416762094,25.1,2021
+1950,Social science research assistants,0.381919248502607,25.1,2021
+1970,"Other life, physical, and social science technicians",0.3666105463075761,25.1,2021
+1980,Occupational health and safety specialists and technicians,0.34444615007242657,25.1,2021
+2001,Substance abuse and behavioral disorder counselors,0.3372362270086068,25.1,2021
+2002,"Educational, guidance, and career counselors and advisors",0.3350715498423478,25.1,2021
+2003,Marriage and family therapists,0.34589389364331863,25.1,2021
+2004,Mental health counselors,0.3576200176807472,25.1,2021
+2005,Rehabilitation counselors,0.3512537683986522,25.1,2021
+2006,"Counselors, all other",0.33972517084015763,25.1,2021
+2011,"Child, family, and school social workers",0.3469618157765326,25.1,2021
+2012,Healthcare social workers,0.34187569327655914,25.1,2021
+2013,Mental health and substance abuse social workers,0.3437043403523851,25.1,2021
+2014,"Social workers, all other",0.34496250631392567,25.1,2021
+2015,Probation officers and correctional treatment specialists,0.35370300515528735,25.1,2021
+2016,Social and human service assistants,0.34224752957858817,25.1,2021
+2025,Other community and social service specialists,0.3435663633664778,25.1,2021
+2040,Clergy,0.3233209259561342,25.1,2021
+2050,"Directors, religious activities and education",0.3290678626097698,25.1,2021
+2060,"Religious workers, all other",0.32500201900149356,25.1,2021
+2100,Lawyers,0.36310434262153357,25.1,2021
+2105,Judicial law clerks,0.39318468657972233,25.1,2021
+2110,"Judges, magistrates, and other judicial workers",0.389133725170464,25.1,2021
+2145,Paralegals and legal assistants,0.3838060537179723,25.1,2021
+2170,"Title examiners, abstractors, and searchers",0.3917493874342485,25.1,2021
+2180,"Legal support workers, all other",0.3917493874342485,25.1,2021
+2205,Postsecondary teachers,0.3444086477961977,25.1,2021
+2300,Preschool and kindergarten teachers,0.31857476633974735,25.1,2021
+2310,Elementary and middle school teachers,0.3296412015000506,25.1,2021
+2320,Secondary school teachers,0.3421643318939583,25.1,2021
+2330,Special education teachers,0.3344596421875709,25.1,2021
+2350,Tutors,0.3456730206014761,25.1,2021
+2360,Other teachers and instructors,0.33216060450481427,25.1,2021
+2400,"Archivists, curators, and museum technicians",0.3504118111288091,25.1,2021
+2435,Librarians and media collections specialists,0.346441297258123,25.1,2021
+2440,Library technicians,0.35829144875365077,25.1,2021
+2545,Teaching assistants,0.34766423357664233,25.1,2021
+2555,Other educational instruction and library workers,0.3469255539934355,25.1,2021
+2600,Artists and related workers,0.3639705173279658,25.1,2021
+2631,Commercial and industrial designers,0.3876068512375606,25.1,2021
+2632,Fashion designers,0.3405980843354656,25.1,2021
+2633,Floral designers,0.3621295968159638,25.1,2021
+2634,Graphic designers,0.3602670274852467,25.1,2021
+2635,Interior designers,0.3570816706015084,25.1,2021
+2636,Merchandise displayers and window trimmers,0.32461751794620347,25.1,2021
+2640,Other designers,0.3496512687090774,25.1,2021
+2700,Actors,0.31499003744381027,25.1,2021
+2710,Producers and directors,0.35124844607620415,25.1,2021
+2721,Athletes and sports competitors,0.33520109663378655,25.1,2021
+2722,Coaches and scouts,0.32547072779385344,25.1,2021
+2723,"Umpires, referees, and other sports officials",0.3218186577404796,25.1,2021
+2740,Dancers and choreographers,0.30538454892719064,25.1,2021
+2751,Music directors and composers,0.3503339642415804,25.1,2021
+2752,Musicians and singers,0.33639225668162637,25.1,2021
+2755,"Disc jockeys, except radio ",0.33411036803012617,25.1,2021
+2770,"Entertainers and performers, sports and related workers, all other",0.33411036803012617,25.1,2021
+2805,Broadcast announcers and radio disc jockeys,0.36403082524604075,25.1,2021
+2810,"News analysts, reporters, and journalists",0.36743984922532164,25.1,2021
+2825,Public relations specialists,0.34286086333745686,25.1,2021
+2830,Editors,0.3680947331784665,25.1,2021
+2840,Technical writers,0.3698045738045738,25.1,2021
+2850,Writers and authors,0.37260423183829394,25.1,2021
+2861,Interpreters and translators,0.35155734163698166,25.1,2021
+2862,Court reporters and simultaneous captioners,0.3860644191942905,25.1,2021
+2865,"Media and communication workers, all other",0.35814082316257334,25.1,2021
+2905,"Broadcast, sound, and lighting technicians",0.35748692897114476,25.1,2021
+2910,Photographers,0.3447658108190522,25.1,2021
+2920,"Television, video, and film camera operators and editors",0.3449853209370048,25.1,2021
+2970,"Media and communication equipment workers, all other",0.3511849620553324,25.1,2021
+3000,Chiropractors,0.34092287782585834,25.1,2021
+3010,Dentists,0.34226974540639304,25.1,2021
+3030,Dietitians and nutritionists,0.3421020054468928,25.1,2021
+3040,Optometrists,0.3462536479026757,25.1,2021
+3050,Pharmacists,0.34920947781891903,25.1,2021
+3065,Emergency medicine physicians,0.35508381986036536,25.1,2021
+3070,Radiologists,0.3588885877289825,25.1,2021
+3090,Other physicians,0.34777988112646335,25.1,2021
+3100,Surgeons,0.35949649014655877,25.1,2021
+3110,Physician assistants,0.3448956059038461,25.1,2021
+3120,Podiatrists,0.3560136861709039,25.1,2021
+3140,Audiologists,0.33982899763507374,25.1,2021
+3150,Occupational therapists,0.3305973086178804,25.1,2021
+3160,Physical therapists,0.3439657450253728,25.1,2021
+3200,Radiation therapists,0.34813926336138423,25.1,2021
+3210,Recreational therapists,0.330123852463469,25.1,2021
+3220,Respiratory therapists,0.3437260240489398,25.1,2021
+3230,Speech-language pathologists,0.35417048579285054,25.1,2021
+3235,Exercise physiologists,0.33110493659514906,25.1,2021
+3245,"Therapists, all other",0.33157134384348974,25.1,2021
+3250,Veterinarians,0.33988900425010643,25.1,2021
+3255,Registered nurses,0.3348830919341981,25.1,2021
+3256,Nurse anesthetists,0.3332677452728992,25.1,2021
+3257,Nurse midwives,0.3340860804147681,25.1,2021
+3258,Nurse practitioners,0.3356728573045754,25.1,2021
+3261,Acupuncturists,0.33145046279466456,25.1,2021
+3270,"Healthcare diagnosing or treating practitioners, all other",0.34844256170585175,25.1,2021
+3300,Clinical laboratory technologists and technicians,0.35242298800620525,25.1,2021
+3310,Dental hygienists,0.3428308823529412,25.1,2021
+3321,Cardiovascular technologists and technicians,0.35214922719582487,25.1,2021
+3322,Diagnostic medical sonographers,0.34258793168234697,25.1,2021
+3323,Radiologic technologists and technicians,0.3472291491514314,25.1,2021
+3324,Magnetic resonance imaging technologists,0.34527959256089674,25.1,2021
+3330,Nuclear medicine technologists and medical dosimetrists,0.34681594301375523,25.1,2021
+3401,Emergency medical technicians,0.3371847736026129,25.1,2021
+3402,Paramedics,0.3371847736026129,25.1,2021
+3421,Pharmacy technicians,0.3440786109690758,25.1,2021
+3422,Psychiatric technicians,0.3365428463472789,25.1,2021
+3423,Surgical technologists,0.31835426795857924,25.1,2021
+3424,Veterinary technologists and technicians,0.32515838815567294,25.1,2021
+3430,Dietetic technicians and ophthalmic medical technicians,0.33604269404737275,25.1,2021
+3500,Licensed practical and licensed vocational nurses,0.3284590232273361,25.1,2021
+3515,Medical records specialists,0.3371847736026129,25.1,2021
+3520,"Opticians, dispensing",0.35791958003396784,25.1,2021
+3545,Miscellaneous health technologists and technicians,0.3441678632163053,25.1,2021
+3550,Other healthcare practitioners and technical occupations,0.3378551357560566,25.1,2021
+3601,Home health aides,0.3355957371811698,25.1,2021
+3602,Personal care aides,0.320745042992948,25.1,2021
+3603,Nursing assistants,0.3268750557388745,25.1,2021
+3605,Orderlies and psychiatric aides,0.3260972144100741,25.1,2021
+3610,Occupational therapy assistants and aides,0.34015829578771567,25.1,2021
+3620,Physical therapist assistants and aides,0.32722909190127686,25.1,2021
+3630,Massage therapists,0.34739265722890056,25.1,2021
+3640,Dental assistants,0.34306149292995725,25.1,2021
+3645,Medical assistants,0.3365942395149065,25.1,2021
+3646,Medical transcriptionists,0.3864406779661017,25.1,2021
+3647,Pharmacy aides,0.327973066226135,25.1,2021
+3648,Veterinary assistants and laboratory animal caretakers,0.33965176586811563,25.1,2021
+3649,Phlebotomists,0.3404050900962726,25.1,2021
+3655,Other healthcare support workers,0.3405087641479756,25.1,2021
+3700,First-line supervisors of correctional officers,0.33499433748584373,25.1,2021
+3710,First-line supervisors of police and detectives,0.3462239319700344,25.1,2021
+3720,First-line supervisors of firefighting and prevention workers,0.32781753917034484,25.1,2021
+3725,First-line supervisors of security workers,0.3382548545197489,25.1,2021
+3735,"First-line supervisors of protective service workers, all other",0.3382548545197489,25.1,2021
+3740,Firefighters,0.3266606474912937,25.1,2021
+3750,Fire inspectors ,0.34404134664465763,25.1,2021
+3801,Bailiffs,0.3303581801904007,25.1,2021
+3802,Correctional officers and jailers,0.34056317732881025,25.1,2021
+3820,Detectives and criminal investigators,0.36442722320054854,25.1,2021
+3830,Fish and game wardens,0.356395356568222,25.1,2021
+3840,Parking enforcement workers,0.3522689998192565,25.1,2021
+3870,Police officers,0.358859948296268,25.1,2021
+3900,Animal control workers,0.35571834438192856,25.1,2021
+3910,Private detectives and investigators,0.38517343173431734,25.1,2021
+3930,Security guards and gambling surveillance officers,0.3485837524070126,25.1,2021
+3940,Crossing guards and flaggers,0.33601181629013077,25.1,2021
+3945,Transportation security screeners,0.3211349978125887,25.1,2021
+3946,School bus monitors,0.3327475725155903,25.1,2021
+3960,Other protective service workers,0.3327475725155903,25.1,2021
+4000,Chefs and head cooks,0.3224475669689209,25.1,2021
+4010,First-line supervisors of food preparation and serving workers,0.3271906893464637,25.1,2021
+4020,Cooks,0.3296744960190431,25.1,2021
+4030,Food preparation workers,0.3182152506754728,25.1,2021
+4040,Bartenders,0.31701244194628125,25.1,2021
+4055,Fast food and counter workers,0.32006132503695967,25.1,2021
+4110,Waiters and waitresses,0.3241143592424303,25.1,2021
+4120,"Food servers, nonrestaurant",0.32732134061964957,25.1,2021
+4130,Dining room and cafeteria attendants and bartender helpers,0.31766227131956193,25.1,2021
+4140,Dishwashers,0.3088609127224307,25.1,2021
+4150,"Hosts and hostesses, restaurant, lounge, and coffee shop",0.3220587832970079,25.1,2021
+4160,"Food preparation and serving related workers, all other",0.3158417641745678,25.1,2021
+4200,First-line supervisors of housekeeping and janitorial workers,0.3227821845654879,25.1,2021
+4210,"First-line supervisors of landscaping, lawn service, and groundskeeping workers",0.33478141135972456,25.1,2021
+4220,Janitors and building cleaners,0.3183746604115355,25.1,2021
+4230,Maids and housekeeping cleaners,0.3110971889300501,25.1,2021
+4240,Pest control workers,0.34853723209446097,25.1,2021
+4251,Landscaping and groundskeeping workers,0.31687826419260334,25.1,2021
+4252,Tree trimmers and pruners,0.33314603282120747,25.1,2021
+4255,Other grounds maintenance workers,0.31829648613980926,25.1,2021
+4330,Supervisors of personal care and service workers,0.3383797000817048,25.1,2021
+4340,Animal trainers,0.32356462910854344,25.1,2021
+4350,Animal caretakers,0.3348210127604086,25.1,2021
+4400,Gambling services workers,0.3156176799454647,25.1,2021
+4420,"Ushers, lobby attendants, and ticket takers",0.3281074311415016,25.1,2021
+4435,Other entertainment attendants and related workers,0.33155784524150395,25.1,2021
+4461,"Embalmers, crematory operators and funeral attendants",0.34148187364638977,25.1,2021
+4465,"Morticians, undertakers, and funeral arrangers",0.3442178801581721,25.1,2021
+4500,Barbers,0.32078932931010834,25.1,2021
+4510,"Hairdressers, hairstylists, and cosmetologists",0.3226112126977546,25.1,2021
+4521,Manicurists and pedicurists,0.31459133296763575,25.1,2021
+4522,Skincare specialists,0.3228071683355538,25.1,2021
+4525,Other personal appearance workers,0.31675486660820795,25.1,2021
+4530,"Baggage porters, bellhops, and concierges",0.3353079828747176,25.1,2021
+4540,Tour and travel guides,0.343867154598159,25.1,2021
+4600,Childcare workers,0.3096809438010793,25.1,2021
+4621,Exercise trainers and group fitness instructors,0.3062839021947759,25.1,2021
+4622,Recreation workers,0.3415549840391848,25.1,2021
+4640,Residential advisors,0.333613153878174,25.1,2021
+4655,"Personal care and service workers, all other",0.31939562069342964,25.1,2021
+4700,First-Line supervisors of retail sales workers,0.3212353878053911,25.1,2021
+4710,First-Line supervisors of non-retail sales workers,0.33562644755707516,25.1,2021
+4720,Cashiers,0.32334518616602487,25.1,2021
+4740,Counter and rental clerks,0.3512658227848101,25.1,2021
+4750,Parts salespersons,0.34281584429861767,25.1,2021
+4760,Retail salespersons,0.33440631450739094,25.1,2021
+4800,Advertising sales agents,0.3594352434322464,25.1,2021
+4810,Insurance sales agents,0.3701481973778472,25.1,2021
+4820,"Securities, commodities, and financial services sales agents",0.3702421861544644,25.1,2021
+4830,Travel agents,0.3664388327262309,25.1,2021
+4840,"Sales representatives of services, except advertising, insurance, financial services, and travel",0.36899562811178854,25.1,2021
+4850,"Sales representatives, wholesale and manufacturing",0.36697085849441896,25.1,2021
+4900,"Models, demonstrators, and product promoters",0.319462664405711,25.1,2021
+4920,Real estate brokers and sales agents,0.3514986175737253,25.1,2021
+4930,Sales engineers,0.3450026255907579,25.1,2021
+4940,Telemarketers,0.35112336766972185,25.1,2021
+4950,"Door-to-door sales workers, news and street vendors, and related workers",0.3236085126286249,25.1,2021
+4965,"Sales and related workers, all other",0.3236085126286249,25.1,2021
+5000,First-Line supervisors of office and administrative support workers,0.3463598615916955,25.1,2021
+5010,"Switchboard operators, including answering service",0.35779451941385876,25.1,2021
+5020,Telephone operators,0.3305776556871485,25.1,2021
+5040,"Communications equipment operators, all other",0.3557712911652539,25.1,2021
+5100,Bill and account collectors,0.3474525754759985,25.1,2021
+5110,Billing and posting clerks,0.37507825542570955,25.1,2021
+5120,"Bookkeeping, accounting, and auditing clerks",0.38507336492223143,25.1,2021
+5130,Gambling cage workers,0.3587273938214048,25.1,2021
+5140,Payroll and timekeeping clerks,0.39335225887352404,25.1,2021
+5150,Procurement clerks,0.3752445976738867,25.1,2021
+5160,Tellers,0.35466511579970256,25.1,2021
+5165,"Financial clerks, all other",0.3766584405765414,25.1,2021
+5200,Brokerage clerks,0.3732214097350347,25.1,2021
+5210,Correspondence clerks,0.36319791509411475,25.1,2021
+5220,"Court, municipal, and license clerks",0.38503955268107914,25.1,2021
+5230,"Credit authorizers, checkers, and clerks",0.3530699088145897,25.1,2021
+5240,Customer service representatives,0.35158503750240405,25.1,2021
+5250,"Eligibility interviewers, government programs",0.3771883681554419,25.1,2021
+5260,File clerks,0.35841364294822303,25.1,2021
+5300,"Hotel, motel, and resort desk clerks",0.34860984503190523,25.1,2021
+5310,"Interviewers, except eligibility and loan",0.3678691187803303,25.1,2021
+5320,"Library assistants, clerical",0.35595242927304455,25.1,2021
+5330,Loan interviewers and clerks,0.3798663846967221,25.1,2021
+5340,New accounts clerks,0.3464372232896165,25.1,2021
+5350,Order clerks,0.35422286332491887,25.1,2021
+5360,"Human resources assistants, except payroll and timekeeping",0.36309739956572973,25.1,2021
+5400,Receptionists and information clerks,0.3679526430641956,25.1,2021
+5410,Reservation and transportation ticket agents and travel clerks,0.35102445425435563,25.1,2021
+5420,"Information and record clerks, all other",0.36631385587429455,25.1,2021
+5500,Cargo and freight agents,0.36141590311998006,25.1,2021
+5510,Couriers and messengers,0.37046360797501804,25.1,2021
+5521,Public safety telecommunicators,0.3599316419087682,25.1,2021
+5522,"Dispatchers, except police, fire, and ambulance",0.3491423524048325,25.1,2021
+5530,"Meter readers, utilities",0.35618263579909115,25.1,2021
+5540,Postal service clerks,0.34213253340605404,25.1,2021
+5550,Postal service mail carriers,0.33551673944687044,25.1,2021
+5560,"Postal service mail sorters, processors, and processing machine operators",0.3222533622085934,25.1,2021
+5600,"Production, planning, and expediting clerks",0.3615162265142557,25.1,2021
+5610,"Shipping, receiving, and inventory clerks",0.3394708738231752,25.1,2021
+5630,"Weighers, measurers, checkers, and samplers, recordkeeping",0.34008610984122223,25.1,2021
+5710,Executive secretaries and executive administrative assistants,0.3620091059980814,25.1,2021
+5720,Legal secretaries and administrative assistants,0.3768654676652271,25.1,2021
+5730,Medical secretaries and administrative assistants,0.3826263137900468,25.1,2021
+5740,"Secretaries and administrative assistants, except legal, medical, and executive",0.37598577392917887,25.1,2021
+5810,Data entry keyers,0.37683336910638915,25.1,2021
+5820,Word processors and typists,0.36903116843236605,25.1,2021
+5830,Desktop publishers,0.35594426326712125,25.1,2021
+5840,Insurance claims and policy processing clerks,0.3793094167989881,25.1,2021
+5850,"Mail clerks and mail machine operators, except postal service",0.3267430278884462,25.1,2021
+5860,"Office clerks, general",0.37675937892817307,25.1,2021
+5900,"Office machine operators, except computer",0.34564100875749,25.1,2021
+5910,Proofreaders and copy markers,0.3992039515755585,25.1,2021
+5920,Statistical assistants,0.36651617570028194,25.1,2021
+5940,"Office and administrative support workers, all other",0.366516175700282,25.1,2021
+6005,"First-line supervisors of farming, fishing, and forestry workers",0.34063528391604414,25.1,2021
+6010,Agricultural inspectors,0.34881013399721755,25.1,2021
+6020,Animal breeders,0.34591426056789343,25.1,2021
+6040,"Graders and sorters, agricultural products",0.316880502719115,25.1,2021
+6050,Miscellaneous agricultural workers,0.31397599361312645,25.1,2021
+6115,Fishing and hunting workers,0.3399135459475772,25.1,2021
+6120,Forest and conservation workers,0.34562757567719693,25.1,2021
+6130,Logging workers,0.32632954305001005,25.1,2021
+6200,First-line supervisors of construction trades and extraction workers,0.33650053243050937,25.1,2021
+6210,Boilermakers,0.33330381169738055,25.1,2021
+6220,"Brickmasons, blockmasons, and stonemasons",0.328094421277509,25.1,2021
+6230,Carpenters,0.32748503910606375,25.1,2021
+6240,"Carpet, floor, and tile installers and finishers",0.33196076850619294,25.1,2021
+6250,"Cement masons, concrete finishers, and terrazzo workers",0.3314595513210743,25.1,2021
+6260,Construction laborers,0.3335859251449657,25.1,2021
+6305,Construction equipment operators,0.3465444818727595,25.1,2021
+6330,"Drywall installers, ceiling tile installers, and tapers",0.3234826843419911,25.1,2021
+6355,Electricians,0.3392157856258731,25.1,2021
+6360,Glaziers,0.3449810006333122,25.1,2021
+6400,Insulation workers,0.3186529765343497,25.1,2021
+6410,Painters and paperhangers,0.32727761045870035,25.1,2021
+6441,Pipelayers,0.3273634300352801,25.1,2021
+6442,"Plumbers, pipefitters, and steamfitters",0.33415811451609584,25.1,2021
+6460,Plasterers and stucco masons,0.3327181928427776,25.1,2021
+6500,Reinforcing iron and rebar workers,0.31222778702295545,25.1,2021
+6515,Roofers,0.31831081367275194,25.1,2021
+6520,Sheet metal workers,0.33625582575792534,25.1,2021
+6530,Structural iron and steel workers,0.32407153126665916,25.1,2021
+6540,Solar photovoltaic installers,0.3256429573619568,25.1,2021
+6600,"Helpers, construction trades",0.32178364148323463,25.1,2021
+6660,Construction and building inspectors,0.35840928547043693,25.1,2021
+6700,Elevator and escalator installers and repairers,0.3279340037333654,25.1,2021
+6710,Fence erectors,0.32276435277820525,25.1,2021
+6720,Hazardous materials removal workers,0.33215434083601286,25.1,2021
+6730,Highway maintenance workers,0.3319281524926686,25.1,2021
+6740,Rail-track laying and maintenance equipment operators,0.33761189215343673,25.1,2021
+6750,Septic tank servicers and sewer pipe cleaners,0.3432277074678775,25.1,2021
+6765,Miscellaneous construction and related workers,0.3231162365913771,25.1,2021
+6800,"Derrick, rotary drill, and service unit operators, oil and gas  ",0.3126049109661576,25.1,2021
+6821,"Excavating and loading machine and dragline operators, surface mining",0.33089992036103,25.1,2021
+6825,"Earth drillers, except oil and gas",0.3336668154140696,25.1,2021
+6835,"Explosives workers, ordnance handling experts, and blasters",0.34854467658012206,25.1,2021
+6850,Underground mining machine operators,0.32618925551729616,25.1,2021
+6920,"Roustabouts, oil and gas",0.3229439888442512,25.1,2021
+6950,Other extraction workers,0.32381099384197864,25.1,2021
+7000,"First-line supervisors of mechanics, installers, and repairers",0.3330985464557853,25.1,2021
+7010,"Computer, automated teller, and office machine repairers",0.3584285248041776,25.1,2021
+7020,Radio and telecommunications equipment installers and repairers,0.3488216808415493,25.1,2021
+7030,Avionics technicians,0.3473767334894224,25.1,2021
+7040,"Electric motor, power tool, and related repairers",0.33666362489599827,25.1,2021
+7050,"Electrical and electronics installers and repairers, transportation equipment",0.34714732997042963,25.1,2021
+7100,"Electrical and electronics repairers, industrial and utility ",0.34377179635427446,25.1,2021
+7110,"Electronic equipment installers and repairers, motor vehicles",0.3393315672870412,25.1,2021
+7120,Audiovisual equipment installers and repairers ,0.34187587689184756,25.1,2021
+7130,Security and fire alarm systems installers,0.3404235463029433,25.1,2021
+7140,Aircraft mechanics and service technicians,0.34929660023446657,25.1,2021
+7150,Automotive body and related repairers,0.34936161449752884,25.1,2021
+7160,Automotive glass installers and repairers,0.33724136035978275,25.1,2021
+7200,Automotive service technicians and mechanics,0.33875215950607496,25.1,2021
+7210,Bus and truck mechanics and diesel engine specialists,0.3398567627791896,25.1,2021
+7220,Heavy vehicle and mobile equipment service technicians and mechanics,0.34359550884279483,25.1,2021
+7240,Small engine mechanics,0.3444782502741744,25.1,2021
+7260,"Miscellaneous vehicle and mobile equipment mechanics, installers, and repairers",0.3372798527310797,25.1,2021
+7300,Control and valve installers and repairers,0.3398433839410017,25.1,2021
+7315,"Heating, air conditioning, and refrigeration mechanics and installers",0.33658610769640207,25.1,2021
+7320,Home appliance repairers,0.3421786152302375,25.1,2021
+7330,Industrial and refractory machinery mechanics,0.33858588991225735,25.1,2021
+7340,"Maintenance and repair workers, general",0.319919762210275,25.1,2021
+7350,"Maintenance workers, machinery",0.3359941660328239,25.1,2021
+7360,Millwrights,0.32226708440937035,25.1,2021
+7410,Electrical power-line installers and repairers,0.3317649694729177,25.1,2021
+7420,Telecommunications line installers and repairers,0.33981208165301624,25.1,2021
+7430,Precision instrument and equipment repairers,0.3521692087939825,25.1,2021
+7440,Wind turbine service technicians,0.3381910152956763,25.1,2021
+7510,"Coin, vending, and amusement machine servicers and repairers",0.3625389936253899,25.1,2021
+7520,Commercial divers,0.330479654498543,25.1,2021
+7540,Locksmiths and safe repairers,0.34776627621901385,25.1,2021
+7550,Manufactured building and mobile home installers,0.3257299761310816,25.1,2021
+7560,Riggers,0.32972534265797915,25.1,2021
+7610,"Helpers--installation, maintenance, and repair workers",0.3206519731349239,25.1,2021
+7640,"Other installation, maintenance, and repair workers",0.336789296754002,25.1,2021
+7700,First-line supervisors of production and operating workers,0.3457646623105209,25.1,2021
+7710,"Aircraft structure, surfaces, rigging, and systems assemblers",0.35123208411654133,25.1,2021
+7720,"Electrical, electronics, and electromechanical assemblers",0.3258768746483122,25.1,2021
+7730,Engine and other machine assemblers,0.3309917058490129,25.1,2021
+7740,Structural metal fabricators and fitters,0.35210641438301354,25.1,2021
+7750,Other assemblers and fabricators,0.34254650732369046,25.1,2021
+7800,Bakers,0.3329941651058925,25.1,2021
+7810,"Butchers and other meat, poultry, and fish processing workers",0.3214950577622259,25.1,2021
+7830,"Food and tobacco roasting, baking, and drying machine operators and tenders",0.346158884489986,25.1,2021
+7840,Food batchmakers,0.3490840176879343,25.1,2021
+7850,Food cooking machine operators and tenders,0.32729259825421086,25.1,2021
+7855,"Food processing workers, all other",0.34591346169339454,25.1,2021
+7905,Computer numerically controlled tool operators and programmers,0.348176152008709,25.1,2021
+7925,"Forming machine setters, operators, and tenders, metal and plastic",0.3465753444344828,25.1,2021
+7950,"Cutting, punching, and press machine setters, operators, and tenders, metal and plastic",0.3455466912388758,25.1,2021
+8000,"Grinding, lapping, polishing, and buffing machine tool setters, operators, and tenders, metal and plastic",0.33376942197732845,25.1,2021
+8025,"Other machine tool setters, operators, and tenders, metal and plastic",0.34244395361925284,25.1,2021
+8030,Machinists,0.35120833686873754,25.1,2021
+8040,"Metal furnace operators, tenders, pourers, and casters",0.3333813612926755,25.1,2021
+8060,"Model makers and patternmakers, metal and plastic",0.3560744304443817,25.1,2021
+8100,"Molders and molding machine setters, operators, and tenders, metal and plastic",0.3324320366444242,25.1,2021
+8130,Tool and die makers,0.3539174950070017,25.1,2021
+8140,"Welding, soldering, and brazing workers",0.3360415736366864,25.1,2021
+8225,Other metal workers and plastic workers,0.3428184075526021,25.1,2021
+8250,Prepress technicians and workers,0.35790542006259873,25.1,2021
+8255,Printing press operators,0.3473056715613633,25.1,2021
+8256,Print binding and finishing workers,0.3355485778739749,25.1,2021
+8300,Laundry and dry-cleaning workers,0.30355813481321064,25.1,2021
+8310,"Pressers, textile, garment, and related materials",0.3307686011295735,25.1,2021
+8320,Sewing machine operators,0.3256953357003007,25.1,2021
+8335,Shoe and leather workers,0.31931847871893637,25.1,2021
+8350,"Tailors, dressmakers, and sewers",0.35189936999052995,25.1,2021
+8365,"Textile machine setters, operators, and tenders",0.3289609784153518,25.1,2021
+8450,Upholsterers,0.335296044422261,25.1,2021
+8465,"Other textile, apparel, and furnishings workers",0.34260960084670566,25.1,2021
+8500,Cabinetmakers and bench carpenters,0.35235869170391193,25.1,2021
+8510,Furniture finishers,0.3265398620308203,25.1,2021
+8530,"Sawing machine setters, operators, and tenders, wood",0.3176984126984127,25.1,2021
+8540,"Woodworking machine setters, operators, and tenders, except sawing",0.3354711442274432,25.1,2021
+8555,Other woodworkers,0.3383244172588901,25.1,2021
+8600,"Power plant operators, distributors, and dispatchers",0.35789223738118725,25.1,2021
+8610,Stationary engineers and boiler operators,0.35357929042195235,25.1,2021
+8620,Water and wastewater treatment plant and system operators,0.3574945554398257,25.1,2021
+8630,Miscellaneous plant and system operators,0.3581426604294295,25.1,2021
+8640,"Chemical processing machine setters, operators, and tenders",0.3466894492816056,25.1,2021
+8650,"Crushing, grinding, polishing, mixing, and blending workers",0.3448061093645289,25.1,2021
+8710,Cutting workers,0.3302586336191195,25.1,2021
+8720,"Extruding, forming, pressing, and compacting machine setters, operators, and tenders",0.3464347746941438,25.1,2021
+8730,"Furnace, kiln, oven, drier, and kettle operators and tenders",0.3418930978244145,25.1,2021
+8740,"Inspectors, testers, sorters, samplers, and weighers",0.3516104610633466,25.1,2021
+8750,Jewelers and precious stone and metal workers,0.3556187982871956,25.1,2021
+8760,Dental and ophthalmic laboratory technicians and medical appliance technicians,0.3450948337628337,25.1,2021
+8800,Packaging and filling machine operators and tenders,0.3392968619151301,25.1,2021
+8810,Painting workers,0.3435323924633627,25.1,2021
+8830,Photographic process workers and processing machine operators,0.34497320123436737,25.1,2021
+8850,Adhesive bonding machine operators and tenders,0.32773951839818427,25.1,2021
+8910,Etchers and engravers,0.35101008176670956,25.1,2021
+8920,"Molders, shapers, and casters, except metal and plastic",0.34920398634664607,25.1,2021
+8930,"Paper goods machine setters, operators, and tenders",0.3181911207917319,25.1,2021
+8940,Tire builders,0.33767374453788895,25.1,2021
+8950,Helpers--production workers,0.33006288294098673,25.1,2021
+8865,Other production equipment operators and tenders,0.3307458021187621,25.1,2021
+8990,Other production workers,0.33823684385277,25.1,2021
+9005,Supervisors of transportation and material moving workers,0.3437197330538271,25.1,2021
+9030,Aircraft pilots and flight engineers,0.3804058134996194,25.1,2021
+9040,Air traffic controllers and airfield operations specialists,0.36912285597162603,25.1,2021
+9050,Flight attendants,0.32023282663074853,25.1,2021
+9110,"Ambulance drivers and attendants, except emergency medical technicians",0.34443210199735386,25.1,2021
+9121,"Bus drivers, school",0.35082555635319457,25.1,2021
+9122,"Bus drivers, transit and intercity",0.35082555635319457,25.1,2021
+9130,Driver/sales workers and truck drivers,0.35584920022211297,25.1,2021
+9141,Shuttle drivers and chauffeurs,0.35082555635319457,25.1,2021
+9142,Taxi drivers,0.35082555635319457,25.1,2021
+9150,"Motor vehicle operators, all other",0.3556051862519754,25.1,2021
+9210,Locomotive engineers and operators,0.3536953503430373,25.1,2021
+9240,Railroad conductors and yardmasters,0.3506070208650561,25.1,2021
+9265,Other rail transportation workers,0.3504905475088642,25.1,2021
+9300,Sailors and marine oilers,0.3417904607515687,25.1,2021
+9310,Ship and boat captains and operators,0.34167806755301633,25.1,2021
+9330,Ship engineers ,0.34133258687083423,25.1,2021
+9350,Parking attendants,0.33724072484070683,25.1,2021
+9365,Transportation service attendants,0.35016696056729074,25.1,2021
+9410,Transportation inspectors,0.3550503257421362,25.1,2021
+9415,Passenger attendants,0.3023838913747879,25.1,2021
+9430,Other transportation workers,0.34305449548939665,25.1,2021
+9510,Crane and tower operators,0.34048757205819846,25.1,2021
+9570,"Conveyor, dredge, and hoist and winch operators",0.3268202735357967,25.1,2021
+9600,Industrial truck and tractor operators,0.33349688399376065,25.1,2021
+9610,Cleaners of vehicles and equipment,0.32854776366648264,25.1,2021
+9620,"Laborers and freight, stock, and material movers, hand",0.3258658926141279,25.1,2021
+9630,Machine feeders and offbearers,0.3316657212732125,25.1,2021
+9640,"Packers and packagers, hand",0.31994230964356635,25.1,2021
+9645,Stockers and order fillers,0.3263121806824929,25.1,2021
+9650,Pumping station operators,0.3529054312952817,25.1,2021
+9720,Refuse and recyclable material collectors,0.32919971845021073,25.1,2021
+9760,Other material moving workers,0.3498067593125565,25.1,2021
+9800,Military officer special and tactical operations leaders,,25.1,2021
+9810,First-line enlisted military supervisors,,25.1,2021
+9825,Military enlisted tactical operations and air/weapons specialists and crew members,,25.1,2021
+9830,"Military, rank not Specified",,25.1,2021
+9920,"Unemployed, with no work experience in the last 5 years or earlier or never worked",,25.1,2021

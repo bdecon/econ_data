@@ -1,0 +1,511 @@
+census_code,occupation_title,high_pd,any_pd,dwc,difficult,onet_version,oews_year,offshorability
+10,Chief executives,0.0,0.0,0.0,0.0,14.0,2006,0.46866226
+20,General and operations managers,0.0,0.0,0.0,0.0,14.0,2006,-0.14223063
+30,Legislators,0.0,0.0,0.0,0.0,14.0,2006,0.46866226
+40,Advertising and promotions managers,0.0,0.0,0.0,0.0,14.0,2006,0.32495964
+50,Marketing and sales managers,0.0,0.0,0.0,0.0,14.0,2006,0.32495964
+60,Public relations managers,0.0,0.0,0.0,0.0,14.0,2006,0.32495964
+100,Administrative services managers,0.0,0.0,0.0,0.0,14.0,2006,-0.14223063
+110,Computer and information systems managers,0.0,0.0,0.0,0.0,14.0,2006,-0.14223063
+120,Financial managers,0.0,0.0,0.0,0.0,14.0,2006,0.47275448
+130,Human resources managers,0.0,0.0,0.0,0.0,14.0,2006,1.1813816
+140,Industrial production managers,0.0,0.0,1.0,1.0,14.0,2006,-0.14223063
+150,Purchasing managers,0.0,0.0,0.0,0.0,14.0,2006,0.9856056
+160,"Transportation, storage, and distribution managers",0.0,0.0,0.0,0.0,14.0,2006,0.71980846
+200,"Farm, ranch, and other agricultural managers",0.0,0.3333333333333333,0.6666666666666666,0.6666666666666666,14.0,2006,-1.1741353
+210,Farmers and ranchers,0.0,0.0,1.0,1.0,14.0,2006,-0.1618563
+220,Construction managers,0.0,0.0,1.0,1.0,14.0,2006,-0.14223063
+230,Education administrators,0.0,0.0,0.0,0.0,14.0,2006,-1.1653323
+300,Engineering managers,0.0,0.0,0.0,0.0,14.0,2006,-0.14223063
+310,Food service managers,0.0,1.0,0.0,1.0,14.0,2006,-0.14223063
+320,Funeral directors,0.0,0.0,1.0,1.0,14.0,2006,-2.209604
+330,Gaming managers,0.0,0.0,0.0,0.0,14.0,2006,-0.14223063
+340,Lodging managers,0.0,0.0,0.0,0.0,14.0,2006,-0.14223063
+350,Medical and health services managers,0.0,0.0,0.0,0.0,14.0,2006,-2.188437
+360,Natural sciences managers,0.0,0.0,0.0,0.0,14.0,2006,-0.14223063
+400,Postmasters and mail superintendents,0.0,0.0,0.0,0.0,14.0,2006,-0.14223063
+410,"Property, real estate, and community association managers",0.0,0.0,0.0,0.0,14.0,2006,0.4990003
+420,Social and community service managers,0.0,0.0,0.0,0.0,14.0,2006,-0.14223063
+430,"Managers, all other",0.0,0.0,0.0,0.0,14.0,2006,-0.14223063
+500,"Agents and business managers of artists, performers, and athletes",0.0,0.0,0.0,0.0,14.0,2006,0.7345849
+510,"Purchasing agents and buyers, farm products",0.0,0.0,0.0,0.0,14.0,2006,0.7120725
+520,"Wholesale and retail buyers, except farm products",0.0,0.0,0.0,0.0,14.0,2006,1.1786948
+530,"Purchasing agents, except wholesale, retail, and farm products",0.0,0.0,0.0,0.0,14.0,2006,0.9856056
+540,"Claims adjusters, appraisers, examiners, and investigators",0.0,0.0,0.5,0.5,14.0,2006,1.7648889
+560,"Compliance officers, except agriculture, construction, health and safety, and transportation",0.0,0.16666666666666666,0.16666666666666666,0.3333333333333333,14.0,2006,-0.057901263
+600,Cost estimators,0.0,0.0,0.0,0.0,14.0,2006,-0.14223063
+620,"Human resources, training, and labor relations specialists",0.0,0.0,0.0,0.0,14.0,2006,0.63267636
+700,Logisticians,0.0,0.0,0.0,0.0,14.0,2006,2.7579606
+710,Management analysts,0.0,0.0,0.0,0.0,14.0,2006,-0.052943587
+720,Meeting and convention planners,0.0,0.0,0.0,0.0,14.0,2006,-0.14223063
+730,Other business operations specialists,0.0,0.0,0.3333333333333333,0.3333333333333333,14.0,2006,0.0085452795
+800,Accountants and auditors,0.0,0.0,0.0,0.0,14.0,2006,1.9673074
+810,Appraisers and assessors of real estate,0.0,0.0,0.5,0.5,14.0,2006,-0.07501614
+820,Budget analysts,0.0,0.0,0.0,0.0,14.0,2006,1.3725127
+830,Credit analysts,0.0,0.0,0.0,0.0,14.0,2006,1.3725127
+840,Financial analysts,0.0,0.0,0.0,0.0,14.0,2006,1.3725127
+850,Personal financial advisors,0.0,0.0,0.0,0.0,14.0,2006,1.3725127
+860,Insurance underwriters,0.0,0.0,0.0,0.0,14.0,2006,2.551788
+900,Financial examiners,0.0,0.0,0.0,0.0,14.0,2006,-0.057901263
+910,Loan counselors and officers,0.0,0.0,0.0,0.0,14.0,2006,1.3725127
+930,"Tax examiners, collectors, and revenue agents",0.0,0.0,0.0,0.0,14.0,2006,1.9673074
+940,Tax preparers,0.0,0.0,0.0,0.0,14.0,2006,1.3725127
+950,"Financial specialists, all other",0.0,0.0,0.041666666666666664,0.041666666666666664,14.0,2006,1.3725127
+1000,Computer scientists and systems analysts,0.0,0.13333333333333333,0.0,0.13333333333333333,14.0,2006,0.55302966
+1010,Computer programmers,0.0,0.0,0.0,0.0,14.0,2006,2.6609855
+1020,Computer software engineers,0.0,0.0,0.0,0.0,14.0,2006,2.6609855
+1040,Computer support specialists,0.0,0.0,0.0,0.0,14.0,2006,0.55302966
+1060,Database administrators,0.0,1.0,0.0,1.0,14.0,2006,0.55302966
+1100,Network and computer systems administrators,0.0,0.0,0.0,0.0,14.0,2006,0.55302966
+1110,Network systems and data communications analysts,0.0,0.0,0.0,0.0,14.0,2006,0.55302966
+1200,Actuaries,0.0,0.0,0.0,0.0,14.0,2006,2.5070732
+1210,Mathematicians,0.0,0.0,0.0,0.0,14.0,2006,
+1220,Operations research analysts,0.0,0.0,0.0,0.0,14.0,2006,2.7579606
+1230,Statisticians,0.0,0.0,0.0,0.0,14.0,2006,
+1240,Miscellaneous mathematical science occupations,0.0,0.0,0.0,0.0,14.0,2006,2.7870965
+1300,"Architects, except naval",0.0,0.0,0.0,0.0,14.0,2006,0.15837348
+1310,"Surveyors, cartographers, and photogrammetrists",0.0,0.5,0.5,1.0,14.0,2006,-0.17191468
+1320,Aerospace engineers,0.0,0.0,0.0,0.0,14.0,2006,0.9344667
+1330,Agricultural engineers,0.0,0.0,0.0,0.0,14.0,2006,
+1340,Biomedical engineers,0.0,0.0,0.0,0.0,14.0,2006,
+1350,Chemical engineers,0.0,0.0,0.0,0.0,14.0,2006,0.38232005
+1360,Civil engineers,0.0,0.0,0.0,0.0,14.0,2006,0.10051954
+1400,Computer hardware engineers,0.0,0.0,0.0,0.0,14.0,2006,1.3399316
+1410,Electrical and electronic engineers,0.0,0.0,0.0,0.0,14.0,2006,1.3399316
+1420,Environmental engineers,0.0,0.0,0.0,0.0,14.0,2006,0.12239017
+1430,"Industrial engineers, including health and safety",0.0,0.0,0.5,0.5,14.0,2006,0.50717866
+1440,Marine engineers and naval architects,0.0,0.0,0.0,0.0,14.0,2006,0.12239017
+1450,Materials engineers,0.0,0.0,0.0,0.0,14.0,2006,0.56463325
+1460,Mechanical engineers,0.0,0.0,0.0,0.0,14.0,2006,0.9184209
+1500,"Mining and geological engineers, including mining safety engineers",0.0,0.0,0.0,0.0,14.0,2006,
+1510,Nuclear engineers,0.0,0.0,0.0,0.0,14.0,2006,0.12239017
+1520,Petroleum engineers,0.0,0.0,0.0,0.0,14.0,2006,2.3023481
+1530,"Engineers, all other",0.0,0.0,0.0,0.0,14.0,2006,0.12239017
+1540,Drafters,0.0,0.0,0.0,0.0,14.0,2006,2.0951915
+1550,"Engineering technicians, except drafters",0.0,0.0,0.375,0.375,14.0,2006,0.30405915
+1560,Surveying and mapping technicians,0.0,1.0,0.5,1.0,14.0,2006,-0.17191468
+1600,Agricultural and food scientists,0.0,0.0,0.0,0.0,14.0,2006,0.63094676
+1610,Biological scientists,0.0,0.0,1.0,1.0,14.0,2006,-0.28231725
+1640,Conservation scientists and foresters,0.0,0.8333333333333333,0.16666666666666666,0.8333333333333333,14.0,2006,-1.1972
+1650,Medical scientists,0.0,0.0,0.0,0.0,14.0,2006,-0.44843423
+1700,Astronomers and physicists,0.0,0.0,0.0,0.0,14.0,2006,1.1379269
+1710,Atmospheric and space scientists,0.0,0.0,0.0,0.0,14.0,2006,0.59962904
+1720,Chemists and materials scientists,0.0,0.0,0.5,0.5,14.0,2006,0.29382718
+1740,Environmental scientists and geoscientists,0.0,0.0,0.0,0.0,14.0,2006,0.12169327
+1760,"Physical scientists, all other",0.0,0.0,0.0,0.0,14.0,2006,2.0048308
+1800,Economists,0.0,0.0,0.0,0.0,14.0,2006,2.1586444
+1810,Market and survey researchers,0.0,0.0,0.0,0.0,14.0,2006,2.1586444
+1820,Psychologists,0.0,0.0,0.0,0.0,14.0,2006,-1.0975317
+1830,Sociologists,0.0,0.0,0.0,0.0,14.0,2006,
+1840,Urban and regional planners,0.0,0.0,0.0,0.0,14.0,2006,1.7483796
+1860,Miscellaneous social scientists and related workers,0.0,0.0,0.0,0.0,14.0,2006,1.487038
+1900,Agricultural and food science technicians,0.0,0.0,0.0,0.0,14.0,2006,1.0691465
+1910,Biological technicians,0.0,0.0,0.0,0.0,14.0,2006,1.0691465
+1920,Chemical technicians,0.0,0.0,1.0,1.0,14.0,2006,0.31521046
+1930,Geological and petroleum technicians,0.0,0.0,0.0,0.0,14.0,2006,-0.14320813
+1940,Nuclear technicians,0.0,0.0,1.0,1.0,14.0,2006,
+1960,"Other life, physical, and social science technicians",0.0,0.1,0.6,0.6,14.0,2006,-0.60902727
+2000,Counselors,0.0,0.0,0.0,0.0,14.0,2006,-0.46893382
+2010,Social workers,0.0,0.0,0.0,0.0,14.0,2006,-0.85465
+2020,Miscellaneous community and social service specialists,0.0,0.0,0.0,0.0,14.0,2006,-1.0121664
+2040,Clergy,0.0,0.0,0.0,0.0,14.0,2006,-2.2907472
+2050,"Directors, religious activities and education",0.0,0.0,0.0,0.0,14.0,2006,-2.2907472
+2060,"Religious workers, all other",0.0,0.0,0.0,0.0,14.0,2006,-2.2907472
+2100,Lawyers,0.0,0.0,0.0,0.0,14.0,2006,1.0808032
+2110,"Judges, magistrates, and other judicial workers",0.0,0.0,0.0,0.0,14.0,2006,1.0808032
+2140,Paralegals and legal assistants,0.0,0.0,0.0,0.0,14.0,2006,1.8841863
+2150,Miscellaneous legal support workers,0.0,0.3333333333333333,0.0,0.3333333333333333,14.0,2006,1.8841863
+2200,Postsecondary teachers,0.0,0.0,0.043478260869565216,0.043478260869565216,14.0,2006,-0.14572394
+2300,Preschool and kindergarten teachers,0.0,0.0,0.0,0.0,14.0,2006,-0.37327826
+2310,Elementary and middle school teachers,0.0,1.0,0.0,1.0,14.0,2006,-0.8749312
+2320,Secondary school teachers,0.0,0.5,0.0,0.5,14.0,2006,-1.1499335
+2330,Special education teachers,0.0,0.0,0.0,0.0,14.0,2006,-0.51153433
+2340,Other teachers and instructors,0.0,0.0,0.0,0.0,14.0,2006,-0.63246405
+2400,"Archivists, curators, and museum technicians",0.0,0.6666666666666666,0.0,0.6666666666666666,14.0,2006,0.20980538
+2430,Librarians,0.0,0.0,0.0,0.0,14.0,2006,0.13159359
+2440,Library technicians,0.0,0.0,0.0,0.0,14.0,2006,0.7163352
+2540,Teacher assistants,0.0,0.0,0.0,0.0,14.0,2006,0.6924205
+2550,"Other education, training, and library workers",0.0,0.0,0.0,0.0,14.0,2006,-0.63246405
+2600,Artists and related workers,0.0,0.5,0.0,0.5,14.0,2006,1.8305568
+2630,Designers,0.0,0.42857142857142855,0.14285714285714285,0.42857142857142855,14.0,2006,1.259736
+2700,Actors,0.0,0.0,0.0,0.0,14.0,2006,-0.53611004
+2710,Producers and directors,0.0,0.0,0.0,0.0,14.0,2006,-0.53611004
+2720,"Athletes, coaches, umpires, and related workers",0.3333333333333333,0.6666666666666666,0.0,0.6666666666666666,14.0,2006,-2.0173678
+2740,Dancers and choreographers,1.0,1.0,0.0,1.0,14.0,2006,-0.05979669
+2750,"Musicians, singers, and related workers",0.0,0.25,0.0,0.25,14.0,2006,0.46828067
+2760,"Entertainers and performers, sports and related workers, all other",0.3333333333333333,0.5,0.0,0.5,14.0,2006,2.493641
+2800,Announcers,0.0,0.0,0.0,0.0,14.0,2006,0.1328963
+2810,"News analysts, reporters and correspondents",0.0,0.0,0.0,0.0,14.0,2006,1.1662115
+2820,Public relations specialists,0.0,0.0,0.0,0.0,14.0,2006,0.32495964
+2830,Editors,0.0,0.0,0.0,0.0,14.0,2006,1.1662115
+2840,Technical writers,0.0,1.0,0.0,1.0,14.0,2006,2.6414232
+2850,Writers and authors,0.0,0.0,0.0,0.0,14.0,2006,2.2520046
+2860,Miscellaneous media and communication workers,0.0,0.0,0.0,0.0,14.0,2006,2.493641
+2900,Broadcast and sound engineering technicians and radio operators,0.0,0.0,0.25,0.25,14.0,2006,-0.83383906
+2910,Photographers,0.0,0.0,0.0,0.0,14.0,2006,0.73343265
+2920,"Television, video, and motion picture camera operators and editors",0.0,0.5,0.0,0.5,14.0,2006,1.1662115
+2960,"Media and communication equipment workers, all other",0.0,0.14285714285714285,0.14285714285714285,0.2857142857142857,14.0,2006,
+3000,Chiropractors,0.0,0.0,0.0,0.0,14.0,2006,-2.2664003
+3010,Dentists,0.0,0.25,0.5,0.5,14.0,2006,-3.1549306
+3030,Dietitians and nutritionists,0.0,0.0,0.0,0.0,14.0,2006,-1.1801716
+3040,Optometrists,0.0,0.0,0.0,0.0,14.0,2006,-1.3177618
+3050,Pharmacists,0.0,1.0,0.0,1.0,14.0,2006,-1.5714599
+3060,Physicians and surgeons,0.0,0.0,0.14285714285714285,0.14285714285714285,14.0,2006,-1.5900813
+3110,Physician assistants,0.0,0.0,0.0,0.0,14.0,2006,-1.5423132
+3120,Podiatrists,0.0,0.0,0.0,0.0,14.0,2006,-2.7806387
+3130,Registered nurses,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333,14.0,2006,-2.710765
+3140,Audiologists,0.0,0.0,0.0,0.0,14.0,2006,-1.1537625
+3150,Occupational therapists,0.0,0.0,0.0,0.0,14.0,2006,-2.3024116
+3160,Physical therapists,0.0,1.0,0.0,1.0,14.0,2006,-2.387278
+3200,Radiation therapists,0.0,1.0,0.0,1.0,14.0,2006,-2.3315701
+3210,Recreational therapists,0.0,0.0,0.0,0.0,14.0,2006,-2.3315701
+3220,Respiratory therapists,0.0,1.0,0.0,1.0,14.0,2006,-3.2332487
+3230,Speech-language pathologists,0.0,0.0,0.0,0.0,14.0,2006,-1.1537625
+3240,"Therapists, all other",0.0,0.42857142857142855,0.0,0.42857142857142855,14.0,2006,-2.3315701
+3250,Veterinarians,0.0,1.0,0.0,1.0,14.0,2006,-1.4699517
+3260,"Health diagnosing and treating practitioners, all other",0.0,0.0,0.25,0.25,14.0,2006,-2.2664003
+3300,Clinical laboratory technologists and technicians,0.0,0.0,0.5,0.5,14.0,2006,-0.26919806
+3310,Dental hygienists,1.0,1.0,1.0,1.0,14.0,2006,-0.8656534
+3320,Diagnostic related technologists and technicians,0.0,0.375,0.0,0.375,14.0,2006,-2.08845
+3400,Emergency medical technicians and paramedics,0.0,0.0,1.0,1.0,14.0,2006,-2.245986
+3410,Health diagnosing and treating practitioner support technicians,0.0,0.6666666666666666,0.16666666666666666,0.6666666666666666,14.0,2006,-0.5079981
+3500,Licensed practical and licensed vocational nurses,0.0,0.0,0.0,0.0,14.0,2006,-2.217206
+3510,Medical records and health information technicians,0.0,0.0,0.0,0.0,14.0,2006,1.1718912
+3520,"Opticians, dispensing",0.0,0.0,0.0,0.0,14.0,2006,-1.0900618
+3530,Miscellaneous health technologists and technicians,0.0,0.0,0.5,0.5,14.0,2006,-2.245986
+3540,Other healthcare practitioners and technical occupations,0.0,0.0,0.3333333333333333,0.3333333333333333,14.0,2006,-2.245986
+3600,"Nursing, psychiatric, and home health aides",0.3333333333333333,0.3333333333333333,0.0,0.3333333333333333,14.0,2006,-0.7371174
+3610,Occupational therapist assistants and aides,0.0,1.0,0.0,1.0,14.0,2006,-0.7371174
+3620,Physical therapist assistants and aides,0.0,1.0,0.0,1.0,14.0,2006,-0.7371174
+3630,Massage therapists,0.0,1.0,0.0,1.0,14.0,2006,-0.7371174
+3640,Dental assistants,0.0,1.0,0.0,1.0,14.0,2006,-1.3174714
+3650,Medical assistants and other healthcare support occupations,0.0,0.8333333333333334,0.16666666666666666,0.8333333333333334,14.0,2006,-0.7371174
+3700,First-line supervisors/managers of correctional officers,0.0,0.0,1.0,1.0,14.0,2006,-1.1609381
+3710,First-line supervisors/managers of police and detectives,0.0,0.0,1.0,1.0,14.0,2006,-2.4290214
+3720,First-line supervisors/managers of fire fighting and prevention workers,0.0,0.5,1.0,1.0,14.0,2006,-3.0113926
+3730,"Supervisors, protective service workers, all other",0.0,0.16666666666666666,1.0,1.0,14.0,2006,-2.2486491
+3740,Fire fighters,0.0,1.0,1.0,1.0,14.0,2006,-3.0113926
+3750,Fire inspectors,0.0,0.0,1.0,1.0,14.0,2006,-3.0113926
+3800,"Bailiffs, correctional officers, and jailers",0.0,0.0,0.0,0.0,14.0,2006,-1.1609381
+3820,Detectives and criminal investigators,0.0,0.25,0.75,0.75,14.0,2006,-2.4290214
+3830,Fish and game wardens,0.0,1.0,1.0,1.0,14.0,2006,
+3840,Parking enforcement workers,0.0,0.0,1.0,1.0,14.0,2006,-2.4290214
+3850,Police and sheriff's patrol officers,0.0,0.0,1.0,1.0,14.0,2006,-2.4290214
+3860,Transit and railroad police,0.0,1.0,0.0,1.0,14.0,2006,
+3900,Animal control workers,0.0,0.0,1.0,1.0,14.0,2006,-0.3425442
+3910,Private detectives and investigators,0.0,0.0,1.0,1.0,14.0,2006,0.96317375
+3920,Security guards and gaming surveillance officers,0.0,0.5,0.0,0.5,14.0,2006,0.96317375
+3940,Crossing guards,0.0,1.0,1.0,1.0,14.0,2006,0.99095273
+3950,Lifeguards and other protective service workers,0.0,0.6666666666666666,0.6666666666666666,0.6666666666666666,14.0,2006,-0.3425442
+4000,Chefs and head cooks,0.0,1.0,0.0,1.0,14.0,2006,0.7675408
+4010,First-line supervisors/managers of food preparation and serving workers,0.0,1.0,0.0,1.0,14.0,2006,-1.4109763
+4020,Cooks,0.0,1.0,0.4,1.0,14.0,2006,0.7675408
+4030,Food preparation workers,0.0,1.0,0.0,1.0,14.0,2006,0.5983263
+4040,Bartenders,0.0,1.0,0.0,1.0,14.0,2006,0.1088444
+4050,"Combined food preparation and serving workers, including fast food",0.0,1.0,0.0,1.0,14.0,2006,1.2176026
+4060,"Counter attendants, cafeteria, food concession, and coffee shop",0.0,1.0,0.0,1.0,14.0,2006,1.2176026
+4110,Waiters and waitresses,0.0,1.0,0.0,1.0,14.0,2006,0.10985315
+4120,"Food servers, nonrestaurant",0.0,1.0,0.0,1.0,14.0,2006,1.2176026
+4130,Dining room and cafeteria attendants and bartender helpers,0.0,1.0,0.0,1.0,14.0,2006,1.2176026
+4140,Dishwashers,0.0,1.0,0.0,1.0,14.0,2006,1.2176026
+4150,"Hosts and hostesses, restaurant, lounge, and coffee shop",0.0,1.0,0.0,1.0,14.0,2006,1.2176026
+4160,"Food preparation and serving related workers, all other",0.0,1.0,0.0,1.0,14.0,2006,
+4200,First-line supervisors/managers of housekeeping and janitorial workers,0.0,0.0,0.0,0.0,14.0,2006,0.91154516
+4210,"First-line supervisors/managers of landscaping, lawn service, and groundskeeping workers",0.0,0.0,1.0,1.0,14.0,2006,-2.3257513
+4220,Janitors and building cleaners,0.5,1.0,1.0,1.0,14.0,2006,0.6277369
+4230,Maids and housekeeping cleaners,1.0,1.0,1.0,1.0,14.0,2006,2.1521168
+4240,Pest control workers,0.0,1.0,1.0,1.0,14.0,2006,-1.9773549
+4250,Grounds maintenance workers,0.3333333333333333,1.0,1.0,1.0,14.0,2006,-0.6842481
+4300,First-line supervisors/managers of gaming workers,0.0,1.0,1.0,1.0,14.0,2006,-0.3562101
+4320,First-line supervisors/managers of personal service workers,0.0,0.0,0.0,0.0,14.0,2006,-1.6632522
+4340,Animal trainers,0.0,1.0,0.0,1.0,14.0,2006,-1.0105594
+4350,Nonfarm animal caretakers,0.0,1.0,0.0,1.0,14.0,2006,-1.0105594
+4400,Gaming services workers,0.0,1.0,0.5,1.0,14.0,2006,-0.3562101
+4410,Motion picture projectionists,0.0,0.0,0.0,0.0,14.0,2006,0.47601736
+4420,"Ushers, lobby attendants, and ticket takers",0.0,0.0,0.0,0.0,14.0,2006,1.3052528
+4430,Miscellaneous entertainment attendants and related workers,0.0,0.3333333333333333,0.0,0.3333333333333333,14.0,2006,-0.3562101
+4460,Funeral service workers,0.0,0.0,0.5,0.5,14.0,2006,-0.9029347
+4500,Barbers,0.0,1.0,0.0,1.0,14.0,2006,-0.22789061
+4510,"Hairdressers, hairstylists, and cosmetologists",0.0,1.0,1.0,1.0,14.0,2006,-0.81292045
+4520,Miscellaneous personal appearance workers,0.0,0.5,0.25,0.5,14.0,2006,-0.81292045
+4530,"Baggage porters, bellhops, and concierges",0.0,0.5,0.5,0.5,14.0,2006,0.046703458
+4540,Tour and travel guides,0.0,0.0,0.0,0.0,14.0,2006,1.1594584
+4550,Transportation attendants,0.0,0.5,1.0,1.0,14.0,2006,-1.0909182
+4600,Child care workers,0.0,0.0,0.0,0.0,14.0,2006,0.16581261
+4610,Personal and home care aides,0.0,0.0,0.0,0.0,14.0,2006,-0.7371174
+4620,Recreation and fitness workers,0.5,0.5,0.5,1.0,14.0,2006,-1.2297384
+4640,Residential advisors,0.0,0.0,0.0,0.0,14.0,2006,0.16581261
+4650,"Personal care and service workers, all other ",0.2,0.2,0.2,0.4,14.0,2006,-0.9029347
+4700,First-line supervisors/managers of retail sales workers,0.0,1.0,0.0,1.0,14.0,2006,-0.5162374
+4710,First-line supervisors/managers of non-retail sales workers,0.0,0.0,0.0,0.0,14.0,2006,-0.5162374
+4720,Cashiers,0.0,1.0,0.5,1.0,14.0,2006,0.9254247
+4740,Counter and rental clerks,0.0,1.0,0.0,1.0,14.0,2006,-0.6834582
+4750,Parts salespersons,0.0,0.0,0.0,0.0,14.0,2006,-0.6834582
+4760,Retail salespersons,0.0,1.0,0.0,1.0,14.0,2006,-0.6834582
+4800,Advertising sales agents,0.0,0.0,0.0,0.0,14.0,2006,1.072406
+4810,Insurance sales agents,0.0,0.0,0.0,0.0,14.0,2006,0.6309631
+4820,"Securities, commodities, and financial services sales agents",0.0,0.0,0.0,0.0,14.0,2006,0.20836937
+4830,Travel agents,0.0,0.0,0.0,0.0,14.0,2006,0.02485931
+4840,"Sales representatives, services, all other",0.0,0.0,0.0,0.0,14.0,2006,-0.6834582
+4850,"Sales representatives, wholesale and manufacturing",0.0,0.0,0.0,0.0,14.0,2006,1.5643047
+4900,"Models, demonstrators, and product promoters",0.0,0.5,0.0,0.5,14.0,2006,2.4572597
+4920,Real estate brokers and sales agents,0.0,0.0,0.0,0.0,14.0,2006,-0.07501614
+4930,Sales engineers,0.0,0.0,0.0,0.0,14.0,2006,-0.65831697
+4940,Telemarketers,0.0,0.0,0.0,0.0,14.0,2006,1.5643047
+4950,"Door-to-door sales workers, news and street vendors, and related workers",0.0,0.0,0.0,0.0,14.0,2006,1.4542236
+4960,"Sales and related workers, all other",0.0,0.0,0.0,0.0,14.0,2006,1.5643047
+5000,First-line supervisors/managers of office and administrative support workers,0.0,0.0,0.0,0.0,14.0,2006,-0.690127
+5010,"Switchboard operators, including answering service",0.0,0.0,0.0,0.0,14.0,2006,2.251352
+5020,Telephone operators,0.0,1.0,0.0,1.0,14.0,2006,2.251352
+5030,"Communications equipment operators, all other",0.0,0.5,0.0,0.5,14.0,2006,2.2513518
+5100,Bill and account collectors,0.0,0.0,0.0,0.0,14.0,2006,2.1353426
+5110,Billing and posting clerks and machine operators,0.0,0.3333333333333333,0.0,0.3333333333333333,14.0,2006,2.6859927
+5120,"Bookkeeping, accounting, and auditing clerks",0.0,0.0,0.0,0.0,14.0,2006,2.3707495
+5130,Gaming cage workers,0.0,1.0,1.0,1.0,14.0,2006,0.9254247
+5140,Payroll and timekeeping clerks,0.0,0.0,0.0,0.0,14.0,2006,2.5262375
+5150,Procurement clerks,0.0,0.0,0.0,0.0,14.0,2006,0.6863316
+5160,Tellers,0.0,0.0,0.0,0.0,14.0,2006,0.5964254
+5200,Brokerage clerks,0.0,0.0,0.0,0.0,14.0,2006,1.4460781
+5210,Correspondence clerks,0.0,1.0,0.0,1.0,14.0,2006,
+5220,"Court, municipal, and license clerks",0.0,0.3333333333333333,0.0,0.3333333333333333,14.0,2006,0.6770688
+5230,"Credit authorizers, checkers, and clerks",0.0,0.5,0.0,0.5,14.0,2006,1.0849874
+5240,Customer service representatives,0.0,1.0,0.0,1.0,14.0,2006,1.563753
+5250,"Eligibility interviewers, government programs",0.0,0.0,0.0,0.0,14.0,2006,-0.17375708
+5260,File Clerks,0.0,0.0,0.0,0.0,14.0,2006,0.96597946
+5300,"Hotel, motel, and resort desk clerks",0.0,0.0,0.0,0.0,14.0,2006,0.18663919
+5310,"Interviewers, except eligibility and loan",0.0,0.0,0.0,0.0,14.0,2006,1.0849874
+5320,"Library assistants, clerical",0.0,0.0,0.0,0.0,14.0,2006,0.7163352
+5330,Loan interviewers and clerks,0.0,0.0,0.0,0.0,14.0,2006,1.563753
+5340,New accounts clerks,0.0,0.0,0.0,0.0,14.0,2006,1.0849874
+5350,Order clerks,0.0,0.0,0.0,0.0,14.0,2006,2.6321197
+5360,"Human resources assistants, except payroll and timekeeping",0.0,0.0,0.0,0.0,14.0,2006,1.0614815
+5400,Receptionists and information clerks,0.0,0.0,0.0,0.0,14.0,2006,0.8168781
+5410,Reservation and transportation ticket agents and travel clerks,0.0,1.0,0.0,1.0,14.0,2006,0.02485931
+5420,"Information and record clerks, all other",0.0,0.125,0.0,0.125,14.0,2006,1.4460781
+5500,Cargo and freight agents,0.0,0.0,0.0,0.0,14.0,2006,0.15331805
+5510,Couriers and messengers,0.0,0.0,1.0,1.0,14.0,2006,0.0030960068
+5520,Dispatchers,0.0,0.5,0.0,0.5,14.0,2006,-0.41474092
+5530,"Meter readers, utilities",0.0,1.0,1.0,1.0,14.0,2006,-0.49188912
+5540,Postal service clerks,0.0,1.0,0.0,1.0,14.0,2006,0.90401614
+5550,Postal service mail carriers,0.0,1.0,1.0,1.0,14.0,2006,0.6060623
+5560,"Postal service mail sorters, processors, and processing machine operators",0.0,1.0,0.0,1.0,14.0,2006,1.3570219
+5600,"Production, planning, and expediting clerks",0.0,0.0,0.0,0.0,14.0,2006,0.71980846
+5610,"Shipping, receiving, and traffic clerks",0.0,0.0,0.0,0.0,14.0,2006,0.15331805
+5620,Stock clerks and order fillers,0.0,0.75,0.0,0.75,14.0,2006,0.6863316
+5630,"Weighers, measurers, checkers, and samplers, recordkeeping",0.0,0.0,1.0,1.0,14.0,2006,2.8022041
+5700,Secretaries and administrative assistants,0.0,0.0,0.0,0.0,14.0,2006,0.49324155
+5800,Computer operators,0.0,0.0,0.0,0.0,14.0,2006,0.99264824
+5810,Data entry keyers,0.0,0.0,0.0,0.0,14.0,2006,1.6802756
+5820,Word processors and typists,0.0,0.0,0.0,0.0,14.0,2006,1.4336649
+5830,Desktop publishers,0.0,1.0,0.0,1.0,14.0,2006,0.6770688
+5840,Insurance claims and policy processing clerks,0.0,0.0,0.0,0.0,14.0,2006,1.7648889
+5850,"Mail clerks and mail machine operators, except postal service",0.0,1.0,0.0,1.0,14.0,2006,1.4927493
+5860,"Office clerks, general",0.0,0.0,0.0,0.0,14.0,2006,1.3330011
+5900,"Office machine operators, except computer",0.0,1.0,0.0,1.0,14.0,2006,-0.78528464
+5910,Proofreaders and copy markers,0.0,1.0,0.0,1.0,14.0,2006,1.76984
+5920,Statistical assistants,0.0,0.0,0.0,0.0,14.0,2006,2.1966615
+5930,"Office and administrative support workers, all other",0.0,0.0,0.0,0.0,14.0,2006,0.6770688
+6000,"First-line supervisors/managers of farming, fishing, and forestry workers",0.0,0.125,1.0,1.0,14.0,2006,-0.6759268
+6010,Agricultural inspectors,0.0,0.0,1.0,1.0,14.0,2006,-0.3728615
+6020,Animal breeders,0.0,0.0,1.0,1.0,14.0,2006,
+6040,"Graders and sorters, agricultural products",0.0,1.0,0.0,1.0,14.0,2006,1.7669066
+6050,Miscellaneous agricultural workers ,0.0,0.5,1.0,1.0,14.0,2006,0.75169504
+6100,Fishers and related fishing workers,0.0,1.0,1.0,1.0,14.0,2006,0.7299477
+6110,Hunters and trappers,0.0,1.0,1.0,1.0,14.0,2006,
+6120,Forest and conservation workers,0.0,0.0,1.0,1.0,14.0,2006,-0.6759268
+6130,Logging workers,0.3333333333333333,1.0,1.0,1.0,14.0,2006,-0.6759268
+6200,First-line supervisors/managers of construction trades and extraction workers,0.0,0.0,1.0,1.0,14.0,2006,-1.8653873
+6210,Boilermakers,0.0,1.0,1.0,1.0,14.0,2006,-2.1149921
+6220,"Brickmasons, blockmasons, and stonemasons",0.5,1.0,1.0,1.0,14.0,2006,0.19531
+6230,Carpenters,0.5,1.0,1.0,1.0,14.0,2006,-0.8630005
+6240,"Carpet, floor, and tile installers and finishers",0.75,1.0,0.75,1.0,14.0,2006,0.19531
+6250,"Cement masons, concrete finishers, and terrazzo workers",0.0,1.0,1.0,1.0,14.0,2006,0.9676913
+6260,Construction laborers,0.0,1.0,1.0,1.0,14.0,2006,-0.35863554
+6300,"Paving, surfacing, and tamping equipment operators",0.0,1.0,1.0,1.0,14.0,2006,-2.59859
+6310,Pile-driver operators,1.0,1.0,1.0,1.0,14.0,2006,
+6320,Operating engineers and other construction equipment operators,0.0,0.0,1.0,1.0,14.0,2006,-0.6627313
+6330,"Drywall installers, ceiling tile installers, and tapers",1.0,1.0,1.0,1.0,14.0,2006,-0.80075943
+6350,Electricians,0.0,1.0,1.0,1.0,14.0,2006,-1.1340958
+6360,Glaziers,0.0,1.0,1.0,1.0,14.0,2006,0.72370136
+6400,Insulation workers,1.0,1.0,1.0,1.0,14.0,2006,-0.56954134
+6420,"Painters, construction and maintenance",0.0,1.0,1.0,1.0,14.0,2006,0.8682357
+6430,Paperhangers,0.0,1.0,0.0,1.0,14.0,2006,0.73477685
+6440,"Pipelayers, plumbers, pipefitters, and steamfitters",0.0,1.0,0.75,1.0,14.0,2006,-0.94623625
+6460,Plasterers and stucco masons,1.0,1.0,1.0,1.0,14.0,2006,-0.4276346
+6500,Reinforcing iron and rebar workers,1.0,1.0,1.0,1.0,14.0,2006,
+6510,Roofers,1.0,1.0,1.0,1.0,14.0,2006,-0.37074077
+6520,Sheet metal workers,0.0,1.0,1.0,1.0,14.0,2006,-1.1918746
+6530,Structural iron and steel workers,1.0,1.0,1.0,1.0,14.0,2006,-0.14821446
+6600,"Helpers, construction trades",0.0,1.0,0.6666666666666666,1.0,14.0,2006,-0.1921736
+6660,Construction and building inspectors,0.0,0.0,1.0,1.0,14.0,2006,-0.2578994
+6700,Elevator installers and repairers,0.0,1.0,1.0,1.0,14.0,2006,-2.782741
+6710,Fence erectors,0.0,1.0,1.0,1.0,14.0,2006,-1.3905832
+6720,Hazardous materials removal workers,0.0,0.0,0.0,0.0,14.0,2006,-0.56954134
+6730,Highway maintenance workers,0.0,0.0,1.0,1.0,14.0,2006,-0.35863554
+6740,Rail-track laying and maintenance equipment operators,0.0,0.0,1.0,1.0,14.0,2006,-0.88621294
+6750,Septic tank servicers and sewer pipe cleaners,0.0,0.0,1.0,1.0,14.0,2006,-1.3905832
+6760,Miscellaneous construction and related workers,0.0,1.0,1.0,1.0,14.0,2006,-1.3905832
+6800,"Derrick, rotary drill, and service unit operators, oil, gas, and mining",0.3333333333333333,1.0,1.0,1.0,14.0,2006,-1.4607388
+6820,"Earth drillers, except oil and gas",0.0,0.0,1.0,1.0,14.0,2006,-0.47966397
+6830,"Explosives workers, ordnance handling experts, and blasters",0.0,1.0,1.0,1.0,14.0,2006,-2.0731382
+6840,Mining machine operators,0.5,1.0,1.0,1.0,14.0,2006,-0.9530021
+6910,"Roof bolters, mining",1.0,1.0,1.0,1.0,14.0,2006,
+6920,"Roustabouts, oil and gas",0.0,1.0,1.0,1.0,14.0,2006,
+6930,Helpers--extraction workers,0.0,1.0,1.0,1.0,14.0,2006,
+6940,Other extraction workers,0.2727272727272727,0.9090909090909091,1.0,1.0,14.0,2006,-1.1169063
+7000,"First-line supervisors/managers of mechanics, installers, and repairers",0.0,0.0,1.0,1.0,14.0,2006,-2.4784794
+7010,"Computer, automated teller, and office machine repairers",0.0,0.0,0.0,0.0,14.0,2006,-1.581271
+7020,Radio and telecommunications equipment installers and repairers,0.0,0.0,0.5,0.5,14.0,2006,-1.7688347
+7030,Avionics technicians,0.0,0.0,0.0,0.0,14.0,2006,-1.7446295
+7040,"Electric motor, power tool, and related repairers",0.0,1.0,1.0,1.0,14.0,2006,-2.7802935
+7050,"Electrical and electronics installers and repairers, transportation equipment",0.0,0.0,0.0,0.0,14.0,2006,
+7100,"Electrical and electronics repairers, industrial and utility",0.0,0.25,0.5,0.5,14.0,2006,-0.18076861
+7110,"Electronic equipment installers and repairers, motor vehicles",0.0,1.0,1.0,1.0,14.0,2006,-1.7446295
+7120,Electronic home entertainment equipment installers and repairers,0.0,0.0,0.0,0.0,14.0,2006,-0.18076861
+7130,Security and fire alarm systems installers,0.0,0.0,0.0,0.0,14.0,2006,-1.1340958
+7140,Aircraft mechanics and service technicians,0.0,0.0,1.0,1.0,14.0,2006,-1.2007929
+7150,Automotive body and related repairers,0.0,1.0,1.0,1.0,14.0,2006,0.92195547
+7160,Automotive glass installers and repairers,0.0,0.0,1.0,1.0,14.0,2006,0.92195547
+7200,Automotive service technicians and mechanics,0.5,1.0,1.0,1.0,14.0,2006,-1.3149225
+7210,Bus and truck mechanics and diesel engine specialists,0.0,1.0,1.0,1.0,14.0,2006,-0.89749587
+7220,Heavy vehicle and mobile equipment service technicians and mechanics,0.6666666666666666,1.0,1.0,1.0,14.0,2006,-1.0662009
+7240,Small engine mechanics,0.0,1.0,0.6666666666666666,1.0,14.0,2006,-1.4525167
+7260,"Miscellaneous vehicle and mobile equipment mechanics, installers, and repairers",0.3333333333333333,1.0,0.6666666666666666,1.0,14.0,2006,-1.0662009
+7300,Control and valve installers and repairers,0.0,0.5,1.0,1.0,14.0,2006,-0.92500365
+7310,"Heating, air conditioning, and refrigeration mechanics and installers",0.5,1.0,0.5,1.0,14.0,2006,-2.255906
+7320,Home appliance repairers,0.0,1.0,0.0,1.0,14.0,2006,-1.835435
+7330,Industrial and refractory machinery mechanics,0.6,1.0,0.8,1.0,14.0,2006,-0.9199778
+7340,"Maintenance and repair workers, general",0.0,1.0,0.0,1.0,14.0,2006,-0.8856431
+7350,"Maintenance workers, machinery",0.0,1.0,1.0,1.0,14.0,2006,-0.42601502
+7360,Millwrights,1.0,1.0,1.0,1.0,14.0,2006,-1.5653158
+7410,Electrical power-line installers and repairers,0.0,1.0,1.0,1.0,14.0,2006,-2.7802935
+7420,Telecommunications line installers and repairers,0.0,1.0,1.0,1.0,14.0,2006,-1.7688347
+7430,Precision instrument and equipment repairers,0.0,0.0,0.0,0.0,14.0,2006,-0.18572748
+7510,"Coin, vending, and amusement machine servicers and repairers",0.0,1.0,1.0,1.0,14.0,2006,-0.8856431
+7520,Commercial divers,0.0,1.0,1.0,1.0,14.0,2006,
+7540,Locksmiths and safe repairers,0.0,0.0,1.0,1.0,14.0,2006,-2.2858868
+7550,Manufactured building and mobile home installers,1.0,1.0,1.0,1.0,14.0,2006,-0.8856431
+7560,Riggers,0.0,0.0,1.0,1.0,14.0,2006,-0.8856431
+7600,Signal and track switch repairers,0.0,0.0,1.0,1.0,14.0,2006,
+7610,"Helpers--installation, maintenance, and repair workers ",0.0,0.0,1.0,1.0,14.0,2006,-0.66552866
+7620,"Other installation, maintenance, and repair workers",0.125,0.375,1.0,1.0,14.0,2006,-0.8856431
+7700,First-line supervisors/managers of production and operating workers,0.0,0.0,1.0,1.0,14.0,2006,-0.8961581
+7710,"Aircraft structure, surfaces, rigging, and systems assemblers",0.0,1.0,1.0,1.0,14.0,2006,0.45880902
+7720,"Electrical, electronics, and electromechanical assemblers",0.0,1.0,0.0,1.0,14.0,2006,0.45880902
+7730,Engine and other machine assemblers,0.0,1.0,1.0,1.0,14.0,2006,0.45880902
+7740,Structural metal fabricators and fitters,0.0,1.0,1.0,1.0,14.0,2006,-0.14821446
+7750,Miscellaneous assemblers and fabricators,0.0,0.6666666666666666,0.3333333333333333,0.6666666666666666,14.0,2006,0.45880902
+7800,Bakers,0.0,1.0,0.0,1.0,14.0,2006,-0.4362234
+7810,"Butchers and other meat, poultry, and fish processing workers",0.3333333333333333,1.0,0.6666666666666666,1.0,14.0,2006,1.288432
+7830,"Food and tobacco roasting, baking, and drying machine operators and tenders",0.0,1.0,1.0,1.0,14.0,2006,0.35695088
+7840,Food batchmakers,0.0,1.0,1.0,1.0,14.0,2006,1.2404829
+7850,Food cooking machine operators and tenders,0.0,1.0,1.0,1.0,14.0,2006,-0.45913088
+7900,Computer control programmers and operators,0.0,0.5,1.0,1.0,14.0,2006,0.0897907
+7920,"Extruding and drawing machine setters, operators, and tenders, metal and plastic",0.0,1.0,1.0,1.0,14.0,2006,0.9337441
+7930,"Forging machine setters, operators, and tenders, metal and plastic",0.0,1.0,1.0,1.0,14.0,2006,1.3304983
+7940,"Rolling machine setters, operators, and tenders, metal and plastic",1.0,1.0,1.0,1.0,14.0,2006,-1.1376363
+7950,"Cutting, punching, and press machine setters, operators, and tenders, metal and plastic",0.0,1.0,1.0,1.0,14.0,2006,1.1627845
+7960,"Drilling and boring machine tool setters, operators, and tenders, metal and plastic ",0.0,1.0,1.0,1.0,14.0,2006,0.5156573
+8000,"Grinding, lapping, polishing, and buffing machine tool setters, operators, and tenders, metal and plastic",0.0,1.0,1.0,1.0,14.0,2006,-0.56270087
+8010,"Lathe and turning machine tool setters, operators, and tenders, metal and plastic",0.0,1.0,1.0,1.0,14.0,2006,0.44756782
+8020,"Milling and planing machine setters, operators, and tenders, metal and plastic",0.0,1.0,1.0,1.0,14.0,2006,
+8030,Machinists,0.0,1.0,1.0,1.0,14.0,2006,0.2596177
+8040,Metal furnace and kiln operators and tenders,0.5,1.0,1.0,1.0,14.0,2006,0.36648023
+8060,"Model makers and patternmakers, metal and plastic",0.0,1.0,1.0,1.0,14.0,2006,0.67341363
+8100,"Molders and molding machine setters, operators, and tenders, metal and plastic",0.0,1.0,1.0,1.0,14.0,2006,1.4854428
+8120,"Multiple machine tool setters, operators, and tenders, metal and plastic ",0.0,1.0,1.0,1.0,14.0,2006,
+8130,Tool and die makers,0.0,0.0,1.0,1.0,14.0,2006,-0.079295754
+8140,"Welding, soldering, and brazing workers",0.5,0.75,0.75,0.75,14.0,2006,0.58102834
+8150,"Heat treating equipment setters, operators, and tenders, metal and plastic",0.0,0.0,1.0,1.0,14.0,2006,0.24042451
+8160,"Lay-out workers, metal and plastic",0.0,1.0,1.0,1.0,14.0,2006,-1.1918746
+8200,"Plating and coating machine setters, operators, and tenders, metal and plastic",0.0,1.0,1.0,1.0,14.0,2006,1.4148978
+8210,"Tool grinders, filers, and sharpeners",0.0,1.0,1.0,1.0,14.0,2006,-1.3908726
+8220,"Metalworkers and plastic workers, all other",0.0,0.75,1.0,1.0,14.0,2006,-0.17345059
+8230,Bookbinders and bindery workers,0.0,1.0,0.5,1.0,14.0,2006,1.1833388
+8240,Job printers,0.0,1.0,1.0,1.0,14.0,2006,-0.050189137
+8250,Prepress technicians and workers,0.0,0.0,0.0,0.0,14.0,2006,1.0460588
+8260,Printing machine operators,0.0,1.0,1.0,1.0,14.0,2006,1.0460588
+8300,Laundry and dry-cleaning workers,0.0,1.0,1.0,1.0,14.0,2006,1.0685676
+8310,"Pressers, textile, garment, and related materials",0.0,1.0,1.0,1.0,14.0,2006,3.3317041
+8320,Sewing machine operators,0.0,1.0,0.0,1.0,14.0,2006,2.2252026
+8330,Shoe and leather workers and repairers,0.0,0.0,0.0,0.0,14.0,2006,2.5240083
+8340,Shoe machine operators and tenders,1.0,1.0,0.0,1.0,14.0,2006,1.0352446
+8350,"Tailors, dressmakers, and sewers",0.0,1.0,0.0,1.0,14.0,2006,0.077452324
+8360,Textile bleaching and dyeing machine operators and tenders,0.0,1.0,0.0,1.0,14.0,2006,-0.2811538
+8400,"Textile cutting machine setters, operators, and tenders",0.0,1.0,0.0,1.0,14.0,2006,-0.2811538
+8410,"Textile knitting and weaving machine setters, operators, and tenders",0.0,1.0,1.0,1.0,14.0,2006,1.5882024
+8420,"Textile winding, twisting, and drawing out machine setters, operators, and tenders",0.0,1.0,1.0,1.0,14.0,2006,0.6456846
+8430,"Extruding and forming machine setters, operators, and tenders, synthetic and glass fibers",0.0,0.0,1.0,1.0,14.0,2006,
+8440,Fabric and apparel patternmakers,0.0,0.0,0.0,0.0,14.0,2006,
+8450,Upholsterers,0.0,1.0,0.0,1.0,14.0,2006,0.31652677
+8460,"Textile, apparel, and furnishings workers, all other",0.0,0.3333333333333333,0.3333333333333333,0.6666666666666666,14.0,2006,-0.4677459
+8500,Cabinetmakers and bench carpenters,0.0,1.0,1.0,1.0,14.0,2006,0.5263213
+8510,Furniture finishers,0.0,1.0,1.0,1.0,14.0,2006,-0.2857138
+8520,"Model makers and patternmakers, wood",0.0,1.0,1.0,1.0,14.0,2006,
+8530,"Sawing machine setters, operators, and tenders, wood",0.0,1.0,1.0,1.0,14.0,2006,-0.24033177
+8540,"Woodworking machine setters, operators, and tenders, except sawing",0.0,1.0,1.0,1.0,14.0,2006,0.98802984
+8550,"Woodworkers, all other",0.0,1.0,1.0,1.0,14.0,2006,0.36431706
+8600,"Power plant operators, distributors, and dispatchers",0.0,0.0,0.6666666666666666,0.6666666666666666,14.0,2006,-0.6832148
+8610,Stationary engineers and boiler operators,0.0,0.0,1.0,1.0,14.0,2006,-0.5181366
+8620,Water and liquid waste treatment plant and system operators,0.0,0.0,1.0,1.0,14.0,2006,-1.6837236
+8630,Miscellaneous plant and system operators,0.0,0.0,1.0,1.0,14.0,2006,-0.5058867
+8640,"Chemical processing machine setters, operators, and tenders",0.0,0.5,1.0,1.0,14.0,2006,-1.0632325
+8650,"Crushing, grinding, polishing, mixing, and blending workers",0.0,1.0,1.0,1.0,14.0,2006,-0.33421433
+8710,Cutting workers,0.0,1.0,1.0,1.0,14.0,2006,-0.45913088
+8720,"Extruding, forming, pressing, and compacting machine setters, operators, and tenders",0.0,1.0,1.0,1.0,14.0,2006,0.9337441
+8730,"Furnace, kiln, oven, drier, and kettle operators and tenders",0.0,1.0,1.0,1.0,14.0,2006,0.36648023
+8740,"Inspectors, testers, sorters, samplers, and weighers",0.0,1.0,1.0,1.0,14.0,2006,0.55965793
+8750,Jewelers and precious stone and metal workers,0.0,0.0,0.6666666666666666,0.6666666666666666,14.0,2006,-0.18572748
+8760,"Medical, dental, and ophthalmic laboratory technicians",0.0,1.0,0.6666666666666666,1.0,14.0,2006,-0.5079981
+8800,Packaging and filling machine operators and tenders,0.0,1.0,1.0,1.0,14.0,2006,-0.42305148
+8810,Painting workers,0.0,1.0,1.0,1.0,14.0,2006,0.39871275
+8830,Photographic process workers and processing machine operators,0.0,0.0,0.0,0.0,14.0,2006,0.22533429
+8840,Semiconductor processors,0.0,1.0,1.0,1.0,14.0,2006,
+8850,Cementing and gluing machine operators and tenders,0.0,1.0,1.0,1.0,14.0,2006,1.1449159
+8860,"Cleaning, washing, and metal pickling equipment operators and tenders",0.0,1.0,1.0,1.0,14.0,2006,0.9085194
+8900,Cooling and freezing equipment operators and tenders,0.0,0.0,1.0,1.0,14.0,2006,
+8910,Etchers and engravers,0.0,0.0,0.0,0.0,14.0,2006,-0.00932467
+8920,"Molders, shapers, and casters, except metal and plastic",0.0,1.0,1.0,1.0,14.0,2006,0.36609328
+8930,"Paper goods machine setters, operators, and tenders",0.0,1.0,1.0,1.0,14.0,2006,-0.35416663
+8940,Tire builders,1.0,1.0,1.0,1.0,14.0,2006,-0.25816548
+8950,Helpers--production workers,0.0,1.0,1.0,1.0,14.0,2006,1.2768697
+8960,"Production workers, all other",0.125,0.75,0.875,0.875,14.0,2006,-0.25816548
+9000,"Supervisors, transportation and material moving workers",0.0,0.3333333333333333,0.6666666666666666,0.6666666666666666,14.0,2006,-1.2170833
+9030,Aircraft pilots and flight engineers,0.5,0.5,1.0,1.0,14.0,2006,-1.5728499
+9040,Air traffic controllers and airfield operations specialists,0.0,0.0,1.0,1.0,14.0,2006,0.8460785
+9110,"Ambulance drivers and attendants, except emergency medical technicians",0.0,0.0,0.0,0.0,14.0,2006,
+9120,Bus drivers,0.5,0.5,1.0,1.0,14.0,2006,-0.9516853
+9130,Driver/sales workers and truck drivers,0.0,0.3333333333333333,1.0,1.0,14.0,2006,-0.6003915
+9140,Taxi drivers and chauffeurs,1.0,1.0,1.0,1.0,14.0,2006,-1.128831
+9150,"Motor vehicle operators, all other",0.2857142857142857,0.42857142857142855,0.8571428571428571,0.8571428571428571,14.0,2006,-1.128831
+9200,Locomotive engineers and operators,0.0,0.3333333333333333,1.0,1.0,14.0,2006,-0.53014433
+9230,"Railroad brake, signal, and switch operators",0.0,1.0,1.0,1.0,14.0,2006,-0.43239796
+9240,Railroad conductors and yardmasters,0.0,0.0,1.0,1.0,14.0,2006,-0.32731235
+9260,"Subway, streetcar, and other rail transportation workers",0.0,0.5,1.0,1.0,14.0,2006,-0.53014433
+9300,Sailors and marine oilers,0.0,1.0,1.0,1.0,14.0,2006,-1.8445779
+9310,Ship and boat captains and operators,0.0,0.0,1.0,1.0,14.0,2006,-1.8445779
+9330,Ship engineers,0.0,0.0,1.0,1.0,14.0,2006,-1.8445779
+9340,Bridge and lock tenders,0.0,0.0,0.0,0.0,14.0,2006,
+9350,Parking lot attendants,0.0,1.0,1.0,1.0,14.0,2006,-0.31772983
+9360,Service station attendants,0.0,1.0,1.0,1.0,14.0,2006,0.13552964
+9410,Transportation inspectors,0.0,0.3333333333333333,1.0,1.0,14.0,2006,-1.0909182
+9420,Other transportation workers ,0.0,0.4666666666666667,0.6,0.6,14.0,2006,-0.16841328
+9500,Conveyor operators and tenders,0.0,1.0,1.0,1.0,14.0,2006,
+9510,Crane and tower operators,0.0,1.0,1.0,1.0,14.0,2006,0.13855827
+9520,"Dredge, excavating, and loading machine operators",0.0,0.0,1.0,1.0,14.0,2006,-0.19904387
+9560,Hoist and winch operators,1.0,1.0,1.0,1.0,14.0,2006,0.13855827
+9600,Industrial truck and tractor operators,0.0,1.0,0.0,1.0,14.0,2006,-0.6003915
+9610,Cleaners of vehicles and equipment,0.0,0.0,0.0,0.0,14.0,2006,-0.035372853
+9620,"Laborers and freight, stock, and material movers, hand",0.0,1.0,1.0,1.0,14.0,2006,-0.88621294
+9630,Machine feeders and offbearers,0.0,1.0,1.0,1.0,14.0,2006,0.9836348
+9640,"Packers and packagers, hand",0.0,1.0,0.0,1.0,14.0,2006,0.9449698
+9650,Pumping station operators,0.0,0.0,1.0,1.0,14.0,2006,-0.6654588
+9720,Refuse and recyclable material collectors,0.0,1.0,1.0,1.0,14.0,2006,0.014129996
+9730,Shuttle car operators,0.0,1.0,1.0,1.0,14.0,2006,
+9740,"Tank car, truck, and ship loaders",0.0,1.0,1.0,1.0,14.0,2006,
+9750,"Material moving workers, all other",0.0,1.0,1.0,1.0,14.0,2006,-0.6654588
+9800,Military officer special and tactical operations leaders/managers,,,,,14.0,2006,
+9810,First-line enlisted military supervisors/managers,,,,,14.0,2006,
+9820,Military enlisted tactical operations and air/weapons specialists and crew members,,,,,14.0,2006,
+9830,"Military, rank not specified",,,,,14.0,2006,
+9920,"Unemployed, last worked five years ago or earlier or never worked",,,,,14.0,2006,
